@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large/raw data policy
+# Raw datasets should be added intentionally.
+# Keep this section conservative during project setup.
+
+# Model artifacts
+outputs/models/*
+!outputs/models/.gitkeep
+
+# Temporary files
+*.tmp
+*.log
+
+# Excel temporary files
+~$*.xlsx
+~$*.xls
