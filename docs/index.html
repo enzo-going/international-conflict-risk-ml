@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PCG ML · Análise Preditiva de Conflitos Internacionais</title>
+
+  <style>
+    :root {
+      --bg: #f4f6f8;
+      --paper: #ffffff;
+      --ink: #172033;
+      --muted: #5d6678;
+      --line: #d8dee8;
+      --navy: #0f2a4a;
+      --blue: #2457a6;
+      --blue-soft: #e7eefb;
+      --green: #1d7f50;
+      --green-soft: #e7f6ee;
+      --amber: #9a6700;
+      --amber-soft: #fff4d8;
+      --red: #a13b3b;
+      --red-soft: #fdecec;
+      --code: #f1f5f9;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+      line-height: 1.55;
+    }
+
+    .page {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 32px 22px 72px;
+    }
+
+    .hero {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 34px;
+      box-shadow: 0 18px 40px rgba(31, 41, 55, 0.08);
+    }
+
+    .eyebrow {
+      color: var(--blue);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-size: 0.78rem;
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      margin: 0;
+      color: var(--navy);
+      font-size: clamp(2rem, 4vw, 3.5rem);
+      line-height: 1.05;
+      max-width: 980px;
+    }
+
+    .subtitle {
+      max-width: 940px;
+      color: var(--muted);
+      font-size: 1.05rem;
+      margin: 18px 0 0;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 22px;
+    }
+
+    .tag {
+      padding: 6px 10px;
+      background: var(--blue-soft);
+      color: var(--blue);
+      border: 1px solid #c9d8f5;
+      border-radius: 999px;
+      font-size: 0.82rem;
+      font-weight: 650;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 22px;
+      margin-top: 22px;
+    }
+
+    @media (max-width: 900px) {
+      .layout {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    section {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 24px;
+      margin-top: 22px;
+      box-shadow: 0 12px 28px rgba(31, 41, 55, 0.055);
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      color: var(--navy);
+      font-size: 1.35rem;
+    }
+
+    h3 {
+      margin: 20px 0 8px;
+      color: var(--navy);
+      font-size: 1.04rem;
+    }
+
+    p {
+      margin: 10px 0;
+    }
+
+    .lead {
+      font-size: 1.02rem;
+      color: var(--muted);
+    }
+
+    .research-box {
+      background: #f8fafc;
+      border: 1px solid var(--line);
+      border-left: 5px solid var(--blue);
+      border-radius: 12px;
+      padding: 16px;
+      margin-top: 14px;
+    }
+
+    .research-box strong {
+      color: var(--navy);
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+      margin-top: 16px;
+    }
+
+    .grid-4 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+      margin-top: 16px;
+    }
+
+    @media (max-width: 900px) {
+      .grid-3, .grid-4 {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .metric-card {
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 16px;
+      background: #fbfcfe;
+    }
+
+    .metric-label {
+      color: var(--muted);
+      font-size: 0.84rem;
+      margin-bottom: 5px;
+    }
+
+    .metric-value {
+      color: var(--navy);
+      font-size: 1.7rem;
+      font-weight: 800;
+      line-height: 1.1;
+    }
+
+    .metric-note {
+      color: var(--muted);
+      font-size: 0.84rem;
+      margin-top: 7px;
+    }
+
+    .pipeline {
+      display: grid;
+      gap: 10px;
+      margin-top: 16px;
+    }
+
+    .step {
+      display: grid;
+      grid-template-columns: 42px 1fr;
+      gap: 12px;
+      align-items: start;
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #fbfcfe;
+    }
+
+    .step-number {
+      width: 34px;
+      height: 34px;
+      display: grid;
+      place-items: center;
+      border-radius: 999px;
+      background: var(--navy);
+      color: white;
+      font-weight: 800;
+      font-size: 0.9rem;
+    }
+
+    .step-title {
+      font-weight: 750;
+      color: var(--navy);
+    }
+
+    .step-text {
+      color: var(--muted);
+      font-size: 0.92rem;
+      margin-top: 3px;
+    }
+
+    code {
+      background: var(--code);
+      padding: 2px 5px;
+      border-radius: 5px;
+      font-size: 0.92em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 16px;
+      overflow: hidden;
+      border-radius: 12px;
+      border: 1px solid var(--line);
+      font-size: 0.92rem;
+    }
+
+    th, td {
+      padding: 11px 10px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background: #eef3f9;
+      color: var(--navy);
+      font-size: 0.84rem;
+      text-transform: uppercase;
+      letter-spacing: 0.035em;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    .best {
+      background: var(--green-soft);
+      color: var(--green);
+      font-weight: 800;
+    }
+
+    .bar-list {
+      display: grid;
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .bar-row {
+      display: grid;
+      grid-template-columns: 210px 1fr 70px;
+      gap: 12px;
+      align-items: center;
+      font-size: 0.92rem;
+    }
+
+    @media (max-width: 760px) {
+      .bar-row {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .bar-label {
+      color: var(--navy);
+      font-weight: 650;
+    }
+
+    .bar-track {
+      height: 12px;
+      background: #e5eaf1;
+      border-radius: 999px;
+      overflow: hidden;
+    }
+
+    .bar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--blue), #61a5ff);
+      border-radius: 999px;
+    }
+
+    .bar-fill.green {
+      background: linear-gradient(90deg, var(--green), #5fce95);
+    }
+
+    .bar-value {
+      color: var(--navy);
+      font-weight: 800;
+      text-align: right;
+    }
+
+    .note {
+      border-radius: 14px;
+      padding: 14px 16px;
+      margin-top: 14px;
+      border: 1px solid;
+    }
+
+    .note.blue {
+      background: var(--blue-soft);
+      border-color: #c9d8f5;
+      color: #173b76;
+    }
+
+    .note.amber {
+      background: var(--amber-soft);
+      border-color: #f2d68a;
+      color: var(--amber);
+    }
+
+    .note.green {
+      background: var(--green-soft);
+      border-color: #bde8cf;
+      color: var(--green);
+    }
+
+    .matrix-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 14px;
+    }
+
+    @media (max-width: 760px) {
+      .matrix-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .matrix {
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      overflow: hidden;
+      background: #fbfcfe;
+    }
+
+    .matrix-title {
+      padding: 12px;
+      font-weight: 750;
+      color: var(--navy);
+      border-bottom: 1px solid var(--line);
+      background: #eef3f9;
+    }
+
+    .matrix-cells {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1px;
+      background: var(--line);
+    }
+
+    .matrix-cell {
+      background: white;
+      padding: 16px;
+      min-height: 82px;
+    }
+
+    .matrix-cell strong {
+      display: block;
+      font-size: 1.5rem;
+      color: var(--navy);
+    }
+
+    .matrix-cell span {
+      color: var(--muted);
+      font-size: 0.82rem;
+    }
+
+    .timeline {
+      margin-top: 18px;
+      border-left: 3px solid var(--line);
+      padding-left: 16px;
+    }
+
+    .timeline-item {
+      margin-bottom: 18px;
+      position: relative;
+    }
+
+    .timeline-item::before {
+      content: "";
+      width: 11px;
+      height: 11px;
+      background: var(--blue);
+      border-radius: 50%;
+      position: absolute;
+      left: -23px;
+      top: 6px;
+    }
+
+    .timeline-title {
+      font-weight: 800;
+      color: var(--navy);
+    }
+
+    .timeline-text {
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .footer {
+      color: var(--muted);
+      text-align: center;
+      margin-top: 28px;
+      font-size: 0.88rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+    <header class="hero">
+      <div class="eyebrow">Relatório técnico interativo · PCG Machine Learning</div>
+      <h1>Sistema de Machine Learning para Previsão Exploratória de Conflitos Internacionais</h1>
+      <p class="subtitle">
+        Projeto experimental aplicado a dados históricos e heterogêneos em estrutura <strong>país-ano</strong>,
+        com pipeline de dados, baseline, engenharia de features, modelos supervisionados e avaliação temporal
+        para análise preditiva de conflitos em contexto de Big Data.
+      </p>
+
+      <div class="tags">
+        <span class="tag">Classificação supervisionada</span>
+        <span class="tag">Country-year</span>
+        <span class="tag">Split temporal</span>
+        <span class="tag">Baseline de persistência</span>
+        <span class="tag">Feature engineering</span>
+      </div>
+    </header>
+
+    <section>
+      <h2>1. Formulação do problema</h2>
+      <p class="lead">
+        A motivação original do projeto envolve a análise de tensões internacionais, escalada de conflitos
+        e risco de grandes crises globais. Porém, prever diretamente uma Terceira Guerra Mundial seria
+        metodologicamente frágil, pois é um evento raro, difícil de definir e sem amostras históricas
+        suficientes para treinamento supervisionado. Por isso, o problema foi reformulado para uma tarefa
+        observável de Machine Learning: estimar se um país terá violência organizada no ano seguinte.
+      </p>
+
+      <div class="research-box">
+        <strong>Pergunta de pesquisa operacional:</strong><br />
+        Dado o histórico de violência organizada e, futuramente, indicadores socioeconômicos, políticos e
+        militares de um país em determinado ano, é possível estimar a ocorrência de violência organizada
+        no ano seguinte com desempenho superior a uma baseline simples de persistência?
+      </div>
+
+      <div class="note amber">
+        A reformulação não abandona a motivação original sobre escalada global. Ela transforma uma ideia ampla
+        em um problema técnico mensurável, permitindo que o projeto avance de forma científica antes de propor
+        qualquer índice agregado de risco sistêmico.
+      </div>
+
+      <div class="grid-3">
+        <div class="metric-card">
+          <div class="metric-label">Unidade de análise</div>
+          <div class="metric-value">país-ano</div>
+          <div class="metric-note">Uma observação por país em cada ano.</div>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-label">Target supervisionado</div>
+          <div class="metric-value">t + 1</div>
+          <div class="metric-note"><code>target_conflict_next_year</code></div>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-label">Avaliação principal</div>
+          <div class="metric-value">F1-score</div>
+          <div class="metric-note">Métrica central por haver desbalanceamento moderado.</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="layout">
+      <section>
+        <h2>2. Arquitetura técnica do sistema</h2>
+
+        <p>
+          O projeto está sendo estruturado como um pipeline reprodutível de dados e Machine Learning,
+          não apenas como um notebook isolado. Cada etapa transforma dados históricos em variáveis
+          utilizáveis para modelagem preditiva.
+        </p>
+
+        <div class="pipeline">
+          <div class="step">
+            <div class="step-number">1</div>
+            <div>
+              <div class="step-title">Fontes de dados heterogêneas</div>
+              <div class="step-text">
+                UCDP como base central e, nas próximas etapas, integração de indicadores socioeconômicos
+                do World Bank e possíveis fontes geopolíticas/militares.
+              </div>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-number">2</div>
+            <div>
+              <div class="step-title">Padronização em país-ano</div>
+              <div class="step-text">
+                Todos os dados precisam ser convertidos para uma granularidade comum:
+                <code>country-year</code>. Essa etapa permite combinar fontes diferentes.
+              </div>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-number">3</div>
+            <div>
+              <div class="step-title">Feature engineering</div>
+              <div class="step-text">
+                Criação de variáveis históricas, temporais, socioeconômicas e regionais para representar
+                melhor o contexto de risco de cada país.
+              </div>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-number">4</div>
+            <div>
+              <div class="step-title">Modelagem supervisionada</div>
+              <div class="step-text">
+                Treinamento de modelos de classificação para estimar
+                <code>target_conflict_next_year</code>, sempre comparando contra a baseline de persistência.
+              </div>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-number">5</div>
+            <div>
+              <div class="step-title">Avaliação temporal</div>
+              <div class="step-text">
+                Treino no passado e teste no futuro. Essa escolha evita avaliação artificialmente otimista
+                e simula melhor o uso real do modelo.
+              </div>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-number">6</div>
+            <div>
+              <div class="step-title">Camada visual e interpretativa</div>
+              <div class="step-text">
+                Painel HTML para acompanhar resultados, explicar decisões metodológicas e, futuramente,
+                visualizar um índice exploratório de escalada global.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>3. Camadas de dados do projeto</h2>
+
+        <div class="grid-3">
+          <div class="metric-card">
+            <div class="metric-label">Registros</div>
+            <div class="metric-value">6.737</div>
+            <div class="metric-note">Após remoção do último ano sem target futuro.</div>
+          </div>
+
+          <div class="metric-card">
+            <div class="metric-label">Países</div>
+            <div class="metric-value">199</div>
+            <div class="metric-note">Cobertura internacional ampla.</div>
+          </div>
+
+          <div class="metric-card">
+            <div class="metric-label">Período</div>
+            <div class="metric-value">1989–2023</div>
+            <div class="metric-note">Série histórica anual.</div>
+          </div>
+        </div>
+
+        <h3>Distribuição do target</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Classe</th>
+              <th>Significado</th>
+              <th>Proporção</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>0</td>
+              <td>Sem violência organizada no ano seguinte</td>
+              <td>70,51%</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Com violência organizada no ano seguinte</td>
+              <td>29,49%</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="note blue">
+          O problema é moderadamente desbalanceado. Por isso, accuracy sozinha não é suficiente;
+          precision, recall e F1-score são essenciais.
+        </div>
+
+        <h3>Estratégia de enriquecimento</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Camada</th>
+              <th>Fonte</th>
+              <th>Status</th>
+              <th>Função no modelo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Conflito histórico</td>
+              <td>UCDP Organized Violence</td>
+              <td>Integrado</td>
+              <td>Base central, target e histórico de violência organizada.</td>
+            </tr>
+            <tr>
+              <td>Histórico temporal</td>
+              <td>Features derivadas</td>
+              <td>Integrado</td>
+              <td>Persistência, mortes recentes e anos desde último conflito.</td>
+            </tr>
+            <tr>
+              <td>Socioeconômica</td>
+              <td>World Bank</td>
+              <td>Próxima etapa</td>
+              <td>Adicionar contexto externo: população, PIB, desemprego, inflação e indicadores relacionados.</td>
+            </tr>
+            <tr>
+              <td>Geopolítica/militar</td>
+              <td>SIPRI / COW / outras</td>
+              <td>Planejado</td>
+              <td>Adicionar capacidade explicativa sobre poder militar, alianças ou tensões estruturais.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+
+    <section>
+      <h2>4. Comparação de modelos</h2>
+      <p>
+        O experimento atual compara o dataset base contra o dataset com features temporais.
+        A baseline de persistência continua sendo a referência mínima que qualquer modelo mais complexo
+        precisa superar.
+      </p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Experimento</th>
+            <th>Modelo</th>
+            <th>Accuracy</th>
+            <th>Precision</th>
+            <th>Recall</th>
+            <th>F1-score</th>
+            <th>Leitura técnica</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Referência</td>
+            <td>Persistence baseline</td>
+            <td>0.9082</td>
+            <td>0.8571</td>
+            <td>0.8571</td>
+            <td>0.8571</td>
+            <td>Baseline forte devido à persistência temporal do fenômeno.</td>
+          </tr>
+          <tr>
+            <td>Dataset base</td>
+            <td>Random Forest</td>
+            <td>0.9082</td>
+            <td>0.8571</td>
+            <td>0.8571</td>
+            <td>0.8571</td>
+            <td>Empatou com a baseline; não adicionou ganho real.</td>
+          </tr>
+          <tr>
+            <td>Dataset temporal</td>
+            <td>Logistic Regression</td>
+            <td>0.9133</td>
+            <td>0.8546</td>
+            <td>0.8798</td>
+            <td class="best">0.8670</td>
+            <td>Melhor F1; maior recall, mas com aviso de convergência.</td>
+          </tr>
+          <tr>
+            <td>Dataset temporal</td>
+            <td>Logistic Regression scaled</td>
+            <td>0.9162</td>
+            <td>0.8937</td>
+            <td>0.8390</td>
+            <td class="best">0.8655</td>
+            <td>Mais estável numericamente; melhor precisão e accuracy.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Comparação visual por F1-score</h3>
+
+      <div class="bar-list">
+        <div class="bar-row">
+          <div class="bar-label">Persistence baseline</div>
+          <div class="bar-track"><div class="bar-fill" style="width: 85.71%;"></div></div>
+          <div class="bar-value">0.8571</div>
+        </div>
+
+        <div class="bar-row">
+          <div class="bar-label">Dataset base · Random Forest</div>
+          <div class="bar-track"><div class="bar-fill" style="width: 85.71%;"></div></div>
+          <div class="bar-value">0.8571</div>
+        </div>
+
+        <div class="bar-row">
+          <div class="bar-label">Temporal · Logistic Regression</div>
+          <div class="bar-track"><div class="bar-fill green" style="width: 86.70%;"></div></div>
+          <div class="bar-value">0.8670</div>
+        </div>
+
+        <div class="bar-row">
+          <div class="bar-label">Temporal · Logistic scaled</div>
+          <div class="bar-track"><div class="bar-fill green" style="width: 86.55%;"></div></div>
+          <div class="bar-value">0.8655</div>
+        </div>
+      </div>
+
+      <div class="note green">
+        Resultado temporário: as features temporais geraram ganho pequeno, mas mensurável.
+        O melhor F1-score passou de 0.8571 para 0.8670, diferença de aproximadamente +0.0099.
+      </div>
+    </section>
+
+    <section>
+      <h2>5. Matriz de confusão: baseline vs melhor modelo temporal</h2>
+
+      <div class="matrix-grid">
+        <div class="matrix">
+          <div class="matrix-title">Persistence baseline</div>
+          <div class="matrix-cells">
+            <div class="matrix-cell">
+              <strong>868</strong>
+              <span>True negatives</span>
+            </div>
+            <div class="matrix-cell">
+              <strong>63</strong>
+              <span>False positives</span>
+            </div>
+            <div class="matrix-cell">
+              <strong>63</strong>
+              <span>False negatives</span>
+            </div>
+            <div class="matrix-cell">
+              <strong>378</strong>
+              <span>True positives</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="matrix">
+          <div class="matrix-title">Temporal · Logistic Regression</div>
+          <div class="matrix-cells">
+            <div class="matrix-cell">
+              <strong>865</strong>
+              <span>True negatives</span>
+            </div>
+            <div class="matrix-cell">
+              <strong>66</strong>
+              <span>False positives</span>
+            </div>
+            <div class="matrix-cell">
+              <strong>53</strong>
+              <span>False negatives</span>
+            </div>
+            <div class="matrix-cell">
+              <strong>388</strong>
+              <span>True positives</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="note amber">
+        A melhora do modelo temporal veio principalmente da redução de falsos negativos:
+        de 63 para 53. Em termos práticos, o modelo deixou de perder 10 casos positivos
+        no conjunto de teste, aceitando um pequeno aumento de falsos positivos.
+      </div>
+    </section>
+
+    <section>
+      <h2>6. Conclusão provisória</h2>
+
+      <p>
+        O achado central até este ponto é que conflitos internacionais, medidos como violência organizada,
+        apresentam forte persistência temporal. Isso explica por que uma baseline simples já alcança F1-score alto.
+      </p>
+
+      <p>
+        A engenharia de features temporais adicionou algum ganho ao modelo, principalmente ao aumentar a capacidade
+        de identificar casos positivos. Porém, o ganho ainda é modesto. Isso indica que trocar apenas o algoritmo
+        não deve ser a principal estratégia de evolução.
+      </p>
+
+      <div class="research-box">
+        <strong>Direção metodológica:</strong><br />
+        A próxima melhoria relevante deve vir da integração de dados heterogêneos, especialmente indicadores
+        socioeconômicos por país-ano, para testar se variáveis externas ao histórico direto de conflito aumentam
+        o poder preditivo do sistema.
+      </div>
+    </section>
+
+    <section>
+      <h2>7. Próxima etapa técnica e evolução do sistema</h2>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-title">Agora</div>
+          <div class="timeline-text">
+            Consolidar dataset base + features temporais como fundação metodológica.
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-title">Próximo bloco</div>
+          <div class="timeline-text">
+            Integrar indicadores socioeconômicos do World Bank em estrutura país-ano para transformar
+            o projeto em um sistema com dados realmente heterogêneos.
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-title">Depois</div>
+          <div class="timeline-text">
+            Reexecutar modelos e comparar novamente contra a baseline de persistência.
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-title">Qualificação</div>
+          <div class="timeline-text">
+            Apresentar problema, dados, target, baseline, modelagem, resultados, limitações e próximos passos.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>8. Módulo futuro: termômetro experimental de escalada</h2>
+      <p>
+        Uma evolução futura do sistema pode ser a criação de um índice agregado de risco,
+        apresentado como um termômetro exploratório de escalada global. Esse módulo não deve
+        ser interpretado como previsão determinística de guerra mundial, mas como visualização
+        agregada dos sinais estimados pelo modelo.
+      </p>
+
+      <div class="research-box">
+        <strong>Ideia futura:</strong><br />
+        Agregar probabilidades previstas por país, região e ano para criar um indicador visual
+        de tendência sistêmica. Esse indicador só deve ser exibido com porcentagens reais quando
+        houver dados heterogêneos integrados, calibração adequada e validação metodológica.
+      </div>
+
+      <div class="note amber">
+        Status atual: conceito em planejamento. O modelo atual ainda estima risco em nível país-ano,
+        não uma probabilidade direta de Terceira Guerra Mundial.
+      </div>
+    </section>
+
+    <div class="footer">
+      Projeto acadêmico em desenvolvimento · Ciência da Computação · Reconhecimento de Padrões / Machine Learning
+    </div>
+  </div>
+</body>
+</html>
