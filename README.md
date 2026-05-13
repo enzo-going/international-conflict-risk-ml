@@ -1,5 +1,13 @@
 ﻿# International Conflict Risk ML
 
+## Visualização do projeto
+
+Este projeto possui uma página HTML publicada via GitHub Pages para facilitar a visualização geral da proposta, dos dados utilizados, do pipeline de Machine Learning e dos resultados parciais.
+
+Acesse aqui:
+
+[Dashboard do projeto](https://enzo-going.github.io/international-conflict-risk-ml/)
+
 Projeto acadêmico de Machine Learning aplicado à análise preditiva de conflitos internacionais a partir de dados heterogêneos em formato tabular e temporal.
 
 Este projeto faz parte da Pesquisa Curricularizada da Graduação em Ciência da Computação, envolvendo os componentes de Reconhecimento de Padrões com Inteligência Artificial e Banco de Dados.
