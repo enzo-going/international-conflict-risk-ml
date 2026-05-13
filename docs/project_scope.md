@@ -6,7 +6,7 @@ Documento de escopo técnico do projeto `international-conflict-risk-ml`.
 
 
 
-Este arquivo define a direção inicial do projeto, a formulação do problema de Machine Learning, os limites da V1 e as possibilidades de expansão futura.
+Este arquivo define a direção inicial do projeto, a formulação do problema de Machine Learning, os limites da fase inicial e as possibilidades de expansão futura.
 
 
 
@@ -26,7 +26,7 @@ O projeto parte da ideia de utilizar dados históricos sobre conflitos, violênc
 
 
 
-A proposta acadêmica original mencionava a possibilidade de analisar tensões globais e risco de grandes conflitos. Para tornar o projeto mais tecnicamente defensável, a V1 será formulada como um problema de análise preditiva de conflitos em estrutura país-ano.
+A proposta acadêmica original mencionava a possibilidade de analisar tensões globais e risco de grandes conflitos. Para tornar o projeto mais tecnicamente defensável, a fase inicial será formulada como um problema de análise preditiva de conflitos em estrutura país-ano.
 
 
 
@@ -64,7 +64,7 @@ Exemplo conceitual:
 
 
 
-A base central da V1 será:
+A base central da fase inicial será:
 
 
 
@@ -90,7 +90,7 @@ Motivo:
 
 
 
-A V1 estudará a possibilidade de prever ou classificar risco de ocorrência ou intensificação de conflito armado em uma janela futura.
+A fase inicial estudará a possibilidade de prever ou classificar risco de ocorrência ou intensificação de conflito armado em uma janela futura.
 
 
 
@@ -206,7 +206,7 @@ Possíveis grupos:
 
 
 
-A V1 não deve começar diretamente pela rede neural.
+A fase inicial não deve começar diretamente pela rede neural.
 
 
 
@@ -242,11 +242,11 @@ A rede neural será usada como etapa posterior, quando o dataset final e a vari�
 
 
 
-\## Escopo da V1
+\## Escopo da fase inicial
 
 
 
-A V1 deve entregar:
+A fase inicial deve entregar:
 
 
 
@@ -270,11 +270,11 @@ A V1 deve entregar:
 
 
 
-\## Fora do escopo da V1
+\## Fora do escopo da fase inicial
 
 
 
-A V1 não pretende:
+A fase inicial não pretende:
 
 
 
@@ -294,7 +294,7 @@ A V1 não pretende:
 
 
 
-Após a V1, o projeto poderá evoluir para:
+Após a fase inicial, o projeto poderá evoluir para:
 
 
 
@@ -336,7 +336,7 @@ O objetivo não é prever conflitos com certeza, mas estudar padrões histórico
 
 
 
-A direção técnica validada para a V1 é:
+A direção técnica validada para a fase inicial é:
 
 
 

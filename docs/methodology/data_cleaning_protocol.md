@@ -38,7 +38,7 @@ Sempre que possível, os datasets devem ser organizados ou agregados para uma da
 
 
 
-A prioridade da V1 é a estrutura:
+A prioridade da fase inicial é a estrutura:
 
 
 
@@ -146,7 +146,7 @@ Prioridade:
 
 
 
-Para a V1, a coluna mais importante é:
+Para a fase inicial, a coluna mais importante é:
 
 
 
@@ -414,11 +414,11 @@ Exemplo:
 
 
 
-\## Decisões metodológicas da V1
+\## Decisões metodológicas da fase inicial
 
 
 
-Para a V1, a prioridade será:
+Para a fase inicial, a prioridade será:
 
 
 
@@ -438,7 +438,7 @@ Para a V1, a prioridade será:
 
 
 
-Alguns datasets devem ser usados apenas com cuidado ou mantidos fora da V1:
+Alguns datasets devem ser usados apenas com cuidado ou mantidos fora da fase inicial:
 
 
 

@@ -1,4 +1,4 @@
-from pathlib import Path
+﻿from pathlib import Path
 
 import numpy as np
 import pandas as pd
@@ -6,8 +6,8 @@ import pandas as pd
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
-INPUT_PATH = PROJECT_ROOT / "data" / "final" / "conflict_country_year_v1.csv"
-OUTPUT_PATH = PROJECT_ROOT / "data" / "final" / "conflict_country_year_v2.csv"
+INPUT_PATH = PROJECT_ROOT / "data" / "final" / "conflict_country_year_base.csv"
+OUTPUT_PATH = PROJECT_ROOT / "data" / "final" / "conflict_country_year_temporal.csv"
 
 
 def load_dataset() -> pd.DataFrame:
@@ -66,7 +66,7 @@ def add_temporal_features(group: pd.DataFrame) -> pd.DataFrame:
 
 
 def build_temporal_dataset(df: pd.DataFrame) -> pd.DataFrame:
-    """Build V2 dataset with temporal features."""
+    """Build conflict country-year dataset with temporal features."""
     required_columns = [
         "country_id",
         "country",
@@ -95,7 +95,7 @@ def build_temporal_dataset(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def save_dataset(df: pd.DataFrame) -> None:
-    """Save the V2 final dataset."""
+    """Save the temporal-feature final dataset."""
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     df.to_csv(OUTPUT_PATH, index=False, encoding="utf-8")
 

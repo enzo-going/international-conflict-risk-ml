@@ -128,11 +128,11 @@ Variáveis acumuladas de mortes por violência organizada:
 
 
 
-\## Colunas candidatas para a V1 processada
+\## Colunas candidatas para o dataset processado inicial
 
 
 
-A primeira versão processada deve priorizar colunas numéricas e categóricas simples:
+A dataset processado inicial deve priorizar colunas numéricas e categóricas simples:
 
 
 
@@ -176,11 +176,11 @@ A primeira versão processada deve priorizar colunas numéricas e categóricas s
 
 
 
-\## Colunas mantidas fora da V1 inicial
+\## Colunas mantidas fora do dataset inicial
 
 
 
-Colunas textuais extensas, como nomes de díades, devem ficar fora da primeira versão processada:
+Colunas textuais extensas, como nomes de díades, devem ficar fora da dataset processado inicial:
 
 
 
@@ -228,7 +228,7 @@ A opção mais simples para baseline será prever se um país terá conflito org
 
 
 
-O dataset UCDP Organized Violence Country-Year será a base central da V1.
+O dataset UCDP Organized Violence Country-Year será a base central da fase inicial.
 
 
 

@@ -14,7 +14,7 @@ Este documento organiza as bases disponíveis, avalia sua utilidade para o proje
 
 
 
-A primeira versão técnica do projeto será construída em torno de uma unidade de análise `country-year`.
+A fase técnica inicial do projeto será construída em torno de uma unidade de análise `country-year`.
 
 
 
@@ -80,7 +80,7 @@ Cada dataset será avaliado pelos seguintes critérios:
 
 
 
-A V1 do projeto deve priorizar:
+A fase inicial do projeto deve priorizar:
 
 
 

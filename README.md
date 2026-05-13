@@ -10,9 +10,9 @@ Desenvolver uma base analítica e experimental para estimar risco de ocorrência
 
 A proposta inicial é utilizar o UCDP Organized Violence Country-Year Dataset como base central e integrar, progressivamente, outras fontes relacionadas a violência unilateral, temas de conflito, indicadores militares, econômicos, sociais, geopolíticos e ambientais.
 
-## Escopo inicial da V1
+## Escopo inicial
 
-A primeira versão técnica do projeto terá como foco:
+A fase técnica inicial do projeto terá como foco:
 
 - estruturação do repositório;
 - inventário dos datasets disponíveis;
@@ -57,7 +57,7 @@ Projeto em fase inicial de estruturação técnica.
 ### Em andamento
 
 - [ ] Inventário dos datasets disponíveis
-- [ ] Definição do escopo técnico da V1
+- [ ] Definição do escopo técnico inicial
 - [ ] Organização da documentação acadêmica
 - [ ] Seleção das fontes principais
 - [ ] Construção do dataset país-ano

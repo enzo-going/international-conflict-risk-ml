@@ -14,7 +14,7 @@ O primeiro experimento de modelagem utiliza o arquivo:
 
 
 
-`data/final/conflict\_country\_year\_v1.csv`
+`data/final/conflict\_country\_year\_base.csv`
 
 
 

@@ -1,4 +1,4 @@
-from pathlib import Path
+﻿from pathlib import Path
 
 import pandas as pd
 
@@ -9,7 +9,7 @@ PROCESSED_INPUT_PATH = (
     PROJECT_ROOT / "data" / "processed" / "ucdp_organized_violence_country_year.csv"
 )
 
-FINAL_OUTPUT_PATH = PROJECT_ROOT / "data" / "final" / "conflict_country_year_v1.csv"
+FINAL_OUTPUT_PATH = PROJECT_ROOT / "data" / "final" / "conflict_country_year_base.csv"
 
 
 CONFLICT_FLAG_COLUMNS = [
@@ -72,7 +72,7 @@ def main() -> None:
 
     target_distribution = final_df["target_conflict_next_year"].value_counts().sort_index()
 
-    print("Conflict country-year V1 dataset built successfully.")
+    print("Base conflict country-year dataset built successfully.")
     print(f"Input: {PROCESSED_INPUT_PATH}")
     print(f"Output: {FINAL_OUTPUT_PATH}")
     print(f"Rows: {final_df.shape[0]}")
@@ -83,3 +83,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
