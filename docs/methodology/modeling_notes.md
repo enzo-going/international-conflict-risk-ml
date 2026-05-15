@@ -194,3 +194,34 @@ A inclusão inicial dos indicadores World Bank não superou o melhor modelo base
 No entanto, os modelos com World Bank apresentaram aumento de recall em alguns casos, especialmente Decision Tree e Random Forest. Isso indica que os indicadores externos podem aumentar a sensibilidade para identificar países que terão conflito no ano seguinte, mas também aumentaram falsos positivos, reduzindo a precisão e limitando o ganho em F1-score.
 
 Esse resultado não invalida a integração de dados heterogêneos. Ele indica que a simples adição de indicadores socioeconômicos brutos não é suficiente. A próxima etapa deve envolver engenharia de features sobre os indicadores World Bank, incluindo variações temporais, defasagens, médias móveis e flags de valores ausentes.
+
+## Experimento com features derivadas do World Bank
+
+Após a integração inicial dos indicadores World Bank, foi criada uma nova camada de engenharia de features socioeconômicas temporais.
+
+As features derivadas incluíram:
+
+- valores defasados em 1 ano (`lag1`);
+- variações anuais (`change_1y`);
+- médias móveis de 3 anos (`rolling_3y_mean`);
+- flags de ausência (`missing`).
+
+O objetivo foi testar se os indicadores socioeconômicos externos, quando transformados temporalmente, agregam mais sinal preditivo do que os valores brutos.
+
+### Resultado principal
+
+| Experimento | Modelo | Accuracy | Precision | Recall | F1-score | Diferença vs persistência |
+|---|---:|---:|---:|---:|---:|---:|
+| reference | Persistence baseline | 0.9072 | 0.8571 | 0.8571 | 0.8571 | 0.0000 |
+| temporal_only | Logistic Regression scaled | 0.9161 | 0.8959 | 0.8390 | 0.8665 | +0.0094 |
+| temporal_world_bank_raw | Logistic Regression scaled | 0.9153 | 0.8918 | 0.8413 | 0.8658 | +0.0087 |
+| temporal_world_bank_engineered | Logistic Regression scaled | 0.9183 | 0.8929 | 0.8503 | 0.8711 | +0.0139 |
+| temporal_world_bank_engineered | Random Forest | 0.9116 | 0.8512 | 0.8821 | 0.8664 | +0.0092 |
+
+### Interpretação
+
+As features derivadas do World Bank produziram o melhor desempenho observado até o momento. O modelo `temporal_world_bank_engineered` com Logistic Regression scaled alcançou F1-score de `0.8711`, superando a baseline de persistência, o modelo temporal puro e o modelo com World Bank bruto.
+
+Esse resultado indica que os indicadores socioeconômicos externos podem contribuir para a previsão, mas principalmente quando transformados em sinais temporais, como defasagens, variações anuais e médias móveis.
+
+A melhora ainda é moderada, mas metodologicamente importante, pois mostra que a integração de dados heterogêneos não deve ser feita apenas pela adição direta de colunas. A engenharia de atributos é uma etapa central para extrair valor preditivo desses dados.
