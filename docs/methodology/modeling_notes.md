@@ -163,3 +163,34 @@ Ao mesmo tempo, a melhora modesta reforça que a ocorrência de violência organ
 A Logistic Regression sem escalonamento apresentou aviso de convergência, então seus resultados devem ser interpretados com cautela. A versão com StandardScaler apresentou desempenho próximo, maior precisão e maior estabilidade numérica, embora com recall menor.
 
 Para a qualificação, este resultado deve ser apresentado como evidência de evolução metodológica: a engenharia temporal melhora levemente o desempenho, mas ainda não elimina a força da persistência histórica como principal padrão observado.
+
+## Experimento com indicadores World Bank
+
+Após a integração dos indicadores socioeconômicos do World Bank, foi criado o dataset `conflict_country_year_world_bank.csv`, combinando informações históricas de conflito, features temporais e variáveis externas por país-ano.
+
+A comparação foi feita no mesmo conjunto de países e anos do dataset integrado, para evitar uma comparação injusta entre amostras diferentes.
+
+Foram avaliados dois grupos principais:
+
+- `temporal_only`: features de conflito + features temporais;
+- `temporal_world_bank`: features de conflito + features temporais + indicadores World Bank.
+
+A baseline de persistência permaneceu como referência principal.
+
+### Resultado principal
+
+| Experimento | Modelo | Accuracy | Precision | Recall | F1-score | Diferença vs persistência |
+|---|---:|---:|---:|---:|---:|---:|
+| reference | Persistence baseline | 0.9072 | 0.8571 | 0.8571 | 0.8571 | 0.0000 |
+| temporal_only | Logistic Regression scaled | 0.9161 | 0.8959 | 0.8390 | 0.8665 | +0.0094 |
+| temporal_world_bank | Logistic Regression scaled | 0.9153 | 0.8918 | 0.8413 | 0.8658 | +0.0087 |
+| temporal_world_bank | Random Forest | 0.9043 | 0.8344 | 0.8798 | 0.8565 | -0.0006 |
+| temporal_world_bank | Decision Tree | 0.9013 | 0.8218 | 0.8889 | 0.8540 | -0.0031 |
+
+### Interpretação
+
+A inclusão inicial dos indicadores World Bank não superou o melhor modelo baseado apenas em features temporais. O melhor F1-score continuou sendo obtido pelo experimento `temporal_only` com Logistic Regression scaled.
+
+No entanto, os modelos com World Bank apresentaram aumento de recall em alguns casos, especialmente Decision Tree e Random Forest. Isso indica que os indicadores externos podem aumentar a sensibilidade para identificar países que terão conflito no ano seguinte, mas também aumentaram falsos positivos, reduzindo a precisão e limitando o ganho em F1-score.
+
+Esse resultado não invalida a integração de dados heterogêneos. Ele indica que a simples adição de indicadores socioeconômicos brutos não é suficiente. A próxima etapa deve envolver engenharia de features sobre os indicadores World Bank, incluindo variações temporais, defasagens, médias móveis e flags de valores ausentes.
