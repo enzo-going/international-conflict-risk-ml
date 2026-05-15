@@ -33,3 +33,6 @@ outputs/models/*
 # Excel temporary files
 ~$*.xlsx
 ~$*.xls
+# Primary trained model artifacts
+!outputs/models/conflict_risk_logistic_regression_pipeline.joblib
+!outputs/models/conflict_risk_model_features.json
