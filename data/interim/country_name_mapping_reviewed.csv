@@ -1,0 +1,200 @@
+ucdp_country,ucdp_normalized,world_bank_country_code,world_bank_country_name,world_bank_normalized,similarity_score,match_type,review_status,include_in_merge,review_notes
+Afghanistan,afghanistan,AFG,Afghanistan,afghanistan,1.0,exact_normalized,auto_accepted,True,
+Albania,albania,ALB,Albania,albania,1.0,exact_normalized,auto_accepted,True,
+Algeria,algeria,DZA,Algeria,algeria,1.0,exact_normalized,auto_accepted,True,
+Andorra,andorra,AND,Andorra,andorra,1.0,exact_normalized,auto_accepted,True,
+Angola,angola,AGO,Angola,angola,1.0,exact_normalized,auto_accepted,True,
+Antigua & Barbuda,antigua and barbuda,ATG,Antigua and Barbuda,antigua and barbuda,1.0,exact_normalized,auto_accepted,True,
+Argentina,argentina,ARG,Argentina,argentina,1.0,exact_normalized,auto_accepted,True,
+Armenia,armenia,ARM,Armenia,armenia,1.0,exact_normalized,auto_accepted,True,
+Australia,australia,AUS,Australia,australia,1.0,exact_normalized,auto_accepted,True,
+Austria,austria,AUT,Austria,austria,1.0,exact_normalized,auto_accepted,True,
+Azerbaijan,azerbaijan,AZE,Azerbaijan,azerbaijan,1.0,exact_normalized,auto_accepted,True,
+Bahamas,bahamas,BHS,"Bahamas, The",bahamas the,0.7778,needs_manual_review,manual_review,True,Manual country mapping reviewed.
+Bahrain,bahrain,BHR,Bahrain,bahrain,1.0,exact_normalized,auto_accepted,True,
+Bangladesh,bangladesh,BGD,Bangladesh,bangladesh,1.0,exact_normalized,auto_accepted,True,
+Barbados,barbados,BRB,Barbados,barbados,1.0,exact_normalized,auto_accepted,True,
+Belarus,belarus,BLR,Belarus,belarus,1.0,exact_normalized,auto_accepted,True,
+Belgium,belgium,BEL,Belgium,belgium,1.0,exact_normalized,auto_accepted,True,
+Belize,belize,BLZ,Belize,belize,1.0,exact_normalized,auto_accepted,True,
+Benin,benin,BEN,Benin,benin,1.0,exact_normalized,auto_accepted,True,
+Bhutan,bhutan,BTN,Bhutan,bhutan,1.0,exact_normalized,auto_accepted,True,
+Bolivia,bolivia,BOL,Bolivia,bolivia,1.0,exact_normalized,auto_accepted,True,
+Bosnia-Herzegovina,bosnia herzegovina,BIH,Bosnia and Herzegovina,bosnia and herzegovina,0.9,high_similarity,manual_review,True,Manual country mapping reviewed.
+Botswana,botswana,BWA,Botswana,botswana,1.0,exact_normalized,auto_accepted,True,
+Brazil,brazil,BRA,Brazil,brazil,1.0,exact_normalized,auto_accepted,True,
+Brunei,brunei,BRN,Brunei Darussalam,burundi,0.7692,needs_manual_review,manual_review,True,Manual country mapping reviewed.
+Bulgaria,bulgaria,BGR,Bulgaria,bulgaria,1.0,exact_normalized,auto_accepted,True,
+Burkina Faso,burkina faso,BFA,Burkina Faso,burkina faso,1.0,exact_normalized,auto_accepted,True,
+Burundi,burundi,BDI,Burundi,burundi,1.0,exact_normalized,auto_accepted,True,
+Cambodia (Kampuchea),cambodia (kampuchea),KHM,Cambodia,cambodia,0.5714,needs_manual_review,manual_review,True,Manual country mapping reviewed.
+Cameroon,cameroon,CMR,Cameroon,cameroon,1.0,exact_normalized,auto_accepted,True,
+Canada,canada,CAN,Canada,canada,1.0,exact_normalized,auto_accepted,True,
+Cape Verde,cape verde,CPV,Cabo Verde,cabo verde,0.8,medium_similarity,manual_review,True,Manual country mapping reviewed.
+Central African Republic,central african republic,CAF,Central African Republic,central african republic,1.0,exact_normalized,auto_accepted,True,
+Chad,chad,TCD,Chad,chad,1.0,exact_normalized,auto_accepted,True,
+Chile,chile,CHL,Chile,chile,1.0,exact_normalized,auto_accepted,True,
+China,china,CHN,China,china,1.0,exact_normalized,auto_accepted,True,
+Colombia,colombia,COL,Colombia,colombia,1.0,exact_normalized,auto_accepted,True,
+Comoros,comoros,COM,Comoros,comoros,1.0,exact_normalized,auto_accepted,True,
+Congo,congo,COG,"Congo, Rep.",congo rep,0.7143,needs_manual_review,manual_review,True,Manual country mapping reviewed.
+Costa Rica,costa rica,CRI,Costa Rica,costa rica,1.0,exact_normalized,auto_accepted,True,
+Croatia,croatia,HRV,Croatia,croatia,1.0,exact_normalized,auto_accepted,True,
+Cuba,cuba,CUB,Cuba,cuba,1.0,exact_normalized,auto_accepted,True,
+Cyprus,cyprus,CYP,Cyprus,cyprus,1.0,exact_normalized,auto_accepted,True,
+Czech Republic,czech republic,CZE,Czechia,kyrgyz republic,0.6897,needs_manual_review,manual_review,True,Manual country mapping reviewed.
+Czechoslovakia,czechoslovakia,,,czechia,0.6667,needs_manual_review,exclude_historical_entity,False,Excluded from World Bank merge.
+DR Congo (Zaire),dr congo (zaire),COD,"Congo, Dem. Rep.",congo rep,0.64,needs_manual_review,manual_review,True,Manual country mapping reviewed.
+Denmark,denmark,DNK,Denmark,denmark,1.0,exact_normalized,auto_accepted,True,
+Djibouti,djibouti,DJI,Djibouti,djibouti,1.0,exact_normalized,auto_accepted,True,
+Dominica,dominica,DMA,Dominica,dominica,1.0,exact_normalized,auto_accepted,True,
+Dominican Republic,dominican republic,DOM,Dominican Republic,dominican republic,1.0,exact_normalized,auto_accepted,True,
+East Timor,east timor,TLS,Timor-Leste,timor leste,0.4762,needs_manual_review,manual_review,True,Manual country mapping reviewed.
+Ecuador,ecuador,ECU,Ecuador,ecuador,1.0,exact_normalized,auto_accepted,True,
+Egypt,egypt,EGY,"Egypt, Arab Rep.",egypt arab rep,0.5263,needs_manual_review,manual_review,True,Manual country mapping reviewed.
+El Salvador,el salvador,SLV,El Salvador,el salvador,1.0,exact_normalized,auto_accepted,True,
+Equatorial Guinea,equatorial guinea,GNQ,Equatorial Guinea,equatorial guinea,1.0,exact_normalized,auto_accepted,True,
+Eritrea,eritrea,ERI,Eritrea,eritrea,1.0,exact_normalized,auto_accepted,True,
+Estonia,estonia,EST,Estonia,estonia,1.0,exact_normalized,auto_accepted,True,
+Ethiopia,ethiopia,ETH,Ethiopia,ethiopia,1.0,exact_normalized,auto_accepted,True,
+Federated States of Micronesia,federated states of micronesia,FSM,"Micronesia, Fed. Sts.",united states,0.4651,needs_manual_review,manual_review,True,Manual country mapping reviewed.
+Fiji,fiji,FJI,Fiji,fiji,1.0,exact_normalized,auto_accepted,True,
+Finland,finland,FIN,Finland,finland,1.0,exact_normalized,auto_accepted,True,
+France,france,FRA,France,france,1.0,exact_normalized,auto_accepted,True,
+Gabon,gabon,GAB,Gabon,gabon,1.0,exact_normalized,auto_accepted,True,
+Gambia,gambia,GMB,"Gambia, The",zambia,0.8333,medium_similarity,manual_review,True,Manual country mapping reviewed.
+Georgia,georgia,GEO,Georgia,georgia,1.0,exact_normalized,auto_accepted,True,
+German Democratic Republic,german democratic republic,,,syrian arab republic,0.6522,needs_manual_review,exclude_historical_entity,False,Excluded from World Bank merge.
+Germany,germany,DEU,Germany,germany,1.0,exact_normalized,auto_accepted,True,
+Ghana,ghana,GHA,Ghana,ghana,1.0,exact_normalized,auto_accepted,True,
+Greece,greece,GRC,Greece,greece,1.0,exact_normalized,auto_accepted,True,
+Grenada,grenada,GRD,Grenada,grenada,1.0,exact_normalized,auto_accepted,True,
+Guatemala,guatemala,GTM,Guatemala,guatemala,1.0,exact_normalized,auto_accepted,True,
+Guinea,guinea,GIN,Guinea,guinea,1.0,exact_normalized,auto_accepted,True,
+Guinea-Bissau,guinea bissau,GNB,Guinea-Bissau,guinea bissau,1.0,exact_normalized,auto_accepted,True,
+Guyana,guyana,GUY,Guyana,guyana,1.0,exact_normalized,auto_accepted,True,
+Haiti,haiti,HTI,Haiti,haiti,1.0,exact_normalized,auto_accepted,True,
+Honduras,honduras,HND,Honduras,honduras,1.0,exact_normalized,auto_accepted,True,
+Hungary,hungary,HUN,Hungary,hungary,1.0,exact_normalized,auto_accepted,True,
+Iceland,iceland,ISL,Iceland,iceland,1.0,exact_normalized,auto_accepted,True,
+India,india,IND,India,india,1.0,exact_normalized,auto_accepted,True,
+Indonesia,indonesia,IDN,Indonesia,indonesia,1.0,exact_normalized,auto_accepted,True,
+Iran,iran,IRN,"Iran, Islamic Rep.",iraq,0.75,needs_manual_review,manual_review,True,Manual country mapping reviewed.
+Iraq,iraq,IRQ,Iraq,iraq,1.0,exact_normalized,auto_accepted,True,
+Ireland,ireland,IRL,Ireland,ireland,1.0,exact_normalized,auto_accepted,True,
+Israel,israel,ISR,Israel,israel,1.0,exact_normalized,auto_accepted,True,
+Italy,italy,ITA,Italy,italy,1.0,exact_normalized,auto_accepted,True,
+Ivory Coast,ivory coast,CIV,Cote d'Ivoire,timor leste,0.5455,needs_manual_review,manual_review,True,Manual country mapping reviewed.
+Jamaica,jamaica,JAM,Jamaica,jamaica,1.0,exact_normalized,auto_accepted,True,
+Japan,japan,JPN,Japan,japan,1.0,exact_normalized,auto_accepted,True,
+Jordan,jordan,JOR,Jordan,jordan,1.0,exact_normalized,auto_accepted,True,
+Kazakhstan,kazakhstan,KAZ,Kazakhstan,kazakhstan,1.0,exact_normalized,auto_accepted,True,
+Kenya,kenya,KEN,Kenya,kenya,1.0,exact_normalized,auto_accepted,True,
+Kingdom of eSwatini (Swaziland),kingdom of eswatini (swaziland),SWZ,Eswatini,eswatini,0.4103,needs_manual_review,manual_review,True,Manual country mapping reviewed.
+Kiribati,kiribati,KIR,Kiribati,kiribati,1.0,exact_normalized,auto_accepted,True,
+Kosovo,kosovo,XKX,Kosovo,kosovo,1.0,exact_normalized,auto_accepted,True,
+Kuwait,kuwait,KWT,Kuwait,kuwait,1.0,exact_normalized,auto_accepted,True,
+Kyrgyzstan,kyrgyzstan,KGZ,Kyrgyz Republic,kazakhstan,0.6,needs_manual_review,manual_review,True,Manual country mapping reviewed.
+Laos,laos,LAO,Lao PDR,belarus,0.5455,needs_manual_review,manual_review,True,Manual country mapping reviewed.
+Latvia,latvia,LVA,Latvia,latvia,1.0,exact_normalized,auto_accepted,True,
+Lebanon,lebanon,LBN,Lebanon,lebanon,1.0,exact_normalized,auto_accepted,True,
+Lesotho,lesotho,LSO,Lesotho,lesotho,1.0,exact_normalized,auto_accepted,True,
+Liberia,liberia,LBR,Liberia,liberia,1.0,exact_normalized,auto_accepted,True,
+Libya,libya,LBY,Libya,libya,1.0,exact_normalized,auto_accepted,True,
+Liechtenstein,liechtenstein,LIE,Liechtenstein,liechtenstein,1.0,exact_normalized,auto_accepted,True,
+Lithuania,lithuania,LTU,Lithuania,lithuania,1.0,exact_normalized,auto_accepted,True,
+Luxembourg,luxembourg,LUX,Luxembourg,luxembourg,1.0,exact_normalized,auto_accepted,True,
+Madagascar (Malagasy),madagascar (malagasy),MDG,Madagascar,madagascar,0.6452,needs_manual_review,manual_review,True,Manual country mapping reviewed.
+Malawi,malawi,MWI,Malawi,malawi,1.0,exact_normalized,auto_accepted,True,
+Malaysia,malaysia,MYS,Malaysia,malaysia,1.0,exact_normalized,auto_accepted,True,
+Maldives,maldives,MDV,Maldives,maldives,1.0,exact_normalized,auto_accepted,True,
+Mali,mali,MLI,Mali,mali,1.0,exact_normalized,auto_accepted,True,
+Malta,malta,MLT,Malta,malta,1.0,exact_normalized,auto_accepted,True,
+Marshall Islands,marshall islands,MHL,Marshall Islands,marshall islands,1.0,exact_normalized,auto_accepted,True,
+Mauritania,mauritania,MRT,Mauritania,mauritania,1.0,exact_normalized,auto_accepted,True,
+Mauritius,mauritius,MUS,Mauritius,mauritius,1.0,exact_normalized,auto_accepted,True,
+Mexico,mexico,MEX,Mexico,mexico,1.0,exact_normalized,auto_accepted,True,
+Moldova,moldova,MDA,Moldova,moldova,1.0,exact_normalized,auto_accepted,True,
+Monaco,monaco,MCO,Monaco,monaco,1.0,exact_normalized,auto_accepted,True,
+Mongolia,mongolia,MNG,Mongolia,mongolia,1.0,exact_normalized,auto_accepted,True,
+Montenegro,montenegro,MNE,Montenegro,montenegro,1.0,exact_normalized,auto_accepted,True,
+Morocco,morocco,MAR,Morocco,morocco,1.0,exact_normalized,auto_accepted,True,
+Mozambique,mozambique,MOZ,Mozambique,mozambique,1.0,exact_normalized,auto_accepted,True,
+Myanmar (Burma),myanmar (burma),MMR,Myanmar,myanmar,0.6364,needs_manual_review,manual_review,True,Manual country mapping reviewed.
+Namibia,namibia,NAM,Namibia,namibia,1.0,exact_normalized,auto_accepted,True,
+Nauru,nauru,NRU,Nauru,nauru,1.0,exact_normalized,auto_accepted,True,
+Nepal,nepal,NPL,Nepal,nepal,1.0,exact_normalized,auto_accepted,True,
+Netherlands,netherlands,NLD,Netherlands,netherlands,1.0,exact_normalized,auto_accepted,True,
+New Zealand,new zealand,NZL,New Zealand,new zealand,1.0,exact_normalized,auto_accepted,True,
+Nicaragua,nicaragua,NIC,Nicaragua,nicaragua,1.0,exact_normalized,auto_accepted,True,
+Niger,niger,NER,Niger,niger,1.0,exact_normalized,auto_accepted,True,
+Nigeria,nigeria,NGA,Nigeria,nigeria,1.0,exact_normalized,auto_accepted,True,
+North Korea,north korea,PRK,"Korea, Dem. People's Rep.",north macedonia,0.6154,needs_manual_review,manual_review,True,Manual country mapping reviewed.
+North Macedonia,north macedonia,MKD,North Macedonia,north macedonia,1.0,exact_normalized,auto_accepted,True,
+Norway,norway,NOR,Norway,norway,1.0,exact_normalized,auto_accepted,True,
+Oman,oman,OMN,Oman,oman,1.0,exact_normalized,auto_accepted,True,
+Pakistan,pakistan,PAK,Pakistan,pakistan,1.0,exact_normalized,auto_accepted,True,
+Palau,palau,PLW,Palau,palau,1.0,exact_normalized,auto_accepted,True,
+Panama,panama,PAN,Panama,panama,1.0,exact_normalized,auto_accepted,True,
+Papua New Guinea,papua new guinea,PNG,Papua New Guinea,papua new guinea,1.0,exact_normalized,auto_accepted,True,
+Paraguay,paraguay,PRY,Paraguay,paraguay,1.0,exact_normalized,auto_accepted,True,
+Peru,peru,PER,Peru,peru,1.0,exact_normalized,auto_accepted,True,
+Philippines,philippines,PHL,Philippines,philippines,1.0,exact_normalized,auto_accepted,True,
+Poland,poland,POL,Poland,poland,1.0,exact_normalized,auto_accepted,True,
+Portugal,portugal,PRT,Portugal,portugal,1.0,exact_normalized,auto_accepted,True,
+Qatar,qatar,QAT,Qatar,qatar,1.0,exact_normalized,auto_accepted,True,
+Romania,romania,ROU,Romania,romania,1.0,exact_normalized,auto_accepted,True,
+Russia (Soviet Union),russia (soviet union),RUS,Russian Federation,russian federation,0.6154,needs_manual_review,manual_review,True,Manual country mapping reviewed.
+Rwanda,rwanda,RWA,Rwanda,rwanda,1.0,exact_normalized,auto_accepted,True,
+Saint Kitts and Nevis,saint kitts and nevis,KNA,St. Kitts and Nevis,st kitts and nevis,0.9231,high_similarity,manual_review,True,Manual country mapping reviewed.
+Saint Lucia,saint lucia,LCA,St. Lucia,st lucia,0.8421,medium_similarity,manual_review,True,Manual country mapping reviewed.
+Saint Vincent and the Grenadines,saint vincent and grenadines,VCT,St. Vincent and the Grenadines,st vincent and grenadines,0.9434,high_similarity,manual_review,True,Manual country mapping reviewed.
+Samoa (Western Samoa),samoa (western samoa),WSM,Samoa,american samoa,0.6286,needs_manual_review,manual_review,True,Manual country mapping reviewed.
+San Marino,san marino,SMR,San Marino,san marino,1.0,exact_normalized,auto_accepted,True,
+Sao Tome and Principe,sao tome and principe,STP,Sao Tome and Principe,sao tome and principe,1.0,exact_normalized,auto_accepted,True,
+Saudi Arabia,saudi arabia,SAU,Saudi Arabia,saudi arabia,1.0,exact_normalized,auto_accepted,True,
+Senegal,senegal,SEN,Senegal,senegal,1.0,exact_normalized,auto_accepted,True,
+Serbia (Yugoslavia),serbia (yugoslavia),SRB,Serbia,sri lanka,0.5,needs_manual_review,manual_review_historical_approximation,True,Manual country mapping reviewed.
+Seychelles,seychelles,SYC,Seychelles,seychelles,1.0,exact_normalized,auto_accepted,True,
+Sierra Leone,sierra leone,SLE,Sierra Leone,sierra leone,1.0,exact_normalized,auto_accepted,True,
+Singapore,singapore,SGP,Singapore,singapore,1.0,exact_normalized,auto_accepted,True,
+Slovakia,slovakia,SVK,Slovak Republic,slovenia,0.75,needs_manual_review,manual_review,True,Manual country mapping reviewed.
+Slovenia,slovenia,SVN,Slovenia,slovenia,1.0,exact_normalized,auto_accepted,True,
+Solomon Islands,solomon islands,SLB,Solomon Islands,solomon islands,1.0,exact_normalized,auto_accepted,True,
+Somalia,somalia,SOM,"Somalia, Fed. Rep.",mali,0.7273,needs_manual_review,manual_review,True,Manual country mapping reviewed.
+South Africa,south africa,ZAF,South Africa,south africa,1.0,exact_normalized,auto_accepted,True,
+South Korea,south korea,KOR,"Korea, Rep.",south africa,0.6957,needs_manual_review,manual_review,True,Manual country mapping reviewed.
+South Sudan,south sudan,SSD,South Sudan,south sudan,1.0,exact_normalized,auto_accepted,True,
+Spain,spain,ESP,Spain,spain,1.0,exact_normalized,auto_accepted,True,
+Sri Lanka,sri lanka,LKA,Sri Lanka,sri lanka,1.0,exact_normalized,auto_accepted,True,
+Sudan,sudan,SDN,Sudan,sudan,1.0,exact_normalized,auto_accepted,True,
+Suriname,suriname,SUR,Suriname,suriname,1.0,exact_normalized,auto_accepted,True,
+Sweden,sweden,SWE,Sweden,sweden,1.0,exact_normalized,auto_accepted,True,
+Switzerland,switzerland,CHE,Switzerland,switzerland,1.0,exact_normalized,auto_accepted,True,
+Syria,syria,SYR,Syrian Arab Republic,serbia,0.7273,needs_manual_review,manual_review,True,Manual country mapping reviewed.
+Taiwan,taiwan,,,thailand,0.7143,needs_manual_review,exclude_no_world_bank_match,False,Excluded from World Bank merge.
+Tajikistan,tajikistan,TJK,Tajikistan,tajikistan,1.0,exact_normalized,auto_accepted,True,
+Tanzania,tanzania,TZA,Tanzania,tanzania,1.0,exact_normalized,auto_accepted,True,
+Thailand,thailand,THA,Thailand,thailand,1.0,exact_normalized,auto_accepted,True,
+Togo,togo,TGO,Togo,togo,1.0,exact_normalized,auto_accepted,True,
+Tonga,tonga,TON,Tonga,tonga,1.0,exact_normalized,auto_accepted,True,
+Trinidad and Tobago,trinidad and tobago,TTO,Trinidad and Tobago,trinidad and tobago,1.0,exact_normalized,auto_accepted,True,
+Tunisia,tunisia,TUN,Tunisia,tunisia,1.0,exact_normalized,auto_accepted,True,
+Turkey,turkey,TUR,Turkiye,turkiye,0.7692,needs_manual_review,manual_review,True,Manual country mapping reviewed.
+Turkmenistan,turkmenistan,TKM,Turkmenistan,turkmenistan,1.0,exact_normalized,auto_accepted,True,
+Tuvalu,tuvalu,TUV,Tuvalu,tuvalu,1.0,exact_normalized,auto_accepted,True,
+Uganda,uganda,UGA,Uganda,uganda,1.0,exact_normalized,auto_accepted,True,
+Ukraine,ukraine,UKR,Ukraine,ukraine,1.0,exact_normalized,auto_accepted,True,
+United Arab Emirates,united arab emirates,ARE,United Arab Emirates,united arab emirates,1.0,exact_normalized,auto_accepted,True,
+United Kingdom,united kingdom,GBR,United Kingdom,united kingdom,1.0,exact_normalized,auto_accepted,True,
+United States of America,united states of america,USA,United States,united states,0.7027,needs_manual_review,manual_review,True,Manual country mapping reviewed.
+Uruguay,uruguay,URY,Uruguay,uruguay,1.0,exact_normalized,auto_accepted,True,
+Uzbekistan,uzbekistan,UZB,Uzbekistan,uzbekistan,1.0,exact_normalized,auto_accepted,True,
+Vanuatu,vanuatu,VUT,Vanuatu,vanuatu,1.0,exact_normalized,auto_accepted,True,
+Vatican City State,vatican city state,,,united states,0.5806,needs_manual_review,exclude_no_world_bank_match,False,Excluded from World Bank merge.
+Venezuela,venezuela,VEN,"Venezuela, RB",venezuela rb,0.8571,medium_similarity,manual_review,True,Manual country mapping reviewed.
+Vietnam (North Vietnam),vietnam (north vietnam),VNM,Viet Nam,viet nam,0.4516,needs_manual_review,manual_review,True,Manual country mapping reviewed.
+Yemen (North Yemen),yemen (north yemen),YEM,"Yemen, Rep.",yemen rep,0.5714,needs_manual_review,manual_review_historical_approximation,True,Manual country mapping reviewed.
+Yemen (South Yemen),yemen (south yemen),YEM,"Yemen, Rep.",yemen rep,0.5,needs_manual_review,manual_review_historical_approximation,True,Manual country mapping reviewed.
+Zambia,zambia,ZMB,Zambia,zambia,1.0,exact_normalized,auto_accepted,True,
+Zimbabwe (Rhodesia),zimbabwe (rhodesia),ZWE,Zimbabwe,zimbabwe,0.5926,needs_manual_review,manual_review,True,Manual country mapping reviewed.

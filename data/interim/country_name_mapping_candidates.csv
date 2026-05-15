@@ -1,0 +1,200 @@
+ucdp_country,ucdp_normalized,world_bank_country_code,world_bank_country_name,world_bank_normalized,similarity_score,match_type
+Afghanistan,afghanistan,AFG,Afghanistan,afghanistan,1.0,exact_normalized
+Albania,albania,ALB,Albania,albania,1.0,exact_normalized
+Algeria,algeria,DZA,Algeria,algeria,1.0,exact_normalized
+Andorra,andorra,AND,Andorra,andorra,1.0,exact_normalized
+Angola,angola,AGO,Angola,angola,1.0,exact_normalized
+Antigua & Barbuda,antigua and barbuda,ATG,Antigua and Barbuda,antigua and barbuda,1.0,exact_normalized
+Argentina,argentina,ARG,Argentina,argentina,1.0,exact_normalized
+Armenia,armenia,ARM,Armenia,armenia,1.0,exact_normalized
+Australia,australia,AUS,Australia,australia,1.0,exact_normalized
+Austria,austria,AUT,Austria,austria,1.0,exact_normalized
+Azerbaijan,azerbaijan,AZE,Azerbaijan,azerbaijan,1.0,exact_normalized
+Bahamas,bahamas,BHS,"Bahamas, The",bahamas the,0.7778,needs_manual_review
+Bahrain,bahrain,BHR,Bahrain,bahrain,1.0,exact_normalized
+Bangladesh,bangladesh,BGD,Bangladesh,bangladesh,1.0,exact_normalized
+Barbados,barbados,BRB,Barbados,barbados,1.0,exact_normalized
+Belarus,belarus,BLR,Belarus,belarus,1.0,exact_normalized
+Belgium,belgium,BEL,Belgium,belgium,1.0,exact_normalized
+Belize,belize,BLZ,Belize,belize,1.0,exact_normalized
+Benin,benin,BEN,Benin,benin,1.0,exact_normalized
+Bhutan,bhutan,BTN,Bhutan,bhutan,1.0,exact_normalized
+Bolivia,bolivia,BOL,Bolivia,bolivia,1.0,exact_normalized
+Bosnia-Herzegovina,bosnia herzegovina,BIH,Bosnia and Herzegovina,bosnia and herzegovina,0.9,high_similarity
+Botswana,botswana,BWA,Botswana,botswana,1.0,exact_normalized
+Brazil,brazil,BRA,Brazil,brazil,1.0,exact_normalized
+Brunei,brunei,BDI,Burundi,burundi,0.7692,needs_manual_review
+Bulgaria,bulgaria,BGR,Bulgaria,bulgaria,1.0,exact_normalized
+Burkina Faso,burkina faso,BFA,Burkina Faso,burkina faso,1.0,exact_normalized
+Burundi,burundi,BDI,Burundi,burundi,1.0,exact_normalized
+Cambodia (Kampuchea),cambodia (kampuchea),KHM,Cambodia,cambodia,0.5714,needs_manual_review
+Cameroon,cameroon,CMR,Cameroon,cameroon,1.0,exact_normalized
+Canada,canada,CAN,Canada,canada,1.0,exact_normalized
+Cape Verde,cape verde,CPV,Cabo Verde,cabo verde,0.8,medium_similarity
+Central African Republic,central african republic,CAF,Central African Republic,central african republic,1.0,exact_normalized
+Chad,chad,TCD,Chad,chad,1.0,exact_normalized
+Chile,chile,CHL,Chile,chile,1.0,exact_normalized
+China,china,CHN,China,china,1.0,exact_normalized
+Colombia,colombia,COL,Colombia,colombia,1.0,exact_normalized
+Comoros,comoros,COM,Comoros,comoros,1.0,exact_normalized
+Congo,congo,COG,"Congo, Rep.",congo rep,0.7143,needs_manual_review
+Costa Rica,costa rica,CRI,Costa Rica,costa rica,1.0,exact_normalized
+Croatia,croatia,HRV,Croatia,croatia,1.0,exact_normalized
+Cuba,cuba,CUB,Cuba,cuba,1.0,exact_normalized
+Cyprus,cyprus,CYP,Cyprus,cyprus,1.0,exact_normalized
+Czech Republic,czech republic,KGZ,Kyrgyz Republic,kyrgyz republic,0.6897,needs_manual_review
+Czechoslovakia,czechoslovakia,CZE,Czechia,czechia,0.6667,needs_manual_review
+DR Congo (Zaire),dr congo (zaire),COG,"Congo, Rep.",congo rep,0.64,needs_manual_review
+Denmark,denmark,DNK,Denmark,denmark,1.0,exact_normalized
+Djibouti,djibouti,DJI,Djibouti,djibouti,1.0,exact_normalized
+Dominica,dominica,DMA,Dominica,dominica,1.0,exact_normalized
+Dominican Republic,dominican republic,DOM,Dominican Republic,dominican republic,1.0,exact_normalized
+East Timor,east timor,TLS,Timor-Leste,timor leste,0.4762,needs_manual_review
+Ecuador,ecuador,ECU,Ecuador,ecuador,1.0,exact_normalized
+Egypt,egypt,EGY,"Egypt, Arab Rep.",egypt arab rep,0.5263,needs_manual_review
+El Salvador,el salvador,SLV,El Salvador,el salvador,1.0,exact_normalized
+Equatorial Guinea,equatorial guinea,GNQ,Equatorial Guinea,equatorial guinea,1.0,exact_normalized
+Eritrea,eritrea,ERI,Eritrea,eritrea,1.0,exact_normalized
+Estonia,estonia,EST,Estonia,estonia,1.0,exact_normalized
+Ethiopia,ethiopia,ETH,Ethiopia,ethiopia,1.0,exact_normalized
+Federated States of Micronesia,federated states of micronesia,USA,United States,united states,0.4651,needs_manual_review
+Fiji,fiji,FJI,Fiji,fiji,1.0,exact_normalized
+Finland,finland,FIN,Finland,finland,1.0,exact_normalized
+France,france,FRA,France,france,1.0,exact_normalized
+Gabon,gabon,GAB,Gabon,gabon,1.0,exact_normalized
+Gambia,gambia,ZMB,Zambia,zambia,0.8333,medium_similarity
+Georgia,georgia,GEO,Georgia,georgia,1.0,exact_normalized
+German Democratic Republic,german democratic republic,SYR,Syrian Arab Republic,syrian arab republic,0.6522,needs_manual_review
+Germany,germany,DEU,Germany,germany,1.0,exact_normalized
+Ghana,ghana,GHA,Ghana,ghana,1.0,exact_normalized
+Greece,greece,GRC,Greece,greece,1.0,exact_normalized
+Grenada,grenada,GRD,Grenada,grenada,1.0,exact_normalized
+Guatemala,guatemala,GTM,Guatemala,guatemala,1.0,exact_normalized
+Guinea,guinea,GIN,Guinea,guinea,1.0,exact_normalized
+Guinea-Bissau,guinea bissau,GNB,Guinea-Bissau,guinea bissau,1.0,exact_normalized
+Guyana,guyana,GUY,Guyana,guyana,1.0,exact_normalized
+Haiti,haiti,HTI,Haiti,haiti,1.0,exact_normalized
+Honduras,honduras,HND,Honduras,honduras,1.0,exact_normalized
+Hungary,hungary,HUN,Hungary,hungary,1.0,exact_normalized
+Iceland,iceland,ISL,Iceland,iceland,1.0,exact_normalized
+India,india,IND,India,india,1.0,exact_normalized
+Indonesia,indonesia,IDN,Indonesia,indonesia,1.0,exact_normalized
+Iran,iran,IRQ,Iraq,iraq,0.75,needs_manual_review
+Iraq,iraq,IRQ,Iraq,iraq,1.0,exact_normalized
+Ireland,ireland,IRL,Ireland,ireland,1.0,exact_normalized
+Israel,israel,ISR,Israel,israel,1.0,exact_normalized
+Italy,italy,ITA,Italy,italy,1.0,exact_normalized
+Ivory Coast,ivory coast,TLS,Timor-Leste,timor leste,0.5455,needs_manual_review
+Jamaica,jamaica,JAM,Jamaica,jamaica,1.0,exact_normalized
+Japan,japan,JPN,Japan,japan,1.0,exact_normalized
+Jordan,jordan,JOR,Jordan,jordan,1.0,exact_normalized
+Kazakhstan,kazakhstan,KAZ,Kazakhstan,kazakhstan,1.0,exact_normalized
+Kenya,kenya,KEN,Kenya,kenya,1.0,exact_normalized
+Kingdom of eSwatini (Swaziland),kingdom of eswatini (swaziland),SWZ,Eswatini,eswatini,0.4103,needs_manual_review
+Kiribati,kiribati,KIR,Kiribati,kiribati,1.0,exact_normalized
+Kosovo,kosovo,XKX,Kosovo,kosovo,1.0,exact_normalized
+Kuwait,kuwait,KWT,Kuwait,kuwait,1.0,exact_normalized
+Kyrgyzstan,kyrgyzstan,KAZ,Kazakhstan,kazakhstan,0.6,needs_manual_review
+Laos,laos,BLR,Belarus,belarus,0.5455,needs_manual_review
+Latvia,latvia,LVA,Latvia,latvia,1.0,exact_normalized
+Lebanon,lebanon,LBN,Lebanon,lebanon,1.0,exact_normalized
+Lesotho,lesotho,LSO,Lesotho,lesotho,1.0,exact_normalized
+Liberia,liberia,LBR,Liberia,liberia,1.0,exact_normalized
+Libya,libya,LBY,Libya,libya,1.0,exact_normalized
+Liechtenstein,liechtenstein,LIE,Liechtenstein,liechtenstein,1.0,exact_normalized
+Lithuania,lithuania,LTU,Lithuania,lithuania,1.0,exact_normalized
+Luxembourg,luxembourg,LUX,Luxembourg,luxembourg,1.0,exact_normalized
+Madagascar (Malagasy),madagascar (malagasy),MDG,Madagascar,madagascar,0.6452,needs_manual_review
+Malawi,malawi,MWI,Malawi,malawi,1.0,exact_normalized
+Malaysia,malaysia,MYS,Malaysia,malaysia,1.0,exact_normalized
+Maldives,maldives,MDV,Maldives,maldives,1.0,exact_normalized
+Mali,mali,MLI,Mali,mali,1.0,exact_normalized
+Malta,malta,MLT,Malta,malta,1.0,exact_normalized
+Marshall Islands,marshall islands,MHL,Marshall Islands,marshall islands,1.0,exact_normalized
+Mauritania,mauritania,MRT,Mauritania,mauritania,1.0,exact_normalized
+Mauritius,mauritius,MUS,Mauritius,mauritius,1.0,exact_normalized
+Mexico,mexico,MEX,Mexico,mexico,1.0,exact_normalized
+Moldova,moldova,MDA,Moldova,moldova,1.0,exact_normalized
+Monaco,monaco,MCO,Monaco,monaco,1.0,exact_normalized
+Mongolia,mongolia,MNG,Mongolia,mongolia,1.0,exact_normalized
+Montenegro,montenegro,MNE,Montenegro,montenegro,1.0,exact_normalized
+Morocco,morocco,MAR,Morocco,morocco,1.0,exact_normalized
+Mozambique,mozambique,MOZ,Mozambique,mozambique,1.0,exact_normalized
+Myanmar (Burma),myanmar (burma),MMR,Myanmar,myanmar,0.6364,needs_manual_review
+Namibia,namibia,NAM,Namibia,namibia,1.0,exact_normalized
+Nauru,nauru,NRU,Nauru,nauru,1.0,exact_normalized
+Nepal,nepal,NPL,Nepal,nepal,1.0,exact_normalized
+Netherlands,netherlands,NLD,Netherlands,netherlands,1.0,exact_normalized
+New Zealand,new zealand,NZL,New Zealand,new zealand,1.0,exact_normalized
+Nicaragua,nicaragua,NIC,Nicaragua,nicaragua,1.0,exact_normalized
+Niger,niger,NER,Niger,niger,1.0,exact_normalized
+Nigeria,nigeria,NGA,Nigeria,nigeria,1.0,exact_normalized
+North Korea,north korea,MKD,North Macedonia,north macedonia,0.6154,needs_manual_review
+North Macedonia,north macedonia,MKD,North Macedonia,north macedonia,1.0,exact_normalized
+Norway,norway,NOR,Norway,norway,1.0,exact_normalized
+Oman,oman,OMN,Oman,oman,1.0,exact_normalized
+Pakistan,pakistan,PAK,Pakistan,pakistan,1.0,exact_normalized
+Palau,palau,PLW,Palau,palau,1.0,exact_normalized
+Panama,panama,PAN,Panama,panama,1.0,exact_normalized
+Papua New Guinea,papua new guinea,PNG,Papua New Guinea,papua new guinea,1.0,exact_normalized
+Paraguay,paraguay,PRY,Paraguay,paraguay,1.0,exact_normalized
+Peru,peru,PER,Peru,peru,1.0,exact_normalized
+Philippines,philippines,PHL,Philippines,philippines,1.0,exact_normalized
+Poland,poland,POL,Poland,poland,1.0,exact_normalized
+Portugal,portugal,PRT,Portugal,portugal,1.0,exact_normalized
+Qatar,qatar,QAT,Qatar,qatar,1.0,exact_normalized
+Romania,romania,ROU,Romania,romania,1.0,exact_normalized
+Russia (Soviet Union),russia (soviet union),RUS,Russian Federation,russian federation,0.6154,needs_manual_review
+Rwanda,rwanda,RWA,Rwanda,rwanda,1.0,exact_normalized
+Saint Kitts and Nevis,saint kitts and nevis,KNA,St. Kitts and Nevis,st kitts and nevis,0.9231,high_similarity
+Saint Lucia,saint lucia,LCA,St. Lucia,st lucia,0.8421,medium_similarity
+Saint Vincent and the Grenadines,saint vincent and grenadines,VCT,St. Vincent and the Grenadines,st vincent and grenadines,0.9434,high_similarity
+Samoa (Western Samoa),samoa (western samoa),ASM,American Samoa,american samoa,0.6286,needs_manual_review
+San Marino,san marino,SMR,San Marino,san marino,1.0,exact_normalized
+Sao Tome and Principe,sao tome and principe,STP,Sao Tome and Principe,sao tome and principe,1.0,exact_normalized
+Saudi Arabia,saudi arabia,SAU,Saudi Arabia,saudi arabia,1.0,exact_normalized
+Senegal,senegal,SEN,Senegal,senegal,1.0,exact_normalized
+Serbia (Yugoslavia),serbia (yugoslavia),LKA,Sri Lanka,sri lanka,0.5,needs_manual_review
+Seychelles,seychelles,SYC,Seychelles,seychelles,1.0,exact_normalized
+Sierra Leone,sierra leone,SLE,Sierra Leone,sierra leone,1.0,exact_normalized
+Singapore,singapore,SGP,Singapore,singapore,1.0,exact_normalized
+Slovakia,slovakia,SVN,Slovenia,slovenia,0.75,needs_manual_review
+Slovenia,slovenia,SVN,Slovenia,slovenia,1.0,exact_normalized
+Solomon Islands,solomon islands,SLB,Solomon Islands,solomon islands,1.0,exact_normalized
+Somalia,somalia,MLI,Mali,mali,0.7273,needs_manual_review
+South Africa,south africa,ZAF,South Africa,south africa,1.0,exact_normalized
+South Korea,south korea,ZAF,South Africa,south africa,0.6957,needs_manual_review
+South Sudan,south sudan,SSD,South Sudan,south sudan,1.0,exact_normalized
+Spain,spain,ESP,Spain,spain,1.0,exact_normalized
+Sri Lanka,sri lanka,LKA,Sri Lanka,sri lanka,1.0,exact_normalized
+Sudan,sudan,SDN,Sudan,sudan,1.0,exact_normalized
+Suriname,suriname,SUR,Suriname,suriname,1.0,exact_normalized
+Sweden,sweden,SWE,Sweden,sweden,1.0,exact_normalized
+Switzerland,switzerland,CHE,Switzerland,switzerland,1.0,exact_normalized
+Syria,syria,SRB,Serbia,serbia,0.7273,needs_manual_review
+Taiwan,taiwan,THA,Thailand,thailand,0.7143,needs_manual_review
+Tajikistan,tajikistan,TJK,Tajikistan,tajikistan,1.0,exact_normalized
+Tanzania,tanzania,TZA,Tanzania,tanzania,1.0,exact_normalized
+Thailand,thailand,THA,Thailand,thailand,1.0,exact_normalized
+Togo,togo,TGO,Togo,togo,1.0,exact_normalized
+Tonga,tonga,TON,Tonga,tonga,1.0,exact_normalized
+Trinidad and Tobago,trinidad and tobago,TTO,Trinidad and Tobago,trinidad and tobago,1.0,exact_normalized
+Tunisia,tunisia,TUN,Tunisia,tunisia,1.0,exact_normalized
+Turkey,turkey,TUR,Turkiye,turkiye,0.7692,needs_manual_review
+Turkmenistan,turkmenistan,TKM,Turkmenistan,turkmenistan,1.0,exact_normalized
+Tuvalu,tuvalu,TUV,Tuvalu,tuvalu,1.0,exact_normalized
+Uganda,uganda,UGA,Uganda,uganda,1.0,exact_normalized
+Ukraine,ukraine,UKR,Ukraine,ukraine,1.0,exact_normalized
+United Arab Emirates,united arab emirates,ARE,United Arab Emirates,united arab emirates,1.0,exact_normalized
+United Kingdom,united kingdom,GBR,United Kingdom,united kingdom,1.0,exact_normalized
+United States of America,united states of america,USA,United States,united states,0.7027,needs_manual_review
+Uruguay,uruguay,URY,Uruguay,uruguay,1.0,exact_normalized
+Uzbekistan,uzbekistan,UZB,Uzbekistan,uzbekistan,1.0,exact_normalized
+Vanuatu,vanuatu,VUT,Vanuatu,vanuatu,1.0,exact_normalized
+Vatican City State,vatican city state,USA,United States,united states,0.5806,needs_manual_review
+Venezuela,venezuela,VEN,"Venezuela, RB",venezuela rb,0.8571,medium_similarity
+Vietnam (North Vietnam),vietnam (north vietnam),VNM,Viet Nam,viet nam,0.4516,needs_manual_review
+Yemen (North Yemen),yemen (north yemen),YEM,"Yemen, Rep.",yemen rep,0.5714,needs_manual_review
+Yemen (South Yemen),yemen (south yemen),YEM,"Yemen, Rep.",yemen rep,0.5,needs_manual_review
+Zambia,zambia,ZMB,Zambia,zambia,1.0,exact_normalized
+Zimbabwe (Rhodesia),zimbabwe (rhodesia),ZWE,Zimbabwe,zimbabwe,0.5926,needs_manual_review
