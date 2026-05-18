@@ -773,7 +773,7 @@
     </section>
 
     <section>
-      <h2>5. Matriz de confusão: baseline vs melhor modelo temporal</h2>
+      <h2>5. Matriz de confusão: baseline vs algoritmo principal</h2>
 
       <div class="matrix-grid">
         <div class="matrix">
@@ -885,8 +885,101 @@
       </div>
     </section>
 
+
     <section>
-      <h2>8. Módulo futuro: termômetro experimental de escalada</h2>
+      <h2>8. Análise probabilística do modelo</h2>
+
+      <p>
+        O algoritmo principal também gera uma probabilidade estimada de conflito no ano seguinte.
+        Isso permite interpretar a saída do modelo como uma medida experimental de risco em nível
+        país-ano, mantendo a cautela metodológica de que não se trata de uma previsão determinística.
+      </p>
+
+      <div class="grid-4">
+        <div class="metric-card">
+          <div class="metric-label">Threshold principal</div>
+          <div class="metric-value">0.50</div>
+          <div class="metric-note">Melhor F1-score na grade testada.</div>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-label">F1-score atual</div>
+          <div class="metric-value">0.8711</div>
+          <div class="metric-note">Modelo principal com features World Bank derivadas.</div>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-label">Precision</div>
+          <div class="metric-value">0.8929</div>
+          <div class="metric-note">Boa confiabilidade nas previsões positivas.</div>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-label">Recall</div>
+          <div class="metric-value">0.8503</div>
+          <div class="metric-note">Capacidade de capturar casos positivos.</div>
+        </div>
+      </div>
+
+      <h3>Análise de threshold</h3>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Threshold</th>
+            <th>Precision</th>
+            <th>Recall</th>
+            <th>F1-score</th>
+            <th>Leitura técnica</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>0.30</td>
+            <td>0.8380</td>
+            <td>0.8912</td>
+            <td>0.8637</td>
+            <td>Mais sensível: captura mais conflitos, mas aumenta falsos positivos.</td>
+          </tr>
+          <tr>
+            <td>0.40</td>
+            <td>0.8779</td>
+            <td>0.8639</td>
+            <td>0.8709</td>
+            <td>Equilíbrio próximo ao melhor resultado.</td>
+          </tr>
+          <tr>
+            <td>0.50</td>
+            <td>0.8929</td>
+            <td>0.8503</td>
+            <td class="best">0.8711</td>
+            <td>Threshold principal atual; melhor F1-score observado.</td>
+          </tr>
+          <tr>
+            <td>0.60</td>
+            <td>0.9121</td>
+            <td>0.8231</td>
+            <td>0.8653</td>
+            <td>Mais conservador: aumenta precisão, mas perde casos positivos.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="note blue">
+        Esta etapa aproxima o projeto de um sistema probabilístico de risco. A saída ainda deve
+        ser interpretada como estimativa experimental baseada em dados históricos, features
+        temporais e indicadores socioeconômicos.
+      </div>
+
+      <div class="note amber">
+        A calibração preliminar mostrou boa aderência nos extremos de probabilidade, mas alguns
+        intervalos intermediários ainda apresentaram erro maior. Métodos formais de calibração
+        podem ser avaliados em uma etapa futura.
+      </div>
+    </section>
+
+    <section>
+      <h2>9. Módulo futuro: termômetro experimental de escalada</h2>
       <p>
         Uma evolução futura do sistema pode ser a criação de um índice agregado de risco,
         apresentado como um termômetro exploratório de escalada global. Esse módulo não deve
