@@ -225,3 +225,33 @@ As features derivadas do World Bank produziram o melhor desempenho observado at�
 Esse resultado indica que os indicadores socioeconômicos externos podem contribuir para a previsão, mas principalmente quando transformados em sinais temporais, como defasagens, variações anuais e médias móveis.
 
 A melhora ainda é moderada, mas metodologicamente importante, pois mostra que a integração de dados heterogêneos não deve ser feita apenas pela adição direta de colunas. A engenharia de atributos é uma etapa central para extrair valor preditivo desses dados.
+
+## Análise de probabilidade e threshold
+
+Após o treinamento do pipeline principal, foi realizada uma análise das probabilidades previstas pelo modelo e de diferentes thresholds de classificação.
+
+O objetivo foi avaliar se o threshold padrão de `0.5` continua adequado para o problema ou se outro ponto de corte oferece melhor equilíbrio entre precision, recall e F1-score.
+
+### Resultado principal
+
+| Threshold | Accuracy | Precision | Recall | F1-score |
+|---:|---:|---:|---:|---:|
+| 0.40 | 0.9168 | 0.8779 | 0.8639 | 0.8709 |
+| 0.45 | 0.9168 | 0.8850 | 0.8549 | 0.8697 |
+| 0.50 | 0.9183 | 0.8929 | 0.8503 | 0.8711 |
+| 0.55 | 0.9175 | 0.9022 | 0.8367 | 0.8682 |
+| 0.60 | 0.9168 | 0.9121 | 0.8231 | 0.8653 |
+
+O threshold `0.5` apresentou o melhor F1-score na grade testada, mantendo bom equilíbrio entre precision e recall.
+
+### Interpretação
+
+Thresholds menores aumentam recall, mas também aumentam falsos positivos. Thresholds maiores aumentam precision, mas reduzem recall.
+
+Assim, o threshold `0.5` permanece como escolha principal atual para o algoritmo. Para análises futuras de risco, thresholds alternativos podem ser usados de forma interpretativa, por exemplo para separar risco baixo, moderado, alto e crítico.
+
+### Calibração preliminar
+
+A análise por bins de probabilidade mostrou boa aderência nos extremos, especialmente nas faixas de baixa e alta probabilidade. No entanto, alguns intervalos intermediários apresentaram erro de calibração maior, como o bin `0.7–0.8`, onde a probabilidade média prevista foi superior à taxa positiva observada.
+
+Essa análise ainda não representa calibração completa do modelo. Ela serve como diagnóstico inicial antes de aplicar métodos como Platt scaling ou isotonic regression.
