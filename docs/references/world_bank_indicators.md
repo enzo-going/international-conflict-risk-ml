@@ -1,53 +1,72 @@
-﻿# World Bank Indicators - Initial Selection
+﻿# Indicadores do World Bank
 
-This document defines the initial World Bank indicators selected for integration into the project.
+Este documento define os indicadores do World Bank selecionados para integração ao projeto.
 
-The goal is to enrich the current country-year conflict dataset with socioeconomic and structural variables. These indicators will be used as external features, not as target variables.
+O objetivo é enriquecer o dataset país-ano de conflitos com variáveis socioeconômicas, demográficas e estruturais. Esses indicadores são usados como features externas, não como variável-alvo.
 
-## Methodological role
+## Papel metodológico
 
-The current model is based mainly on historical conflict information from UCDP. The next step is to test whether external socioeconomic indicators add predictive signal beyond conflict persistence and temporal features.
+O modelo atual utiliza informações históricas de conflito da UCDP, features temporais de conflito e indicadores socioeconômicos externos do World Bank.
 
-The target remains:
+A variável-alvo permanece:
 
 `target_conflict_next_year`
 
-## Initial indicators
+O objetivo é testar se indicadores externos em estrutura país-ano adicionam sinal preditivo além da persistência histórica do conflito.
 
-| Feature name | World Bank code | Interpretation | Expected role |
+## Indicadores já integrados
+
+| Feature | Código World Bank | Interpretação | Papel esperado |
 |---|---|---|---|
-| `population_total` | `SP.POP.TOTL` | Total population | Structural country scale |
-| `gdp_per_capita_current_usd` | `NY.GDP.PCAP.CD` | GDP per capita, current US$ | Economic development proxy |
-| `gdp_growth_annual_pct` | `NY.GDP.MKTP.KD.ZG` | GDP growth, annual % | Economic instability / cycle |
-| `inflation_consumer_prices_annual_pct` | `FP.CPI.TOTL.ZG` | Inflation, consumer prices, annual % | Internal economic pressure |
-| `unemployment_total_pct` | `SL.UEM.TOTL.ZS` | Unemployment, total % of labor force | Social/economic fragility |
-| `military_expenditure_pct_gdp` | `MS.MIL.XPND.GD.ZS` | Military expenditure, % of GDP | Military/strategic dimension |
+| `population_total` | `SP.POP.TOTL` | População total | Escala estrutural do país |
+| `gdp_per_capita_current_usd` | `NY.GDP.PCAP.CD` | PIB per capita em US$ corrente | Proxy de desenvolvimento econômico |
+| `gdp_growth_annual_pct` | `NY.GDP.MKTP.KD.ZG` | Crescimento anual do PIB (%) | Ciclo econômico / instabilidade |
+| `inflation_consumer_prices_annual_pct` | `FP.CPI.TOTL.ZG` | Inflação anual ao consumidor (%) | Pressão econômica interna |
+| `unemployment_total_pct` | `SL.UEM.TOTL.ZS` | Desemprego total (% da força de trabalho) | Fragilidade social/econômica |
+| `military_expenditure_pct_gdp` | `MS.MIL.XPND.GD.ZS` | Gasto militar (% do PIB) | Dimensão militar/estratégica |
 
-## Integration rules
+## Indicadores candidatos para segunda leva de integração
 
-Each indicator must be transformed into country-year format with the following minimum columns:
+| Feature | Código World Bank | Interpretação | Papel esperado |
+|---|---|---|---|
+| `population_growth_annual_pct` | `SP.POP.GROW` | Crescimento anual da população (%) | Pressão demográfica |
+| `urban_population_pct` | `SP.URB.TOTL.IN.ZS` | População urbana (% do total) | Urbanização / densidade |
+| `school_enrollment_secondary_gross_pct` | `SE.SEC.ENRR` | Matrícula no ensino secundário, taxa bruta (%) | Proxy de educação/desenvolvimento humano |
+| `natural_resources_rents_pct_gdp` | `NY.GDP.TOTL.RT.ZS` | Rendas totais de recursos naturais (% do PIB) | Dependência de recursos naturais / risco estrutural |
+
+## Outputs integrados
+
+Dataset processado atual do World Bank:
+
+`data/processed/world_bank/world_bank_country_year_indicators.csv`
+
+Dataset integrado conflito + World Bank:
+
+`data/final/conflict_country_year_world_bank.csv`
+
+Dataset atual com features derivadas do World Bank:
+
+`data/final/conflict_country_year_world_bank_features.csv`
+
+## Regras de integração
+
+Cada indicador deve ser transformado para estrutura país-ano com, no mínimo:
 
 - `country_code`
 - `country_name`
 - `year`
-- one numeric column per indicator
+- uma coluna numérica por indicador
 
-The processed output should be saved as:
+Antes de integrar ao dataset principal, devem ser verificados:
 
-`data/processed/world_bank/world_bank_country_year_indicators.csv`
+- número de países;
+- intervalo de anos;
+- percentual de valores ausentes por indicador;
+- pares país-ano duplicados;
+- compatibilidade entre códigos do World Bank e o mapeamento de países da UCDP.
 
-## Validation checks
+## Status atual
 
-Before merging with the main dataset, the following checks are required:
+Status: primeira integração World Bank concluída.
 
-- number of countries;
-- year range;
-- missing value percentage by indicator;
-- duplicated country-year pairs;
-- compatibility between World Bank country codes and the main dataset country identifiers.
-
-## Current status
-
-Status: planned for integration.
-
-The first implementation should prioritize correctness and transparency over quantity of indicators.
+A primeira leva de indicadores já foi integrada, transformada em features temporais e avaliada nos modelos. A segunda leva deve ser adicionada com cuidado, validando valores ausentes e impacto no desempenho antes de expandir para mais variáveis.
