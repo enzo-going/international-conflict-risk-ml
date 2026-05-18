@@ -24,11 +24,15 @@ END_YEAR = 2023
 
 INDICATORS = {
     "SP.POP.TOTL": "population_total",
+    "SP.POP.GROW": "population_growth_annual_pct",
+    "SP.URB.TOTL.IN.ZS": "urban_population_pct",
     "NY.GDP.PCAP.CD": "gdp_per_capita_current_usd",
     "NY.GDP.MKTP.KD.ZG": "gdp_growth_annual_pct",
     "FP.CPI.TOTL.ZG": "inflation_consumer_prices_annual_pct",
     "SL.UEM.TOTL.ZS": "unemployment_total_pct",
+    "SE.SEC.ENRR": "school_enrollment_secondary_gross_pct",
     "MS.MIL.XPND.GD.ZS": "military_expenditure_pct_gdp",
+    "NY.GDP.TOTL.RT.ZS": "natural_resources_rents_pct_gdp",
 }
 
 
