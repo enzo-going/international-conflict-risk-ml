@@ -1,1359 +1,1359 @@
 country,year,region,world_bank_country_code,world_bank_country_name,target_conflict_next_year,organized_violence_exists,predicted_conflict_next_year,predicted_conflict_probability
-Afghanistan,2017,Asia,AFG,Afghanistan,1,1,1,0.9999911629176669
-Afghanistan,2018,Asia,AFG,Afghanistan,1,1,1,0.9996485205333135
-Afghanistan,2019,Asia,AFG,Afghanistan,1,1,1,0.9995783433160107
-Afghanistan,2020,Asia,AFG,Afghanistan,1,1,1,0.9992943859012605
-Afghanistan,2021,Asia,AFG,Afghanistan,1,1,1,0.9997936536699847
-Afghanistan,2022,Asia,AFG,Afghanistan,1,1,1,0.9995363334495272
-Afghanistan,2023,Asia,AFG,Afghanistan,1,1,1,0.9976486457411755
-Albania,2017,Europe,ALB,Albania,0,0,0,0.07898988558268905
-Albania,2018,Europe,ALB,Albania,0,0,0,0.08018803217889552
-Albania,2019,Europe,ALB,Albania,0,0,0,0.08207088177843742
-Albania,2020,Europe,ALB,Albania,0,0,0,0.07987344862939008
-Albania,2021,Europe,ALB,Albania,0,0,0,0.07412013040169757
-Albania,2022,Europe,ALB,Albania,0,0,0,0.07050312204002314
-Albania,2023,Europe,ALB,Albania,0,0,0,0.061431091641226857
-Algeria,2017,Africa,DZA,Algeria,1,1,1,0.9689695110488055
-Algeria,2018,Africa,DZA,Algeria,1,1,1,0.9501268945411979
-Algeria,2019,Africa,DZA,Algeria,1,1,1,0.9753121035001519
-Algeria,2020,Africa,DZA,Algeria,1,1,1,0.9678298525501285
-Algeria,2021,Africa,DZA,Algeria,1,1,1,0.9224819212185656
-Algeria,2022,Africa,DZA,Algeria,1,1,1,0.8908334660593152
-Algeria,2023,Africa,DZA,Algeria,1,1,1,0.9554236177789447
-Andorra,2017,Europe,AND,Andorra,0,0,0,0.02151333114926615
-Andorra,2018,Europe,AND,Andorra,0,0,0,0.022462266699914867
-Andorra,2019,Europe,AND,Andorra,0,0,0,0.024469117895408996
-Andorra,2020,Europe,AND,Andorra,0,0,0,0.03091862169034044
-Andorra,2021,Europe,AND,Andorra,0,0,0,0.014885897733272238
-Andorra,2022,Europe,AND,Andorra,0,0,0,0.019277641078152892
-Andorra,2023,Europe,AND,Andorra,0,0,0,0.013016254101617686
-Angola,2017,Africa,AGO,Angola,1,1,1,0.9566834674653729
-Angola,2018,Africa,AGO,Angola,1,1,1,0.9734462720558699
-Angola,2019,Africa,AGO,Angola,1,1,1,0.9833792364611993
-Angola,2020,Africa,AGO,Angola,1,1,1,0.9834521334806244
-Angola,2021,Africa,AGO,Angola,1,1,1,0.9458516155528232
-Angola,2022,Africa,AGO,Angola,1,1,1,0.9782494965194471
-Angola,2023,Africa,AGO,Angola,1,1,1,0.9783184174441683
-Antigua & Barbuda,2017,Americas,ATG,Antigua and Barbuda,0,0,0,0.02092564122093985
-Antigua & Barbuda,2018,Americas,ATG,Antigua and Barbuda,0,0,0,0.023161281728541688
-Antigua & Barbuda,2019,Americas,ATG,Antigua and Barbuda,0,0,0,0.017718474325545294
-Antigua & Barbuda,2020,Americas,ATG,Antigua and Barbuda,0,0,0,0.020889410628311247
-Antigua & Barbuda,2021,Americas,ATG,Antigua and Barbuda,0,0,0,0.019689791720459638
-Antigua & Barbuda,2022,Americas,ATG,Antigua and Barbuda,0,0,0,0.017806735329856306
-Antigua & Barbuda,2023,Americas,ATG,Antigua and Barbuda,0,0,0,0.017279486876122213
-Argentina,2017,Americas,ARG,Argentina,0,0,0,0.10394703790020117
-Argentina,2018,Americas,ARG,Argentina,0,0,0,0.13894205799634576
-Argentina,2019,Americas,ARG,Argentina,0,0,0,0.13070702132347659
-Argentina,2020,Americas,ARG,Argentina,0,0,0,0.13844056921549142
-Argentina,2021,Americas,ARG,Argentina,0,0,0,0.08596191520242734
-Argentina,2022,Americas,ARG,Argentina,0,0,0,0.07218049925970134
-Argentina,2023,Americas,ARG,Argentina,0,0,0,0.07246367690614249
-Armenia,2017,Europe,ARM,Armenia,1,0,0,0.3150258209575674
-Armenia,2018,Europe,ARM,Armenia,1,1,1,0.7261748515792461
-Armenia,2019,Europe,ARM,Armenia,1,1,1,0.8006477782873432
-Armenia,2020,Europe,ARM,Armenia,1,1,1,0.8596065988440933
-Armenia,2021,Europe,ARM,Armenia,1,1,1,0.8408113676887391
-Armenia,2022,Europe,ARM,Armenia,1,1,1,0.8073307392090526
-Armenia,2023,Europe,ARM,Armenia,0,1,1,0.8771346945305872
-Australia,2017,Asia,AUS,Australia,1,0,0,0.019172044981767295
-Australia,2018,Asia,AUS,Australia,0,1,0,0.14658809927507904
-Australia,2019,Asia,AUS,Australia,0,0,0,0.16142574042589994
-Australia,2020,Asia,AUS,Australia,0,0,0,0.1019923813988202
-Australia,2021,Asia,AUS,Australia,0,0,0,0.04659017730746746
-Australia,2022,Asia,AUS,Australia,0,0,0,0.04096848916381543
-Australia,2023,Asia,AUS,Australia,0,0,0,0.10139052138803874
-Austria,2017,Europe,AUT,Austria,0,0,0,0.022829664802104542
-Austria,2018,Europe,AUT,Austria,0,0,0,0.017855891138710403
-Austria,2019,Europe,AUT,Austria,1,0,0,0.02369652964714175
-Austria,2020,Europe,AUT,Austria,0,1,0,0.11701853259206273
-Austria,2021,Europe,AUT,Austria,0,0,0,0.09738626494895382
-Austria,2022,Europe,AUT,Austria,0,0,0,0.07770917621459277
-Austria,2023,Europe,AUT,Austria,0,0,0,0.06091922966057259
-Azerbaijan,2017,Europe,AZE,Azerbaijan,1,1,1,0.9383570784719265
-Azerbaijan,2018,Europe,AZE,Azerbaijan,1,1,1,0.9532176064739523
-Azerbaijan,2019,Europe,AZE,Azerbaijan,1,1,1,0.9204484736587798
-Azerbaijan,2020,Europe,AZE,Azerbaijan,1,1,1,0.8830172065136863
-Azerbaijan,2021,Europe,AZE,Azerbaijan,1,1,1,0.927400886566794
-Azerbaijan,2022,Europe,AZE,Azerbaijan,1,1,1,0.8490718941971297
-Azerbaijan,2023,Europe,AZE,Azerbaijan,0,1,1,0.9459369330244605
-Bahamas,2017,Americas,BHS,"Bahamas, The",0,0,0,0.017007356015644206
-Bahamas,2018,Americas,BHS,"Bahamas, The",0,0,0,0.013424899864491897
-Bahamas,2019,Americas,BHS,"Bahamas, The",0,0,0,0.013740632839832227
-Bahamas,2020,Americas,BHS,"Bahamas, The",0,0,0,0.026508832712735172
-Bahamas,2021,Americas,BHS,"Bahamas, The",0,0,0,0.011722122540256761
-Bahamas,2022,Americas,BHS,"Bahamas, The",0,0,0,0.008670283104125015
-Bahamas,2023,Americas,BHS,"Bahamas, The",0,0,0,0.009077753609860678
-Bahrain,2017,Middle East,BHR,Bahrain,0,0,0,0.14917272027480333
-Bahrain,2018,Middle East,BHR,Bahrain,0,0,0,0.13698134704489695
-Bahrain,2019,Middle East,BHR,Bahrain,0,0,0,0.06448260468553237
-Bahrain,2020,Middle East,BHR,Bahrain,0,0,0,0.07112378875110482
-Bahrain,2021,Middle East,BHR,Bahrain,0,0,0,0.05972765553837133
-Bahrain,2022,Middle East,BHR,Bahrain,0,0,0,0.07526623662928242
-Bahrain,2023,Middle East,BHR,Bahrain,0,0,0,0.1288587249243136
-Bangladesh,2017,Asia,BGD,Bangladesh,1,1,1,0.9759146193676231
-Bangladesh,2018,Asia,BGD,Bangladesh,1,1,1,0.9852184095086847
-Bangladesh,2019,Asia,BGD,Bangladesh,1,1,1,0.9752692107177016
-Bangladesh,2020,Asia,BGD,Bangladesh,1,1,1,0.9886335814998806
-Bangladesh,2021,Asia,BGD,Bangladesh,1,1,1,0.9099968840893594
-Bangladesh,2022,Asia,BGD,Bangladesh,1,1,1,0.9872232190173205
-Bangladesh,2023,Asia,BGD,Bangladesh,1,1,1,0.9648428770352285
-Barbados,2017,Americas,BRB,Barbados,0,0,0,0.019667273827012194
-Barbados,2018,Americas,BRB,Barbados,0,0,0,0.01602370690228864
-Barbados,2019,Americas,BRB,Barbados,0,0,0,0.015997232798901577
-Barbados,2020,Americas,BRB,Barbados,0,0,0,0.022361836254413417
-Barbados,2021,Americas,BRB,Barbados,0,0,0,0.014791776961572495
-Barbados,2022,Americas,BRB,Barbados,0,0,0,0.010545974599728085
-Barbados,2023,Americas,BRB,Barbados,0,0,0,0.012001483157001546
-Belarus,2017,Europe,BLR,Belarus,0,0,0,0.04008621268290837
-Belarus,2018,Europe,BLR,Belarus,0,0,0,0.03705944958123943
-Belarus,2019,Europe,BLR,Belarus,0,0,0,0.03439164231578106
-Belarus,2020,Europe,BLR,Belarus,0,0,0,0.037919515280216975
-Belarus,2021,Europe,BLR,Belarus,0,0,0,0.032469468887956196
-Belarus,2022,Europe,BLR,Belarus,0,0,0,0.031528272661531555
-Belarus,2023,Europe,BLR,Belarus,0,0,0,0.031087645908419347
-Belgium,2017,Europe,BEL,Belgium,1,0,0,0.10834868421397387
-Belgium,2018,Europe,BEL,Belgium,0,1,0,0.4613252347741212
-Belgium,2019,Europe,BEL,Belgium,0,0,0,0.16251981271402824
-Belgium,2020,Europe,BEL,Belgium,0,0,0,0.10937039967555044
-Belgium,2021,Europe,BEL,Belgium,0,0,0,0.06161407800669619
-Belgium,2022,Europe,BEL,Belgium,1,0,0,0.07166820165702248
-Belgium,2023,Europe,BEL,Belgium,0,1,0,0.20900053027096197
-Belize,2017,Americas,BLZ,Belize,0,0,0,0.05528772512652177
-Belize,2018,Americas,BLZ,Belize,0,0,0,0.05802012590800766
-Belize,2019,Americas,BLZ,Belize,0,0,0,0.04542231446517943
-Belize,2020,Americas,BLZ,Belize,0,0,0,0.0538341483032887
-Belize,2021,Americas,BLZ,Belize,0,0,0,0.03595737715170575
-Belize,2022,Americas,BLZ,Belize,0,0,0,0.03532366052610991
-Belize,2023,Americas,BLZ,Belize,0,0,0,0.03391130535414403
-Benin,2017,Africa,BEN,Benin,0,0,0,0.06870731006168747
-Benin,2018,Africa,BEN,Benin,1,0,0,0.0668348514555108
-Benin,2019,Africa,BEN,Benin,1,1,0,0.23033500809216384
-Benin,2020,Africa,BEN,Benin,1,1,1,0.8485349509614069
-Benin,2021,Africa,BEN,Benin,1,1,1,0.8611813665984104
-Benin,2022,Africa,BEN,Benin,1,1,1,0.8900794396264249
-Benin,2023,Africa,BEN,Benin,1,1,1,0.9292773186181801
-Bhutan,2017,Asia,BTN,Bhutan,0,0,0,0.07790781697254766
-Bhutan,2018,Asia,BTN,Bhutan,0,0,0,0.07525925489237234
-Bhutan,2019,Asia,BTN,Bhutan,0,0,0,0.07542351055973098
-Bhutan,2020,Asia,BTN,Bhutan,0,0,0,0.08530721787857438
-Bhutan,2021,Asia,BTN,Bhutan,0,0,0,0.0694610419739011
-Bhutan,2022,Asia,BTN,Bhutan,0,0,0,0.07039000022399368
-Bhutan,2023,Asia,BTN,Bhutan,0,0,0,0.054787547839821836
-Bolivia,2017,Americas,BOL,Bolivia,0,0,0,0.13936939069022558
-Bolivia,2018,Americas,BOL,Bolivia,0,0,0,0.13643563163464648
-Bolivia,2019,Americas,BOL,Bolivia,0,0,0,0.13757310275354215
-Bolivia,2020,Americas,BOL,Bolivia,1,0,0,0.16845214711848855
-Bolivia,2021,Americas,BOL,Bolivia,0,1,0,0.4485431371923355
-Bolivia,2022,Americas,BOL,Bolivia,1,0,0,0.22810072407292484
-Bolivia,2023,Americas,BOL,Bolivia,0,1,1,0.5689125862366966
-Bosnia-Herzegovina,2017,Europe,BIH,Bosnia and Herzegovina,0,0,0,0.07470768838363953
-Bosnia-Herzegovina,2018,Europe,BIH,Bosnia and Herzegovina,0,0,0,0.08456143687348137
-Bosnia-Herzegovina,2019,Europe,BIH,Bosnia and Herzegovina,0,0,0,0.08043242888787792
-Bosnia-Herzegovina,2020,Europe,BIH,Bosnia and Herzegovina,0,0,0,0.09053444309949203
-Bosnia-Herzegovina,2021,Europe,BIH,Bosnia and Herzegovina,0,0,0,0.07181826971395219
-Bosnia-Herzegovina,2022,Europe,BIH,Bosnia and Herzegovina,0,0,0,0.07181222598810255
-Bosnia-Herzegovina,2023,Europe,BIH,Bosnia and Herzegovina,0,0,0,0.07041254914482507
-Botswana,2017,Africa,BWA,Botswana,0,0,0,0.10382407822189962
-Botswana,2018,Africa,BWA,Botswana,0,0,0,0.09115273604418969
-Botswana,2019,Africa,BWA,Botswana,0,0,0,0.0998957640347616
-Botswana,2020,Africa,BWA,Botswana,0,0,0,0.1121789360931786
-Botswana,2021,Africa,BWA,Botswana,0,0,0,0.10690952537318982
-Botswana,2022,Africa,BWA,Botswana,0,0,0,0.08295913853541896
-Botswana,2023,Africa,BWA,Botswana,0,0,0,0.08558688434179855
-Brazil,2017,Americas,BRA,Brazil,1,1,1,0.9999022333387141
-Brazil,2018,Americas,BRA,Brazil,1,1,1,0.9999577747252743
-Brazil,2019,Americas,BRA,Brazil,1,1,1,0.9999999092055827
-Brazil,2020,Americas,BRA,Brazil,1,1,1,0.999999973801944
-Brazil,2021,Americas,BRA,Brazil,1,1,1,0.9999999989619772
-Brazil,2022,Americas,BRA,Brazil,1,1,1,0.9999999997623212
-Brazil,2023,Americas,BRA,Brazil,1,1,1,0.9999999999074936
-Brunei,2017,Asia,BRN,Brunei Darussalam,0,0,0,0.03632692766021076
-Brunei,2018,Asia,BRN,Brunei Darussalam,0,0,0,0.03382059828543273
-Brunei,2019,Asia,BRN,Brunei Darussalam,0,0,0,0.033656050092716834
-Brunei,2020,Asia,BRN,Brunei Darussalam,0,0,0,0.04354678751104588
-Brunei,2021,Asia,BRN,Brunei Darussalam,0,0,0,0.025771906548013465
-Brunei,2022,Asia,BRN,Brunei Darussalam,0,0,0,0.014888060126336625
-Brunei,2023,Asia,BRN,Brunei Darussalam,0,0,0,0.05595309706678176
-Bulgaria,2017,Europe,BGR,Bulgaria,0,0,0,0.028942837654487998
-Bulgaria,2018,Europe,BGR,Bulgaria,0,0,0,0.0285709404078428
-Bulgaria,2019,Europe,BGR,Bulgaria,0,0,0,0.030987280994623348
-Bulgaria,2020,Europe,BGR,Bulgaria,0,0,0,0.02376527368765596
-Bulgaria,2021,Europe,BGR,Bulgaria,0,0,0,0.022944784521368815
-Bulgaria,2022,Europe,BGR,Bulgaria,0,0,0,0.025286741079640733
-Bulgaria,2023,Europe,BGR,Bulgaria,0,0,0,0.02439705443036644
-Burkina Faso,2017,Africa,BFA,Burkina Faso,1,1,1,0.9964782409999927
-Burkina Faso,2018,Africa,BFA,Burkina Faso,1,1,1,0.9940823269808281
-Burkina Faso,2019,Africa,BFA,Burkina Faso,1,1,1,0.9991249905535975
-Burkina Faso,2020,Africa,BFA,Burkina Faso,1,1,1,0.9993200596454007
-Burkina Faso,2021,Africa,BFA,Burkina Faso,1,1,1,0.997845116525941
-Burkina Faso,2022,Africa,BFA,Burkina Faso,1,1,1,0.9987451364544674
-Burkina Faso,2023,Africa,BFA,Burkina Faso,1,1,1,0.9980642067816594
-Burundi,2017,Africa,BDI,Burundi,1,1,1,0.9632296413221999
-Burundi,2018,Africa,BDI,Burundi,1,1,1,0.9918421330615256
-Burundi,2019,Africa,BDI,Burundi,1,1,1,0.9687822772042455
-Burundi,2020,Africa,BDI,Burundi,1,1,1,0.9847528665421251
-Burundi,2021,Africa,BDI,Burundi,1,1,1,0.9800233044721686
-Burundi,2022,Africa,BDI,Burundi,1,1,1,0.96450446268902
-Burundi,2023,Africa,BDI,Burundi,1,1,1,0.9828285092991663
-Cambodia (Kampuchea),2017,Asia,KHM,Cambodia,0,0,0,0.2604796103673149
-Cambodia (Kampuchea),2018,Asia,KHM,Cambodia,0,0,0,0.17480544402017534
-Cambodia (Kampuchea),2019,Asia,KHM,Cambodia,0,0,0,0.1575812377613677
-Cambodia (Kampuchea),2020,Asia,KHM,Cambodia,0,0,0,0.15782614557645325
-Cambodia (Kampuchea),2021,Asia,KHM,Cambodia,0,0,0,0.15202578921042162
-Cambodia (Kampuchea),2022,Asia,KHM,Cambodia,0,0,0,0.14247532934237664
-Cambodia (Kampuchea),2023,Asia,KHM,Cambodia,0,0,0,0.13130639878063638
-Cameroon,2017,Africa,CMR,Cameroon,1,1,1,0.9964074855230001
-Cameroon,2018,Africa,CMR,Cameroon,1,1,1,0.9994170403954986
-Cameroon,2019,Africa,CMR,Cameroon,1,1,1,0.999341160326031
-Cameroon,2020,Africa,CMR,Cameroon,1,1,1,0.9993337010282423
-Cameroon,2021,Africa,CMR,Cameroon,1,1,1,0.999854296289542
-Cameroon,2022,Africa,CMR,Cameroon,1,1,1,0.9994368651958419
-Cameroon,2023,Africa,CMR,Cameroon,1,1,1,0.9999130083358693
-Canada,2017,Americas,CAN,Canada,0,0,0,0.07020379556057497
-Canada,2018,Americas,CAN,Canada,0,0,0,0.07161817888185762
-Canada,2019,Americas,CAN,Canada,0,0,0,0.07828577654123493
-Canada,2020,Americas,CAN,Canada,0,0,0,0.10222379647638886
-Canada,2021,Americas,CAN,Canada,0,0,0,0.03445070286399971
-Canada,2022,Americas,CAN,Canada,0,0,0,0.04457267446585793
-Canada,2023,Americas,CAN,Canada,0,0,0,0.09104860288972669
-Cape Verde,2017,Africa,CPV,Cabo Verde,0,0,0,0.050029710271114164
-Cape Verde,2018,Africa,CPV,Cabo Verde,0,0,0,0.04331228921432621
-Cape Verde,2019,Africa,CPV,Cabo Verde,0,0,0,0.043756676052420757
-Cape Verde,2020,Africa,CPV,Cabo Verde,0,0,0,0.0646596302236105
-Cape Verde,2021,Africa,CPV,Cabo Verde,0,0,0,0.04771255245977257
-Cape Verde,2022,Africa,CPV,Cabo Verde,0,0,0,0.0402397803518411
-Cape Verde,2023,Africa,CPV,Cabo Verde,0,0,0,0.045005393650279654
-Central African Republic,2017,Africa,CAF,Central African Republic,1,1,1,0.9999999986417101
-Central African Republic,2018,Africa,CAF,Central African Republic,1,1,1,0.999998095950286
-Central African Republic,2019,Africa,CAF,Central African Republic,1,1,1,0.9999982574199461
-Central African Republic,2020,Africa,CAF,Central African Republic,1,1,1,0.9999996621278406
-Central African Republic,2021,Africa,CAF,Central African Republic,1,1,1,0.9938374957445151
-Central African Republic,2022,Africa,CAF,Central African Republic,1,1,1,0.9920355787080771
-Central African Republic,2023,Africa,CAF,Central African Republic,1,1,1,0.9979702553050119
-Chad,2017,Africa,TCD,Chad,1,1,1,0.9844287957032629
-Chad,2018,Africa,TCD,Chad,1,1,1,0.9833296483410922
-Chad,2019,Africa,TCD,Chad,1,1,1,0.9960031793166466
-Chad,2020,Africa,TCD,Chad,1,1,1,0.9952080039285708
-Chad,2021,Africa,TCD,Chad,1,1,1,0.997382877617311
-Chad,2022,Africa,TCD,Chad,1,1,1,0.9887105577101516
-Chad,2023,Africa,TCD,Chad,1,1,1,0.9910230914261337
-Chile,2017,Americas,CHL,Chile,0,0,0,0.04615122510779705
-Chile,2018,Americas,CHL,Chile,0,0,0,0.04512024376291183
-Chile,2019,Americas,CHL,Chile,0,0,0,0.0472364209809583
-Chile,2020,Americas,CHL,Chile,0,0,0,0.05779118402772814
-Chile,2021,Americas,CHL,Chile,0,0,0,0.03339352456284842
-Chile,2022,Americas,CHL,Chile,0,0,0,0.03125081031467348
-Chile,2023,Americas,CHL,Chile,0,0,0,0.04184486444487435
-China,2017,Asia,CHN,China,0,1,1,0.7789093894191274
-China,2018,Asia,CHN,China,0,0,0,0.3577659369343571
-China,2019,Asia,CHN,China,0,0,0,0.20955394854290818
-China,2020,Asia,CHN,China,0,0,0,0.1574281837892664
-China,2021,Asia,CHN,China,0,0,0,0.06894175029061324
-China,2022,Asia,CHN,China,1,0,0,0.05660761401278579
-China,2023,Asia,CHN,China,0,1,0,0.21493532961238646
-Colombia,2017,Americas,COL,Colombia,1,1,1,0.9996180362255752
-Colombia,2018,Americas,COL,Colombia,1,1,1,0.9998379709920399
-Colombia,2019,Americas,COL,Colombia,1,1,1,0.9999871200237722
-Colombia,2020,Americas,COL,Colombia,1,1,1,0.9999976077104985
-Colombia,2021,Americas,COL,Colombia,1,1,1,0.9999039727631126
-Colombia,2022,Americas,COL,Colombia,1,1,1,0.9999489749756769
-Colombia,2023,Americas,COL,Colombia,1,1,1,0.9999931410637434
-Comoros,2017,Africa,COM,Comoros,0,0,0,0.10926345732207406
-Comoros,2018,Africa,COM,Comoros,0,0,0,0.09941448507147824
-Comoros,2019,Africa,COM,Comoros,0,0,0,0.0786843621775784
-Comoros,2020,Africa,COM,Comoros,0,0,0,0.08372075194650273
-Comoros,2021,Africa,COM,Comoros,0,0,0,0.07217999925126287
-Comoros,2022,Africa,COM,Comoros,0,0,0,0.09754864612546851
-Comoros,2023,Africa,COM,Comoros,0,0,0,0.06990712639454448
-Congo,2017,Africa,COG,"Congo, Rep.",0,1,1,0.8881605243257983
-Congo,2018,Africa,COG,"Congo, Rep.",1,0,0,0.47147206924172375
-Congo,2019,Africa,COG,"Congo, Rep.",1,1,1,0.8644534760006828
-Congo,2020,Africa,COG,"Congo, Rep.",0,1,1,0.9080184981764186
-Congo,2021,Africa,COG,"Congo, Rep.",1,0,1,0.5728336163807374
-Congo,2022,Africa,COG,"Congo, Rep.",0,1,1,0.7610463040884617
-Congo,2023,Africa,COG,"Congo, Rep.",0,0,1,0.5937526758364217
-Costa Rica,2017,Americas,CRI,Costa Rica,0,0,0,0.023841289902897207
-Costa Rica,2018,Americas,CRI,Costa Rica,0,0,0,0.02463042719170025
-Costa Rica,2019,Americas,CRI,Costa Rica,0,0,0,0.0244549588664837
-Costa Rica,2020,Americas,CRI,Costa Rica,0,0,0,0.025250140508533237
-Costa Rica,2021,Americas,CRI,Costa Rica,0,0,0,0.017537662229964657
-Costa Rica,2022,Americas,CRI,Costa Rica,0,0,0,0.01314180504794673
-Costa Rica,2023,Americas,CRI,Costa Rica,0,0,0,0.010132115528301979
-Croatia,2017,Europe,HRV,Croatia,0,0,0,0.07177679882477377
-Croatia,2018,Europe,HRV,Croatia,0,0,0,0.06100169299764736
-Croatia,2019,Europe,HRV,Croatia,0,0,0,0.07227365428623707
-Croatia,2020,Europe,HRV,Croatia,0,0,0,0.09081421922660987
-Croatia,2021,Europe,HRV,Croatia,0,0,0,0.06154308626312809
-Croatia,2022,Europe,HRV,Croatia,0,0,0,0.0641131400010522
-Croatia,2023,Europe,HRV,Croatia,0,0,0,0.04888953124920292
-Cuba,2017,Americas,CUB,Cuba,0,0,0,0.03495280803059426
-Cuba,2018,Americas,CUB,Cuba,0,0,0,0.035515104637514554
-Cuba,2019,Americas,CUB,Cuba,0,0,0,0.018268559275236945
-Cuba,2020,Americas,CUB,Cuba,0,0,0,0.020344676268107726
-Cuba,2021,Americas,CUB,Cuba,0,0,0,0.02383277905853644
-Cuba,2022,Americas,CUB,Cuba,0,0,0,0.02833300162329651
-Cuba,2023,Americas,CUB,Cuba,0,0,0,0.020460438246332764
-Cyprus,2017,Europe,CYP,Cyprus,0,0,0,0.029128035799853777
-Cyprus,2018,Europe,CYP,Cyprus,0,0,0,0.024459582244661975
-Cyprus,2019,Europe,CYP,Cyprus,0,0,0,0.029538773247686934
-Cyprus,2020,Europe,CYP,Cyprus,0,0,0,0.03503835515345668
-Cyprus,2021,Europe,CYP,Cyprus,0,0,0,0.01973558711763589
-Cyprus,2022,Europe,CYP,Cyprus,0,0,0,0.02500997211753074
-Cyprus,2023,Europe,CYP,Cyprus,0,0,0,0.01774377863094048
-Czech Republic,2017,Europe,CZE,Czechia,0,0,0,0.027179642090905325
-Czech Republic,2018,Europe,CZE,Czechia,0,0,0,0.0265607241530934
-Czech Republic,2019,Europe,CZE,Czechia,0,0,0,0.028980923673145954
-Czech Republic,2020,Europe,CZE,Czechia,0,0,0,0.033853127439629045
-Czech Republic,2021,Europe,CZE,Czechia,0,0,0,0.020605353044698283
-Czech Republic,2022,Europe,CZE,Czechia,0,0,0,0.021980940343822645
-Czech Republic,2023,Europe,CZE,Czechia,0,0,0,0.02571083891337299
-DR Congo (Zaire),2017,Africa,COD,"Congo, Dem. Rep.",1,1,1,0.9999999999999984
-DR Congo (Zaire),2018,Africa,COD,"Congo, Dem. Rep.",1,1,1,0.9999999999999925
-DR Congo (Zaire),2019,Africa,COD,"Congo, Dem. Rep.",1,1,1,0.9999999999999944
+Afghanistan,2017,Asia,AFG,Afghanistan,1,1,1,0.999990578498939
+Afghanistan,2018,Asia,AFG,Afghanistan,1,1,1,0.9995476586969737
+Afghanistan,2019,Asia,AFG,Afghanistan,1,1,1,0.9993026691727659
+Afghanistan,2020,Asia,AFG,Afghanistan,1,1,1,0.998906864876469
+Afghanistan,2021,Asia,AFG,Afghanistan,1,1,1,0.999773086369132
+Afghanistan,2022,Asia,AFG,Afghanistan,1,1,1,0.999766056511343
+Afghanistan,2023,Asia,AFG,Afghanistan,1,1,1,0.9985335256319815
+Albania,2017,Europe,ALB,Albania,0,0,0,0.07095320845453652
+Albania,2018,Europe,ALB,Albania,0,0,0,0.0681350055852205
+Albania,2019,Europe,ALB,Albania,0,0,0,0.06883951292069662
+Albania,2020,Europe,ALB,Albania,0,0,0,0.07568036798551359
+Albania,2021,Europe,ALB,Albania,0,0,0,0.05619653258107352
+Albania,2022,Europe,ALB,Albania,0,0,0,0.060103324049813514
+Albania,2023,Europe,ALB,Albania,0,0,0,0.05905714758321957
+Algeria,2017,Africa,DZA,Algeria,1,1,1,0.9682274143221552
+Algeria,2018,Africa,DZA,Algeria,1,1,1,0.9573891665502398
+Algeria,2019,Africa,DZA,Algeria,1,1,1,0.9799536100837201
+Algeria,2020,Africa,DZA,Algeria,1,1,1,0.9690063977323489
+Algeria,2021,Africa,DZA,Algeria,1,1,1,0.9220920658057675
+Algeria,2022,Africa,DZA,Algeria,1,1,1,0.8815977967134854
+Algeria,2023,Africa,DZA,Algeria,1,1,1,0.8865053857081961
+Andorra,2017,Europe,AND,Andorra,0,0,0,0.028586797373176508
+Andorra,2018,Europe,AND,Andorra,0,0,0,0.025414181443905007
+Andorra,2019,Europe,AND,Andorra,0,0,0,0.02467866563123704
+Andorra,2020,Europe,AND,Andorra,0,0,0,0.03161531337481586
+Andorra,2021,Europe,AND,Andorra,0,0,0,0.018984309384909467
+Andorra,2022,Europe,AND,Andorra,0,0,0,0.019172790810923893
+Andorra,2023,Europe,AND,Andorra,0,0,0,0.01968621062510173
+Angola,2017,Africa,AGO,Angola,1,1,1,0.9522478791245109
+Angola,2018,Africa,AGO,Angola,1,1,1,0.966229613454105
+Angola,2019,Africa,AGO,Angola,1,1,1,0.9836486959241042
+Angola,2020,Africa,AGO,Angola,1,1,1,0.9829855549333946
+Angola,2021,Africa,AGO,Angola,1,1,1,0.9117181283481043
+Angola,2022,Africa,AGO,Angola,1,1,1,0.9732487587863484
+Angola,2023,Africa,AGO,Angola,1,1,1,0.9263707184291656
+Antigua & Barbuda,2017,Americas,ATG,Antigua and Barbuda,0,0,0,0.027599109017920297
+Antigua & Barbuda,2018,Americas,ATG,Antigua and Barbuda,0,0,0,0.0233433204163171
+Antigua & Barbuda,2019,Americas,ATG,Antigua and Barbuda,0,0,0,0.033090074919039966
+Antigua & Barbuda,2020,Americas,ATG,Antigua and Barbuda,0,0,0,0.05384922562433743
+Antigua & Barbuda,2021,Americas,ATG,Antigua and Barbuda,0,0,0,0.029065345296168697
+Antigua & Barbuda,2022,Americas,ATG,Antigua and Barbuda,0,0,0,0.022132809871582938
+Antigua & Barbuda,2023,Americas,ATG,Antigua and Barbuda,0,0,0,0.024113338818037587
+Argentina,2017,Americas,ARG,Argentina,0,0,0,0.07744083932165227
+Argentina,2018,Americas,ARG,Argentina,0,0,0,0.08782013451380177
+Argentina,2019,Americas,ARG,Argentina,0,0,0,0.08517940191870843
+Argentina,2020,Americas,ARG,Argentina,0,0,0,0.09383008077503163
+Argentina,2021,Americas,ARG,Argentina,0,0,0,0.05818906757458904
+Argentina,2022,Americas,ARG,Argentina,0,0,0,0.060556478360370036
+Argentina,2023,Americas,ARG,Argentina,0,0,0,0.0747799814071401
+Armenia,2017,Europe,ARM,Armenia,1,0,0,0.34915680711448316
+Armenia,2018,Europe,ARM,Armenia,1,1,1,0.7051875878849966
+Armenia,2019,Europe,ARM,Armenia,1,1,1,0.7700330026101982
+Armenia,2020,Europe,ARM,Armenia,1,1,1,0.8643737506188806
+Armenia,2021,Europe,ARM,Armenia,1,1,1,0.8308416153637543
+Armenia,2022,Europe,ARM,Armenia,1,1,1,0.7953978953041981
+Armenia,2023,Europe,ARM,Armenia,0,1,1,0.8519799225297238
+Australia,2017,Asia,AUS,Australia,1,0,0,0.01542367424671724
+Australia,2018,Asia,AUS,Australia,0,1,0,0.19743181719249214
+Australia,2019,Asia,AUS,Australia,0,0,0,0.07850104597722977
+Australia,2020,Asia,AUS,Australia,0,0,0,0.0586091257573879
+Australia,2021,Asia,AUS,Australia,0,0,0,0.04826017023288387
+Australia,2022,Asia,AUS,Australia,0,0,0,0.0424549915022523
+Australia,2023,Asia,AUS,Australia,0,0,0,0.046577372394494616
+Austria,2017,Europe,AUT,Austria,0,0,0,0.020842949455809865
+Austria,2018,Europe,AUT,Austria,0,0,0,0.018730257172454627
+Austria,2019,Europe,AUT,Austria,1,0,0,0.018727799906398165
+Austria,2020,Europe,AUT,Austria,0,1,0,0.10847503825120283
+Austria,2021,Europe,AUT,Austria,0,0,0,0.07883999046397575
+Austria,2022,Europe,AUT,Austria,0,0,0,0.057929937256290566
+Austria,2023,Europe,AUT,Austria,0,0,0,0.06093470252482514
+Azerbaijan,2017,Europe,AZE,Azerbaijan,1,1,1,0.9233970435244642
+Azerbaijan,2018,Europe,AZE,Azerbaijan,1,1,1,0.9131309769591782
+Azerbaijan,2019,Europe,AZE,Azerbaijan,1,1,1,0.9058888328718075
+Azerbaijan,2020,Europe,AZE,Azerbaijan,1,1,1,0.8988914122316114
+Azerbaijan,2021,Europe,AZE,Azerbaijan,1,1,1,0.9121529280673295
+Azerbaijan,2022,Europe,AZE,Azerbaijan,1,1,1,0.8672425192191748
+Azerbaijan,2023,Europe,AZE,Azerbaijan,0,1,1,0.874602957299001
+Bahamas,2017,Americas,BHS,"Bahamas, The",0,0,0,0.025979833585663338
+Bahamas,2018,Americas,BHS,"Bahamas, The",0,0,0,0.027654001441101795
+Bahamas,2019,Americas,BHS,"Bahamas, The",0,0,0,0.02886511971533458
+Bahamas,2020,Americas,BHS,"Bahamas, The",0,0,0,0.04482489525520177
+Bahamas,2021,Americas,BHS,"Bahamas, The",0,0,0,0.019281742441737592
+Bahamas,2022,Americas,BHS,"Bahamas, The",0,0,0,0.020448007415678017
+Bahamas,2023,Americas,BHS,"Bahamas, The",0,0,0,0.021627903491677595
+Bahrain,2017,Middle East,BHR,Bahrain,0,0,0,0.12407866500822327
+Bahrain,2018,Middle East,BHR,Bahrain,0,0,0,0.08157903680343895
+Bahrain,2019,Middle East,BHR,Bahrain,0,0,0,0.0670984641389134
+Bahrain,2020,Middle East,BHR,Bahrain,0,0,0,0.09505558664190841
+Bahrain,2021,Middle East,BHR,Bahrain,0,0,0,0.10024910533055688
+Bahrain,2022,Middle East,BHR,Bahrain,0,0,0,0.060860172015565234
+Bahrain,2023,Middle East,BHR,Bahrain,0,0,0,0.07599055161199304
+Bangladesh,2017,Asia,BGD,Bangladesh,1,1,1,0.9780523144114518
+Bangladesh,2018,Asia,BGD,Bangladesh,1,1,1,0.985396741686742
+Bangladesh,2019,Asia,BGD,Bangladesh,1,1,1,0.9757149678303899
+Bangladesh,2020,Asia,BGD,Bangladesh,1,1,1,0.9883162663351881
+Bangladesh,2021,Asia,BGD,Bangladesh,1,1,1,0.9162418179177869
+Bangladesh,2022,Asia,BGD,Bangladesh,1,1,1,0.9870851178067014
+Bangladesh,2023,Asia,BGD,Bangladesh,1,1,1,0.9672672102341271
+Barbados,2017,Americas,BRB,Barbados,0,0,0,0.02769693141849019
+Barbados,2018,Americas,BRB,Barbados,0,0,0,0.028072239617749777
+Barbados,2019,Americas,BRB,Barbados,0,0,0,0.026639160116094435
+Barbados,2020,Americas,BRB,Barbados,0,0,0,0.03652305298062757
+Barbados,2021,Americas,BRB,Barbados,0,0,0,0.02570791608792923
+Barbados,2022,Americas,BRB,Barbados,0,0,0,0.017096567336616814
+Barbados,2023,Americas,BRB,Barbados,0,0,0,0.022494203548338115
+Belarus,2017,Europe,BLR,Belarus,0,0,0,0.034950454296583076
+Belarus,2018,Europe,BLR,Belarus,0,0,0,0.03369609287966671
+Belarus,2019,Europe,BLR,Belarus,0,0,0,0.03406308659617606
+Belarus,2020,Europe,BLR,Belarus,0,0,0,0.034046890382559404
+Belarus,2021,Europe,BLR,Belarus,0,0,0,0.029637906363912316
+Belarus,2022,Europe,BLR,Belarus,0,0,0,0.0341363423098247
+Belarus,2023,Europe,BLR,Belarus,0,0,0,0.028921654608537347
+Belgium,2017,Europe,BEL,Belgium,1,0,0,0.07143757548441769
+Belgium,2018,Europe,BEL,Belgium,0,1,0,0.42524410009397895
+Belgium,2019,Europe,BEL,Belgium,0,0,0,0.09147632961009763
+Belgium,2020,Europe,BEL,Belgium,0,0,0,0.07299523992331802
+Belgium,2021,Europe,BEL,Belgium,0,0,0,0.055416660798359905
+Belgium,2022,Europe,BEL,Belgium,1,0,0,0.04466344949037834
+Belgium,2023,Europe,BEL,Belgium,0,1,0,0.19572148420109514
+Belize,2017,Americas,BLZ,Belize,0,0,0,0.05206327415345595
+Belize,2018,Americas,BLZ,Belize,0,0,0,0.045209866224185505
+Belize,2019,Americas,BLZ,Belize,0,0,0,0.03904185346470074
+Belize,2020,Americas,BLZ,Belize,0,0,0,0.05481276213926029
+Belize,2021,Americas,BLZ,Belize,0,0,0,0.026453669184586557
+Belize,2022,Americas,BLZ,Belize,0,0,0,0.03402512391971897
+Belize,2023,Americas,BLZ,Belize,0,0,0,0.04167222848909475
+Benin,2017,Africa,BEN,Benin,0,0,0,0.0577569316127198
+Benin,2018,Africa,BEN,Benin,1,0,0,0.053674446549373755
+Benin,2019,Africa,BEN,Benin,1,1,0,0.22840024627261246
+Benin,2020,Africa,BEN,Benin,1,1,1,0.7870265378793233
+Benin,2021,Africa,BEN,Benin,1,1,1,0.8226667295466352
+Benin,2022,Africa,BEN,Benin,1,1,1,0.8664639088605062
+Benin,2023,Africa,BEN,Benin,1,1,1,0.9167107753520846
+Bhutan,2017,Asia,BTN,Bhutan,0,0,0,0.11088451159345276
+Bhutan,2018,Asia,BTN,Bhutan,0,0,0,0.10152880780589411
+Bhutan,2019,Asia,BTN,Bhutan,0,0,0,0.0927145631726054
+Bhutan,2020,Asia,BTN,Bhutan,0,0,0,0.12358579875609406
+Bhutan,2021,Asia,BTN,Bhutan,0,0,0,0.08885492041886077
+Bhutan,2022,Asia,BTN,Bhutan,0,0,0,0.08543905459490729
+Bhutan,2023,Asia,BTN,Bhutan,0,0,0,0.0876203429100014
+Bolivia,2017,Americas,BOL,Bolivia,0,0,0,0.11130696521979118
+Bolivia,2018,Americas,BOL,Bolivia,0,0,0,0.11182394604164803
+Bolivia,2019,Americas,BOL,Bolivia,0,0,0,0.11003182082958696
+Bolivia,2020,Americas,BOL,Bolivia,1,0,0,0.13393732558012164
+Bolivia,2021,Americas,BOL,Bolivia,0,1,0,0.37163457725164417
+Bolivia,2022,Americas,BOL,Bolivia,1,0,0,0.1788447666409054
+Bolivia,2023,Americas,BOL,Bolivia,0,1,0,0.4753051151545031
+Bosnia-Herzegovina,2017,Europe,BIH,Bosnia and Herzegovina,0,0,0,0.07522986886404133
+Bosnia-Herzegovina,2018,Europe,BIH,Bosnia and Herzegovina,0,0,0,0.07209135947464196
+Bosnia-Herzegovina,2019,Europe,BIH,Bosnia and Herzegovina,0,0,0,0.07267294191536312
+Bosnia-Herzegovina,2020,Europe,BIH,Bosnia and Herzegovina,0,0,0,0.0784639630417982
+Bosnia-Herzegovina,2021,Europe,BIH,Bosnia and Herzegovina,0,0,0,0.05987537804501287
+Bosnia-Herzegovina,2022,Europe,BIH,Bosnia and Herzegovina,0,0,0,0.06572990486296743
+Bosnia-Herzegovina,2023,Europe,BIH,Bosnia and Herzegovina,0,0,0,0.07054173517174854
+Botswana,2017,Africa,BWA,Botswana,0,0,0,0.09958080778701707
+Botswana,2018,Africa,BWA,Botswana,0,0,0,0.0959677525530846
+Botswana,2019,Africa,BWA,Botswana,0,0,0,0.09583206155160327
+Botswana,2020,Africa,BWA,Botswana,0,0,0,0.11876765858785664
+Botswana,2021,Africa,BWA,Botswana,0,0,0,0.07926341687142395
+Botswana,2022,Africa,BWA,Botswana,0,0,0,0.08300435996287893
+Botswana,2023,Africa,BWA,Botswana,0,0,0,0.08561041380194766
+Brazil,2017,Americas,BRA,Brazil,1,1,1,0.9998717522011579
+Brazil,2018,Americas,BRA,Brazil,1,1,1,0.9999379130446322
+Brazil,2019,Americas,BRA,Brazil,1,1,1,0.9999999005171493
+Brazil,2020,Americas,BRA,Brazil,1,1,1,0.999999968583824
+Brazil,2021,Americas,BRA,Brazil,1,1,1,0.9999999988748067
+Brazil,2022,Americas,BRA,Brazil,1,1,1,0.9999999998381979
+Brazil,2023,Americas,BRA,Brazil,1,1,1,0.9999999999419775
+Brunei,2017,Asia,BRN,Brunei Darussalam,0,0,0,0.03859218497694459
+Brunei,2018,Asia,BRN,Brunei Darussalam,0,0,0,0.0389206830641395
+Brunei,2019,Asia,BRN,Brunei Darussalam,0,0,0,0.03556123687136883
+Brunei,2020,Asia,BRN,Brunei Darussalam,0,0,0,0.03619793594505821
+Brunei,2021,Asia,BRN,Brunei Darussalam,0,0,0,0.04173151195262931
+Brunei,2022,Asia,BRN,Brunei Darussalam,0,0,0,0.028753362942395666
+Brunei,2023,Asia,BRN,Brunei Darussalam,0,0,0,0.025469510383633567
+Bulgaria,2017,Europe,BGR,Bulgaria,0,0,0,0.02891531387427738
+Bulgaria,2018,Europe,BGR,Bulgaria,0,0,0,0.02801250889420808
+Bulgaria,2019,Europe,BGR,Bulgaria,0,0,0,0.027531654455252897
+Bulgaria,2020,Europe,BGR,Bulgaria,0,0,0,0.031216217699078595
+Bulgaria,2021,Europe,BGR,Bulgaria,0,0,0,0.02464137616766194
+Bulgaria,2022,Europe,BGR,Bulgaria,0,0,0,0.026688683773460453
+Bulgaria,2023,Europe,BGR,Bulgaria,0,0,0,0.02795469224272858
+Burkina Faso,2017,Africa,BFA,Burkina Faso,1,1,1,0.9960582885931828
+Burkina Faso,2018,Africa,BFA,Burkina Faso,1,1,1,0.9938002446662622
+Burkina Faso,2019,Africa,BFA,Burkina Faso,1,1,1,0.9991046380313152
+Burkina Faso,2020,Africa,BFA,Burkina Faso,1,1,1,0.9993858734559693
+Burkina Faso,2021,Africa,BFA,Burkina Faso,1,1,1,0.9977055950600416
+Burkina Faso,2022,Africa,BFA,Burkina Faso,1,1,1,0.9990203339333537
+Burkina Faso,2023,Africa,BFA,Burkina Faso,1,1,1,0.9972360282684545
+Burundi,2017,Africa,BDI,Burundi,1,1,1,0.9672670677536751
+Burundi,2018,Africa,BDI,Burundi,1,1,1,0.9923470450389711
+Burundi,2019,Africa,BDI,Burundi,1,1,1,0.968179829598244
+Burundi,2020,Africa,BDI,Burundi,1,1,1,0.9838297320554474
+Burundi,2021,Africa,BDI,Burundi,1,1,1,0.9768623377803177
+Burundi,2022,Africa,BDI,Burundi,1,1,1,0.9489040170120056
+Burundi,2023,Africa,BDI,Burundi,1,1,1,0.9731091475765813
+Cambodia (Kampuchea),2017,Asia,KHM,Cambodia,0,0,0,0.18328160048100003
+Cambodia (Kampuchea),2018,Asia,KHM,Cambodia,0,0,0,0.12961470689100252
+Cambodia (Kampuchea),2019,Asia,KHM,Cambodia,0,0,0,0.12860579081164836
+Cambodia (Kampuchea),2020,Asia,KHM,Cambodia,0,0,0,0.15733980556708385
+Cambodia (Kampuchea),2021,Asia,KHM,Cambodia,0,0,0,0.13305184509816334
+Cambodia (Kampuchea),2022,Asia,KHM,Cambodia,0,0,0,0.12392191356356635
+Cambodia (Kampuchea),2023,Asia,KHM,Cambodia,0,0,0,0.119194838084511
+Cameroon,2017,Africa,CMR,Cameroon,1,1,1,0.996419346749061
+Cameroon,2018,Africa,CMR,Cameroon,1,1,1,0.9993177963487203
+Cameroon,2019,Africa,CMR,Cameroon,1,1,1,0.9993045931550135
+Cameroon,2020,Africa,CMR,Cameroon,1,1,1,0.9993249618229338
+Cameroon,2021,Africa,CMR,Cameroon,1,1,1,0.9998239980894358
+Cameroon,2022,Africa,CMR,Cameroon,1,1,1,0.999384120636143
+Cameroon,2023,Africa,CMR,Cameroon,1,1,1,0.9999049399236163
+Canada,2017,Americas,CAN,Canada,0,0,0,0.052890250823217175
+Canada,2018,Americas,CAN,Canada,0,0,0,0.052582888542377956
+Canada,2019,Americas,CAN,Canada,0,0,0,0.05281573143617178
+Canada,2020,Americas,CAN,Canada,0,0,0,0.05808949607822025
+Canada,2021,Americas,CAN,Canada,0,0,0,0.04003834785565448
+Canada,2022,Americas,CAN,Canada,0,0,0,0.04318862910531106
+Canada,2023,Americas,CAN,Canada,0,0,0,0.05199588053610212
+Cape Verde,2017,Africa,CPV,Cabo Verde,0,0,0,0.03714735761950343
+Cape Verde,2018,Africa,CPV,Cabo Verde,0,0,0,0.0388636957825424
+Cape Verde,2019,Africa,CPV,Cabo Verde,0,0,0,0.03486948438528367
+Cape Verde,2020,Africa,CPV,Cabo Verde,0,0,0,0.057887360500965025
+Cape Verde,2021,Africa,CPV,Cabo Verde,0,0,0,0.03489535976263069
+Cape Verde,2022,Africa,CPV,Cabo Verde,0,0,0,0.024627706353600343
+Cape Verde,2023,Africa,CPV,Cabo Verde,0,0,0,0.03399209507655093
+Central African Republic,2017,Africa,CAF,Central African Republic,1,1,1,0.9999999987744366
+Central African Republic,2018,Africa,CAF,Central African Republic,1,1,1,0.9999975776666585
+Central African Republic,2019,Africa,CAF,Central African Republic,1,1,1,0.9999967265038906
+Central African Republic,2020,Africa,CAF,Central African Republic,1,1,1,0.9999997162797206
+Central African Republic,2021,Africa,CAF,Central African Republic,1,1,1,0.993773067695158
+Central African Republic,2022,Africa,CAF,Central African Republic,1,1,1,0.9916444032775882
+Central African Republic,2023,Africa,CAF,Central African Republic,1,1,1,0.9982042152456697
+Chad,2017,Africa,TCD,Chad,1,1,1,0.9894173844488952
+Chad,2018,Africa,TCD,Chad,1,1,1,0.9841472112390101
+Chad,2019,Africa,TCD,Chad,1,1,1,0.9966845648033482
+Chad,2020,Africa,TCD,Chad,1,1,1,0.9950714789846166
+Chad,2021,Africa,TCD,Chad,1,1,1,0.9968917966798486
+Chad,2022,Africa,TCD,Chad,1,1,1,0.9873894815844966
+Chad,2023,Africa,TCD,Chad,1,1,1,0.9827526403756544
+Chile,2017,Americas,CHL,Chile,0,0,0,0.03905038905409089
+Chile,2018,Americas,CHL,Chile,0,0,0,0.03615754882734156
+Chile,2019,Americas,CHL,Chile,0,0,0,0.03614180096594401
+Chile,2020,Americas,CHL,Chile,0,0,0,0.03926908276385236
+Chile,2021,Americas,CHL,Chile,0,0,0,0.026991504434861202
+Chile,2022,Americas,CHL,Chile,0,0,0,0.027964911658905307
+Chile,2023,Americas,CHL,Chile,0,0,0,0.027583166499206734
+China,2017,Asia,CHN,China,0,1,1,0.8732924654241678
+China,2018,Asia,CHN,China,0,0,1,0.5991311441975339
+China,2019,Asia,CHN,China,0,0,0,0.4905728495529505
+China,2020,Asia,CHN,China,0,0,0,0.49926393110010087
+China,2021,Asia,CHN,China,0,0,0,0.36756669089736405
+China,2022,Asia,CHN,China,1,0,0,0.3868063229480691
+China,2023,Asia,CHN,China,0,1,1,0.7945997534969037
+Colombia,2017,Americas,COL,Colombia,1,1,1,0.9995092479343528
+Colombia,2018,Americas,COL,Colombia,1,1,1,0.9997786747777617
+Colombia,2019,Americas,COL,Colombia,1,1,1,0.9999797212107263
+Colombia,2020,Americas,COL,Colombia,1,1,1,0.9999960897536267
+Colombia,2021,Americas,COL,Colombia,1,1,1,0.9998748668945117
+Colombia,2022,Americas,COL,Colombia,1,1,1,0.9999392591348037
+Colombia,2023,Americas,COL,Colombia,1,1,1,0.9999946178150733
+Comoros,2017,Africa,COM,Comoros,0,0,0,0.14424367107299627
+Comoros,2018,Africa,COM,Comoros,0,0,0,0.1353903341708507
+Comoros,2019,Africa,COM,Comoros,0,0,0,0.12194802515034522
+Comoros,2020,Africa,COM,Comoros,0,0,0,0.12355520703238147
+Comoros,2021,Africa,COM,Comoros,0,0,0,0.11575088135606769
+Comoros,2022,Africa,COM,Comoros,0,0,0,0.13210985362476457
+Comoros,2023,Africa,COM,Comoros,0,0,0,0.1087039345905905
+Congo,2017,Africa,COG,"Congo, Rep.",0,1,1,0.8973255004806145
+Congo,2018,Africa,COG,"Congo, Rep.",1,0,0,0.4903329262322284
+Congo,2019,Africa,COG,"Congo, Rep.",1,1,1,0.8943598091844259
+Congo,2020,Africa,COG,"Congo, Rep.",0,1,1,0.9143362965101175
+Congo,2021,Africa,COG,"Congo, Rep.",1,0,1,0.5176939011767775
+Congo,2022,Africa,COG,"Congo, Rep.",0,1,1,0.756511537419735
+Congo,2023,Africa,COG,"Congo, Rep.",0,0,0,0.3277412919218015
+Costa Rica,2017,Americas,CRI,Costa Rica,0,0,0,0.029101940014873384
+Costa Rica,2018,Americas,CRI,Costa Rica,0,0,0,0.027807848007055172
+Costa Rica,2019,Americas,CRI,Costa Rica,0,0,0,0.025194238182884163
+Costa Rica,2020,Americas,CRI,Costa Rica,0,0,0,0.02698069174407232
+Costa Rica,2021,Americas,CRI,Costa Rica,0,0,0,0.019054660068855978
+Costa Rica,2022,Americas,CRI,Costa Rica,0,0,0,0.021575226944078266
+Costa Rica,2023,Americas,CRI,Costa Rica,0,0,0,0.021289112069263417
+Croatia,2017,Europe,HRV,Croatia,0,0,0,0.06078646869623893
+Croatia,2018,Europe,HRV,Croatia,0,0,0,0.06090548352706699
+Croatia,2019,Europe,HRV,Croatia,0,0,0,0.06147723502206362
+Croatia,2020,Europe,HRV,Croatia,0,0,0,0.07624015732714343
+Croatia,2021,Europe,HRV,Croatia,0,0,0,0.04665526070857481
+Croatia,2022,Europe,HRV,Croatia,0,0,0,0.05283122283175285
+Croatia,2023,Europe,HRV,Croatia,0,0,0,0.05657960622620009
+Cuba,2017,Americas,CUB,Cuba,0,0,0,0.03667929419515647
+Cuba,2018,Americas,CUB,Cuba,0,0,0,0.03516075149003341
+Cuba,2019,Americas,CUB,Cuba,0,0,0,0.034614676631805015
+Cuba,2020,Americas,CUB,Cuba,0,0,0,0.04133770022506792
+Cuba,2021,Americas,CUB,Cuba,0,0,0,0.03447408104795832
+Cuba,2022,Americas,CUB,Cuba,0,0,0,0.03218601077711995
+Cuba,2023,Americas,CUB,Cuba,0,0,0,0.036654951468124135
+Cyprus,2017,Europe,CYP,Cyprus,0,0,0,0.027043546298910946
+Cyprus,2018,Europe,CYP,Cyprus,0,0,0,0.025444061525723947
+Cyprus,2019,Europe,CYP,Cyprus,0,0,0,0.024782236775058013
+Cyprus,2020,Europe,CYP,Cyprus,0,0,0,0.029344116246216634
+Cyprus,2021,Europe,CYP,Cyprus,0,0,0,0.019446222981288033
+Cyprus,2022,Europe,CYP,Cyprus,0,0,0,0.020311167257154466
+Cyprus,2023,Europe,CYP,Cyprus,0,0,0,0.02062535272309313
+Czech Republic,2017,Europe,CZE,Czechia,0,0,0,0.027731201249492334
+Czech Republic,2018,Europe,CZE,Czechia,0,0,0,0.02781651344041394
+Czech Republic,2019,Europe,CZE,Czechia,0,0,0,0.0270330094073567
+Czech Republic,2020,Europe,CZE,Czechia,0,0,0,0.03175053682980417
+Czech Republic,2021,Europe,CZE,Czechia,0,0,0,0.01913992145018632
+Czech Republic,2022,Europe,CZE,Czechia,0,0,0,0.02689113857671128
+Czech Republic,2023,Europe,CZE,Czechia,0,0,0,0.028067762444250972
+DR Congo (Zaire),2017,Africa,COD,"Congo, Dem. Rep.",1,1,1,0.9999999999999962
+DR Congo (Zaire),2018,Africa,COD,"Congo, Dem. Rep.",1,1,1,0.9999999999999858
+DR Congo (Zaire),2019,Africa,COD,"Congo, Dem. Rep.",1,1,1,0.9999999999999909
 DR Congo (Zaire),2020,Africa,COD,"Congo, Dem. Rep.",1,1,1,1.0
 DR Congo (Zaire),2021,Africa,COD,"Congo, Dem. Rep.",1,1,1,1.0
 DR Congo (Zaire),2022,Africa,COD,"Congo, Dem. Rep.",1,1,1,1.0
-DR Congo (Zaire),2023,Africa,COD,"Congo, Dem. Rep.",1,1,1,0.9999999999999976
-Denmark,2017,Europe,DNK,Denmark,0,0,0,0.01671980319565501
-Denmark,2018,Europe,DNK,Denmark,0,0,0,0.014231303465268191
-Denmark,2019,Europe,DNK,Denmark,0,0,0,0.019292468327671657
-Denmark,2020,Europe,DNK,Denmark,0,0,0,0.016519437257351166
-Denmark,2021,Europe,DNK,Denmark,0,0,0,0.00898452511448621
-Denmark,2022,Europe,DNK,Denmark,0,0,0,0.015418443327216114
-Denmark,2023,Europe,DNK,Denmark,0,0,0,0.01457563113445074
-Djibouti,2017,Africa,DJI,Djibouti,1,0,0,0.08602877583820691
-Djibouti,2018,Africa,DJI,Djibouti,0,1,0,0.33565502228045935
-Djibouti,2019,Africa,DJI,Djibouti,0,0,0,0.16458447088544978
-Djibouti,2020,Africa,DJI,Djibouti,1,0,0,0.08652846055257861
-Djibouti,2021,Africa,DJI,Djibouti,0,1,0,0.31636617345415763
-Djibouti,2022,Africa,DJI,Djibouti,0,0,0,0.14712870402659387
-Djibouti,2023,Africa,DJI,Djibouti,0,0,0,0.09264061376725684
-Dominica,2017,Americas,DMA,Dominica,0,0,0,0.02119204374907358
-Dominica,2018,Americas,DMA,Dominica,0,0,0,0.021000714530627858
-Dominica,2019,Americas,DMA,Dominica,0,0,0,0.02522014871796737
-Dominica,2020,Americas,DMA,Dominica,0,0,0,0.03204828493446124
-Dominica,2021,Americas,DMA,Dominica,0,0,0,0.025350581438592434
-Dominica,2022,Americas,DMA,Dominica,0,0,0,0.023902371414112264
-Dominica,2023,Americas,DMA,Dominica,0,0,0,0.01925101753668057
-Dominican Republic,2017,Americas,DOM,Dominican Republic,0,0,0,0.04292180861486422
-Dominican Republic,2018,Americas,DOM,Dominican Republic,0,0,0,0.043785708780209535
-Dominican Republic,2019,Americas,DOM,Dominican Republic,0,0,0,0.044745565611999556
-Dominican Republic,2020,Americas,DOM,Dominican Republic,0,0,0,0.04645193553817031
-Dominican Republic,2021,Americas,DOM,Dominican Republic,0,0,0,0.03607096444396735
-Dominican Republic,2022,Americas,DOM,Dominican Republic,0,0,0,0.03353724628318738
-Dominican Republic,2023,Americas,DOM,Dominican Republic,0,0,0,0.03528208151771595
-East Timor,2017,Asia,TLS,Timor-Leste,0,0,0,0.11528872794866069
-East Timor,2018,Asia,TLS,Timor-Leste,0,0,0,0.11474812313553398
-East Timor,2019,Asia,TLS,Timor-Leste,0,0,0,0.04884230614162127
-East Timor,2020,Asia,TLS,Timor-Leste,0,0,0,0.05462708675099865
-East Timor,2021,Asia,TLS,Timor-Leste,0,0,0,0.040315812531034084
-East Timor,2022,Asia,TLS,Timor-Leste,0,0,0,0.0435529551606431
-East Timor,2023,Asia,TLS,Timor-Leste,0,0,0,0.1201451272706744
-Ecuador,2017,Americas,ECU,Ecuador,0,0,0,0.12675262368716506
-Ecuador,2018,Americas,ECU,Ecuador,1,0,0,0.1416917878603249
-Ecuador,2019,Americas,ECU,Ecuador,1,1,1,0.5769559474885441
-Ecuador,2020,Americas,ECU,Ecuador,1,1,1,0.6932026421557959
-Ecuador,2021,Americas,ECU,Ecuador,1,1,1,0.8446292708207118
-Ecuador,2022,Americas,ECU,Ecuador,1,1,1,0.9086453237897439
-Ecuador,2023,Americas,ECU,Ecuador,1,1,1,0.999836089621642
-Egypt,2017,Middle East,EGY,"Egypt, Arab Rep.",1,1,1,0.9923213462259823
-Egypt,2018,Middle East,EGY,"Egypt, Arab Rep.",1,1,1,0.9908116831333739
-Egypt,2019,Middle East,EGY,"Egypt, Arab Rep.",1,1,1,0.978194258457631
-Egypt,2020,Middle East,EGY,"Egypt, Arab Rep.",1,1,1,0.9781055450981392
-Egypt,2021,Middle East,EGY,"Egypt, Arab Rep.",1,1,1,0.9549449649320522
-Egypt,2022,Middle East,EGY,"Egypt, Arab Rep.",1,1,1,0.9333790732637511
-Egypt,2023,Middle East,EGY,"Egypt, Arab Rep.",0,1,1,0.9559080444972294
-El Salvador,2017,Americas,SLV,El Salvador,0,1,1,0.5001886494958673
-El Salvador,2018,Americas,SLV,El Salvador,1,0,0,0.3115462423953726
-El Salvador,2019,Americas,SLV,El Salvador,0,1,1,0.5683492712373761
-El Salvador,2020,Americas,SLV,El Salvador,1,0,0,0.40553416149632077
-El Salvador,2021,Americas,SLV,El Salvador,1,1,1,0.5376488115084439
-El Salvador,2022,Americas,SLV,El Salvador,0,1,1,0.7374779298800186
-El Salvador,2023,Americas,SLV,El Salvador,0,0,0,0.32868375526885396
-Equatorial Guinea,2017,Africa,GNQ,Equatorial Guinea,0,0,0,0.08503066820903417
-Equatorial Guinea,2018,Africa,GNQ,Equatorial Guinea,0,0,0,0.08077288477933241
-Equatorial Guinea,2019,Africa,GNQ,Equatorial Guinea,0,0,0,0.07519968884376746
-Equatorial Guinea,2020,Africa,GNQ,Equatorial Guinea,0,0,0,0.06768959432278629
-Equatorial Guinea,2021,Africa,GNQ,Equatorial Guinea,0,0,0,0.06401919150444962
-Equatorial Guinea,2022,Africa,GNQ,Equatorial Guinea,0,0,0,0.04397409381060736
-Equatorial Guinea,2023,Africa,GNQ,Equatorial Guinea,0,0,0,0.08338876975835802
-Eritrea,2017,Africa,ERI,Eritrea,0,0,0,0.31155792995670023
-Eritrea,2018,Africa,ERI,Eritrea,0,0,0,0.2007037325932844
-Eritrea,2019,Africa,ERI,Eritrea,0,0,0,0.17744914693535374
-Eritrea,2020,Africa,ERI,Eritrea,0,0,0,0.19809123996616748
-Eritrea,2021,Africa,ERI,Eritrea,1,0,0,0.15859131857101513
-Eritrea,2022,Africa,ERI,Eritrea,0,1,1,0.6544006247132648
-Eritrea,2023,Africa,ERI,Eritrea,0,0,0,0.2427992848428661
-Estonia,2017,Europe,EST,Estonia,0,0,0,0.027555860177066006
-Estonia,2018,Europe,EST,Estonia,0,0,0,0.025417307319287014
-Estonia,2019,Europe,EST,Estonia,0,0,0,0.02758452609209319
-Estonia,2020,Europe,EST,Estonia,0,0,0,0.0339563300738833
-Estonia,2021,Europe,EST,Estonia,0,0,0,0.01929026408203606
-Estonia,2022,Europe,EST,Estonia,0,0,0,0.02637734519400905
-Estonia,2023,Europe,EST,Estonia,0,0,0,0.02744364281468919
-Ethiopia,2017,Africa,ETH,Ethiopia,1,1,1,0.999616779879358
-Ethiopia,2018,Africa,ETH,Ethiopia,1,1,1,0.999997385337414
-Ethiopia,2019,Africa,ETH,Ethiopia,1,1,1,0.9999463982113884
-Ethiopia,2020,Africa,ETH,Ethiopia,1,1,1,0.9999999258249799
-Ethiopia,2021,Africa,ETH,Ethiopia,1,1,1,0.9999117372549129
-Ethiopia,2022,Africa,ETH,Ethiopia,1,1,1,0.9999781826312927
-Ethiopia,2023,Africa,ETH,Ethiopia,1,1,1,0.9999919698135151
-Federated States of Micronesia,2017,Asia,FSM,"Micronesia, Fed. Sts.",0,0,0,0.027278759827369416
-Federated States of Micronesia,2018,Asia,FSM,"Micronesia, Fed. Sts.",0,0,0,0.027649758647022016
-Federated States of Micronesia,2019,Asia,FSM,"Micronesia, Fed. Sts.",0,0,0,0.026570199361212177
-Federated States of Micronesia,2020,Asia,FSM,"Micronesia, Fed. Sts.",0,0,0,0.02764841616724353
-Federated States of Micronesia,2021,Asia,FSM,"Micronesia, Fed. Sts.",0,0,0,0.026166643849405407
-Federated States of Micronesia,2022,Asia,FSM,"Micronesia, Fed. Sts.",0,0,0,0.02640519667081116
-Federated States of Micronesia,2023,Asia,FSM,"Micronesia, Fed. Sts.",0,0,0,0.022158568548159063
-Fiji,2017,Asia,FJI,Fiji,0,0,0,0.03481983488628602
-Fiji,2018,Asia,FJI,Fiji,0,0,0,0.03790720897128469
-Fiji,2019,Asia,FJI,Fiji,0,0,0,0.03910503617818308
-Fiji,2020,Asia,FJI,Fiji,0,0,0,0.04833851251984915
-Fiji,2021,Asia,FJI,Fiji,0,0,0,0.04751856576662945
-Fiji,2022,Asia,FJI,Fiji,0,0,0,0.0381759486146343
-Fiji,2023,Asia,FJI,Fiji,0,0,0,0.03677979021352525
-Finland,2017,Europe,FIN,Finland,0,0,0,0.018054012909294346
-Finland,2018,Europe,FIN,Finland,0,0,0,0.01488992964758288
-Finland,2019,Europe,FIN,Finland,0,0,0,0.016545867160068804
-Finland,2020,Europe,FIN,Finland,0,0,0,0.01893122504891995
-Finland,2021,Europe,FIN,Finland,0,0,0,0.013380769272457986
-Finland,2022,Europe,FIN,Finland,0,0,0,0.020873028797291814
-Finland,2023,Europe,FIN,Finland,0,0,0,0.014985551771941021
-France,2017,Europe,FRA,France,1,1,1,0.7262586445640162
-France,2018,Europe,FRA,France,0,1,1,0.7770134005708228
-France,2019,Europe,FRA,France,0,0,0,0.3062432317938124
-France,2020,Europe,FRA,France,0,0,0,0.2384645603015198
-France,2021,Europe,FRA,France,0,0,0,0.11971462388583358
-France,2022,Europe,FRA,France,1,0,0,0.1314536760626837
-France,2023,Europe,FRA,France,1,1,0,0.34437316825826236
-Gabon,2017,Africa,GAB,Gabon,0,0,0,0.0642822117420729
-Gabon,2018,Africa,GAB,Gabon,0,0,0,0.052731086687622775
-Gabon,2019,Africa,GAB,Gabon,0,0,0,0.06394799068882875
-Gabon,2020,Africa,GAB,Gabon,0,0,0,0.0529921093703326
-Gabon,2021,Africa,GAB,Gabon,0,0,0,0.05135993823257324
-Gabon,2022,Africa,GAB,Gabon,0,0,0,0.03953531362048016
-Gabon,2023,Africa,GAB,Gabon,0,0,0,0.06169190198475491
-Gambia,2017,Africa,GMB,"Gambia, The",0,0,0,0.12295898591790949
-Gambia,2018,Africa,GMB,"Gambia, The",0,0,0,0.1331465795077639
-Gambia,2019,Africa,GMB,"Gambia, The",0,0,0,0.14949111912916957
-Gambia,2020,Africa,GMB,"Gambia, The",0,0,0,0.1451946796852498
-Gambia,2021,Africa,GMB,"Gambia, The",0,0,0,0.13026267453775747
-Gambia,2022,Africa,GMB,"Gambia, The",0,0,0,0.11678192007194428
-Gambia,2023,Africa,GMB,"Gambia, The",1,0,0,0.09965031244265224
-Georgia,2017,Europe,GEO,Georgia,0,0,0,0.0937901283698431
-Georgia,2018,Europe,GEO,Georgia,0,0,0,0.09754366877252246
-Georgia,2019,Europe,GEO,Georgia,0,0,0,0.09259189500687129
-Georgia,2020,Europe,GEO,Georgia,0,0,0,0.09809918075342898
-Georgia,2021,Europe,GEO,Georgia,0,0,0,0.0843805518878104
-Georgia,2022,Europe,GEO,Georgia,1,0,0,0.07624610007761022
-Georgia,2023,Europe,GEO,Georgia,0,1,0,0.2860058859698266
-Germany,2017,Europe,DEU,Germany,0,0,0,0.130921784390623
-Germany,2018,Europe,DEU,Germany,0,0,0,0.07305411989776224
-Germany,2019,Europe,DEU,Germany,0,0,0,0.09280032603496097
-Germany,2020,Europe,DEU,Germany,0,0,0,0.09119644941665168
-Germany,2021,Europe,DEU,Germany,0,0,0,0.056027245416537086
-Germany,2022,Europe,DEU,Germany,0,0,0,0.05782997156306304
-Germany,2023,Europe,DEU,Germany,1,0,0,0.0388169030239743
-Ghana,2017,Africa,GHA,Ghana,0,0,0,0.1922608118219259
-Ghana,2018,Africa,GHA,Ghana,0,0,0,0.18898086366250502
-Ghana,2019,Africa,GHA,Ghana,0,0,0,0.18484864486291483
-Ghana,2020,Africa,GHA,Ghana,0,0,0,0.1836564143513501
-Ghana,2021,Africa,GHA,Ghana,1,0,0,0.19136564668512915
-Ghana,2022,Africa,GHA,Ghana,1,1,1,0.5235362350660314
-Ghana,2023,Africa,GHA,Ghana,1,1,1,0.7125346272393936
-Greece,2017,Europe,GRC,Greece,0,0,0,0.026436826078381277
-Greece,2018,Europe,GRC,Greece,0,0,0,0.025228659889586242
-Greece,2019,Europe,GRC,Greece,0,0,0,0.028022820755582187
-Greece,2020,Europe,GRC,Greece,0,0,0,0.03175562920029534
-Greece,2021,Europe,GRC,Greece,0,0,0,0.02194384953099108
-Greece,2022,Europe,GRC,Greece,0,0,0,0.020546105067509573
-Greece,2023,Europe,GRC,Greece,0,0,0,0.01428878331641136
-Grenada,2017,Americas,GRD,Grenada,0,0,0,0.026140113039859487
-Grenada,2018,Americas,GRD,Grenada,0,0,0,0.029066891942639932
-Grenada,2019,Americas,GRD,Grenada,0,0,0,0.02115864537065727
-Grenada,2020,Americas,GRD,Grenada,0,0,0,0.028225145108830563
-Grenada,2021,Americas,GRD,Grenada,0,0,0,0.025075101901620846
-Grenada,2022,Americas,GRD,Grenada,0,0,0,0.0204457547512192
-Grenada,2023,Americas,GRD,Grenada,0,0,0,0.014905346182164343
-Guatemala,2017,Americas,GTM,Guatemala,0,0,0,0.3685340845956709
-Guatemala,2018,Americas,GTM,Guatemala,0,0,0,0.26861810873905767
-Guatemala,2019,Americas,GTM,Guatemala,0,0,0,0.25625016648338056
-Guatemala,2020,Americas,GTM,Guatemala,1,0,0,0.2638878617953959
-Guatemala,2021,Americas,GTM,Guatemala,1,1,1,0.5041069137453551
-Guatemala,2022,Americas,GTM,Guatemala,1,1,1,0.7408456001391927
-Guatemala,2023,Americas,GTM,Guatemala,1,1,1,0.7870603218149791
-Guinea,2017,Africa,GIN,Guinea,0,0,0,0.32310231399783407
-Guinea,2018,Africa,GIN,Guinea,1,0,0,0.2320122593037133
-Guinea,2019,Africa,GIN,Guinea,1,1,0,0.497217998788978
-Guinea,2020,Africa,GIN,Guinea,1,1,1,0.8852971854516065
-Guinea,2021,Africa,GIN,Guinea,0,1,1,0.7240169144833911
-Guinea,2022,Africa,GIN,Guinea,0,0,0,0.40010666435300607
-Guinea,2023,Africa,GIN,Guinea,0,0,0,0.28667067876067515
-Guinea-Bissau,2017,Africa,GNB,Guinea-Bissau,0,0,0,0.15322321947750056
-Guinea-Bissau,2018,Africa,GNB,Guinea-Bissau,0,0,0,0.1411308152278374
-Guinea-Bissau,2019,Africa,GNB,Guinea-Bissau,0,0,0,0.1486334579676795
-Guinea-Bissau,2020,Africa,GNB,Guinea-Bissau,0,0,0,0.14830519532707231
-Guinea-Bissau,2021,Africa,GNB,Guinea-Bissau,0,0,0,0.13192346799157556
-Guinea-Bissau,2022,Africa,GNB,Guinea-Bissau,0,0,0,0.12774435324840858
-Guinea-Bissau,2023,Africa,GNB,Guinea-Bissau,0,0,0,0.141108907387276
-Guyana,2017,Americas,GUY,Guyana,0,0,0,0.0978176034338194
-Guyana,2018,Americas,GUY,Guyana,0,0,0,0.10326305630514192
-Guyana,2019,Americas,GUY,Guyana,0,0,0,0.1321415112268209
-Guyana,2020,Americas,GUY,Guyana,0,0,0,0.10672210998382596
-Guyana,2021,Americas,GUY,Guyana,0,0,0,0.08466808902305167
-Guyana,2022,Americas,GUY,Guyana,0,0,0,0.019655699423398558
-Guyana,2023,Americas,GUY,Guyana,0,0,0,0.09651813740696058
-Haiti,2017,Americas,HTI,Haiti,1,1,0,0.4205544298964475
-Haiti,2018,Americas,HTI,Haiti,1,1,1,0.6097648148315075
-Haiti,2019,Americas,HTI,Haiti,1,1,1,0.6885826184214544
-Haiti,2020,Americas,HTI,Haiti,1,1,1,0.9846856610404185
-Haiti,2021,Americas,HTI,Haiti,1,1,1,0.9833519939041915
-Haiti,2022,Americas,HTI,Haiti,1,1,1,0.9895530836906029
-Haiti,2023,Americas,HTI,Haiti,1,1,1,0.9986572813842911
-Honduras,2017,Americas,HND,Honduras,1,0,1,0.6045290435786815
-Honduras,2018,Americas,HND,Honduras,1,1,1,0.827912881079765
-Honduras,2019,Americas,HND,Honduras,1,1,1,0.9084842694811788
-Honduras,2020,Americas,HND,Honduras,1,1,1,0.871123005883174
-Honduras,2021,Americas,HND,Honduras,1,1,1,0.8590366919911714
-Honduras,2022,Americas,HND,Honduras,1,1,1,0.8911213777360883
-Honduras,2023,Americas,HND,Honduras,1,1,1,0.8975395664739358
-Hungary,2017,Europe,HUN,Hungary,0,0,0,0.029796528856837333
-Hungary,2018,Europe,HUN,Hungary,0,0,0,0.026946591748477244
-Hungary,2019,Europe,HUN,Hungary,0,0,0,0.029585713938599826
-Hungary,2020,Europe,HUN,Hungary,0,0,0,0.034001847695099764
-Hungary,2021,Europe,HUN,Hungary,0,0,0,0.0213628310201193
-Hungary,2022,Europe,HUN,Hungary,0,0,0,0.030895746647847742
-Hungary,2023,Europe,HUN,Hungary,0,0,0,0.022307610569234464
-Iceland,2017,Europe,ISL,Iceland,0,0,0,0.005626573063973177
-Iceland,2018,Europe,ISL,Iceland,0,0,0,0.009010031776318775
-Iceland,2019,Europe,ISL,Iceland,0,0,0,0.01692143659159242
-Iceland,2020,Europe,ISL,Iceland,0,0,0,0.023041139848081267
-Iceland,2021,Europe,ISL,Iceland,0,0,0,0.0065001871220374445
-Iceland,2022,Europe,ISL,Iceland,0,0,0,0.005639424175151943
-Iceland,2023,Europe,ISL,Iceland,0,0,0,0.005216861532289499
-India,2017,Asia,IND,India,1,1,1,0.9999506295901079
-India,2018,Asia,IND,India,1,1,1,0.9999953885204682
-India,2019,Asia,IND,India,1,1,1,0.9999761238475825
-India,2020,Asia,IND,India,1,1,1,0.9999714571607721
-India,2021,Asia,IND,India,1,1,1,0.9998046419680183
-India,2022,Asia,IND,India,1,1,1,0.9998888873646629
-India,2023,Asia,IND,India,1,1,1,0.9999953043511658
-Indonesia,2017,Asia,IDN,Indonesia,1,1,1,0.9208937168693708
-Indonesia,2018,Asia,IDN,Indonesia,1,1,1,0.9741116349010257
-Indonesia,2019,Asia,IDN,Indonesia,1,1,1,0.9386867329784587
-Indonesia,2020,Asia,IDN,Indonesia,1,1,1,0.9727532252013645
-Indonesia,2021,Asia,IDN,Indonesia,1,1,1,0.966542183549429
-Indonesia,2022,Asia,IDN,Indonesia,1,1,1,0.9730457610433056
-Indonesia,2023,Asia,IDN,Indonesia,1,1,1,0.9752239861092156
-Iran,2017,Middle East,IRN,"Iran, Islamic Rep.",1,1,1,0.9941798685702943
-Iran,2018,Middle East,IRN,"Iran, Islamic Rep.",1,1,1,0.9982921834700753
-Iran,2019,Middle East,IRN,"Iran, Islamic Rep.",1,1,1,0.9859124462266718
-Iran,2020,Middle East,IRN,"Iran, Islamic Rep.",1,1,1,0.9947854176704024
-Iran,2021,Middle East,IRN,"Iran, Islamic Rep.",1,1,1,0.9946968953768003
-Iran,2022,Middle East,IRN,"Iran, Islamic Rep.",1,1,1,0.9874627014517223
-Iran,2023,Middle East,IRN,"Iran, Islamic Rep.",1,1,1,0.9937746561459437
-Iraq,2017,Middle East,IRQ,Iraq,1,1,1,0.9916014185035587
-Iraq,2018,Middle East,IRQ,Iraq,1,1,1,0.9977118108596498
-Iraq,2019,Middle East,IRQ,Iraq,1,1,1,0.9949881690516117
-Iraq,2020,Middle East,IRQ,Iraq,1,1,1,0.9973666588296659
-Iraq,2021,Middle East,IRQ,Iraq,1,1,1,0.9982452036774214
-Iraq,2022,Middle East,IRQ,Iraq,1,1,1,0.9912698897699513
-Iraq,2023,Middle East,IRQ,Iraq,1,1,1,0.9908694282883114
-Ireland,2017,Europe,IRL,Ireland,0,0,0,0.010683377667483993
-Ireland,2018,Europe,IRL,Ireland,0,0,0,0.015293874290207352
-Ireland,2019,Europe,IRL,Ireland,0,0,0,0.009243465993301168
-Ireland,2020,Europe,IRL,Ireland,0,0,0,0.008982072383910413
-Ireland,2021,Europe,IRL,Ireland,0,0,0,0.003351723671132469
-Ireland,2022,Europe,IRL,Ireland,0,0,0,0.006820424753372326
-Ireland,2023,Europe,IRL,Ireland,0,0,0,0.006713981173239349
-Israel,2017,Middle East,ISR,Israel,1,1,1,0.987840723914774
-Israel,2018,Middle East,ISR,Israel,1,1,1,0.9975358800740853
-Israel,2019,Middle East,ISR,Israel,1,1,1,0.9942679576321979
-Israel,2020,Middle East,ISR,Israel,1,1,1,0.9773313634017506
-Israel,2021,Middle East,ISR,Israel,1,1,1,0.9903576506574501
-Israel,2022,Middle East,ISR,Israel,1,1,1,0.9817348550215662
-Israel,2023,Middle East,ISR,Israel,1,1,1,0.9982422583915807
-Italy,2017,Europe,ITA,Italy,0,0,0,0.06235453674591686
-Italy,2018,Europe,ITA,Italy,0,0,0,0.06147002444552654
-Italy,2019,Europe,ITA,Italy,0,0,0,0.06571059901160378
-Italy,2020,Europe,ITA,Italy,0,0,0,0.06986484258501673
-Italy,2021,Europe,ITA,Italy,0,0,0,0.04301150542955689
-Italy,2022,Europe,ITA,Italy,0,0,0,0.05622298941460206
-Italy,2023,Europe,ITA,Italy,0,0,0,0.041263870271923075
-Ivory Coast,2017,Africa,CIV,Cote d'Ivoire,0,0,1,0.5363761625666146
-Ivory Coast,2018,Africa,CIV,Cote d'Ivoire,0,0,0,0.3220421578362289
-Ivory Coast,2019,Africa,CIV,Cote d'Ivoire,1,0,0,0.25034881766112044
-Ivory Coast,2020,Africa,CIV,Cote d'Ivoire,0,1,1,0.6289516566811009
-Ivory Coast,2021,Africa,CIV,Cote d'Ivoire,0,0,0,0.411668103604754
-Ivory Coast,2022,Africa,CIV,Cote d'Ivoire,0,0,0,0.21652516725577423
-Ivory Coast,2023,Africa,CIV,Cote d'Ivoire,0,0,0,0.2615742508838074
-Jamaica,2017,Americas,JAM,Jamaica,0,0,0,0.10748677453692437
-Jamaica,2018,Americas,JAM,Jamaica,0,0,0,0.11003257664262242
-Jamaica,2019,Americas,JAM,Jamaica,0,0,0,0.11764266238479273
-Jamaica,2020,Americas,JAM,Jamaica,0,0,0,0.1212647160871119
-Jamaica,2021,Americas,JAM,Jamaica,0,0,0,0.10754466281458983
-Jamaica,2022,Americas,JAM,Jamaica,0,0,0,0.09328984376815573
-Jamaica,2023,Americas,JAM,Jamaica,0,0,0,0.0877371441261558
-Japan,2017,Asia,JPN,Japan,0,0,0,0.02372399458289298
-Japan,2018,Asia,JPN,Japan,0,0,0,0.02219655385194205
-Japan,2019,Asia,JPN,Japan,0,0,0,0.02171793070141559
-Japan,2020,Asia,JPN,Japan,0,0,0,0.02290498857894911
-Japan,2021,Asia,JPN,Japan,0,0,0,0.019471340673316306
-Japan,2022,Asia,JPN,Japan,0,0,0,0.02770511917087771
-Japan,2023,Asia,JPN,Japan,0,0,0,0.019280977349873343
-Jordan,2017,Middle East,JOR,Jordan,0,0,0,0.38694460916588425
-Jordan,2018,Middle East,JOR,Jordan,0,0,0,0.22306363735394144
-Jordan,2019,Middle East,JOR,Jordan,0,0,0,0.22080541274687007
-Jordan,2020,Middle East,JOR,Jordan,0,0,0,0.2488642237124313
-Jordan,2021,Middle East,JOR,Jordan,0,0,0,0.15976338932273937
-Jordan,2022,Middle East,JOR,Jordan,0,0,0,0.11481587194703381
-Jordan,2023,Middle East,JOR,Jordan,1,0,0,0.10508789356598268
-Kazakhstan,2017,Asia,KAZ,Kazakhstan,0,0,0,0.05602315251753127
-Kazakhstan,2018,Asia,KAZ,Kazakhstan,0,0,0,0.060201125452260223
-Kazakhstan,2019,Asia,KAZ,Kazakhstan,0,0,0,0.05250507011889688
-Kazakhstan,2020,Asia,KAZ,Kazakhstan,0,0,0,0.05055047996837415
-Kazakhstan,2021,Asia,KAZ,Kazakhstan,0,0,0,0.07203718747179537
-Kazakhstan,2022,Asia,KAZ,Kazakhstan,0,0,0,0.037785986078658095
-Kazakhstan,2023,Asia,KAZ,Kazakhstan,0,0,0,0.07086660193674307
-Kenya,2017,Africa,KEN,Kenya,1,1,1,0.9999283314905968
-Kenya,2018,Africa,KEN,Kenya,1,1,1,0.9998349904009165
-Kenya,2019,Africa,KEN,Kenya,1,1,1,0.999825071030367
-Kenya,2020,Africa,KEN,Kenya,1,1,1,0.9973419862951665
-Kenya,2021,Africa,KEN,Kenya,1,1,1,0.9996100419904062
-Kenya,2022,Africa,KEN,Kenya,1,1,1,0.9933765866864676
-Kenya,2023,Africa,KEN,Kenya,1,1,1,0.9879911471353299
-Kingdom of eSwatini (Swaziland),2017,Africa,SWZ,Eswatini,0,0,0,0.09602882737844569
-Kingdom of eSwatini (Swaziland),2018,Africa,SWZ,Eswatini,1,0,0,0.09527531306737323
-Kingdom of eSwatini (Swaziland),2019,Africa,SWZ,Eswatini,1,1,0,0.3381210552388281
-Kingdom of eSwatini (Swaziland),2020,Africa,SWZ,Eswatini,1,1,1,0.570873617583278
-Kingdom of eSwatini (Swaziland),2021,Africa,SWZ,Eswatini,1,1,1,0.5721059539729437
-Kingdom of eSwatini (Swaziland),2022,Africa,SWZ,Eswatini,1,1,1,0.6836249528018038
-Kingdom of eSwatini (Swaziland),2023,Africa,SWZ,Eswatini,0,1,1,0.6950974794901403
-Kiribati,2017,Asia,KIR,Kiribati,0,0,0,0.03499294521710235
-Kiribati,2018,Asia,KIR,Kiribati,0,0,0,0.03696300386127752
-Kiribati,2019,Asia,KIR,Kiribati,0,0,0,0.038386309691576595
-Kiribati,2020,Asia,KIR,Kiribati,0,0,0,0.04031722577158533
-Kiribati,2021,Asia,KIR,Kiribati,0,0,0,0.03902768214825254
-Kiribati,2022,Asia,KIR,Kiribati,0,0,0,0.04058975335608743
-Kiribati,2023,Asia,KIR,Kiribati,0,0,0,0.03795777112121871
-Kosovo,2017,Europe,XKX,Kosovo,0,0,0,0.04942352523959087
-Kosovo,2018,Europe,XKX,Kosovo,0,0,0,0.0551250325380473
-Kosovo,2019,Europe,XKX,Kosovo,0,0,0,0.0485317949303767
-Kosovo,2020,Europe,XKX,Kosovo,0,0,0,0.04974931404926584
-Kosovo,2021,Europe,XKX,Kosovo,0,0,0,0.043780770238921636
-Kosovo,2022,Europe,XKX,Kosovo,0,0,0,0.04460761302424296
-Kosovo,2023,Europe,XKX,Kosovo,0,0,0,0.027443875082596863
-Kuwait,2017,Middle East,KWT,Kuwait,0,0,0,0.19224622681446504
-Kuwait,2018,Middle East,KWT,Kuwait,0,0,0,0.17795056561071146
-Kuwait,2019,Middle East,KWT,Kuwait,0,0,0,0.1749863088146674
-Kuwait,2020,Middle East,KWT,Kuwait,0,0,0,0.1982030228296388
-Kuwait,2021,Middle East,KWT,Kuwait,0,0,0,0.03910479977130044
-Kuwait,2022,Middle East,KWT,Kuwait,0,0,0,0.07247696480869674
-Kuwait,2023,Middle East,KWT,Kuwait,0,0,0,0.1856116499011677
-Kyrgyzstan,2017,Asia,KGZ,Kyrgyz Republic,0,0,0,0.20096709340146407
-Kyrgyzstan,2018,Asia,KGZ,Kyrgyz Republic,0,0,0,0.1803194954899736
-Kyrgyzstan,2019,Asia,KGZ,Kyrgyz Republic,0,0,0,0.20216656791508317
-Kyrgyzstan,2020,Asia,KGZ,Kyrgyz Republic,1,0,0,0.20487550143902358
-Kyrgyzstan,2021,Asia,KGZ,Kyrgyz Republic,1,1,0,0.12663265750722552
-Kyrgyzstan,2022,Asia,KGZ,Kyrgyz Republic,0,1,0,0.24147563587481102
-Kyrgyzstan,2023,Asia,KGZ,Kyrgyz Republic,0,0,0,0.3236342377182875
-Laos,2017,Asia,LAO,Lao PDR,0,0,0,0.09643032982694964
-Laos,2018,Asia,LAO,Lao PDR,0,0,0,0.08550751375104013
-Laos,2019,Asia,LAO,Lao PDR,0,0,0,0.08429815413924507
-Laos,2020,Asia,LAO,Lao PDR,0,0,0,0.08432713875394826
-Laos,2021,Asia,LAO,Lao PDR,0,0,0,0.08694205400770015
-Laos,2022,Asia,LAO,Lao PDR,0,0,0,0.08026935949735198
-Laos,2023,Asia,LAO,Lao PDR,0,0,0,0.08641699222978311
-Latvia,2017,Europe,LVA,Latvia,0,0,0,0.02602556590637052
-Latvia,2018,Europe,LVA,Latvia,0,0,0,0.02390803726943025
-Latvia,2019,Europe,LVA,Latvia,0,0,0,0.0260853163550157
-Latvia,2020,Europe,LVA,Latvia,0,0,0,0.029199259366935383
-Latvia,2021,Europe,LVA,Latvia,0,0,0,0.020697192787089945
-Latvia,2022,Europe,LVA,Latvia,0,0,0,0.02463493615305417
-Latvia,2023,Europe,LVA,Latvia,0,0,0,0.022319658725197478
-Lebanon,2017,Middle East,LBN,Lebanon,1,1,1,0.979883419715516
-Lebanon,2018,Middle East,LBN,Lebanon,0,1,1,0.8587925924368246
-Lebanon,2019,Middle East,LBN,Lebanon,1,0,0,0.3883974026834048
-Lebanon,2020,Middle East,LBN,Lebanon,0,1,1,0.7797282040984697
-Lebanon,2021,Middle East,LBN,Lebanon,0,0,0,0.429276334139919
-Lebanon,2022,Middle East,LBN,Lebanon,1,0,0,0.2905793122888233
-Lebanon,2023,Middle East,LBN,Lebanon,1,1,1,0.8439988203744291
-Lesotho,2017,Africa,LSO,Lesotho,0,0,0,0.16440995214573748
-Lesotho,2018,Africa,LSO,Lesotho,0,0,0,0.12265024314319994
-Lesotho,2019,Africa,LSO,Lesotho,0,0,0,0.14247827815187974
-Lesotho,2020,Africa,LSO,Lesotho,0,0,0,0.13360334679279165
-Lesotho,2021,Africa,LSO,Lesotho,0,0,0,0.10916950692502654
-Lesotho,2022,Africa,LSO,Lesotho,0,0,0,0.10800260155998255
-Lesotho,2023,Africa,LSO,Lesotho,0,0,0,0.11138472274644887
-Liberia,2017,Africa,LBR,Liberia,0,0,0,0.2224403575454278
-Liberia,2018,Africa,LBR,Liberia,1,0,0,0.14615845580347053
-Liberia,2019,Africa,LBR,Liberia,1,1,1,0.500054370213681
-Liberia,2020,Africa,LBR,Liberia,0,1,1,0.7913278116937136
-Liberia,2021,Africa,LBR,Liberia,0,0,0,0.4128320093631494
-Liberia,2022,Africa,LBR,Liberia,0,0,0,0.3062583490092889
-Liberia,2023,Africa,LBR,Liberia,1,0,0,0.3216357154370331
-Libya,2017,Africa,LBY,Libya,1,1,1,0.9999193655801079
-Libya,2018,Africa,LBY,Libya,1,1,1,0.9999498025979259
-Libya,2019,Africa,LBY,Libya,1,1,1,0.9973485038764329
-Libya,2020,Africa,LBY,Libya,1,1,1,0.929191885957444
-Libya,2021,Africa,LBY,Libya,1,1,1,0.9868796804124643
-Libya,2022,Africa,LBY,Libya,1,1,1,0.9633427985440431
-Libya,2023,Africa,LBY,Libya,1,1,1,0.9677126941766188
-Liechtenstein,2017,Europe,LIE,Liechtenstein,0,0,0,0.003420785495166941
-Liechtenstein,2018,Europe,LIE,Liechtenstein,0,0,0,0.0028520800490749406
-Liechtenstein,2019,Europe,LIE,Liechtenstein,0,0,0,0.00790742958008407
-Liechtenstein,2020,Europe,LIE,Liechtenstein,0,0,0,0.005653479205433821
-Liechtenstein,2021,Europe,LIE,Liechtenstein,0,0,0,0.0003232839200914602
-Liechtenstein,2022,Europe,LIE,Liechtenstein,0,0,0,0.004018589228688662
-Liechtenstein,2023,Europe,LIE,Liechtenstein,0,0,0,0.0005834322122736365
-Lithuania,2017,Europe,LTU,Lithuania,0,0,0,0.024693422292976767
-Lithuania,2018,Europe,LTU,Lithuania,0,0,0,0.02232000248427729
-Lithuania,2019,Europe,LTU,Lithuania,0,0,0,0.02639626645924415
-Lithuania,2020,Europe,LTU,Lithuania,0,0,0,0.029458455463613843
-Lithuania,2021,Europe,LTU,Lithuania,0,0,0,0.02056335666061768
-Lithuania,2022,Europe,LTU,Lithuania,0,0,0,0.025593912167514114
-Lithuania,2023,Europe,LTU,Lithuania,0,0,0,0.024556721101704596
-Luxembourg,2017,Europe,LUX,Luxembourg,0,0,0,0.010772571189371086
-Luxembourg,2018,Europe,LUX,Luxembourg,0,0,0,0.008149980091693283
-Luxembourg,2019,Europe,LUX,Luxembourg,0,0,0,0.014044041546454927
-Luxembourg,2020,Europe,LUX,Luxembourg,0,0,0,0.009214475061698634
-Luxembourg,2021,Europe,LUX,Luxembourg,0,0,0,0.0025127782180172703
-Luxembourg,2022,Europe,LUX,Luxembourg,0,0,0,0.014854881990308
-Luxembourg,2023,Europe,LUX,Luxembourg,0,0,0,0.004706251080072895
-Madagascar (Malagasy),2017,Africa,MDG,Madagascar,0,1,1,0.6439754970447822
-Madagascar (Malagasy),2018,Africa,MDG,Madagascar,1,0,0,0.36232249525126764
-Madagascar (Malagasy),2019,Africa,MDG,Madagascar,1,1,1,0.6379814917218908
-Madagascar (Malagasy),2020,Africa,MDG,Madagascar,0,1,1,0.7883201250774683
-Madagascar (Malagasy),2021,Africa,MDG,Madagascar,0,0,1,0.569169987532418
-Madagascar (Malagasy),2022,Africa,MDG,Madagascar,0,0,0,0.3567746134803991
-Madagascar (Malagasy),2023,Africa,MDG,Madagascar,0,0,0,0.3241004128165574
-Malawi,2017,Africa,MWI,Malawi,0,0,0,0.07594922567683443
-Malawi,2018,Africa,MWI,Malawi,0,0,0,0.07574576891795912
-Malawi,2019,Africa,MWI,Malawi,0,0,0,0.06883224167566215
-Malawi,2020,Africa,MWI,Malawi,0,0,0,0.08259057731792105
-Malawi,2021,Africa,MWI,Malawi,0,0,0,0.061899730984463414
-Malawi,2022,Africa,MWI,Malawi,0,0,0,0.06782131268217687
-Malawi,2023,Africa,MWI,Malawi,0,0,0,0.07239155440636891
-Malaysia,2017,Asia,MYS,Malaysia,0,1,1,0.6825759216160219
-Malaysia,2018,Asia,MYS,Malaysia,0,0,0,0.31549891879871417
-Malaysia,2019,Asia,MYS,Malaysia,0,0,0,0.18604836372882147
-Malaysia,2020,Asia,MYS,Malaysia,0,0,0,0.20029563249318863
-Malaysia,2021,Asia,MYS,Malaysia,0,0,0,0.18134835652515677
-Malaysia,2022,Asia,MYS,Malaysia,0,0,0,0.1624336002664162
-Malaysia,2023,Asia,MYS,Malaysia,0,0,0,0.13891101259562316
-Maldives,2017,Asia,MDV,Maldives,0,0,0,0.03324561032701563
-Maldives,2018,Asia,MDV,Maldives,0,0,0,0.029374398954893594
-Maldives,2019,Asia,MDV,Maldives,0,0,0,0.029429262277158415
-Maldives,2020,Asia,MDV,Maldives,0,0,0,0.0542590068218683
-Maldives,2021,Asia,MDV,Maldives,0,0,0,0.018525219434153927
-Maldives,2022,Asia,MDV,Maldives,0,0,0,0.0271688788110721
-Maldives,2023,Asia,MDV,Maldives,0,0,0,0.015910961438126453
-Mali,2017,Africa,MLI,Mali,1,1,1,0.9999999842017415
-Mali,2018,Africa,MLI,Mali,1,1,1,0.9999990476963942
-Mali,2019,Africa,MLI,Mali,1,1,1,0.9999990827073492
-Mali,2020,Africa,MLI,Mali,1,1,1,0.9999946450288993
-Mali,2021,Africa,MLI,Mali,1,1,1,0.9999645139827563
-Mali,2022,Africa,MLI,Mali,1,1,1,0.9999965940673409
-Mali,2023,Africa,MLI,Mali,1,1,1,0.9999967027000696
-Malta,2017,Europe,MLT,Malta,0,0,0,0.09214001183725752
-Malta,2018,Europe,MLT,Malta,0,0,0,0.09460404832982038
-Malta,2019,Europe,MLT,Malta,0,0,0,0.1225467571989861
-Malta,2020,Europe,MLT,Malta,0,0,0,0.12704671737809992
-Malta,2021,Europe,MLT,Malta,0,0,0,0.05368174935516858
-Malta,2022,Europe,MLT,Malta,0,0,0,0.08284415436245508
-Malta,2023,Europe,MLT,Malta,0,0,0,0.06377940119348521
-Marshall Islands,2017,Asia,MHL,Marshall Islands,0,0,0,0.018498850924743515
-Marshall Islands,2018,Asia,MHL,Marshall Islands,0,0,0,0.016495977353378384
-Marshall Islands,2019,Asia,MHL,Marshall Islands,0,0,0,0.017269430789982835
-Marshall Islands,2020,Asia,MHL,Marshall Islands,0,0,0,0.018645912045392128
-Marshall Islands,2021,Asia,MHL,Marshall Islands,0,0,0,0.017227496426212036
-Marshall Islands,2022,Asia,MHL,Marshall Islands,0,0,0,0.01684538210636229
-Marshall Islands,2023,Asia,MHL,Marshall Islands,0,0,0,0.015864728816951935
-Mauritania,2017,Africa,MRT,Mauritania,0,0,0,0.26797962912401013
-Mauritania,2018,Africa,MRT,Mauritania,1,0,0,0.19327231740050516
-Mauritania,2019,Africa,MRT,Mauritania,1,1,1,0.5553490225838758
-Mauritania,2020,Africa,MRT,Mauritania,0,1,1,0.7246065050641719
-Mauritania,2021,Africa,MRT,Mauritania,0,0,0,0.41266326600189573
-Mauritania,2022,Africa,MRT,Mauritania,1,0,0,0.27608950930761644
-Mauritania,2023,Africa,MRT,Mauritania,1,1,1,0.7748229667496864
-Mauritius,2017,Africa,MUS,Mauritius,0,0,0,0.033160931544693725
-Mauritius,2018,Africa,MUS,Mauritius,0,0,0,0.032079206841896045
-Mauritius,2019,Africa,MUS,Mauritius,0,0,0,0.03565749329953689
-Mauritius,2020,Africa,MUS,Mauritius,0,0,0,0.04481471488571631
-Mauritius,2021,Africa,MUS,Mauritius,0,0,0,0.027396558892761585
-Mauritius,2022,Africa,MUS,Mauritius,0,0,0,0.0244934955054107
-Mauritius,2023,Africa,MUS,Mauritius,0,0,0,0.021534038249781905
-Mexico,2017,Americas,MEX,Mexico,1,1,1,0.9999974278178444
-Mexico,2018,Americas,MEX,Mexico,1,1,1,0.9999999995473257
-Mexico,2019,Americas,MEX,Mexico,1,1,1,0.9999999998471314
-Mexico,2020,Americas,MEX,Mexico,1,1,1,0.9999999999394742
-Mexico,2021,Americas,MEX,Mexico,1,1,1,0.9999999999847984
-Mexico,2022,Americas,MEX,Mexico,1,1,1,0.9999999994623661
-Mexico,2023,Americas,MEX,Mexico,1,1,1,0.9999999627121795
-Moldova,2017,Europe,MDA,Moldova,0,0,0,0.07437818454406003
-Moldova,2018,Europe,MDA,Moldova,0,0,0,0.08147183942022915
-Moldova,2019,Europe,MDA,Moldova,0,0,0,0.08627038888671242
-Moldova,2020,Europe,MDA,Moldova,0,0,0,0.09612190745741293
-Moldova,2021,Europe,MDA,Moldova,0,0,0,0.08182299507898382
-Moldova,2022,Europe,MDA,Moldova,0,0,0,0.08534216066563315
-Moldova,2023,Europe,MDA,Moldova,0,0,0,0.05902781474256257
-Monaco,2017,Europe,MCO,Monaco,0,0,0,0.002651368473830696
-Monaco,2018,Europe,MCO,Monaco,0,0,0,0.00043939594008766394
-Monaco,2019,Europe,MCO,Monaco,0,0,0,0.0012877795310492
-Monaco,2020,Europe,MCO,Monaco,0,0,0,0.005203177399776984
-Monaco,2021,Europe,MCO,Monaco,0,0,0,7.785747132832528e-05
-Monaco,2022,Europe,MCO,Monaco,0,0,0,0.0008225523765638036
-Monaco,2023,Europe,MCO,Monaco,0,0,0,9.492573204722007e-05
-Mongolia,2017,Asia,MNG,Mongolia,0,0,0,0.05541933099163658
-Mongolia,2018,Asia,MNG,Mongolia,0,0,0,0.05298065390833036
-Mongolia,2019,Asia,MNG,Mongolia,0,0,0,0.05339885759939536
-Mongolia,2020,Asia,MNG,Mongolia,0,0,0,0.05951038945726467
-Mongolia,2021,Asia,MNG,Mongolia,0,0,0,0.09933063458452532
-Mongolia,2022,Asia,MNG,Mongolia,0,0,0,0.03788027597517633
-Mongolia,2023,Asia,MNG,Mongolia,0,0,0,0.09582758284371858
-Montenegro,2017,Europe,MNE,Montenegro,0,0,0,0.033928524584607475
-Montenegro,2018,Europe,MNE,Montenegro,0,0,0,0.033367658251267064
-Montenegro,2019,Europe,MNE,Montenegro,0,0,0,0.03469778223197814
-Montenegro,2020,Europe,MNE,Montenegro,0,0,0,0.046841731838318156
-Montenegro,2021,Europe,MNE,Montenegro,0,0,0,0.026033930118148464
-Montenegro,2022,Europe,MNE,Montenegro,0,0,0,0.028616608157899678
-Montenegro,2023,Europe,MNE,Montenegro,0,0,0,0.02185733823894434
-Morocco,2017,Africa,MAR,Morocco,0,0,0,0.14117427249426454
-Morocco,2018,Africa,MAR,Morocco,0,0,0,0.13558062193941128
-Morocco,2019,Africa,MAR,Morocco,1,0,0,0.12656137184278318
-Morocco,2020,Africa,MAR,Morocco,1,1,1,0.635182436632537
-Morocco,2021,Africa,MAR,Morocco,1,1,1,0.7116442445381888
-Morocco,2022,Africa,MAR,Morocco,1,1,1,0.8019721945580813
-Morocco,2023,Africa,MAR,Morocco,1,1,1,0.8200933996794125
-Mozambique,2017,Africa,MOZ,Mozambique,1,1,1,0.9597052004946416
-Mozambique,2018,Africa,MOZ,Mozambique,1,1,1,0.9767265930908493
-Mozambique,2019,Africa,MOZ,Mozambique,1,1,1,0.9955716504859843
-Mozambique,2020,Africa,MOZ,Mozambique,1,1,1,0.9752665670053335
-Mozambique,2021,Africa,MOZ,Mozambique,1,1,1,0.9809906363362181
-Mozambique,2022,Africa,MOZ,Mozambique,1,1,1,0.9971508185590061
-Mozambique,2023,Africa,MOZ,Mozambique,1,1,1,0.99481021792193
-Myanmar (Burma),2017,Asia,MMR,Myanmar,1,1,1,0.999460683096726
-Myanmar (Burma),2018,Asia,MMR,Myanmar,1,1,1,0.9993976596522439
-Myanmar (Burma),2019,Asia,MMR,Myanmar,1,1,1,0.9996568080981213
-Myanmar (Burma),2020,Asia,MMR,Myanmar,1,1,1,0.9993811242927739
-Myanmar (Burma),2021,Asia,MMR,Myanmar,1,1,1,0.9999890147193662
-Myanmar (Burma),2022,Asia,MMR,Myanmar,1,1,1,0.9999896342073377
-Myanmar (Burma),2023,Asia,MMR,Myanmar,1,1,1,0.9999859898926684
-Namibia,2017,Africa,NAM,Namibia,0,0,0,0.13151446475606093
-Namibia,2018,Africa,NAM,Namibia,0,0,0,0.13491466822274148
-Namibia,2019,Africa,NAM,Namibia,0,0,0,0.16194986272233955
-Namibia,2020,Africa,NAM,Namibia,0,0,0,0.18243925904696798
-Namibia,2021,Africa,NAM,Namibia,0,0,0,0.1458205626342592
-Namibia,2022,Africa,NAM,Namibia,0,0,0,0.12721302595468253
-Namibia,2023,Africa,NAM,Namibia,0,0,0,0.12938071025510228
-Nauru,2017,Asia,NRU,Nauru,0,0,0,0.031050930515538422
-Nauru,2018,Asia,NRU,Nauru,0,0,0,0.026894491505741486
-Nauru,2019,Asia,NRU,Nauru,0,0,0,0.033520035801965054
-Nauru,2020,Asia,NRU,Nauru,0,0,0,0.027693650461234905
-Nauru,2021,Asia,NRU,Nauru,0,0,0,0.01579318412300112
-Nauru,2022,Asia,NRU,Nauru,0,0,0,0.028371214102434882
-Nauru,2023,Asia,NRU,Nauru,0,0,0,0.0237981493328841
-Nepal,2017,Asia,NPL,Nepal,0,0,0,0.127431047937242
-Nepal,2018,Asia,NPL,Nepal,0,0,0,0.09689032629051815
-Nepal,2019,Asia,NPL,Nepal,0,0,0,0.1195306868590248
-Nepal,2020,Asia,NPL,Nepal,0,0,0,0.1692520386372295
-Nepal,2021,Asia,NPL,Nepal,1,0,0,0.1317526433968604
-Nepal,2022,Asia,NPL,Nepal,0,1,0,0.4042595699746909
-Nepal,2023,Asia,NPL,Nepal,0,0,0,0.21448039585229134
-Netherlands,2017,Europe,NLD,Netherlands,0,0,0,0.08185638779495293
-Netherlands,2018,Europe,NLD,Netherlands,0,0,0,0.0725109623513828
-Netherlands,2019,Europe,NLD,Netherlands,0,0,0,0.09146102892719418
-Netherlands,2020,Europe,NLD,Netherlands,0,0,0,0.1265515865144371
-Netherlands,2021,Europe,NLD,Netherlands,0,0,0,0.037284098757754194
-Netherlands,2022,Europe,NLD,Netherlands,0,0,0,0.05304616575280143
-Netherlands,2023,Europe,NLD,Netherlands,0,0,0,0.03714514993307163
-New Zealand,2017,Asia,NZL,New Zealand,0,0,0,0.02544246048694291
-New Zealand,2018,Asia,NZL,New Zealand,0,0,0,0.027329609749886147
-New Zealand,2019,Asia,NZL,New Zealand,0,0,0,0.03332021153629842
-New Zealand,2020,Asia,NZL,New Zealand,0,0,0,0.028261891542753603
-New Zealand,2021,Asia,NZL,New Zealand,0,0,0,0.014853331517679376
-New Zealand,2022,Asia,NZL,New Zealand,0,0,0,0.016929604694341516
-New Zealand,2023,Asia,NZL,New Zealand,0,0,0,0.019660338818468483
-Nicaragua,2017,Americas,NIC,Nicaragua,0,0,0,0.11924373992932169
-Nicaragua,2018,Americas,NIC,Nicaragua,0,0,0,0.13338273059756375
-Nicaragua,2019,Americas,NIC,Nicaragua,0,0,0,0.12109219802613372
-Nicaragua,2020,Americas,NIC,Nicaragua,0,0,0,0.12908441374282834
-Nicaragua,2021,Americas,NIC,Nicaragua,0,0,0,0.1126848236294026
-Nicaragua,2022,Americas,NIC,Nicaragua,0,0,0,0.10148804081829431
-Nicaragua,2023,Americas,NIC,Nicaragua,0,0,0,0.1282757864768828
-Niger,2017,Africa,NER,Niger,1,1,1,0.9939404072820884
-Niger,2018,Africa,NER,Niger,1,1,1,0.999610151859029
-Niger,2019,Africa,NER,Niger,1,1,1,0.997054498375328
-Niger,2020,Africa,NER,Niger,1,1,1,0.9977386335399017
-Niger,2021,Africa,NER,Niger,1,1,1,0.998832682102276
-Niger,2022,Africa,NER,Niger,1,1,1,0.9994008900874046
-Niger,2023,Africa,NER,Niger,1,1,1,0.9996945865573502
-Nigeria,2017,Africa,NGA,Nigeria,1,1,1,0.999999999999672
-Nigeria,2018,Africa,NGA,Nigeria,1,1,1,0.9999999999991318
-Nigeria,2019,Africa,NGA,Nigeria,1,1,1,0.999999999999776
+DR Congo (Zaire),2023,Africa,COD,"Congo, Dem. Rep.",1,1,1,0.9999999999999833
+Denmark,2017,Europe,DNK,Denmark,0,0,0,0.014183785992116116
+Denmark,2018,Europe,DNK,Denmark,0,0,0,0.013395490868037308
+Denmark,2019,Europe,DNK,Denmark,0,0,0,0.013317662801261641
+Denmark,2020,Europe,DNK,Denmark,0,0,0,0.013417151697164613
+Denmark,2021,Europe,DNK,Denmark,0,0,0,0.009745396297350349
+Denmark,2022,Europe,DNK,Denmark,0,0,0,0.011903482504856018
+Denmark,2023,Europe,DNK,Denmark,0,0,0,0.011828585958580374
+Djibouti,2017,Africa,DJI,Djibouti,1,0,0,0.1337168420589797
+Djibouti,2018,Africa,DJI,Djibouti,0,1,0,0.47678437956542613
+Djibouti,2019,Africa,DJI,Djibouti,0,0,0,0.23108574373574578
+Djibouti,2020,Africa,DJI,Djibouti,1,0,0,0.13138682648661879
+Djibouti,2021,Africa,DJI,Djibouti,0,1,0,0.45323169424882204
+Djibouti,2022,Africa,DJI,Djibouti,0,0,0,0.21862556817867537
+Djibouti,2023,Africa,DJI,Djibouti,0,0,0,0.14842350386028827
+Dominica,2017,Americas,DMA,Dominica,0,0,0,0.04157953618811357
+Dominica,2018,Americas,DMA,Dominica,0,0,0,0.035755983039115015
+Dominica,2019,Americas,DMA,Dominica,0,0,0,0.028110888323417422
+Dominica,2020,Americas,DMA,Dominica,0,0,0,0.042427444414072604
+Dominica,2021,Americas,DMA,Dominica,0,0,0,0.026004474972628876
+Dominica,2022,Americas,DMA,Dominica,0,0,0,0.02301320016769355
+Dominica,2023,Americas,DMA,Dominica,0,0,0,0.026411429738556605
+Dominican Republic,2017,Americas,DOM,Dominican Republic,0,0,0,0.04291760358590337
+Dominican Republic,2018,Americas,DOM,Dominican Republic,0,0,0,0.038708713967048315
+Dominican Republic,2019,Americas,DOM,Dominican Republic,0,0,0,0.038638960838157814
+Dominican Republic,2020,Americas,DOM,Dominican Republic,0,0,0,0.0508491676081598
+Dominican Republic,2021,Americas,DOM,Dominican Republic,0,0,0,0.031566171377406534
+Dominican Republic,2022,Americas,DOM,Dominican Republic,0,0,0,0.03635856502438307
+Dominican Republic,2023,Americas,DOM,Dominican Republic,0,0,0,0.03756181263245302
+East Timor,2017,Asia,TLS,Timor-Leste,0,0,0,0.09282560993172828
+East Timor,2018,Asia,TLS,Timor-Leste,0,0,0,0.1018028564516291
+East Timor,2019,Asia,TLS,Timor-Leste,0,0,0,0.04981976731855887
+East Timor,2020,Asia,TLS,Timor-Leste,0,0,0,0.03721315958512163
+East Timor,2021,Asia,TLS,Timor-Leste,0,0,0,0.06317395029323158
+East Timor,2022,Asia,TLS,Timor-Leste,0,0,0,0.07272597133936393
+East Timor,2023,Asia,TLS,Timor-Leste,0,0,0,0.06800354717235167
+Ecuador,2017,Americas,ECU,Ecuador,0,0,0,0.1030808407604067
+Ecuador,2018,Americas,ECU,Ecuador,1,0,0,0.11597303752751471
+Ecuador,2019,Americas,ECU,Ecuador,1,1,1,0.5440567203244454
+Ecuador,2020,Americas,ECU,Ecuador,1,1,1,0.6456929066296543
+Ecuador,2021,Americas,ECU,Ecuador,1,1,1,0.8044670288455043
+Ecuador,2022,Americas,ECU,Ecuador,1,1,1,0.906696325634889
+Ecuador,2023,Americas,ECU,Ecuador,1,1,1,0.9998384495744285
+Egypt,2017,Middle East,EGY,"Egypt, Arab Rep.",1,1,1,0.9900079183056402
+Egypt,2018,Middle East,EGY,"Egypt, Arab Rep.",1,1,1,0.9882620477519727
+Egypt,2019,Middle East,EGY,"Egypt, Arab Rep.",1,1,1,0.9751430577642766
+Egypt,2020,Middle East,EGY,"Egypt, Arab Rep.",1,1,1,0.9707519890703077
+Egypt,2021,Middle East,EGY,"Egypt, Arab Rep.",1,1,1,0.9421089190490061
+Egypt,2022,Middle East,EGY,"Egypt, Arab Rep.",1,1,1,0.935528774114065
+Egypt,2023,Middle East,EGY,"Egypt, Arab Rep.",0,1,1,0.9374916633356926
+El Salvador,2017,Americas,SLV,El Salvador,0,1,0,0.49842990696286815
+El Salvador,2018,Americas,SLV,El Salvador,1,0,0,0.2686105521948869
+El Salvador,2019,Americas,SLV,El Salvador,0,1,1,0.5634884413428757
+El Salvador,2020,Americas,SLV,El Salvador,1,0,0,0.3829557418378594
+El Salvador,2021,Americas,SLV,El Salvador,1,1,1,0.5046896578150366
+El Salvador,2022,Americas,SLV,El Salvador,0,1,1,0.7239111783296045
+El Salvador,2023,Americas,SLV,El Salvador,0,0,0,0.3162730831419159
+Equatorial Guinea,2017,Africa,GNQ,Equatorial Guinea,0,0,0,0.08069269836028671
+Equatorial Guinea,2018,Africa,GNQ,Equatorial Guinea,0,0,0,0.08324772412029319
+Equatorial Guinea,2019,Africa,GNQ,Equatorial Guinea,0,0,0,0.07870285817646668
+Equatorial Guinea,2020,Africa,GNQ,Equatorial Guinea,0,0,0,0.06679218493463661
+Equatorial Guinea,2021,Africa,GNQ,Equatorial Guinea,0,0,0,0.05918992022717829
+Equatorial Guinea,2022,Africa,GNQ,Equatorial Guinea,0,0,0,0.0438985195532798
+Equatorial Guinea,2023,Africa,GNQ,Equatorial Guinea,0,0,0,0.0512279846011443
+Eritrea,2017,Africa,ERI,Eritrea,0,0,0,0.2539869231288063
+Eritrea,2018,Africa,ERI,Eritrea,0,0,0,0.1872698113818902
+Eritrea,2019,Africa,ERI,Eritrea,0,0,0,0.15066727314595837
+Eritrea,2020,Africa,ERI,Eritrea,0,0,0,0.14657983485236747
+Eritrea,2021,Africa,ERI,Eritrea,1,0,0,0.14559559097355645
+Eritrea,2022,Africa,ERI,Eritrea,0,1,1,0.5904069556002384
+Eritrea,2023,Africa,ERI,Eritrea,0,0,0,0.1975635393400033
+Estonia,2017,Europe,EST,Estonia,0,0,0,0.025072229475425187
+Estonia,2018,Europe,EST,Estonia,0,0,0,0.025251599492719077
+Estonia,2019,Europe,EST,Estonia,0,0,0,0.02470094326987919
+Estonia,2020,Europe,EST,Estonia,0,0,0,0.02672406872895889
+Estonia,2021,Europe,EST,Estonia,0,0,0,0.019242310447877935
+Estonia,2022,Europe,EST,Estonia,0,0,0,0.02618219922372314
+Estonia,2023,Europe,EST,Estonia,0,0,0,0.02730090266993739
+Ethiopia,2017,Africa,ETH,Ethiopia,1,1,1,0.9993780134711405
+Ethiopia,2018,Africa,ETH,Ethiopia,1,1,1,0.9999974525270984
+Ethiopia,2019,Africa,ETH,Ethiopia,1,1,1,0.9999352067583439
+Ethiopia,2020,Africa,ETH,Ethiopia,1,1,1,0.9999998858375495
+Ethiopia,2021,Africa,ETH,Ethiopia,1,1,1,0.999703335040542
+Ethiopia,2022,Africa,ETH,Ethiopia,1,1,1,0.9998886681210005
+Ethiopia,2023,Africa,ETH,Ethiopia,1,1,1,0.9999769414187094
+Federated States of Micronesia,2017,Asia,FSM,"Micronesia, Fed. Sts.",0,0,0,0.04386409890456642
+Federated States of Micronesia,2018,Asia,FSM,"Micronesia, Fed. Sts.",0,0,0,0.04461765400755579
+Federated States of Micronesia,2019,Asia,FSM,"Micronesia, Fed. Sts.",0,0,0,0.03972963158398945
+Federated States of Micronesia,2020,Asia,FSM,"Micronesia, Fed. Sts.",0,0,0,0.04476355488395485
+Federated States of Micronesia,2021,Asia,FSM,"Micronesia, Fed. Sts.",0,0,0,0.03965554290466996
+Federated States of Micronesia,2022,Asia,FSM,"Micronesia, Fed. Sts.",0,0,0,0.04389864602146091
+Federated States of Micronesia,2023,Asia,FSM,"Micronesia, Fed. Sts.",0,0,0,0.039838062016728966
+Fiji,2017,Asia,FJI,Fiji,0,0,0,0.0390942842389362
+Fiji,2018,Asia,FJI,Fiji,0,0,0,0.035211905108267924
+Fiji,2019,Asia,FJI,Fiji,0,0,0,0.03745076459120466
+Fiji,2020,Asia,FJI,Fiji,0,0,0,0.054003973616099835
+Fiji,2021,Asia,FJI,Fiji,0,0,0,0.0406845996138385
+Fiji,2022,Asia,FJI,Fiji,0,0,0,0.02444175885684638
+Fiji,2023,Asia,FJI,Fiji,0,0,0,0.028101703920950453
+Finland,2017,Europe,FIN,Finland,0,0,0,0.013203894463238301
+Finland,2018,Europe,FIN,Finland,0,0,0,0.012787440808060106
+Finland,2019,Europe,FIN,Finland,0,0,0,0.01352484620590952
+Finland,2020,Europe,FIN,Finland,0,0,0,0.014300451220879307
+Finland,2021,Europe,FIN,Finland,0,0,0,0.011774505474985595
+Finland,2022,Europe,FIN,Finland,0,0,0,0.012770891683599399
+Finland,2023,Europe,FIN,Finland,0,0,0,0.012999107598731033
+France,2017,Europe,FRA,France,1,1,1,0.7043791207808912
+France,2018,Europe,FRA,France,0,1,1,0.7897249259926385
+France,2019,Europe,FRA,France,0,0,0,0.2515056967574441
+France,2020,Europe,FRA,France,0,0,0,0.21310663162046511
+France,2021,Europe,FRA,France,0,0,0,0.11433603317536561
+France,2022,Europe,FRA,France,1,0,0,0.09638395890667126
+France,2023,Europe,FRA,France,1,1,0,0.41427797083749796
+Gabon,2017,Africa,GAB,Gabon,0,0,0,0.05900062165328056
+Gabon,2018,Africa,GAB,Gabon,0,0,0,0.0576379302481239
+Gabon,2019,Africa,GAB,Gabon,0,0,0,0.05480853930252639
+Gabon,2020,Africa,GAB,Gabon,0,0,0,0.05318991558177444
+Gabon,2021,Africa,GAB,Gabon,0,0,0,0.04947885899857578
+Gabon,2022,Africa,GAB,Gabon,0,0,0,0.03895143441292976
+Gabon,2023,Africa,GAB,Gabon,0,0,0,0.038594479524055814
+Gambia,2017,Africa,GMB,"Gambia, The",0,0,0,0.17987835518992193
+Gambia,2018,Africa,GMB,"Gambia, The",0,0,0,0.11984019593112526
+Gambia,2019,Africa,GMB,"Gambia, The",0,0,0,0.11846510440284826
+Gambia,2020,Africa,GMB,"Gambia, The",0,0,0,0.1280004479385559
+Gambia,2021,Africa,GMB,"Gambia, The",0,0,0,0.09405027347037166
+Gambia,2022,Africa,GMB,"Gambia, The",0,0,0,0.10908025409236598
+Gambia,2023,Africa,GMB,"Gambia, The",1,0,0,0.10480583517476696
+Georgia,2017,Europe,GEO,Georgia,0,0,0,0.07443702411165667
+Georgia,2018,Europe,GEO,Georgia,0,0,0,0.06997040924987366
+Georgia,2019,Europe,GEO,Georgia,0,0,0,0.0687270047000792
+Georgia,2020,Europe,GEO,Georgia,0,0,0,0.08962511356219793
+Georgia,2021,Europe,GEO,Georgia,0,0,0,0.059763028766320524
+Georgia,2022,Europe,GEO,Georgia,1,0,0,0.060876283751505944
+Georgia,2023,Europe,GEO,Georgia,0,1,0,0.2643404087889257
+Germany,2017,Europe,DEU,Germany,0,0,0,0.11194774062886848
+Germany,2018,Europe,DEU,Germany,0,0,0,0.07457453565906315
+Germany,2019,Europe,DEU,Germany,0,0,0,0.07373716888767444
+Germany,2020,Europe,DEU,Germany,0,0,0,0.0778832320478841
+Germany,2021,Europe,DEU,Germany,0,0,0,0.06017131857027758
+Germany,2022,Europe,DEU,Germany,0,0,0,0.04703657656650991
+Germany,2023,Europe,DEU,Germany,1,0,0,0.04651377630875919
+Ghana,2017,Africa,GHA,Ghana,0,0,0,0.13940857285336553
+Ghana,2018,Africa,GHA,Ghana,0,0,0,0.13732635177150881
+Ghana,2019,Africa,GHA,Ghana,0,0,0,0.13016793210609573
+Ghana,2020,Africa,GHA,Ghana,0,0,0,0.13777324316709255
+Ghana,2021,Africa,GHA,Ghana,1,0,0,0.12686568775844015
+Ghana,2022,Africa,GHA,Ghana,1,1,0,0.4365205314259005
+Ghana,2023,Africa,GHA,Ghana,1,1,1,0.6172597008899549
+Greece,2017,Europe,GRC,Greece,0,0,0,0.02613791276686005
+Greece,2018,Europe,GRC,Greece,0,0,0,0.025241221269603792
+Greece,2019,Europe,GRC,Greece,0,0,0,0.024753877994779426
+Greece,2020,Europe,GRC,Greece,0,0,0,0.03223979872774338
+Greece,2021,Europe,GRC,Greece,0,0,0,0.01907292917453194
+Greece,2022,Europe,GRC,Greece,0,0,0,0.020352370225716853
+Greece,2023,Europe,GRC,Greece,0,0,0,0.022572890455033693
+Grenada,2017,Americas,GRD,Grenada,0,0,0,0.03147613461926863
+Grenada,2018,Americas,GRD,Grenada,0,0,0,0.029133622793275925
+Grenada,2019,Americas,GRD,Grenada,0,0,0,0.03841824776859932
+Grenada,2020,Americas,GRD,Grenada,0,0,0,0.043305286817668126
+Grenada,2021,Americas,GRD,Grenada,0,0,0,0.029040025245637348
+Grenada,2022,Americas,GRD,Grenada,0,0,0,0.031484883275804815
+Grenada,2023,Americas,GRD,Grenada,0,0,0,0.03194064841133191
+Guatemala,2017,Americas,GTM,Guatemala,0,0,0,0.33064952282411003
+Guatemala,2018,Americas,GTM,Guatemala,0,0,0,0.2380375232349734
+Guatemala,2019,Americas,GTM,Guatemala,0,0,0,0.2283951560567328
+Guatemala,2020,Americas,GTM,Guatemala,1,0,0,0.2441898607023254
+Guatemala,2021,Americas,GTM,Guatemala,1,1,1,0.5037535781490609
+Guatemala,2022,Americas,GTM,Guatemala,1,1,1,0.7518927245960675
+Guatemala,2023,Americas,GTM,Guatemala,1,1,1,0.8080086822399376
+Guinea,2017,Africa,GIN,Guinea,0,0,0,0.30797561336329593
+Guinea,2018,Africa,GIN,Guinea,1,0,0,0.24136468747099057
+Guinea,2019,Africa,GIN,Guinea,1,1,1,0.5227321593502723
+Guinea,2020,Africa,GIN,Guinea,1,1,1,0.8671017807832204
+Guinea,2021,Africa,GIN,Guinea,0,1,1,0.7098545155761403
+Guinea,2022,Africa,GIN,Guinea,0,0,0,0.3593536876088276
+Guinea,2023,Africa,GIN,Guinea,0,0,0,0.25747237111933696
+Guinea-Bissau,2017,Africa,GNB,Guinea-Bissau,0,0,0,0.14750126736266414
+Guinea-Bissau,2018,Africa,GNB,Guinea-Bissau,0,0,0,0.13744799788465664
+Guinea-Bissau,2019,Africa,GNB,Guinea-Bissau,0,0,0,0.13084506637869509
+Guinea-Bissau,2020,Africa,GNB,Guinea-Bissau,0,0,0,0.13427236177604596
+Guinea-Bissau,2021,Africa,GNB,Guinea-Bissau,0,0,0,0.1240093181618066
+Guinea-Bissau,2022,Africa,GNB,Guinea-Bissau,0,0,0,0.11086896114950244
+Guinea-Bissau,2023,Africa,GNB,Guinea-Bissau,0,0,0,0.10707127831083223
+Guyana,2017,Americas,GUY,Guyana,0,0,0,0.10913384160006019
+Guyana,2018,Americas,GUY,Guyana,0,0,0,0.12090047368006136
+Guyana,2019,Americas,GUY,Guyana,0,0,0,0.10576526516494596
+Guyana,2020,Americas,GUY,Guyana,0,0,0,0.03966472816538182
+Guyana,2021,Americas,GUY,Guyana,0,0,0,0.0810170706271221
+Guyana,2022,Americas,GUY,Guyana,0,0,0,0.021435024468826863
+Guyana,2023,Americas,GUY,Guyana,0,0,0,0.03550196165037412
+Haiti,2017,Americas,HTI,Haiti,1,1,0,0.4023257122376804
+Haiti,2018,Americas,HTI,Haiti,1,1,1,0.5851990068259119
+Haiti,2019,Americas,HTI,Haiti,1,1,1,0.6746643083812665
+Haiti,2020,Americas,HTI,Haiti,1,1,1,0.9790382774365908
+Haiti,2021,Americas,HTI,Haiti,1,1,1,0.9821198812493448
+Haiti,2022,Americas,HTI,Haiti,1,1,1,0.9897581004267223
+Haiti,2023,Americas,HTI,Haiti,1,1,1,0.9983387811424815
+Honduras,2017,Americas,HND,Honduras,1,0,1,0.575913953586232
+Honduras,2018,Americas,HND,Honduras,1,1,1,0.8366972203530423
+Honduras,2019,Americas,HND,Honduras,1,1,1,0.8951591047276275
+Honduras,2020,Americas,HND,Honduras,1,1,1,0.8676474270587092
+Honduras,2021,Americas,HND,Honduras,1,1,1,0.8723373095509158
+Honduras,2022,Americas,HND,Honduras,1,1,1,0.8899049319953478
+Honduras,2023,Americas,HND,Honduras,1,1,1,0.9177651903244222
+Hungary,2017,Europe,HUN,Hungary,0,0,0,0.02858353373747674
+Hungary,2018,Europe,HUN,Hungary,0,0,0,0.026743593895322635
+Hungary,2019,Europe,HUN,Hungary,0,0,0,0.026832550290318034
+Hungary,2020,Europe,HUN,Hungary,0,0,0,0.03192744718498635
+Hungary,2021,Europe,HUN,Hungary,0,0,0,0.023375713412971108
+Hungary,2022,Europe,HUN,Hungary,0,0,0,0.025136071251433637
+Hungary,2023,Europe,HUN,Hungary,0,0,0,0.025645841528367807
+Iceland,2017,Europe,ISL,Iceland,0,0,0,0.015173752729721877
+Iceland,2018,Europe,ISL,Iceland,0,0,0,0.014450004218474394
+Iceland,2019,Europe,ISL,Iceland,0,0,0,0.016066211214410424
+Iceland,2020,Europe,ISL,Iceland,0,0,0,0.019842109086989648
+Iceland,2021,Europe,ISL,Iceland,0,0,0,0.012465909640708015
+Iceland,2022,Europe,ISL,Iceland,0,0,0,0.011945600320997512
+Iceland,2023,Europe,ISL,Iceland,0,0,0,0.010212947944702299
+India,2017,Asia,IND,India,1,1,1,0.9999220912808997
+India,2018,Asia,IND,India,1,1,1,0.999994017723647
+India,2019,Asia,IND,India,1,1,1,0.9999659715718288
+India,2020,Asia,IND,India,1,1,1,0.9999722903293127
+India,2021,Asia,IND,India,1,1,1,0.9998292400013368
+India,2022,Asia,IND,India,1,1,1,0.9999195999755315
+India,2023,Asia,IND,India,1,1,1,0.9999960038630888
+Indonesia,2017,Asia,IDN,Indonesia,1,1,1,0.8992964451314479
+Indonesia,2018,Asia,IDN,Indonesia,1,1,1,0.9626161376077155
+Indonesia,2019,Asia,IDN,Indonesia,1,1,1,0.9244800601554447
+Indonesia,2020,Asia,IDN,Indonesia,1,1,1,0.9647026305808672
+Indonesia,2021,Asia,IDN,Indonesia,1,1,1,0.95930575908364
+Indonesia,2022,Asia,IDN,Indonesia,1,1,1,0.9677079207743764
+Indonesia,2023,Asia,IDN,Indonesia,1,1,1,0.9678379536014926
+Iran,2017,Middle East,IRN,"Iran, Islamic Rep.",1,1,1,0.9928657332424753
+Iran,2018,Middle East,IRN,"Iran, Islamic Rep.",1,1,1,0.9986108983925457
+Iran,2019,Middle East,IRN,"Iran, Islamic Rep.",1,1,1,0.9919710103247472
+Iran,2020,Middle East,IRN,"Iran, Islamic Rep.",1,1,1,0.9954584403582983
+Iran,2021,Middle East,IRN,"Iran, Islamic Rep.",1,1,1,0.9957198937010681
+Iran,2022,Middle East,IRN,"Iran, Islamic Rep.",1,1,1,0.9862016735687265
+Iran,2023,Middle East,IRN,"Iran, Islamic Rep.",1,1,1,0.9857013197615259
+Iraq,2017,Middle East,IRQ,Iraq,1,1,1,0.9903561750989659
+Iraq,2018,Middle East,IRQ,Iraq,1,1,1,0.9983078291213164
+Iraq,2019,Middle East,IRQ,Iraq,1,1,1,0.9952572949102848
+Iraq,2020,Middle East,IRQ,Iraq,1,1,1,0.9983550238409538
+Iraq,2021,Middle East,IRQ,Iraq,1,1,1,0.9980912438283095
+Iraq,2022,Middle East,IRQ,Iraq,1,1,1,0.9920480217324352
+Iraq,2023,Middle East,IRQ,Iraq,1,1,1,0.9713154620031305
+Ireland,2017,Europe,IRL,Ireland,0,0,0,0.010678652506666567
+Ireland,2018,Europe,IRL,Ireland,0,0,0,0.007918973996285862
+Ireland,2019,Europe,IRL,Ireland,0,0,0,0.009323403506999615
+Ireland,2020,Europe,IRL,Ireland,0,0,0,0.008000306127247414
+Ireland,2021,Europe,IRL,Ireland,0,0,0,0.005040444374593056
+Ireland,2022,Europe,IRL,Ireland,0,0,0,0.006513256309931898
+Ireland,2023,Europe,IRL,Ireland,0,0,0,0.011200861433055908
+Israel,2017,Middle East,ISR,Israel,1,1,1,0.9905435360250955
+Israel,2018,Middle East,ISR,Israel,1,1,1,0.99780536878541
+Israel,2019,Middle East,ISR,Israel,1,1,1,0.9953856891511519
+Israel,2020,Middle East,ISR,Israel,1,1,1,0.978705128654763
+Israel,2021,Middle East,ISR,Israel,1,1,1,0.9927672945927981
+Israel,2022,Middle East,ISR,Israel,1,1,1,0.9864012746729224
+Israel,2023,Middle East,ISR,Israel,1,1,1,0.9978125609697422
+Italy,2017,Europe,ITA,Italy,0,0,0,0.05944031467378489
+Italy,2018,Europe,ITA,Italy,0,0,0,0.059659060521699635
+Italy,2019,Europe,ITA,Italy,0,0,0,0.05449469379598823
+Italy,2020,Europe,ITA,Italy,0,0,0,0.0678504559043186
+Italy,2021,Europe,ITA,Italy,0,0,0,0.042645672361873575
+Italy,2022,Europe,ITA,Italy,0,0,0,0.049171065040412534
+Italy,2023,Europe,ITA,Italy,0,0,0,0.05036346477459945
+Ivory Coast,2017,Africa,CIV,Cote d'Ivoire,0,0,0,0.433481239927868
+Ivory Coast,2018,Africa,CIV,Cote d'Ivoire,0,0,0,0.26834313506085483
+Ivory Coast,2019,Africa,CIV,Cote d'Ivoire,1,0,0,0.19289718719580548
+Ivory Coast,2020,Africa,CIV,Cote d'Ivoire,0,1,1,0.5821247087288405
+Ivory Coast,2021,Africa,CIV,Cote d'Ivoire,0,0,0,0.3144125806209884
+Ivory Coast,2022,Africa,CIV,Cote d'Ivoire,0,0,0,0.1788249556924387
+Ivory Coast,2023,Africa,CIV,Cote d'Ivoire,0,0,0,0.1631630430768389
+Jamaica,2017,Americas,JAM,Jamaica,0,0,0,0.09679643797866565
+Jamaica,2018,Americas,JAM,Jamaica,0,0,0,0.09544407049605598
+Jamaica,2019,Americas,JAM,Jamaica,0,0,0,0.09230444070098238
+Jamaica,2020,Americas,JAM,Jamaica,0,0,0,0.11429667912234465
+Jamaica,2021,Americas,JAM,Jamaica,0,0,0,0.0822199434587829
+Jamaica,2022,Americas,JAM,Jamaica,0,0,0,0.07996248643829033
+Jamaica,2023,Americas,JAM,Jamaica,0,0,0,0.08162002219662018
+Japan,2017,Asia,JPN,Japan,0,0,0,0.025816152383913528
+Japan,2018,Asia,JPN,Japan,0,0,0,0.025304948296974907
+Japan,2019,Asia,JPN,Japan,0,0,0,0.024941223091531368
+Japan,2020,Asia,JPN,Japan,0,0,0,0.025846696328084527
+Japan,2021,Asia,JPN,Japan,0,0,0,0.02131562598901362
+Japan,2022,Asia,JPN,Japan,0,0,0,0.024157472899493698
+Japan,2023,Asia,JPN,Japan,0,0,0,0.02326242867842869
+Jordan,2017,Middle East,JOR,Jordan,0,0,0,0.27847285531464266
+Jordan,2018,Middle East,JOR,Jordan,0,0,0,0.19925094349392566
+Jordan,2019,Middle East,JOR,Jordan,0,0,0,0.1914098219979454
+Jordan,2020,Middle East,JOR,Jordan,0,0,0,0.18953236411158686
+Jordan,2021,Middle East,JOR,Jordan,0,0,0,0.1282038801188455
+Jordan,2022,Middle East,JOR,Jordan,0,0,0,0.09653780848230628
+Jordan,2023,Middle East,JOR,Jordan,1,0,0,0.093194719320394
+Kazakhstan,2017,Asia,KAZ,Kazakhstan,0,0,0,0.045962929206813705
+Kazakhstan,2018,Asia,KAZ,Kazakhstan,0,0,0,0.04722456014257767
+Kazakhstan,2019,Asia,KAZ,Kazakhstan,0,0,0,0.04414855724265737
+Kazakhstan,2020,Asia,KAZ,Kazakhstan,0,0,0,0.04883689276221824
+Kazakhstan,2021,Asia,KAZ,Kazakhstan,0,0,0,0.04579458445294406
+Kazakhstan,2022,Asia,KAZ,Kazakhstan,0,0,0,0.034932479030471315
+Kazakhstan,2023,Asia,KAZ,Kazakhstan,0,0,0,0.03164794192544406
+Kenya,2017,Africa,KEN,Kenya,1,1,1,0.9999349799604449
+Kenya,2018,Africa,KEN,Kenya,1,1,1,0.9998563709744508
+Kenya,2019,Africa,KEN,Kenya,1,1,1,0.9998510519190219
+Kenya,2020,Africa,KEN,Kenya,1,1,1,0.9977192578272125
+Kenya,2021,Africa,KEN,Kenya,1,1,1,0.9995679020803826
+Kenya,2022,Africa,KEN,Kenya,1,1,1,0.9920158808724923
+Kenya,2023,Africa,KEN,Kenya,1,1,1,0.9847991421761729
+Kingdom of eSwatini (Swaziland),2017,Africa,SWZ,Eswatini,0,0,0,0.09606351788122978
+Kingdom of eSwatini (Swaziland),2018,Africa,SWZ,Eswatini,1,0,0,0.09966023185082627
+Kingdom of eSwatini (Swaziland),2019,Africa,SWZ,Eswatini,1,1,0,0.33423180174430644
+Kingdom of eSwatini (Swaziland),2020,Africa,SWZ,Eswatini,1,1,1,0.5611084637793418
+Kingdom of eSwatini (Swaziland),2021,Africa,SWZ,Eswatini,1,1,1,0.5948947874244576
+Kingdom of eSwatini (Swaziland),2022,Africa,SWZ,Eswatini,1,1,1,0.6771589084441091
+Kingdom of eSwatini (Swaziland),2023,Africa,SWZ,Eswatini,0,1,1,0.726969502589635
+Kiribati,2017,Asia,KIR,Kiribati,0,0,0,0.04833776174213274
+Kiribati,2018,Asia,KIR,Kiribati,0,0,0,0.04725415431646634
+Kiribati,2019,Asia,KIR,Kiribati,0,0,0,0.04635215110819944
+Kiribati,2020,Asia,KIR,Kiribati,0,0,0,0.05105755457899598
+Kiribati,2021,Asia,KIR,Kiribati,0,0,0,0.03807968849939708
+Kiribati,2022,Asia,KIR,Kiribati,0,0,0,0.040201821391760206
+Kiribati,2023,Asia,KIR,Kiribati,0,0,0,0.03880453904382792
+Kosovo,2017,Europe,XKX,Kosovo,0,0,0,0.042247966656975076
+Kosovo,2018,Europe,XKX,Kosovo,0,0,0,0.04054570059118027
+Kosovo,2019,Europe,XKX,Kosovo,0,0,0,0.03551986689197959
+Kosovo,2020,Europe,XKX,Kosovo,0,0,0,0.045180807335511226
+Kosovo,2021,Europe,XKX,Kosovo,0,0,0,0.03020037696667693
+Kosovo,2022,Europe,XKX,Kosovo,0,0,0,0.031920846239631116
+Kosovo,2023,Europe,XKX,Kosovo,0,0,0,0.021039375591618923
+Kuwait,2017,Middle East,KWT,Kuwait,0,0,0,0.24059121344509554
+Kuwait,2018,Middle East,KWT,Kuwait,0,0,0,0.21931353004725676
+Kuwait,2019,Middle East,KWT,Kuwait,0,0,0,0.18627358268328612
+Kuwait,2020,Middle East,KWT,Kuwait,0,0,0,0.15135261161868527
+Kuwait,2021,Middle East,KWT,Kuwait,0,0,0,0.06608561103048509
+Kuwait,2022,Middle East,KWT,Kuwait,0,0,0,0.0907206864548892
+Kuwait,2023,Middle East,KWT,Kuwait,0,0,0,0.11817103612107199
+Kyrgyzstan,2017,Asia,KGZ,Kyrgyz Republic,0,0,0,0.17179144750343403
+Kyrgyzstan,2018,Asia,KGZ,Kyrgyz Republic,0,0,0,0.16338512088632615
+Kyrgyzstan,2019,Asia,KGZ,Kyrgyz Republic,0,0,0,0.1583950799013048
+Kyrgyzstan,2020,Asia,KGZ,Kyrgyz Republic,1,0,0,0.18761657231245676
+Kyrgyzstan,2021,Asia,KGZ,Kyrgyz Republic,1,1,0,0.15369093203963016
+Kyrgyzstan,2022,Asia,KGZ,Kyrgyz Republic,0,1,0,0.36173756153972475
+Kyrgyzstan,2023,Asia,KGZ,Kyrgyz Republic,0,0,0,0.23206355806171267
+Laos,2017,Asia,LAO,Lao PDR,0,0,0,0.1276219674175968
+Laos,2018,Asia,LAO,Lao PDR,0,0,0,0.12462533385695414
+Laos,2019,Asia,LAO,Lao PDR,0,0,0,0.12342700510833834
+Laos,2020,Asia,LAO,Lao PDR,0,0,0,0.1339999287836797
+Laos,2021,Asia,LAO,Lao PDR,0,0,0,0.1309932439551574
+Laos,2022,Asia,LAO,Lao PDR,0,0,0,0.1274481473089674
+Laos,2023,Asia,LAO,Lao PDR,0,0,0,0.12383995321315955
+Latvia,2017,Europe,LVA,Latvia,0,0,0,0.025467942062997583
+Latvia,2018,Europe,LVA,Latvia,0,0,0,0.024568732605484662
+Latvia,2019,Europe,LVA,Latvia,0,0,0,0.026570866983189223
+Latvia,2020,Europe,LVA,Latvia,0,0,0,0.028182564835778415
+Latvia,2021,Europe,LVA,Latvia,0,0,0,0.020949234273342037
+Latvia,2022,Europe,LVA,Latvia,0,0,0,0.024722999944848566
+Latvia,2023,Europe,LVA,Latvia,0,0,0,0.026855016414194063
+Lebanon,2017,Middle East,LBN,Lebanon,1,1,1,0.9871230624390649
+Lebanon,2018,Middle East,LBN,Lebanon,0,1,1,0.8798809440082475
+Lebanon,2019,Middle East,LBN,Lebanon,1,0,0,0.44903953815230785
+Lebanon,2020,Middle East,LBN,Lebanon,0,1,1,0.8499298071912191
+Lebanon,2021,Middle East,LBN,Lebanon,0,0,0,0.43855837621336774
+Lebanon,2022,Middle East,LBN,Lebanon,1,0,0,0.2542492867170763
+Lebanon,2023,Middle East,LBN,Lebanon,1,1,1,0.8383276979475452
+Lesotho,2017,Africa,LSO,Lesotho,0,0,0,0.1476298263015052
+Lesotho,2018,Africa,LSO,Lesotho,0,0,0,0.11851568871287374
+Lesotho,2019,Africa,LSO,Lesotho,0,0,0,0.11482906050309415
+Lesotho,2020,Africa,LSO,Lesotho,0,0,0,0.12756343644534593
+Lesotho,2021,Africa,LSO,Lesotho,0,0,0,0.10049992591214855
+Lesotho,2022,Africa,LSO,Lesotho,0,0,0,0.09617258231901873
+Lesotho,2023,Africa,LSO,Lesotho,0,0,0,0.09558340845123943
+Liberia,2017,Africa,LBR,Liberia,0,0,0,0.15383843337482492
+Liberia,2018,Africa,LBR,Liberia,1,0,0,0.14390562493230186
+Liberia,2019,Africa,LBR,Liberia,1,1,0,0.491880329356771
+Liberia,2020,Africa,LBR,Liberia,0,1,1,0.7421593741623604
+Liberia,2021,Africa,LBR,Liberia,0,0,0,0.32187964878869785
+Liberia,2022,Africa,LBR,Liberia,0,0,0,0.20161978569119957
+Liberia,2023,Africa,LBR,Liberia,1,0,0,0.1975038386094041
+Libya,2017,Africa,LBY,Libya,1,1,1,0.9999497860145441
+Libya,2018,Africa,LBY,Libya,1,1,1,0.9999810591363992
+Libya,2019,Africa,LBY,Libya,1,1,1,0.9992217016041437
+Libya,2020,Africa,LBY,Libya,1,1,1,0.9811169614841475
+Libya,2021,Africa,LBY,Libya,1,1,1,0.9727907725572945
+Libya,2022,Africa,LBY,Libya,1,1,1,0.976591843833342
+Libya,2023,Africa,LBY,Libya,1,1,1,0.8685694760988123
+Liechtenstein,2017,Europe,LIE,Liechtenstein,0,0,0,0.002971778032972078
+Liechtenstein,2018,Europe,LIE,Liechtenstein,0,0,0,0.002843729339816866
+Liechtenstein,2019,Europe,LIE,Liechtenstein,0,0,0,0.002973347865855333
+Liechtenstein,2020,Europe,LIE,Liechtenstein,0,0,0,0.0029810759287936563
+Liechtenstein,2021,Europe,LIE,Liechtenstein,0,0,0,0.001722385388720897
+Liechtenstein,2022,Europe,LIE,Liechtenstein,0,0,0,0.002783008668572741
+Liechtenstein,2023,Europe,LIE,Liechtenstein,0,0,0,0.0020830992890395754
+Lithuania,2017,Europe,LTU,Lithuania,0,0,0,0.02423354133300309
+Lithuania,2018,Europe,LTU,Lithuania,0,0,0,0.023839951405279683
+Lithuania,2019,Europe,LTU,Lithuania,0,0,0,0.024461959667787025
+Lithuania,2020,Europe,LTU,Lithuania,0,0,0,0.02623663592940634
+Lithuania,2021,Europe,LTU,Lithuania,0,0,0,0.021532434138832164
+Lithuania,2022,Europe,LTU,Lithuania,0,0,0,0.02522646350707941
+Lithuania,2023,Europe,LTU,Lithuania,0,0,0,0.026416429221392073
+Luxembourg,2017,Europe,LUX,Luxembourg,0,0,0,0.009580704042330059
+Luxembourg,2018,Europe,LUX,Luxembourg,0,0,0,0.007985521464736857
+Luxembourg,2019,Europe,LUX,Luxembourg,0,0,0,0.008100873113850942
+Luxembourg,2020,Europe,LUX,Luxembourg,0,0,0,0.0076626920702052926
+Luxembourg,2021,Europe,LUX,Luxembourg,0,0,0,0.0048694160301385675
+Luxembourg,2022,Europe,LUX,Luxembourg,0,0,0,0.007158995747325502
+Luxembourg,2023,Europe,LUX,Luxembourg,0,0,0,0.005911272810721583
+Madagascar (Malagasy),2017,Africa,MDG,Madagascar,0,1,1,0.6403521116469659
+Madagascar (Malagasy),2018,Africa,MDG,Madagascar,1,0,0,0.3237612165591017
+Madagascar (Malagasy),2019,Africa,MDG,Madagascar,1,1,1,0.6235987787902368
+Madagascar (Malagasy),2020,Africa,MDG,Madagascar,0,1,1,0.7563017463358982
+Madagascar (Malagasy),2021,Africa,MDG,Madagascar,0,0,0,0.4540548655337136
+Madagascar (Malagasy),2022,Africa,MDG,Madagascar,0,0,0,0.27259053819567
+Madagascar (Malagasy),2023,Africa,MDG,Madagascar,0,0,0,0.20588484360378156
+Malawi,2017,Africa,MWI,Malawi,0,0,0,0.07848463108627562
+Malawi,2018,Africa,MWI,Malawi,0,0,0,0.07486302476502205
+Malawi,2019,Africa,MWI,Malawi,0,0,0,0.07205142708359955
+Malawi,2020,Africa,MWI,Malawi,0,0,0,0.07396160912781531
+Malawi,2021,Africa,MWI,Malawi,0,0,0,0.06923479774425045
+Malawi,2022,Africa,MWI,Malawi,0,0,0,0.07196085053809967
+Malawi,2023,Africa,MWI,Malawi,0,0,0,0.06860127813701927
+Malaysia,2017,Asia,MYS,Malaysia,0,1,1,0.6260457688540332
+Malaysia,2018,Asia,MYS,Malaysia,0,0,0,0.2787182243417929
+Malaysia,2019,Asia,MYS,Malaysia,0,0,0,0.14987344748717804
+Malaysia,2020,Asia,MYS,Malaysia,0,0,0,0.1720975920605312
+Malaysia,2021,Asia,MYS,Malaysia,0,0,0,0.13980434944997033
+Malaysia,2022,Asia,MYS,Malaysia,0,0,0,0.11359982412032944
+Malaysia,2023,Asia,MYS,Malaysia,0,0,0,0.0922498745536413
+Maldives,2017,Asia,MDV,Maldives,0,0,0,0.0512174563698081
+Maldives,2018,Asia,MDV,Maldives,0,0,0,0.04766785598616507
+Maldives,2019,Asia,MDV,Maldives,0,0,0,0.047553615225786265
+Maldives,2020,Asia,MDV,Maldives,0,0,0,0.10640687239423882
+Maldives,2021,Asia,MDV,Maldives,0,0,0,0.021692384524898762
+Maldives,2022,Asia,MDV,Maldives,0,0,0,0.0324721923308437
+Maldives,2023,Asia,MDV,Maldives,0,0,0,0.03235620547974618
+Mali,2017,Africa,MLI,Mali,1,1,1,0.999999986777439
+Mali,2018,Africa,MLI,Mali,1,1,1,0.999999080403749
+Mali,2019,Africa,MLI,Mali,1,1,1,0.9999989755921708
+Mali,2020,Africa,MLI,Mali,1,1,1,0.9999922476506821
+Mali,2021,Africa,MLI,Mali,1,1,1,0.9999595757848609
+Mali,2022,Africa,MLI,Mali,1,1,1,0.9999968203979088
+Mali,2023,Africa,MLI,Mali,1,1,1,0.9999932212329153
+Malta,2017,Europe,MLT,Malta,0,0,0,0.06305074952378567
+Malta,2018,Europe,MLT,Malta,0,0,0,0.07092655323013251
+Malta,2019,Europe,MLT,Malta,0,0,0,0.07801707575202423
+Malta,2020,Europe,MLT,Malta,0,0,0,0.07567539770586797
+Malta,2021,Europe,MLT,Malta,0,0,0,0.04040273132036388
+Malta,2022,Europe,MLT,Malta,0,0,0,0.06277287042155504
+Malta,2023,Europe,MLT,Malta,0,0,0,0.055210318857233966
+Marshall Islands,2017,Asia,MHL,Marshall Islands,0,0,0,0.03180470117664843
+Marshall Islands,2018,Asia,MHL,Marshall Islands,0,0,0,0.02904883632903843
+Marshall Islands,2019,Asia,MHL,Marshall Islands,0,0,0,0.022568435323951273
+Marshall Islands,2020,Asia,MHL,Marshall Islands,0,0,0,0.028493790570462783
+Marshall Islands,2021,Asia,MHL,Marshall Islands,0,0,0,0.024014088966085954
+Marshall Islands,2022,Asia,MHL,Marshall Islands,0,0,0,0.026029957668831993
+Marshall Islands,2023,Asia,MHL,Marshall Islands,0,0,0,0.0280789827461973
+Mauritania,2017,Africa,MRT,Mauritania,0,0,0,0.23818619816186545
+Mauritania,2018,Africa,MRT,Mauritania,1,0,0,0.16930659609121462
+Mauritania,2019,Africa,MRT,Mauritania,1,1,1,0.5218098282486293
+Mauritania,2020,Africa,MRT,Mauritania,0,1,1,0.7101288522146247
+Mauritania,2021,Africa,MRT,Mauritania,0,0,0,0.32323346988486046
+Mauritania,2022,Africa,MRT,Mauritania,1,0,0,0.19747475099128312
+Mauritania,2023,Africa,MRT,Mauritania,1,1,1,0.689129397342568
+Mauritius,2017,Africa,MUS,Mauritius,0,0,0,0.032525430150314755
+Mauritius,2018,Africa,MUS,Mauritius,0,0,0,0.03148509637130976
+Mauritius,2019,Africa,MUS,Mauritius,0,0,0,0.031057950720066913
+Mauritius,2020,Africa,MUS,Mauritius,0,0,0,0.0454223898178188
+Mauritius,2021,Africa,MUS,Mauritius,0,0,0,0.033075353271716616
+Mauritius,2022,Africa,MUS,Mauritius,0,0,0,0.028479578358726644
+Mauritius,2023,Africa,MUS,Mauritius,0,0,0,0.027480553637168368
+Mexico,2017,Americas,MEX,Mexico,1,1,1,0.9999948317219235
+Mexico,2018,Americas,MEX,Mexico,1,1,1,0.9999999989681205
+Mexico,2019,Americas,MEX,Mexico,1,1,1,0.9999999997134494
+Mexico,2020,Americas,MEX,Mexico,1,1,1,0.9999999998676716
+Mexico,2021,Americas,MEX,Mexico,1,1,1,0.999999999966706
+Mexico,2022,Americas,MEX,Mexico,1,1,1,0.9999999988942325
+Mexico,2023,Americas,MEX,Mexico,1,1,1,0.9999999310373683
+Moldova,2017,Europe,MDA,Moldova,0,0,0,0.07550555222030784
+Moldova,2018,Europe,MDA,Moldova,0,0,0,0.07220710093117699
+Moldova,2019,Europe,MDA,Moldova,0,0,0,0.07194012295461533
+Moldova,2020,Europe,MDA,Moldova,0,0,0,0.09291599872337684
+Moldova,2021,Europe,MDA,Moldova,0,0,0,0.05500285964246707
+Moldova,2022,Europe,MDA,Moldova,0,0,0,0.07108483740947502
+Moldova,2023,Europe,MDA,Moldova,0,0,0,0.059133614946002416
+Monaco,2017,Europe,MCO,Monaco,0,0,0,0.004806020608708313
+Monaco,2018,Europe,MCO,Monaco,0,0,0,0.0030394224233009416
+Monaco,2019,Europe,MCO,Monaco,0,0,0,0.002310931189142393
+Monaco,2020,Europe,MCO,Monaco,0,0,0,0.00445434485772417
+Monaco,2021,Europe,MCO,Monaco,0,0,0,0.0011653750911808157
+Monaco,2022,Europe,MCO,Monaco,0,0,0,0.0014004142815676058
+Monaco,2023,Europe,MCO,Monaco,0,0,0,0.0008963354878484504
+Mongolia,2017,Asia,MNG,Mongolia,0,0,0,0.05587568857323337
+Mongolia,2018,Asia,MNG,Mongolia,0,0,0,0.048900129030109436
+Mongolia,2019,Asia,MNG,Mongolia,0,0,0,0.04649288774345458
+Mongolia,2020,Asia,MNG,Mongolia,0,0,0,0.05373574327836728
+Mongolia,2021,Asia,MNG,Mongolia,0,0,0,0.0539537678863782
+Mongolia,2022,Asia,MNG,Mongolia,0,0,0,0.03589256598310835
+Mongolia,2023,Asia,MNG,Mongolia,0,0,0,0.03197748687139536
+Montenegro,2017,Europe,MNE,Montenegro,0,0,0,0.034043782979845
+Montenegro,2018,Europe,MNE,Montenegro,0,0,0,0.03143838456208142
+Montenegro,2019,Europe,MNE,Montenegro,0,0,0,0.03056538009636537
+Montenegro,2020,Europe,MNE,Montenegro,0,0,0,0.04446315935777543
+Montenegro,2021,Europe,MNE,Montenegro,0,0,0,0.02290816372339341
+Montenegro,2022,Europe,MNE,Montenegro,0,0,0,0.025745591302734693
+Montenegro,2023,Europe,MNE,Montenegro,0,0,0,0.02546604397397571
+Morocco,2017,Africa,MAR,Morocco,0,0,0,0.11683399963122097
+Morocco,2018,Africa,MAR,Morocco,0,0,0,0.11582063449487863
+Morocco,2019,Africa,MAR,Morocco,1,0,0,0.10966096926091264
+Morocco,2020,Africa,MAR,Morocco,1,1,1,0.5817367586982332
+Morocco,2021,Africa,MAR,Morocco,1,1,1,0.6704174611515163
+Morocco,2022,Africa,MAR,Morocco,1,1,1,0.7629968393294024
+Morocco,2023,Africa,MAR,Morocco,1,1,1,0.8042397495796229
+Mozambique,2017,Africa,MOZ,Mozambique,1,1,1,0.9455248649698901
+Mozambique,2018,Africa,MOZ,Mozambique,1,1,1,0.9708976752660938
+Mozambique,2019,Africa,MOZ,Mozambique,1,1,1,0.9931572385937003
+Mozambique,2020,Africa,MOZ,Mozambique,1,1,1,0.9707974907178928
+Mozambique,2021,Africa,MOZ,Mozambique,1,1,1,0.9773553399053437
+Mozambique,2022,Africa,MOZ,Mozambique,1,1,1,0.9961377599364394
+Mozambique,2023,Africa,MOZ,Mozambique,1,1,1,0.992739987113705
+Myanmar (Burma),2017,Asia,MMR,Myanmar,1,1,1,0.9995534456055513
+Myanmar (Burma),2018,Asia,MMR,Myanmar,1,1,1,0.9995696165409964
+Myanmar (Burma),2019,Asia,MMR,Myanmar,1,1,1,0.9997649932263369
+Myanmar (Burma),2020,Asia,MMR,Myanmar,1,1,1,0.9996144223690198
+Myanmar (Burma),2021,Asia,MMR,Myanmar,1,1,1,0.9999922006744557
+Myanmar (Burma),2022,Asia,MMR,Myanmar,1,1,1,0.9999940814332132
+Myanmar (Burma),2023,Asia,MMR,Myanmar,1,1,1,0.9999894539730864
+Namibia,2017,Africa,NAM,Namibia,0,0,0,0.1295112772503388
+Namibia,2018,Africa,NAM,Namibia,0,0,0,0.1207407113827879
+Namibia,2019,Africa,NAM,Namibia,0,0,0,0.12332542512834772
+Namibia,2020,Africa,NAM,Namibia,0,0,0,0.13752978439919736
+Namibia,2021,Africa,NAM,Namibia,0,0,0,0.10846481937387574
+Namibia,2022,Africa,NAM,Namibia,0,0,0,0.10020009099471253
+Namibia,2023,Africa,NAM,Namibia,0,0,0,0.09755088560176972
+Nauru,2017,Asia,NRU,Nauru,0,0,0,0.053751364288546495
+Nauru,2018,Asia,NRU,Nauru,0,0,0,0.044733968711102294
+Nauru,2019,Asia,NRU,Nauru,0,0,0,0.03305521356533184
+Nauru,2020,Asia,NRU,Nauru,0,0,0,0.037221637806334466
+Nauru,2021,Asia,NRU,Nauru,0,0,0,0.030490902664626646
+Nauru,2022,Asia,NRU,Nauru,0,0,0,0.03208579905284137
+Nauru,2023,Asia,NRU,Nauru,0,0,0,0.03293708369946062
+Nepal,2017,Asia,NPL,Nepal,0,0,0,0.09734871249593544
+Nepal,2018,Asia,NPL,Nepal,0,0,0,0.09423358659539814
+Nepal,2019,Asia,NPL,Nepal,0,0,0,0.10096080489067748
+Nepal,2020,Asia,NPL,Nepal,0,0,0,0.11944389417027605
+Nepal,2021,Asia,NPL,Nepal,1,0,0,0.10082521442180466
+Nepal,2022,Asia,NPL,Nepal,0,1,0,0.3532737984375085
+Nepal,2023,Asia,NPL,Nepal,0,0,0,0.16499179176673678
+Netherlands,2017,Europe,NLD,Netherlands,0,0,0,0.06296324323249247
+Netherlands,2018,Europe,NLD,Netherlands,0,0,0,0.05914117736933734
+Netherlands,2019,Europe,NLD,Netherlands,0,0,0,0.05788395903942757
+Netherlands,2020,Europe,NLD,Netherlands,0,0,0,0.05436560626621969
+Netherlands,2021,Europe,NLD,Netherlands,0,0,0,0.02834889697836455
+Netherlands,2022,Europe,NLD,Netherlands,0,0,0,0.030131291698585954
+Netherlands,2023,Europe,NLD,Netherlands,0,0,0,0.03147875032976242
+New Zealand,2017,Asia,NZL,New Zealand,0,0,0,0.023140776611087727
+New Zealand,2018,Asia,NZL,New Zealand,0,0,0,0.021927927187178363
+New Zealand,2019,Asia,NZL,New Zealand,0,0,0,0.020113276402796462
+New Zealand,2020,Asia,NZL,New Zealand,0,0,0,0.022723471929415068
+New Zealand,2021,Asia,NZL,New Zealand,0,0,0,0.01493853288896389
+New Zealand,2022,Asia,NZL,New Zealand,0,0,0,0.015116479376388816
+New Zealand,2023,Asia,NZL,New Zealand,0,0,0,0.019565861184088797
+Nicaragua,2017,Americas,NIC,Nicaragua,0,0,0,0.11380584695238355
+Nicaragua,2018,Americas,NIC,Nicaragua,0,0,0,0.12701033075280888
+Nicaragua,2019,Americas,NIC,Nicaragua,0,0,0,0.12158707909378441
+Nicaragua,2020,Americas,NIC,Nicaragua,0,0,0,0.11657118859533716
+Nicaragua,2021,Americas,NIC,Nicaragua,0,0,0,0.09001701319185221
+Nicaragua,2022,Americas,NIC,Nicaragua,0,0,0,0.10024296031153807
+Nicaragua,2023,Americas,NIC,Nicaragua,0,0,0,0.1026266466583338
+Niger,2017,Africa,NER,Niger,1,1,1,0.9938027386870807
+Niger,2018,Africa,NER,Niger,1,1,1,0.9995631206354862
+Niger,2019,Africa,NER,Niger,1,1,1,0.9952531441562184
+Niger,2020,Africa,NER,Niger,1,1,1,0.997642429262215
+Niger,2021,Africa,NER,Niger,1,1,1,0.9990067630150533
+Niger,2022,Africa,NER,Niger,1,1,1,0.9993365198240718
+Niger,2023,Africa,NER,Niger,1,1,1,0.9996057438574276
+Nigeria,2017,Africa,NGA,Nigeria,1,1,1,0.9999999999995697
+Nigeria,2018,Africa,NGA,Nigeria,1,1,1,0.9999999999986731
+Nigeria,2019,Africa,NGA,Nigeria,1,1,1,0.9999999999997604
 Nigeria,2020,Africa,NGA,Nigeria,1,1,1,0.9999999999999982
-Nigeria,2021,Africa,NGA,Nigeria,1,1,1,0.9999999999865423
-Nigeria,2022,Africa,NGA,Nigeria,1,1,1,0.99999999999999
-Nigeria,2023,Africa,NGA,Nigeria,1,1,1,0.9999999999997549
-North Korea,2017,Asia,PRK,"Korea, Dem. People's Rep.",0,0,0,0.03816589654820039
-North Korea,2018,Asia,PRK,"Korea, Dem. People's Rep.",0,0,0,0.043017183668088446
-North Korea,2019,Asia,PRK,"Korea, Dem. People's Rep.",0,0,0,0.042047424770034425
-North Korea,2020,Asia,PRK,"Korea, Dem. People's Rep.",0,0,0,0.0410357587834856
-North Korea,2021,Asia,PRK,"Korea, Dem. People's Rep.",0,0,0,0.03973898709776293
-North Korea,2022,Asia,PRK,"Korea, Dem. People's Rep.",0,0,0,0.038550207796235164
-North Korea,2023,Asia,PRK,"Korea, Dem. People's Rep.",0,0,0,0.03807998546422872
-North Macedonia,2017,Europe,MKD,North Macedonia,0,0,0,0.0931750538275857
-North Macedonia,2018,Europe,MKD,North Macedonia,0,0,0,0.0872400219116772
-North Macedonia,2019,Europe,MKD,North Macedonia,0,0,0,0.0852128431975407
-North Macedonia,2020,Europe,MKD,North Macedonia,0,0,0,0.09664260744879889
-North Macedonia,2021,Europe,MKD,North Macedonia,0,0,0,0.08263322159248519
-North Macedonia,2022,Europe,MKD,North Macedonia,0,0,0,0.09600576796288131
-North Macedonia,2023,Europe,MKD,North Macedonia,0,0,0,0.07601987828844503
-Norway,2017,Europe,NOR,Norway,0,0,0,0.013644136433246804
-Norway,2018,Europe,NOR,Norway,0,0,0,0.010686368688451468
-Norway,2019,Europe,NOR,Norway,0,0,0,0.02202620476722297
-Norway,2020,Europe,NOR,Norway,0,0,0,0.02891957015714757
-Norway,2021,Europe,NOR,Norway,0,0,0,0.0034087131434318253
-Norway,2022,Europe,NOR,Norway,0,0,0,0.0028403349975467816
-Norway,2023,Europe,NOR,Norway,0,0,0,0.04558403232442855
-Oman,2017,Middle East,OMN,Oman,0,0,0,0.05393416565042282
-Oman,2018,Middle East,OMN,Oman,0,0,0,0.04704796631283578
-Oman,2019,Middle East,OMN,Oman,0,0,0,0.03426722022375295
-Oman,2020,Middle East,OMN,Oman,0,0,0,0.031784232188092156
-Oman,2021,Middle East,OMN,Oman,0,0,0,0.02541155465149177
-Oman,2022,Middle East,OMN,Oman,0,0,0,0.023504302195287808
-Oman,2023,Middle East,OMN,Oman,0,0,0,0.1156057279419104
-Pakistan,2017,Asia,PAK,Pakistan,1,1,1,0.9999901700868755
-Pakistan,2018,Asia,PAK,Pakistan,1,1,1,0.9998497164082149
-Pakistan,2019,Asia,PAK,Pakistan,1,1,1,0.9958676333551939
-Pakistan,2020,Asia,PAK,Pakistan,1,1,1,0.9992507068821805
-Pakistan,2021,Asia,PAK,Pakistan,1,1,1,0.9999929141676609
-Pakistan,2022,Asia,PAK,Pakistan,1,1,1,0.9992354519777947
-Pakistan,2023,Asia,PAK,Pakistan,1,1,1,0.9998926788287837
-Palau,2017,Asia,PLW,Palau,0,0,0,0.023888541117641656
-Palau,2018,Asia,PLW,Palau,0,0,0,0.023887310370851265
-Palau,2019,Asia,PLW,Palau,0,0,0,0.02367329678508309
-Palau,2020,Asia,PLW,Palau,0,0,0,0.016622535797959023
-Palau,2021,Asia,PLW,Palau,0,0,0,0.010190667904189888
-Palau,2022,Asia,PLW,Palau,0,0,0,0.017107541084343536
-Palau,2023,Asia,PLW,Palau,0,0,0,0.024579280203016134
-Panama,2017,Americas,PAN,Panama,0,0,0,0.06286584806539082
-Panama,2018,Americas,PAN,Panama,0,0,0,0.05501527075095224
-Panama,2019,Americas,PAN,Panama,0,0,0,0.058077335419783715
-Panama,2020,Americas,PAN,Panama,0,0,0,0.09790824563754633
-Panama,2021,Americas,PAN,Panama,0,0,0,0.03778840716845376
-Panama,2022,Americas,PAN,Panama,0,0,0,0.04418015862322295
-Panama,2023,Americas,PAN,Panama,0,0,0,0.03883060764651286
-Papua New Guinea,2017,Asia,PNG,Papua New Guinea,0,0,0,0.20267190216657735
-Papua New Guinea,2018,Asia,PNG,Papua New Guinea,1,0,0,0.2235301586049437
-Papua New Guinea,2019,Asia,PNG,Papua New Guinea,0,1,1,0.5537854165884599
-Papua New Guinea,2020,Asia,PNG,Papua New Guinea,1,0,0,0.3365176947005703
-Papua New Guinea,2021,Asia,PNG,Papua New Guinea,1,1,1,0.7054815026374004
-Papua New Guinea,2022,Asia,PNG,Papua New Guinea,1,1,1,0.8979010685271418
-Papua New Guinea,2023,Asia,PNG,Papua New Guinea,1,1,1,0.892234196741512
-Paraguay,2017,Americas,PRY,Paraguay,1,0,0,0.23384007382586752
-Paraguay,2018,Americas,PRY,Paraguay,0,1,0,0.4784090140177746
-Paraguay,2019,Americas,PRY,Paraguay,1,0,0,0.311158026394883
-Paraguay,2020,Americas,PRY,Paraguay,1,1,1,0.6260311784876411
-Paraguay,2021,Americas,PRY,Paraguay,0,1,1,0.7551634026560652
-Paraguay,2022,Americas,PRY,Paraguay,0,0,0,0.3765388916485954
-Paraguay,2023,Americas,PRY,Paraguay,0,0,0,0.24795306178267817
-Peru,2017,Americas,PER,Peru,0,1,1,0.9009624768087603
-Peru,2018,Americas,PER,Peru,1,0,1,0.5748514947215565
-Peru,2019,Americas,PER,Peru,1,1,1,0.7527559508219387
-Peru,2020,Americas,PER,Peru,1,1,1,0.9456628141305023
-Peru,2021,Americas,PER,Peru,1,1,1,0.8833667638946923
-Peru,2022,Americas,PER,Peru,1,1,1,0.911714223570698
-Peru,2023,Americas,PER,Peru,0,1,1,0.9097074153179788
-Philippines,2017,Asia,PHL,Philippines,1,1,1,0.9995034436655262
-Philippines,2018,Asia,PHL,Philippines,1,1,1,0.9976803645637764
-Philippines,2019,Asia,PHL,Philippines,1,1,1,0.999000260463132
-Philippines,2020,Asia,PHL,Philippines,1,1,1,0.9980079312978212
-Philippines,2021,Asia,PHL,Philippines,1,1,1,0.9987802048881466
-Philippines,2022,Asia,PHL,Philippines,1,1,1,0.9994346053217105
-Philippines,2023,Asia,PHL,Philippines,1,1,1,0.998465201542445
-Poland,2017,Europe,POL,Poland,0,0,0,0.029367756476278904
-Poland,2018,Europe,POL,Poland,0,0,0,0.028057784368800583
-Poland,2019,Europe,POL,Poland,0,0,0,0.02740162798399371
-Poland,2020,Europe,POL,Poland,0,0,0,0.028351278728106194
-Poland,2021,Europe,POL,Poland,1,0,0,0.017096088848439172
-Poland,2022,Europe,POL,Poland,0,1,0,0.017657097027347593
-Poland,2023,Europe,POL,Poland,0,0,0,0.12585800359634625
-Portugal,2017,Europe,PRT,Portugal,0,0,0,0.024279674988148828
-Portugal,2018,Europe,PRT,Portugal,0,0,0,0.023749451405610092
-Portugal,2019,Europe,PRT,Portugal,0,0,0,0.027719031738408416
-Portugal,2020,Europe,PRT,Portugal,0,0,0,0.03154860003163256
-Portugal,2021,Europe,PRT,Portugal,0,0,0,0.024002077430303005
-Portugal,2022,Europe,PRT,Portugal,0,0,0,0.028707515724174862
-Portugal,2023,Europe,PRT,Portugal,0,0,0,0.021603065748510127
-Qatar,2017,Middle East,QAT,Qatar,0,0,0,0.06632992279463402
-Qatar,2018,Middle East,QAT,Qatar,0,0,0,0.028672697679332303
-Qatar,2019,Middle East,QAT,Qatar,0,0,0,0.04924771484786711
-Qatar,2020,Middle East,QAT,Qatar,0,0,0,0.1464695667446029
-Qatar,2021,Middle East,QAT,Qatar,0,0,0,0.023666412912419527
-Qatar,2022,Middle East,QAT,Qatar,0,0,0,0.003582857649426408
-Qatar,2023,Middle East,QAT,Qatar,0,0,0,0.09804502422507755
-Romania,2017,Europe,ROU,Romania,0,0,0,0.08054897510019335
-Romania,2018,Europe,ROU,Romania,0,0,0,0.07327420507970421
-Romania,2019,Europe,ROU,Romania,0,0,0,0.07634090411979652
-Romania,2020,Europe,ROU,Romania,0,0,0,0.0869644458153177
-Romania,2021,Europe,ROU,Romania,0,0,0,0.06751339633492569
-Romania,2022,Europe,ROU,Romania,0,0,0,0.06737248841887196
-Romania,2023,Europe,ROU,Romania,0,0,0,0.060822876927060995
-Russia (Soviet Union),2017,Europe,RUS,Russian Federation,1,1,1,0.9430815196325705
-Russia (Soviet Union),2018,Europe,RUS,Russian Federation,1,1,1,0.9636983300757861
-Russia (Soviet Union),2019,Europe,RUS,Russian Federation,1,1,1,0.8825145189286313
-Russia (Soviet Union),2020,Europe,RUS,Russian Federation,1,1,1,0.9566796837504331
-Russia (Soviet Union),2021,Europe,RUS,Russian Federation,1,1,1,0.8680327481623994
-Russia (Soviet Union),2022,Europe,RUS,Russian Federation,1,1,1,0.8111021724539081
-Russia (Soviet Union),2023,Europe,RUS,Russian Federation,1,1,1,0.9947146554518862
-Rwanda,2017,Africa,RWA,Rwanda,1,1,1,0.8297343760778771
-Rwanda,2018,Africa,RWA,Rwanda,1,1,1,0.963273646260453
-Rwanda,2019,Africa,RWA,Rwanda,0,1,1,0.8997990098599012
-Rwanda,2020,Africa,RWA,Rwanda,1,0,1,0.5405620653773152
-Rwanda,2021,Africa,RWA,Rwanda,1,1,1,0.8993966163313135
-Rwanda,2022,Africa,RWA,Rwanda,0,1,1,0.96846335569832
-Rwanda,2023,Africa,RWA,Rwanda,1,0,0,0.490402092798938
-Saint Kitts and Nevis,2017,Americas,KNA,St. Kitts and Nevis,0,0,0,0.02212705643336918
-Saint Kitts and Nevis,2018,Americas,KNA,St. Kitts and Nevis,0,0,0,0.01950961797064787
-Saint Kitts and Nevis,2019,Americas,KNA,St. Kitts and Nevis,0,0,0,0.020396858532394445
-Saint Kitts and Nevis,2020,Americas,KNA,St. Kitts and Nevis,0,0,0,0.02678266603445285
-Saint Kitts and Nevis,2021,Americas,KNA,St. Kitts and Nevis,0,0,0,0.02874742730934766
-Saint Kitts and Nevis,2022,Americas,KNA,St. Kitts and Nevis,0,0,0,0.0168326909553477
-Saint Kitts and Nevis,2023,Americas,KNA,St. Kitts and Nevis,0,0,0,0.02161370191537167
-Saint Lucia,2017,Americas,LCA,St. Lucia,0,0,0,0.020145693038169484
-Saint Lucia,2018,Americas,LCA,St. Lucia,0,0,0,0.020803988187749388
-Saint Lucia,2019,Americas,LCA,St. Lucia,0,0,0,0.018735065454118325
-Saint Lucia,2020,Americas,LCA,St. Lucia,0,0,0,0.04510052655401469
-Saint Lucia,2021,Americas,LCA,St. Lucia,0,0,0,0.012070554353340696
-Saint Lucia,2022,Americas,LCA,St. Lucia,0,0,0,0.01493075590101135
-Saint Lucia,2023,Americas,LCA,St. Lucia,0,0,0,0.01282808480164457
-Saint Vincent and the Grenadines,2017,Americas,VCT,St. Vincent and the Grenadines,0,0,0,0.01164297437903511
-Saint Vincent and the Grenadines,2018,Americas,VCT,St. Vincent and the Grenadines,0,0,0,0.014854609700304193
-Saint Vincent and the Grenadines,2019,Americas,VCT,St. Vincent and the Grenadines,0,0,0,0.012654233867903916
-Saint Vincent and the Grenadines,2020,Americas,VCT,St. Vincent and the Grenadines,0,0,0,0.017239537689193604
-Saint Vincent and the Grenadines,2021,Americas,VCT,St. Vincent and the Grenadines,0,0,0,0.01566238009087996
-Saint Vincent and the Grenadines,2022,Americas,VCT,St. Vincent and the Grenadines,0,0,0,0.01279624750601726
-Saint Vincent and the Grenadines,2023,Americas,VCT,St. Vincent and the Grenadines,0,0,0,0.011051701827204718
-Samoa (Western Samoa),2017,Asia,WSM,Samoa,0,0,0,0.01979285350651416
-Samoa (Western Samoa),2018,Asia,WSM,Samoa,0,0,0,0.018202374119220568
-Samoa (Western Samoa),2019,Asia,WSM,Samoa,0,0,0,0.02009754518002167
-Samoa (Western Samoa),2020,Asia,WSM,Samoa,0,0,0,0.021339107827269044
-Samoa (Western Samoa),2021,Asia,WSM,Samoa,0,0,0,0.019884094519434795
-Samoa (Western Samoa),2022,Asia,WSM,Samoa,0,0,0,0.018854041837802493
-Samoa (Western Samoa),2023,Asia,WSM,Samoa,0,0,0,0.016244259962989255
-San Marino,2017,Europe,SMR,San Marino,0,0,0,0.017652553687654386
-San Marino,2018,Europe,SMR,San Marino,0,0,0,0.025000378864436273
-San Marino,2019,Europe,SMR,San Marino,0,0,0,0.024723982268664246
-San Marino,2020,Europe,SMR,San Marino,0,0,0,0.022998597537445046
-San Marino,2021,Europe,SMR,San Marino,0,0,0,0.008139157621242414
-San Marino,2022,Europe,SMR,San Marino,0,0,0,0.010489676656618527
-San Marino,2023,Europe,SMR,San Marino,0,0,0,0.008053823317483565
-Sao Tome and Principe,2017,Africa,STP,Sao Tome and Principe,0,0,0,0.03425682877189571
-Sao Tome and Principe,2018,Africa,STP,Sao Tome and Principe,0,0,0,0.023703487000919243
-Sao Tome and Principe,2019,Africa,STP,Sao Tome and Principe,0,0,0,0.021999594282904756
-Sao Tome and Principe,2020,Africa,STP,Sao Tome and Principe,0,0,0,0.024685137502428362
-Sao Tome and Principe,2021,Africa,STP,Sao Tome and Principe,0,0,0,0.024805813199806535
-Sao Tome and Principe,2022,Africa,STP,Sao Tome and Principe,0,0,0,0.02440137163361773
-Sao Tome and Principe,2023,Africa,STP,Sao Tome and Principe,0,0,0,0.023247804670580203
-Saudi Arabia,2017,Middle East,SAU,Saudi Arabia,1,1,1,0.7888759974154785
-Saudi Arabia,2018,Middle East,SAU,Saudi Arabia,1,1,1,0.621455058178542
-Saudi Arabia,2019,Middle East,SAU,Saudi Arabia,1,1,1,0.7721424530106011
-Saudi Arabia,2020,Middle East,SAU,Saudi Arabia,1,1,1,0.9414329558042988
-Saudi Arabia,2021,Middle East,SAU,Saudi Arabia,0,1,1,0.8495475175434889
-Saudi Arabia,2022,Middle East,SAU,Saudi Arabia,1,0,0,0.2782827257053218
-Saudi Arabia,2023,Middle East,SAU,Saudi Arabia,0,1,1,0.9144745151113022
-Senegal,2017,Africa,SEN,Senegal,1,0,0,0.3081979870354795
-Senegal,2018,Africa,SEN,Senegal,0,1,1,0.5630160894124555
-Senegal,2019,Africa,SEN,Senegal,1,0,0,0.3835107700952412
-Senegal,2020,Africa,SEN,Senegal,1,1,1,0.7578134000508802
-Senegal,2021,Africa,SEN,Senegal,0,1,1,0.8717564688935819
-Senegal,2022,Africa,SEN,Senegal,0,0,0,0.47587622025566556
-Senegal,2023,Africa,SEN,Senegal,0,0,0,0.3664628658194887
-Serbia (Yugoslavia),2017,Europe,SRB,Serbia,0,0,0,0.08982964059377532
-Serbia (Yugoslavia),2018,Europe,SRB,Serbia,0,0,0,0.08772469373958743
-Serbia (Yugoslavia),2019,Europe,SRB,Serbia,0,0,0,0.08273006640633743
-Serbia (Yugoslavia),2020,Europe,SRB,Serbia,0,0,0,0.08324980916931134
-Serbia (Yugoslavia),2021,Europe,SRB,Serbia,0,0,0,0.0801934408487746
-Serbia (Yugoslavia),2022,Europe,SRB,Serbia,0,0,0,0.06329887107044338
-Serbia (Yugoslavia),2023,Europe,SRB,Serbia,0,0,0,0.04358204545575275
-Seychelles,2017,Africa,SYC,Seychelles,0,0,0,0.05449736748543659
-Seychelles,2018,Africa,SYC,Seychelles,0,0,0,0.03973484316932277
-Seychelles,2019,Africa,SYC,Seychelles,0,0,0,0.03621544643641001
-Seychelles,2020,Africa,SYC,Seychelles,0,0,0,0.07079471480123103
-Seychelles,2021,Africa,SYC,Seychelles,0,0,0,0.05385183224519788
-Seychelles,2022,Africa,SYC,Seychelles,0,0,0,0.00024822397739826226
-Seychelles,2023,Africa,SYC,Seychelles,0,0,0,0.02637352836697458
-Sierra Leone,2017,Africa,SLE,Sierra Leone,0,0,0,0.205214041047811
-Sierra Leone,2018,Africa,SLE,Sierra Leone,0,0,0,0.1762932828515548
-Sierra Leone,2019,Africa,SLE,Sierra Leone,0,0,0,0.2489342051906924
-Sierra Leone,2020,Africa,SLE,Sierra Leone,1,0,0,0.19940459903639549
-Sierra Leone,2021,Africa,SLE,Sierra Leone,0,1,1,0.5576150104778438
-Sierra Leone,2022,Africa,SLE,Sierra Leone,0,0,0,0.2659751032652155
-Sierra Leone,2023,Africa,SLE,Sierra Leone,0,0,0,0.22643210047047227
-Singapore,2017,Asia,SGP,Singapore,0,0,0,0.015221008822692091
-Singapore,2018,Asia,SGP,Singapore,0,0,0,0.010358323752004031
-Singapore,2019,Asia,SGP,Singapore,0,0,0,0.017353893330518382
-Singapore,2020,Asia,SGP,Singapore,0,0,0,0.025083797432579984
-Singapore,2021,Asia,SGP,Singapore,0,0,0,0.0031882034318657256
-Singapore,2022,Asia,SGP,Singapore,0,0,0,0.0036084559128633257
-Singapore,2023,Asia,SGP,Singapore,0,0,0,0.02898158175472984
-Slovakia,2017,Europe,SVK,Slovak Republic,0,0,0,0.02989153016549824
-Slovakia,2018,Europe,SVK,Slovak Republic,0,0,0,0.02810816246485577
-Slovakia,2019,Europe,SVK,Slovak Republic,0,0,0,0.032292515390981255
-Slovakia,2020,Europe,SVK,Slovak Republic,0,0,0,0.03209533028934201
-Slovakia,2021,Europe,SVK,Slovak Republic,0,0,0,0.023882333585723167
-Slovakia,2022,Europe,SVK,Slovak Republic,0,0,0,0.02817635350282526
-Slovakia,2023,Europe,SVK,Slovak Republic,0,0,0,0.01985323481431115
-Slovenia,2017,Europe,SVN,Slovenia,0,0,0,0.028896185523387467
-Slovenia,2018,Europe,SVN,Slovenia,0,0,0,0.0226050571778596
-Slovenia,2019,Europe,SVN,Slovenia,0,0,0,0.027846780222850916
-Slovenia,2020,Europe,SVN,Slovenia,0,0,0,0.031513705924915425
-Slovenia,2021,Europe,SVN,Slovenia,0,0,0,0.020393075026017466
-Slovenia,2022,Europe,SVN,Slovenia,0,0,0,0.025697923957468928
-Slovenia,2023,Europe,SVN,Slovenia,0,0,0,0.017191899153128284
-Solomon Islands,2017,Asia,SLB,Solomon Islands,0,0,0,0.1331917352265753
-Solomon Islands,2018,Asia,SLB,Solomon Islands,0,0,0,0.10340743647966304
-Solomon Islands,2019,Asia,SLB,Solomon Islands,0,0,0,0.1029885216021532
-Solomon Islands,2020,Asia,SLB,Solomon Islands,0,0,0,0.10002094956025408
-Solomon Islands,2021,Asia,SLB,Solomon Islands,0,0,0,0.0895848890412536
-Solomon Islands,2022,Asia,SLB,Solomon Islands,0,0,0,0.09372251946421446
-Solomon Islands,2023,Asia,SLB,Solomon Islands,0,0,0,0.1116920968693811
-Somalia,2017,Africa,SOM,"Somalia, Fed. Rep.",1,1,1,0.9954719391019983
-Somalia,2018,Africa,SOM,"Somalia, Fed. Rep.",1,1,1,0.9999969019998596
-Somalia,2019,Africa,SOM,"Somalia, Fed. Rep.",1,1,1,0.9999880929946187
-Somalia,2020,Africa,SOM,"Somalia, Fed. Rep.",1,1,1,0.9999127216344547
-Somalia,2021,Africa,SOM,"Somalia, Fed. Rep.",1,1,1,0.9993684327658164
-Somalia,2022,Africa,SOM,"Somalia, Fed. Rep.",1,1,1,0.9971147646593067
-Somalia,2023,Africa,SOM,"Somalia, Fed. Rep.",1,1,1,0.9997553095519465
-South Africa,2017,Africa,ZAF,South Africa,1,0,0,0.2740102846946083
-South Africa,2018,Africa,ZAF,South Africa,1,1,1,0.6669058893862356
-South Africa,2019,Africa,ZAF,South Africa,1,1,1,0.8617413479893992
-South Africa,2020,Africa,ZAF,South Africa,1,1,1,0.8897726123598253
-South Africa,2021,Africa,ZAF,South Africa,1,1,1,0.9339494623313118
-South Africa,2022,Africa,ZAF,South Africa,1,1,1,0.7945078793390815
-South Africa,2023,Africa,ZAF,South Africa,1,1,1,0.8993150575519142
-South Korea,2017,Asia,KOR,"Korea, Rep.",0,0,0,0.024168289846841683
-South Korea,2018,Asia,KOR,"Korea, Rep.",0,0,0,0.02373346132126515
-South Korea,2019,Asia,KOR,"Korea, Rep.",0,0,0,0.02861774358703669
-South Korea,2020,Asia,KOR,"Korea, Rep.",0,0,0,0.025888106641485695
-South Korea,2021,Asia,KOR,"Korea, Rep.",0,0,0,0.01786550063913123
-South Korea,2022,Asia,KOR,"Korea, Rep.",0,0,0,0.023790190774909774
-South Korea,2023,Asia,KOR,"Korea, Rep.",0,0,0,0.019159485955068258
-South Sudan,2017,Africa,SSD,South Sudan,1,1,1,0.9999974296079439
-South Sudan,2018,Africa,SSD,South Sudan,1,1,1,0.9999997569055472
-South Sudan,2019,Africa,SSD,South Sudan,1,1,1,0.9999993809438885
-South Sudan,2020,Africa,SSD,South Sudan,1,1,1,0.9999998483275815
-South Sudan,2021,Africa,SSD,South Sudan,1,1,1,0.999998866442686
-South Sudan,2022,Africa,SSD,South Sudan,1,1,1,0.9999931162472241
-South Sudan,2023,Africa,SSD,South Sudan,1,1,1,0.9987550160086497
-Spain,2017,Europe,ESP,Spain,0,1,0,0.24181597785650866
-Spain,2018,Europe,ESP,Spain,0,0,0,0.12641507741202235
-Spain,2019,Europe,ESP,Spain,0,0,0,0.10531400538117423
-Spain,2020,Europe,ESP,Spain,0,0,0,0.1379200294149558
-Spain,2021,Europe,ESP,Spain,0,0,0,0.07820144925399691
-Spain,2022,Europe,ESP,Spain,1,0,0,0.0938115327929018
-Spain,2023,Europe,ESP,Spain,0,1,0,0.25183377989843786
-Sri Lanka,2017,Asia,LKA,Sri Lanka,0,1,0,0.4887070746577521
-Sri Lanka,2018,Asia,LKA,Sri Lanka,1,0,0,0.3028312483671299
-Sri Lanka,2019,Asia,LKA,Sri Lanka,0,1,0,0.4329903202741872
-Sri Lanka,2020,Asia,LKA,Sri Lanka,0,0,0,0.2361583634431076
-Sri Lanka,2021,Asia,LKA,Sri Lanka,0,0,0,0.1912474599154766
-Sri Lanka,2022,Asia,LKA,Sri Lanka,0,0,0,0.20541679320008813
-Sri Lanka,2023,Asia,LKA,Sri Lanka,0,0,0,0.1195653577146195
-Sudan,2017,Africa,SDN,Sudan,1,1,1,0.999999919119754
-Sudan,2018,Africa,SDN,Sudan,1,1,1,0.9999829666245426
-Sudan,2019,Africa,SDN,Sudan,1,1,1,0.9997691674359376
-Sudan,2020,Africa,SDN,Sudan,1,1,1,0.9999983796837022
-Sudan,2021,Africa,SDN,Sudan,1,1,1,0.9999995569984901
-Sudan,2022,Africa,SDN,Sudan,1,1,1,0.9999998248799209
-Sudan,2023,Africa,SDN,Sudan,1,1,1,0.99999570308207
-Suriname,2017,Americas,SUR,Suriname,0,0,0,0.02750381478261732
-Suriname,2018,Americas,SUR,Suriname,0,0,0,0.023092697207359153
-Suriname,2019,Americas,SUR,Suriname,0,0,0,0.028011111817681997
-Suriname,2020,Americas,SUR,Suriname,0,0,0,0.033106157668802774
-Suriname,2021,Americas,SUR,Suriname,0,0,0,0.02758997365501635
-Suriname,2022,Americas,SUR,Suriname,0,0,0,0.03042447107385074
-Suriname,2023,Americas,SUR,Suriname,0,0,0,0.029065530028599122
-Sweden,2017,Europe,SWE,Sweden,0,1,0,0.10528448799141943
-Sweden,2018,Europe,SWE,Sweden,0,0,0,0.12143794910287631
-Sweden,2019,Europe,SWE,Sweden,0,0,0,0.08927770243389543
-Sweden,2020,Europe,SWE,Sweden,0,0,0,0.0818014821369963
-Sweden,2021,Europe,SWE,Sweden,0,0,0,0.04547097002562611
-Sweden,2022,Europe,SWE,Sweden,0,0,0,0.08849711950895475
-Sweden,2023,Europe,SWE,Sweden,0,0,0,0.04692957423633789
-Switzerland,2017,Europe,CHE,Switzerland,0,0,0,0.017790048217424987
-Switzerland,2018,Europe,CHE,Switzerland,0,0,0,0.013903339101726767
-Switzerland,2019,Europe,CHE,Switzerland,0,0,0,0.01684377379437983
-Switzerland,2020,Europe,CHE,Switzerland,0,0,0,0.014922374001180785
-Switzerland,2021,Europe,CHE,Switzerland,0,0,0,0.008834522583705557
-Switzerland,2022,Europe,CHE,Switzerland,0,0,0,0.010907812912389268
-Switzerland,2023,Europe,CHE,Switzerland,0,0,0,0.007141034803444654
-Syria,2017,Middle East,SYR,Syrian Arab Republic,1,1,1,0.9999999999969669
-Syria,2018,Middle East,SYR,Syrian Arab Republic,1,1,1,0.9999999999451246
-Syria,2019,Middle East,SYR,Syrian Arab Republic,1,1,1,0.9999936723120545
-Syria,2020,Middle East,SYR,Syrian Arab Republic,1,1,1,0.999997454989207
-Syria,2021,Middle East,SYR,Syrian Arab Republic,1,1,1,0.9999465954229003
-Syria,2022,Middle East,SYR,Syrian Arab Republic,1,1,1,0.9993898023443504
-Syria,2023,Middle East,SYR,Syrian Arab Republic,1,1,1,0.9999561032571184
-Tajikistan,2017,Asia,TJK,Tajikistan,1,0,0,0.22324076866853718
-Tajikistan,2018,Asia,TJK,Tajikistan,1,1,1,0.7878081054741258
-Tajikistan,2019,Asia,TJK,Tajikistan,0,1,1,0.7668102214639213
-Tajikistan,2020,Asia,TJK,Tajikistan,1,0,0,0.3283164529607227
-Tajikistan,2021,Asia,TJK,Tajikistan,1,1,0,0.21931842123936704
-Tajikistan,2022,Asia,TJK,Tajikistan,0,1,0,0.35335066975785673
-Tajikistan,2023,Asia,TJK,Tajikistan,0,0,0,0.47962247871816777
-Tanzania,2017,Africa,TZA,Tanzania,1,1,1,0.7754619172086347
-Tanzania,2018,Africa,TZA,Tanzania,1,1,1,0.8405317235223103
-Tanzania,2019,Africa,TZA,Tanzania,1,1,1,0.9362754794522401
-Tanzania,2020,Africa,TZA,Tanzania,1,1,1,0.9477095777849857
-Tanzania,2021,Africa,TZA,Tanzania,1,1,1,0.960670457665105
-Tanzania,2022,Africa,TZA,Tanzania,0,1,1,0.9633002647791953
-Tanzania,2023,Africa,TZA,Tanzania,1,0,1,0.7414171965702504
-Thailand,2017,Asia,THA,Thailand,1,1,1,0.8676389147061718
-Thailand,2018,Asia,THA,Thailand,1,1,1,0.9519780392704134
-Thailand,2019,Asia,THA,Thailand,1,1,1,0.9370908308247454
-Thailand,2020,Asia,THA,Thailand,1,1,1,0.942491052613147
-Thailand,2021,Asia,THA,Thailand,1,1,1,0.9385631273964297
-Thailand,2022,Asia,THA,Thailand,1,1,1,0.9347877363279783
-Thailand,2023,Asia,THA,Thailand,1,1,1,0.9296797074256394
-Togo,2017,Africa,TGO,Togo,0,0,0,0.20580345759657362
-Togo,2018,Africa,TGO,Togo,1,0,0,0.14425002046719812
-Togo,2019,Africa,TGO,Togo,0,1,1,0.5050583384498509
-Togo,2020,Africa,TGO,Togo,0,0,0,0.2684612504336763
-Togo,2021,Africa,TGO,Togo,1,0,0,0.24492329820179232
-Togo,2022,Africa,TGO,Togo,1,1,1,0.7620175767887489
-Togo,2023,Africa,TGO,Togo,1,1,1,0.8852750028710958
-Tonga,2017,Asia,TON,Tonga,0,0,0,0.014439463516805395
-Tonga,2018,Asia,TON,Tonga,0,0,0,0.018255956886305328
-Tonga,2019,Asia,TON,Tonga,0,0,0,0.020006049725802298
-Tonga,2020,Asia,TON,Tonga,0,0,0,0.019053847952959176
-Tonga,2021,Asia,TON,Tonga,0,0,0,0.025450518799224765
-Tonga,2022,Asia,TON,Tonga,0,0,0,0.016100971261420415
-Tonga,2023,Asia,TON,Tonga,0,0,0,0.014900106609388663
-Trinidad and Tobago,2017,Americas,TTO,Trinidad and Tobago,0,0,0,0.10251366538010258
-Trinidad and Tobago,2018,Americas,TTO,Trinidad and Tobago,0,0,0,0.10423027092472245
-Trinidad and Tobago,2019,Americas,TTO,Trinidad and Tobago,0,0,0,0.09331154824445569
-Trinidad and Tobago,2020,Americas,TTO,Trinidad and Tobago,0,0,0,0.10232750912776607
-Trinidad and Tobago,2021,Americas,TTO,Trinidad and Tobago,0,0,0,0.0826042399668013
-Trinidad and Tobago,2022,Americas,TTO,Trinidad and Tobago,0,0,0,0.06416184860177311
-Trinidad and Tobago,2023,Americas,TTO,Trinidad and Tobago,0,0,0,0.09804905198501998
-Tunisia,2017,Africa,TUN,Tunisia,1,1,1,0.9517531659423085
-Tunisia,2018,Africa,TUN,Tunisia,1,1,1,0.9629509428135768
-Tunisia,2019,Africa,TUN,Tunisia,1,1,1,0.9788068558449673
-Tunisia,2020,Africa,TUN,Tunisia,1,1,1,0.9778485881527381
-Tunisia,2021,Africa,TUN,Tunisia,1,1,1,0.9434518173185588
-Tunisia,2022,Africa,TUN,Tunisia,1,1,1,0.8834801565876128
-Tunisia,2023,Africa,TUN,Tunisia,0,1,1,0.8772126987379066
-Turkey,2017,Middle East,TUR,Turkiye,1,1,1,0.9973043068778289
-Turkey,2018,Middle East,TUR,Turkiye,1,1,1,0.9800156987849126
-Turkey,2019,Middle East,TUR,Turkiye,1,1,1,0.9671621382691703
-Turkey,2020,Middle East,TUR,Turkiye,1,1,1,0.9675776202455928
-Turkey,2021,Middle East,TUR,Turkiye,1,1,1,0.9266435564281955
-Turkey,2022,Middle East,TUR,Turkiye,1,1,1,0.9476661024024553
-Turkey,2023,Middle East,TUR,Turkiye,1,1,1,0.8946973352728159
-Turkmenistan,2017,Asia,TKM,Turkmenistan,0,0,0,0.030587079311461852
-Turkmenistan,2018,Asia,TKM,Turkmenistan,0,0,0,0.030318241036484825
-Turkmenistan,2019,Asia,TKM,Turkmenistan,0,0,0,0.02658899482402655
-Turkmenistan,2020,Asia,TKM,Turkmenistan,0,0,0,0.033287836711704336
-Turkmenistan,2021,Asia,TKM,Turkmenistan,0,0,0,0.03682750781052636
-Turkmenistan,2022,Asia,TKM,Turkmenistan,0,0,0,0.025369655930576024
-Turkmenistan,2023,Asia,TKM,Turkmenistan,0,0,0,0.027642030652623995
-Tuvalu,2017,Asia,TUV,Tuvalu,0,0,0,0.022511618918902472
-Tuvalu,2018,Asia,TUV,Tuvalu,0,0,0,0.028263995141926044
-Tuvalu,2019,Asia,TUV,Tuvalu,0,0,0,0.023711966091062454
-Tuvalu,2020,Asia,TUV,Tuvalu,0,0,0,0.023365569558092488
-Tuvalu,2021,Asia,TUV,Tuvalu,0,0,0,0.025273979570859684
-Tuvalu,2022,Asia,TUV,Tuvalu,0,0,0,0.023924414168920168
-Tuvalu,2023,Asia,TUV,Tuvalu,0,0,0,0.019497881658124033
-Uganda,2017,Africa,UGA,Uganda,1,1,1,0.8813224069157264
-Uganda,2018,Africa,UGA,Uganda,1,1,1,0.8363213730524153
-Uganda,2019,Africa,UGA,Uganda,0,1,1,0.8844804368724555
-Uganda,2020,Africa,UGA,Uganda,1,0,1,0.6113325377494211
-Uganda,2021,Africa,UGA,Uganda,1,1,1,0.9572548127255942
-Uganda,2022,Africa,UGA,Uganda,1,1,1,0.9114206944114315
-Uganda,2023,Africa,UGA,Uganda,1,1,1,0.9426494140691227
-Ukraine,2017,Europe,UKR,Ukraine,1,1,1,0.9045922830270366
-Ukraine,2018,Europe,UKR,Ukraine,1,1,1,0.9216042953880278
-Ukraine,2019,Europe,UKR,Ukraine,1,1,1,0.9377120412016448
-Ukraine,2020,Europe,UKR,Ukraine,1,1,1,0.9449275527051995
-Ukraine,2021,Europe,UKR,Ukraine,1,1,1,0.9341484804895542
-Ukraine,2022,Europe,UKR,Ukraine,1,1,1,0.9999923514884222
-Ukraine,2023,Europe,UKR,Ukraine,1,1,1,0.9947480299527974
-United Arab Emirates,2017,Middle East,ARE,United Arab Emirates,0,0,0,0.0759179223324096
-United Arab Emirates,2018,Middle East,ARE,United Arab Emirates,0,0,0,0.04447238397297673
-United Arab Emirates,2019,Middle East,ARE,United Arab Emirates,0,0,0,0.04871955804442833
-United Arab Emirates,2020,Middle East,ARE,United Arab Emirates,0,0,0,0.0731828920694127
-United Arab Emirates,2021,Middle East,ARE,United Arab Emirates,1,0,0,0.03612679166870577
-United Arab Emirates,2022,Middle East,ARE,United Arab Emirates,0,1,0,0.26819886620252315
-United Arab Emirates,2023,Middle East,ARE,United Arab Emirates,0,0,0,0.19193086894555345
-United Kingdom,2017,Europe,GBR,United Kingdom,0,0,0,0.06280860905913485
-United Kingdom,2018,Europe,GBR,United Kingdom,1,0,0,0.05370145230832286
-United Kingdom,2019,Europe,GBR,United Kingdom,0,1,1,0.6635027641577657
-United Kingdom,2020,Europe,GBR,United Kingdom,0,0,0,0.1623008779176047
-United Kingdom,2021,Europe,GBR,United Kingdom,0,0,0,0.05432015151773085
-United Kingdom,2022,Europe,GBR,United Kingdom,0,0,0,0.08514240194639908
-United Kingdom,2023,Europe,GBR,United Kingdom,0,0,0,0.07490371649542847
-United States of America,2017,Americas,USA,United States,1,1,0,0.320287431628886
-United States of America,2018,Americas,USA,United States,1,1,0,0.46393066848272746
-United States of America,2019,Americas,USA,United States,0,1,1,0.5575906663404874
-United States of America,2020,Americas,USA,United States,0,0,0,0.29549170265918534
-United States of America,2021,Americas,USA,United States,1,0,0,0.06181936019394003
-United States of America,2022,Americas,USA,United States,0,1,0,0.29783443017048084
-United States of America,2023,Americas,USA,United States,0,0,0,0.11936875316444845
-Uruguay,2017,Americas,URY,Uruguay,0,0,0,0.03388807273756372
-Uruguay,2018,Americas,URY,Uruguay,0,0,0,0.03455332644326122
-Uruguay,2019,Americas,URY,Uruguay,0,0,0,0.034547043207822314
-Uruguay,2020,Americas,URY,Uruguay,0,0,0,0.039178530937518635
-Uruguay,2021,Americas,URY,Uruguay,0,0,0,0.026569656089788337
-Uruguay,2022,Americas,URY,Uruguay,0,0,0,0.022495679422652626
-Uruguay,2023,Americas,URY,Uruguay,0,0,0,0.020981330077803548
-Uzbekistan,2017,Asia,UZB,Uzbekistan,0,0,0,0.10883413205595444
-Uzbekistan,2018,Asia,UZB,Uzbekistan,0,0,0,0.17436148408227858
-Uzbekistan,2019,Asia,UZB,Uzbekistan,0,0,0,0.07237152882555878
-Uzbekistan,2020,Asia,UZB,Uzbekistan,0,0,0,0.08585838612946474
-Uzbekistan,2021,Asia,UZB,Uzbekistan,0,0,0,0.12405779890866525
-Uzbekistan,2022,Asia,UZB,Uzbekistan,0,0,0,0.07748076600671823
-Uzbekistan,2023,Asia,UZB,Uzbekistan,0,0,0,0.11992145661647119
-Vanuatu,2017,Asia,VUT,Vanuatu,0,0,0,0.030318643115225356
-Vanuatu,2018,Asia,VUT,Vanuatu,0,0,0,0.025416566682225514
-Vanuatu,2019,Asia,VUT,Vanuatu,0,0,0,0.02428114621015584
-Vanuatu,2020,Asia,VUT,Vanuatu,0,0,0,0.03267983854550944
-Vanuatu,2021,Asia,VUT,Vanuatu,0,0,0,0.035499850317463506
-Vanuatu,2022,Asia,VUT,Vanuatu,0,0,0,0.043183312155587635
-Vanuatu,2023,Asia,VUT,Vanuatu,0,0,0,0.07112349101785441
-Venezuela,2017,Americas,VEN,"Venezuela, RB",1,1,1,0.880880382610765
-Venezuela,2018,Americas,VEN,"Venezuela, RB",1,1,1,0.8751202005603205
-Venezuela,2019,Americas,VEN,"Venezuela, RB",1,1,1,0.8951713089346086
-Venezuela,2020,Americas,VEN,"Venezuela, RB",1,1,1,0.8189070022798478
-Venezuela,2021,Americas,VEN,"Venezuela, RB",1,1,1,0.9862843977989348
-Venezuela,2022,Americas,VEN,"Venezuela, RB",1,1,1,0.988552928688729
-Venezuela,2023,Americas,VEN,"Venezuela, RB",1,1,1,0.9512978238583741
-Vietnam (North Vietnam),2017,Asia,VNM,Viet Nam,0,0,0,0.05776999733135089
-Vietnam (North Vietnam),2018,Asia,VNM,Viet Nam,0,0,0,0.05415371427349114
-Vietnam (North Vietnam),2019,Asia,VNM,Viet Nam,0,0,0,0.030163913609643395
-Vietnam (North Vietnam),2020,Asia,VNM,Viet Nam,0,0,0,0.028339992092359857
-Vietnam (North Vietnam),2021,Asia,VNM,Viet Nam,0,0,0,0.02894771203150954
-Vietnam (North Vietnam),2022,Asia,VNM,Viet Nam,0,0,0,0.024608590032021687
-Vietnam (North Vietnam),2023,Asia,VNM,Viet Nam,0,0,0,0.01990805988797308
-Yemen (North Yemen),2017,Middle East,YEM,"Yemen, Rep.",1,1,1,0.999452140504845
-Yemen (North Yemen),2018,Middle East,YEM,"Yemen, Rep.",1,1,1,0.999793602242235
-Yemen (North Yemen),2019,Middle East,YEM,"Yemen, Rep.",1,1,1,0.9998173959810561
-Yemen (North Yemen),2020,Middle East,YEM,"Yemen, Rep.",1,1,1,0.9988399051802022
-Yemen (North Yemen),2021,Middle East,YEM,"Yemen, Rep.",1,1,1,0.9980237367080674
-Yemen (North Yemen),2022,Middle East,YEM,"Yemen, Rep.",1,1,1,0.9969288185019208
-Yemen (North Yemen),2023,Middle East,YEM,"Yemen, Rep.",1,1,1,0.9650664729067354
-Zambia,2017,Africa,ZMB,Zambia,0,0,0,0.17432640661252
-Zambia,2018,Africa,ZMB,Zambia,0,0,0,0.1722032552591606
-Zambia,2019,Africa,ZMB,Zambia,0,0,0,0.1603301155591996
-Zambia,2020,Africa,ZMB,Zambia,0,0,0,0.20167213934221614
-Zambia,2021,Africa,ZMB,Zambia,0,0,0,0.2108878683894086
-Zambia,2022,Africa,ZMB,Zambia,0,0,0,0.14230906423707682
-Zambia,2023,Africa,ZMB,Zambia,0,0,0,0.27700116684478676
-Zimbabwe (Rhodesia),2017,Africa,ZWE,Zimbabwe,1,0,0,0.15727882354215977
-Zimbabwe (Rhodesia),2018,Africa,ZWE,Zimbabwe,1,1,0,0.418755559899844
-Zimbabwe (Rhodesia),2019,Africa,ZWE,Zimbabwe,1,1,1,0.652543979165069
-Zimbabwe (Rhodesia),2020,Africa,ZWE,Zimbabwe,0,1,1,0.7541626230129534
-Zimbabwe (Rhodesia),2021,Africa,ZWE,Zimbabwe,0,0,0,0.41323541565373334
-Zimbabwe (Rhodesia),2022,Africa,ZWE,Zimbabwe,0,0,0,0.2676084187271382
-Zimbabwe (Rhodesia),2023,Africa,ZWE,Zimbabwe,0,0,0,0.24122578942839115
+Nigeria,2021,Africa,NGA,Nigeria,1,1,1,0.9999999999754376
+Nigeria,2022,Africa,NGA,Nigeria,1,1,1,0.999999999999988
+Nigeria,2023,Africa,NGA,Nigeria,1,1,1,0.9999999999995215
+North Korea,2017,Asia,PRK,"Korea, Dem. People's Rep.",0,0,0,0.046486396349671055
+North Korea,2018,Asia,PRK,"Korea, Dem. People's Rep.",0,0,0,0.04522799247396591
+North Korea,2019,Asia,PRK,"Korea, Dem. People's Rep.",0,0,0,0.043948011381553846
+North Korea,2020,Asia,PRK,"Korea, Dem. People's Rep.",0,0,0,0.04264123050138936
+North Korea,2021,Asia,PRK,"Korea, Dem. People's Rep.",0,0,0,0.04148985087491719
+North Korea,2022,Asia,PRK,"Korea, Dem. People's Rep.",0,0,0,0.040497452395393194
+North Korea,2023,Asia,PRK,"Korea, Dem. People's Rep.",0,0,0,0.039355830417218976
+North Macedonia,2017,Europe,MKD,North Macedonia,0,0,0,0.08253440265391905
+North Macedonia,2018,Europe,MKD,North Macedonia,0,0,0,0.07744544226798795
+North Macedonia,2019,Europe,MKD,North Macedonia,0,0,0,0.07526994649238977
+North Macedonia,2020,Europe,MKD,North Macedonia,0,0,0,0.08475590335173076
+North Macedonia,2021,Europe,MKD,North Macedonia,0,0,0,0.06791775627336605
+North Macedonia,2022,Europe,MKD,North Macedonia,0,0,0,0.07227739432674174
+North Macedonia,2023,Europe,MKD,North Macedonia,0,0,0,0.07168260476248685
+Norway,2017,Europe,NOR,Norway,0,0,0,0.01329111377768261
+Norway,2018,Europe,NOR,Norway,0,0,0,0.01227873372144292
+Norway,2019,Europe,NOR,Norway,0,0,0,0.012759655585459724
+Norway,2020,Europe,NOR,Norway,0,0,0,0.014138441403729449
+Norway,2021,Europe,NOR,Norway,0,0,0,0.009109518451017953
+Norway,2022,Europe,NOR,Norway,0,0,0,0.006813722731054286
+Norway,2023,Europe,NOR,Norway,0,0,0,0.010138339839614369
+Oman,2017,Middle East,OMN,Oman,0,0,0,0.06209274847277318
+Oman,2018,Middle East,OMN,Oman,0,0,0,0.05018805044533859
+Oman,2019,Middle East,OMN,Oman,0,0,0,0.04396427539461238
+Oman,2020,Middle East,OMN,Oman,0,0,0,0.040505345053423694
+Oman,2021,Middle East,OMN,Oman,0,0,0,0.04064847278390718
+Oman,2022,Middle East,OMN,Oman,0,0,0,0.041524023169827895
+Oman,2023,Middle East,OMN,Oman,0,0,0,0.06106261354059077
+Pakistan,2017,Asia,PAK,Pakistan,1,1,1,0.9999925968493062
+Pakistan,2018,Asia,PAK,Pakistan,1,1,1,0.9998523642272429
+Pakistan,2019,Asia,PAK,Pakistan,1,1,1,0.996461035480375
+Pakistan,2020,Asia,PAK,Pakistan,1,1,1,0.9992012991062383
+Pakistan,2021,Asia,PAK,Pakistan,1,1,1,0.9999904407951249
+Pakistan,2022,Asia,PAK,Pakistan,1,1,1,0.9991895905699075
+Pakistan,2023,Asia,PAK,Pakistan,1,1,1,0.9999068730843381
+Palau,2017,Asia,PLW,Palau,0,0,0,0.03964758501021102
+Palau,2018,Asia,PLW,Palau,0,0,0,0.03710641220198062
+Palau,2019,Asia,PLW,Palau,0,0,0,0.03529310954651063
+Palau,2020,Asia,PLW,Palau,0,0,0,0.022190941799413406
+Palau,2021,Asia,PLW,Palau,0,0,0,0.03876905021514803
+Palau,2022,Asia,PLW,Palau,0,0,0,0.030695462521183742
+Palau,2023,Asia,PLW,Palau,0,0,0,0.02689301546591695
+Panama,2017,Americas,PAN,Panama,0,0,0,0.09751168134445863
+Panama,2018,Americas,PAN,Panama,0,0,0,0.09610988551140624
+Panama,2019,Americas,PAN,Panama,0,0,0,0.09358474899949282
+Panama,2020,Americas,PAN,Panama,0,0,0,0.1322440647983056
+Panama,2021,Americas,PAN,Panama,0,0,0,0.06695933041419777
+Panama,2022,Americas,PAN,Panama,0,0,0,0.07141407523407396
+Panama,2023,Americas,PAN,Panama,0,0,0,0.07491890275845382
+Papua New Guinea,2017,Asia,PNG,Papua New Guinea,0,0,0,0.19394927295611264
+Papua New Guinea,2018,Asia,PNG,Papua New Guinea,1,0,0,0.19152558389176327
+Papua New Guinea,2019,Asia,PNG,Papua New Guinea,0,1,1,0.5446771295011884
+Papua New Guinea,2020,Asia,PNG,Papua New Guinea,1,0,0,0.31960872885435526
+Papua New Guinea,2021,Asia,PNG,Papua New Guinea,1,1,1,0.66859395645893
+Papua New Guinea,2022,Asia,PNG,Papua New Guinea,1,1,1,0.897487804487716
+Papua New Guinea,2023,Asia,PNG,Papua New Guinea,1,1,1,0.7632948523447602
+Paraguay,2017,Americas,PRY,Paraguay,1,0,0,0.2036401834552668
+Paraguay,2018,Americas,PRY,Paraguay,0,1,0,0.48145891521596973
+Paraguay,2019,Americas,PRY,Paraguay,1,0,0,0.27445987036953157
+Paraguay,2020,Americas,PRY,Paraguay,1,1,1,0.5602269498667878
+Paraguay,2021,Americas,PRY,Paraguay,0,1,1,0.697415128591548
+Paraguay,2022,Americas,PRY,Paraguay,0,0,0,0.3143243680915013
+Paraguay,2023,Americas,PRY,Paraguay,0,0,0,0.21707413321179006
+Peru,2017,Americas,PER,Peru,0,1,1,0.8652530276444498
+Peru,2018,Americas,PER,Peru,1,0,0,0.4856404305300257
+Peru,2019,Americas,PER,Peru,1,1,1,0.7018502054669765
+Peru,2020,Americas,PER,Peru,1,1,1,0.9240206983651857
+Peru,2021,Americas,PER,Peru,1,1,1,0.819863020302557
+Peru,2022,Americas,PER,Peru,1,1,1,0.8896679237371428
+Peru,2023,Americas,PER,Peru,0,1,1,0.8293681908174708
+Philippines,2017,Asia,PHL,Philippines,1,1,1,0.9993300954073736
+Philippines,2018,Asia,PHL,Philippines,1,1,1,0.9973967103485418
+Philippines,2019,Asia,PHL,Philippines,1,1,1,0.9985919725929914
+Philippines,2020,Asia,PHL,Philippines,1,1,1,0.9978909429632878
+Philippines,2021,Asia,PHL,Philippines,1,1,1,0.9984901203767735
+Philippines,2022,Asia,PHL,Philippines,1,1,1,0.9992475168468501
+Philippines,2023,Asia,PHL,Philippines,1,1,1,0.9983481835604125
+Poland,2017,Europe,POL,Poland,0,0,0,0.03021373579639731
+Poland,2018,Europe,POL,Poland,0,0,0,0.027986426744578505
+Poland,2019,Europe,POL,Poland,0,0,0,0.02770479055526993
+Poland,2020,Europe,POL,Poland,0,0,0,0.02718412147659839
+Poland,2021,Europe,POL,Poland,1,0,0,0.021009451569734515
+Poland,2022,Europe,POL,Poland,0,1,0,0.03393263699320248
+Poland,2023,Europe,POL,Poland,0,0,0,0.1254679270361541
+Portugal,2017,Europe,PRT,Portugal,0,0,0,0.023395430903109884
+Portugal,2018,Europe,PRT,Portugal,0,0,0,0.022679475238158955
+Portugal,2019,Europe,PRT,Portugal,0,0,0,0.022543863537240423
+Portugal,2020,Europe,PRT,Portugal,0,0,0,0.02844133133934739
+Portugal,2021,Europe,PRT,Portugal,0,0,0,0.021063356057114034
+Portugal,2022,Europe,PRT,Portugal,0,0,0,0.020259010614252178
+Portugal,2023,Europe,PRT,Portugal,0,0,0,0.02198371012507018
+Qatar,2017,Middle East,QAT,Qatar,0,0,0,0.06884316179071391
+Qatar,2018,Middle East,QAT,Qatar,0,0,0,0.0528322857869247
+Qatar,2019,Middle East,QAT,Qatar,0,0,0,0.057519077598114636
+Qatar,2020,Middle East,QAT,Qatar,0,0,0,0.10061142717166462
+Qatar,2021,Middle East,QAT,Qatar,0,0,0,0.017421485228625595
+Qatar,2022,Middle East,QAT,Qatar,0,0,0,0.04670010398627529
+Qatar,2023,Middle East,QAT,Qatar,0,0,0,0.027653221371611744
+Romania,2017,Europe,ROU,Romania,0,0,0,0.07501986822590637
+Romania,2018,Europe,ROU,Romania,0,0,0,0.07715668931551083
+Romania,2019,Europe,ROU,Romania,0,0,0,0.0773580538771046
+Romania,2020,Europe,ROU,Romania,0,0,0,0.08667816126634148
+Romania,2021,Europe,ROU,Romania,0,0,0,0.0673117307074453
+Romania,2022,Europe,ROU,Romania,0,0,0,0.07148701869774057
+Romania,2023,Europe,ROU,Romania,0,0,0,0.07325303107857341
+Russia (Soviet Union),2017,Europe,RUS,Russian Federation,1,1,1,0.9562362310216119
+Russia (Soviet Union),2018,Europe,RUS,Russian Federation,1,1,1,0.9719346962284047
+Russia (Soviet Union),2019,Europe,RUS,Russian Federation,1,1,1,0.8987955605691693
+Russia (Soviet Union),2020,Europe,RUS,Russian Federation,1,1,1,0.9730986180207414
+Russia (Soviet Union),2021,Europe,RUS,Russian Federation,1,1,1,0.89317498689489
+Russia (Soviet Union),2022,Europe,RUS,Russian Federation,1,1,1,0.8873667949498695
+Russia (Soviet Union),2023,Europe,RUS,Russian Federation,1,1,1,0.9947576766148727
+Rwanda,2017,Africa,RWA,Rwanda,1,1,1,0.8166117015473457
+Rwanda,2018,Africa,RWA,Rwanda,1,1,1,0.9609062315396291
+Rwanda,2019,Africa,RWA,Rwanda,0,1,1,0.8595218439936702
+Rwanda,2020,Africa,RWA,Rwanda,1,0,0,0.47615645955205266
+Rwanda,2021,Africa,RWA,Rwanda,1,1,1,0.8328594725781674
+Rwanda,2022,Africa,RWA,Rwanda,0,1,1,0.9657320241118491
+Rwanda,2023,Africa,RWA,Rwanda,1,0,0,0.44547528378170587
+Saint Kitts and Nevis,2017,Americas,KNA,St. Kitts and Nevis,0,0,0,0.024928639774654024
+Saint Kitts and Nevis,2018,Americas,KNA,St. Kitts and Nevis,0,0,0,0.023603443286440703
+Saint Kitts and Nevis,2019,Americas,KNA,St. Kitts and Nevis,0,0,0,0.021925478265392432
+Saint Kitts and Nevis,2020,Americas,KNA,St. Kitts and Nevis,0,0,0,0.035350624915015116
+Saint Kitts and Nevis,2021,Americas,KNA,St. Kitts and Nevis,0,0,0,0.02257099457185584
+Saint Kitts and Nevis,2022,Americas,KNA,St. Kitts and Nevis,0,0,0,0.018215495603350715
+Saint Kitts and Nevis,2023,Americas,KNA,St. Kitts and Nevis,0,0,0,0.018254103020153928
+Saint Lucia,2017,Americas,LCA,St. Lucia,0,0,0,0.032445735412386704
+Saint Lucia,2018,Americas,LCA,St. Lucia,0,0,0,0.031759745823742365
+Saint Lucia,2019,Americas,LCA,St. Lucia,0,0,0,0.034260331118513405
+Saint Lucia,2020,Americas,LCA,St. Lucia,0,0,0,0.053029516235440714
+Saint Lucia,2021,Americas,LCA,St. Lucia,0,0,0,0.025830898570174884
+Saint Lucia,2022,Americas,LCA,St. Lucia,0,0,0,0.02000131439168401
+Saint Lucia,2023,Americas,LCA,St. Lucia,0,0,0,0.029482730528389733
+Saint Vincent and the Grenadines,2017,Americas,VCT,St. Vincent and the Grenadines,0,0,0,0.03442050260553835
+Saint Vincent and the Grenadines,2018,Americas,VCT,St. Vincent and the Grenadines,0,0,0,0.03203841099390017
+Saint Vincent and the Grenadines,2019,Americas,VCT,St. Vincent and the Grenadines,0,0,0,0.022935876118795228
+Saint Vincent and the Grenadines,2020,Americas,VCT,St. Vincent and the Grenadines,0,0,0,0.024825735231301427
+Saint Vincent and the Grenadines,2021,Americas,VCT,St. Vincent and the Grenadines,0,0,0,0.020578840733182415
+Saint Vincent and the Grenadines,2022,Americas,VCT,St. Vincent and the Grenadines,0,0,0,0.020087355576668093
+Saint Vincent and the Grenadines,2023,Americas,VCT,St. Vincent and the Grenadines,0,0,0,0.01905731556723875
+Samoa (Western Samoa),2017,Asia,WSM,Samoa,0,0,0,0.04562773965867803
+Samoa (Western Samoa),2018,Asia,WSM,Samoa,0,0,0,0.047078864415299335
+Samoa (Western Samoa),2019,Asia,WSM,Samoa,0,0,0,0.04144593354360872
+Samoa (Western Samoa),2020,Asia,WSM,Samoa,0,0,0,0.04746663918187271
+Samoa (Western Samoa),2021,Asia,WSM,Samoa,0,0,0,0.0477561274246142
+Samoa (Western Samoa),2022,Asia,WSM,Samoa,0,0,0,0.0406155218037492
+Samoa (Western Samoa),2023,Asia,WSM,Samoa,0,0,0,0.02973677351214386
+San Marino,2017,Europe,SMR,San Marino,0,0,0,0.030191020434059888
+San Marino,2018,Europe,SMR,San Marino,0,0,0,0.031198498555920037
+San Marino,2019,Europe,SMR,San Marino,0,0,0,0.025978503317635043
+San Marino,2020,Europe,SMR,San Marino,0,0,0,0.030936818321782814
+San Marino,2021,Europe,SMR,San Marino,0,0,0,0.014608085564946999
+San Marino,2022,Europe,SMR,San Marino,0,0,0,0.01616267661328355
+San Marino,2023,Europe,SMR,San Marino,0,0,0,0.02039415034792233
+Sao Tome and Principe,2017,Africa,STP,Sao Tome and Principe,0,0,0,0.0455744289625641
+Sao Tome and Principe,2018,Africa,STP,Sao Tome and Principe,0,0,0,0.04713601862234747
+Sao Tome and Principe,2019,Africa,STP,Sao Tome and Principe,0,0,0,0.04784375005554316
+Sao Tome and Principe,2020,Africa,STP,Sao Tome and Principe,0,0,0,0.047189678427070926
+Sao Tome and Principe,2021,Africa,STP,Sao Tome and Principe,0,0,0,0.047359218416025015
+Sao Tome and Principe,2022,Africa,STP,Sao Tome and Principe,0,0,0,0.04771964314531726
+Sao Tome and Principe,2023,Africa,STP,Sao Tome and Principe,0,0,0,0.04617915832137613
+Saudi Arabia,2017,Middle East,SAU,Saudi Arabia,1,1,1,0.7606810655133693
+Saudi Arabia,2018,Middle East,SAU,Saudi Arabia,1,1,1,0.7525893808393401
+Saudi Arabia,2019,Middle East,SAU,Saudi Arabia,1,1,1,0.8917018314274159
+Saudi Arabia,2020,Middle East,SAU,Saudi Arabia,1,1,1,0.9277383215050254
+Saudi Arabia,2021,Middle East,SAU,Saudi Arabia,0,1,1,0.8219326785031522
+Saudi Arabia,2022,Middle East,SAU,Saudi Arabia,1,0,0,0.3412171438582701
+Saudi Arabia,2023,Middle East,SAU,Saudi Arabia,0,1,1,0.8117042624628157
+Senegal,2017,Africa,SEN,Senegal,1,0,0,0.22521217180491082
+Senegal,2018,Africa,SEN,Senegal,0,1,1,0.5302071615829245
+Senegal,2019,Africa,SEN,Senegal,1,0,0,0.29020392191511774
+Senegal,2020,Africa,SEN,Senegal,1,1,1,0.7225174777326148
+Senegal,2021,Africa,SEN,Senegal,0,1,1,0.8281374955634707
+Senegal,2022,Africa,SEN,Senegal,0,0,0,0.41921659284411816
+Senegal,2023,Africa,SEN,Senegal,0,0,0,0.3168120916610844
+Serbia (Yugoslavia),2017,Europe,SRB,Serbia,0,0,0,0.08059735777986839
+Serbia (Yugoslavia),2018,Europe,SRB,Serbia,0,0,0,0.07488475962438995
+Serbia (Yugoslavia),2019,Europe,SRB,Serbia,0,0,0,0.07420333087596905
+Serbia (Yugoslavia),2020,Europe,SRB,Serbia,0,0,0,0.08175443421114235
+Serbia (Yugoslavia),2021,Europe,SRB,Serbia,0,0,0,0.06412537640935571
+Serbia (Yugoslavia),2022,Europe,SRB,Serbia,0,0,0,0.06021835411227974
+Serbia (Yugoslavia),2023,Europe,SRB,Serbia,0,0,0,0.07291056266500708
+Seychelles,2017,Africa,SYC,Seychelles,0,0,0,0.02757643165297377
+Seychelles,2018,Africa,SYC,Seychelles,0,0,0,0.027678828994384057
+Seychelles,2019,Africa,SYC,Seychelles,0,0,0,0.027626196567119034
+Seychelles,2020,Africa,SYC,Seychelles,0,0,0,0.04120611977550307
+Seychelles,2021,Africa,SYC,Seychelles,0,0,0,0.030994587303482916
+Seychelles,2022,Africa,SYC,Seychelles,0,0,0,0.029116147273163535
+Seychelles,2023,Africa,SYC,Seychelles,0,0,0,0.030677875579214916
+Sierra Leone,2017,Africa,SLE,Sierra Leone,0,0,0,0.187755366505502
+Sierra Leone,2018,Africa,SLE,Sierra Leone,0,0,0,0.1715025036858976
+Sierra Leone,2019,Africa,SLE,Sierra Leone,0,0,0,0.1403909055727049
+Sierra Leone,2020,Africa,SLE,Sierra Leone,1,0,0,0.1549449812532863
+Sierra Leone,2021,Africa,SLE,Sierra Leone,0,1,0,0.43508002520879807
+Sierra Leone,2022,Africa,SLE,Sierra Leone,0,0,0,0.2099882946478693
+Sierra Leone,2023,Africa,SLE,Sierra Leone,0,0,0,0.13899185067093733
+Singapore,2017,Asia,SGP,Singapore,0,0,0,0.01529747005879096
+Singapore,2018,Asia,SGP,Singapore,0,0,0,0.014780150159435814
+Singapore,2019,Asia,SGP,Singapore,0,0,0,0.0165035803127729
+Singapore,2020,Asia,SGP,Singapore,0,0,0,0.016659765241841474
+Singapore,2021,Asia,SGP,Singapore,0,0,0,0.006266006751931569
+Singapore,2022,Asia,SGP,Singapore,0,0,0,0.012842679124572527
+Singapore,2023,Asia,SGP,Singapore,0,0,0,0.016564627350972493
+Slovakia,2017,Europe,SVK,Slovak Republic,0,0,0,0.03127706069434863
+Slovakia,2018,Europe,SVK,Slovak Republic,0,0,0,0.02916112630283263
+Slovakia,2019,Europe,SVK,Slovak Republic,0,0,0,0.030112688629850233
+Slovakia,2020,Europe,SVK,Slovak Republic,0,0,0,0.03219726993667556
+Slovakia,2021,Europe,SVK,Slovak Republic,0,0,0,0.024567659242806888
+Slovakia,2022,Europe,SVK,Slovak Republic,0,0,0,0.027394776261240247
+Slovakia,2023,Europe,SVK,Slovak Republic,0,0,0,0.02508105433431759
+Slovenia,2017,Europe,SVN,Slovenia,0,0,0,0.023098381538381382
+Slovenia,2018,Europe,SVN,Slovenia,0,0,0,0.023125883725280294
+Slovenia,2019,Europe,SVN,Slovenia,0,0,0,0.024263377217621503
+Slovenia,2020,Europe,SVN,Slovenia,0,0,0,0.027937975484376584
+Slovenia,2021,Europe,SVN,Slovenia,0,0,0,0.019408216509460115
+Slovenia,2022,Europe,SVN,Slovenia,0,0,0,0.022157437705373914
+Slovenia,2023,Europe,SVN,Slovenia,0,0,0,0.02093944777133946
+Solomon Islands,2017,Asia,SLB,Solomon Islands,0,0,0,0.1759221447263607
+Solomon Islands,2018,Asia,SLB,Solomon Islands,0,0,0,0.1704187518084848
+Solomon Islands,2019,Asia,SLB,Solomon Islands,0,0,0,0.155085426183034
+Solomon Islands,2020,Asia,SLB,Solomon Islands,0,0,0,0.1607893233081706
+Solomon Islands,2021,Asia,SLB,Solomon Islands,0,0,0,0.14929197292098254
+Solomon Islands,2022,Asia,SLB,Solomon Islands,0,0,0,0.13008213066575433
+Solomon Islands,2023,Asia,SLB,Solomon Islands,0,0,0,0.11446560522164005
+Somalia,2017,Africa,SOM,"Somalia, Fed. Rep.",1,1,1,0.9938833801551551
+Somalia,2018,Africa,SOM,"Somalia, Fed. Rep.",1,1,1,0.9999961137551466
+Somalia,2019,Africa,SOM,"Somalia, Fed. Rep.",1,1,1,0.9999900976872421
+Somalia,2020,Africa,SOM,"Somalia, Fed. Rep.",1,1,1,0.9999055035936045
+Somalia,2021,Africa,SOM,"Somalia, Fed. Rep.",1,1,1,0.9992552300216184
+Somalia,2022,Africa,SOM,"Somalia, Fed. Rep.",1,1,1,0.996795834519651
+Somalia,2023,Africa,SOM,"Somalia, Fed. Rep.",1,1,1,0.9996080494785922
+South Africa,2017,Africa,ZAF,South Africa,1,0,0,0.21324847778220452
+South Africa,2018,Africa,ZAF,South Africa,1,1,1,0.6648878468833803
+South Africa,2019,Africa,ZAF,South Africa,1,1,1,0.8021704752636238
+South Africa,2020,Africa,ZAF,South Africa,1,1,1,0.8640828532878745
+South Africa,2021,Africa,ZAF,South Africa,1,1,1,0.878473668537503
+South Africa,2022,Africa,ZAF,South Africa,1,1,1,0.7386682050573965
+South Africa,2023,Africa,ZAF,South Africa,1,1,1,0.8669155818017668
+South Korea,2017,Asia,KOR,"Korea, Rep.",0,0,0,0.026363954476640174
+South Korea,2018,Asia,KOR,"Korea, Rep.",0,0,0,0.025412146196261507
+South Korea,2019,Asia,KOR,"Korea, Rep.",0,0,0,0.0258453266691375
+South Korea,2020,Asia,KOR,"Korea, Rep.",0,0,0,0.02663815503768555
+South Korea,2021,Asia,KOR,"Korea, Rep.",0,0,0,0.02123946666324617
+South Korea,2022,Asia,KOR,"Korea, Rep.",0,0,0,0.02295105710739865
+South Korea,2023,Asia,KOR,"Korea, Rep.",0,0,0,0.023518587569255314
+South Sudan,2017,Africa,SSD,South Sudan,1,1,1,0.9999927284423589
+South Sudan,2018,Africa,SSD,South Sudan,1,1,1,0.9999998338248889
+South Sudan,2019,Africa,SSD,South Sudan,1,1,1,0.9999994293393167
+South Sudan,2020,Africa,SSD,South Sudan,1,1,1,0.9999997995317491
+South Sudan,2021,Africa,SSD,South Sudan,1,1,1,0.9999984800826502
+South Sudan,2022,Africa,SSD,South Sudan,1,1,1,0.9999910033005518
+South Sudan,2023,Africa,SSD,South Sudan,1,1,1,0.99811075732262
+Spain,2017,Europe,ESP,Spain,0,1,0,0.2335286563705954
+Spain,2018,Europe,ESP,Spain,0,0,0,0.10577016948086676
+Spain,2019,Europe,ESP,Spain,0,0,0,0.07543381467220699
+Spain,2020,Europe,ESP,Spain,0,0,0,0.09646800627230553
+Spain,2021,Europe,ESP,Spain,0,0,0,0.06006060258949944
+Spain,2022,Europe,ESP,Spain,1,0,0,0.06500448342021532
+Spain,2023,Europe,ESP,Spain,0,1,0,0.24700902915232253
+Sri Lanka,2017,Asia,LKA,Sri Lanka,0,1,0,0.4498663049466501
+Sri Lanka,2018,Asia,LKA,Sri Lanka,1,0,0,0.246174604884409
+Sri Lanka,2019,Asia,LKA,Sri Lanka,0,1,0,0.489053374233144
+Sri Lanka,2020,Asia,LKA,Sri Lanka,0,0,0,0.2824297963792537
+Sri Lanka,2021,Asia,LKA,Sri Lanka,0,0,0,0.1687494716043846
+Sri Lanka,2022,Asia,LKA,Sri Lanka,0,0,0,0.1947662451820823
+Sri Lanka,2023,Asia,LKA,Sri Lanka,0,0,0,0.12171690445529924
+Sudan,2017,Africa,SDN,Sudan,1,1,1,0.9999999327181862
+Sudan,2018,Africa,SDN,Sudan,1,1,1,0.999987945797282
+Sudan,2019,Africa,SDN,Sudan,1,1,1,0.9997799589885576
+Sudan,2020,Africa,SDN,Sudan,1,1,1,0.9999984798188263
+Sudan,2021,Africa,SDN,Sudan,1,1,1,0.999999472927728
+Sudan,2022,Africa,SDN,Sudan,1,1,1,0.9999999318284505
+Sudan,2023,Africa,SDN,Sudan,1,1,1,0.9999974082113207
+Suriname,2017,Americas,SUR,Suriname,0,0,0,0.055783820758314825
+Suriname,2018,Americas,SUR,Suriname,0,0,0,0.04569770564308873
+Suriname,2019,Americas,SUR,Suriname,0,0,0,0.04780274293830036
+Suriname,2020,Americas,SUR,Suriname,0,0,0,0.06691575371748287
+Suriname,2021,Americas,SUR,Suriname,0,0,0,0.05416009251068339
+Suriname,2022,Americas,SUR,Suriname,0,0,0,0.03974836738238085
+Suriname,2023,Americas,SUR,Suriname,0,0,0,0.03989169737465558
+Sweden,2017,Europe,SWE,Sweden,0,1,0,0.07731976871715826
+Sweden,2018,Europe,SWE,Sweden,0,0,0,0.07491035380940099
+Sweden,2019,Europe,SWE,Sweden,0,0,0,0.05100588950736004
+Sweden,2020,Europe,SWE,Sweden,0,0,0,0.051947520744293894
+Sweden,2021,Europe,SWE,Sweden,0,0,0,0.03778138088333633
+Sweden,2022,Europe,SWE,Sweden,0,0,0,0.0445523434165208
+Sweden,2023,Europe,SWE,Sweden,0,0,0,0.03312239998374823
+Switzerland,2017,Europe,CHE,Switzerland,0,0,0,0.012840482715086846
+Switzerland,2018,Europe,CHE,Switzerland,0,0,0,0.011358848062262804
+Switzerland,2019,Europe,CHE,Switzerland,0,0,0,0.011680417024590939
+Switzerland,2020,Europe,CHE,Switzerland,0,0,0,0.011883481998781417
+Switzerland,2021,Europe,CHE,Switzerland,0,0,0,0.008802124189440807
+Switzerland,2022,Europe,CHE,Switzerland,0,0,0,0.009318797360739177
+Switzerland,2023,Europe,CHE,Switzerland,0,0,0,0.00914710878838476
+Syria,2017,Middle East,SYR,Syrian Arab Republic,1,1,1,0.9999999999973079
+Syria,2018,Middle East,SYR,Syrian Arab Republic,1,1,1,0.9999999999651108
+Syria,2019,Middle East,SYR,Syrian Arab Republic,1,1,1,0.9999959627749556
+Syria,2020,Middle East,SYR,Syrian Arab Republic,1,1,1,0.9999981885711963
+Syria,2021,Middle East,SYR,Syrian Arab Republic,1,1,1,0.9999767424324575
+Syria,2022,Middle East,SYR,Syrian Arab Republic,1,1,1,0.9997188209968642
+Syria,2023,Middle East,SYR,Syrian Arab Republic,1,1,1,0.9999629445438994
+Tajikistan,2017,Asia,TJK,Tajikistan,1,0,0,0.2176390898198756
+Tajikistan,2018,Asia,TJK,Tajikistan,1,1,1,0.8022320236154525
+Tajikistan,2019,Asia,TJK,Tajikistan,0,1,1,0.7849035487235339
+Tajikistan,2020,Asia,TJK,Tajikistan,1,0,0,0.27053108348596844
+Tajikistan,2021,Asia,TJK,Tajikistan,1,1,0,0.24166787444216964
+Tajikistan,2022,Asia,TJK,Tajikistan,0,1,0,0.3900878015452372
+Tajikistan,2023,Asia,TJK,Tajikistan,0,0,0,0.3759440799652959
+Tanzania,2017,Africa,TZA,Tanzania,1,1,1,0.7321446784911687
+Tanzania,2018,Africa,TZA,Tanzania,1,1,1,0.7961522484206537
+Tanzania,2019,Africa,TZA,Tanzania,1,1,1,0.911671352237074
+Tanzania,2020,Africa,TZA,Tanzania,1,1,1,0.9389900776741534
+Tanzania,2021,Africa,TZA,Tanzania,1,1,1,0.9544238623762489
+Tanzania,2022,Africa,TZA,Tanzania,0,1,1,0.9482745774559105
+Tanzania,2023,Africa,TZA,Tanzania,1,0,1,0.5360560538993169
+Thailand,2017,Asia,THA,Thailand,1,1,1,0.9386096292948074
+Thailand,2018,Asia,THA,Thailand,1,1,1,0.9353862081821214
+Thailand,2019,Asia,THA,Thailand,1,1,1,0.9348139733910282
+Thailand,2020,Asia,THA,Thailand,1,1,1,0.9432014351571324
+Thailand,2021,Asia,THA,Thailand,1,1,1,0.930930172672749
+Thailand,2022,Asia,THA,Thailand,1,1,1,0.9255648823257788
+Thailand,2023,Asia,THA,Thailand,1,1,1,0.9210597613256976
+Togo,2017,Africa,TGO,Togo,0,0,0,0.1570170622665036
+Togo,2018,Africa,TGO,Togo,1,0,0,0.13118248590245235
+Togo,2019,Africa,TGO,Togo,0,1,0,0.4473971928946625
+Togo,2020,Africa,TGO,Togo,0,0,0,0.24618671380525325
+Togo,2021,Africa,TGO,Togo,1,0,0,0.1881224730844663
+Togo,2022,Africa,TGO,Togo,1,1,1,0.7430228751765979
+Togo,2023,Africa,TGO,Togo,1,1,1,0.8660144818575386
+Tonga,2017,Asia,TON,Tonga,0,0,0,0.041583617253626505
+Tonga,2018,Asia,TON,Tonga,0,0,0,0.04409014236833099
+Tonga,2019,Asia,TON,Tonga,0,0,0,0.03819946007412282
+Tonga,2020,Asia,TON,Tonga,0,0,0,0.03671560598021743
+Tonga,2021,Asia,TON,Tonga,0,0,0,0.033171198582989385
+Tonga,2022,Asia,TON,Tonga,0,0,0,0.03535628075220914
+Tonga,2023,Asia,TON,Tonga,0,0,0,0.032144372462458215
+Trinidad and Tobago,2017,Americas,TTO,Trinidad and Tobago,0,0,0,0.10424564998514749
+Trinidad and Tobago,2018,Americas,TTO,Trinidad and Tobago,0,0,0,0.09897952191105092
+Trinidad and Tobago,2019,Americas,TTO,Trinidad and Tobago,0,0,0,0.09559944804940124
+Trinidad and Tobago,2020,Americas,TTO,Trinidad and Tobago,0,0,0,0.10693218523509254
+Trinidad and Tobago,2021,Americas,TTO,Trinidad and Tobago,0,0,0,0.08673416680611336
+Trinidad and Tobago,2022,Americas,TTO,Trinidad and Tobago,0,0,0,0.07284494296757878
+Trinidad and Tobago,2023,Americas,TTO,Trinidad and Tobago,0,0,0,0.06806208116068253
+Tunisia,2017,Africa,TUN,Tunisia,1,1,1,0.9546477965520993
+Tunisia,2018,Africa,TUN,Tunisia,1,1,1,0.9706915560089937
+Tunisia,2019,Africa,TUN,Tunisia,1,1,1,0.9782207625443047
+Tunisia,2020,Africa,TUN,Tunisia,1,1,1,0.981857853058978
+Tunisia,2021,Africa,TUN,Tunisia,1,1,1,0.9446274227984522
+Tunisia,2022,Africa,TUN,Tunisia,1,1,1,0.8853586962131421
+Tunisia,2023,Africa,TUN,Tunisia,0,1,1,0.8887010857305689
+Turkey,2017,Middle East,TUR,Turkiye,1,1,1,0.9959294454406001
+Turkey,2018,Middle East,TUR,Turkiye,1,1,1,0.9709182989469355
+Turkey,2019,Middle East,TUR,Turkiye,1,1,1,0.955885322177571
+Turkey,2020,Middle East,TUR,Turkiye,1,1,1,0.9608339142305206
+Turkey,2021,Middle East,TUR,Turkiye,1,1,1,0.9028386436361905
+Turkey,2022,Middle East,TUR,Turkiye,1,1,1,0.9453886452434349
+Turkey,2023,Middle East,TUR,Turkiye,1,1,1,0.892928308055665
+Turkmenistan,2017,Asia,TKM,Turkmenistan,0,0,0,0.05480124036607006
+Turkmenistan,2018,Asia,TKM,Turkmenistan,0,0,0,0.05752079870481955
+Turkmenistan,2019,Asia,TKM,Turkmenistan,0,0,0,0.05018465754400781
+Turkmenistan,2020,Asia,TKM,Turkmenistan,0,0,0,0.042421728173730376
+Turkmenistan,2021,Asia,TKM,Turkmenistan,0,0,0,0.03994103914479665
+Turkmenistan,2022,Asia,TKM,Turkmenistan,0,0,0,0.037935348074850994
+Turkmenistan,2023,Asia,TKM,Turkmenistan,0,0,0,0.033804556953082494
+Tuvalu,2017,Asia,TUV,Tuvalu,0,0,0,0.03946903236147086
+Tuvalu,2018,Asia,TUV,Tuvalu,0,0,0,0.037279810556320174
+Tuvalu,2019,Asia,TUV,Tuvalu,0,0,0,0.026088298251684267
+Tuvalu,2020,Asia,TUV,Tuvalu,0,0,0,0.0376383596119695
+Tuvalu,2021,Asia,TUV,Tuvalu,0,0,0,0.028510043195427243
+Tuvalu,2022,Asia,TUV,Tuvalu,0,0,0,0.02843596979137438
+Tuvalu,2023,Asia,TUV,Tuvalu,0,0,0,0.026076681904552833
+Uganda,2017,Africa,UGA,Uganda,1,1,1,0.8463151217038511
+Uganda,2018,Africa,UGA,Uganda,1,1,1,0.7953413972636786
+Uganda,2019,Africa,UGA,Uganda,0,1,1,0.8414980228678244
+Uganda,2020,Africa,UGA,Uganda,1,0,1,0.5080099861566411
+Uganda,2021,Africa,UGA,Uganda,1,1,1,0.9518732082863386
+Uganda,2022,Africa,UGA,Uganda,1,1,1,0.8876257984533583
+Uganda,2023,Africa,UGA,Uganda,1,1,1,0.9240055839296283
+Ukraine,2017,Europe,UKR,Ukraine,1,1,1,0.907953380195452
+Ukraine,2018,Europe,UKR,Ukraine,1,1,1,0.9284829713194209
+Ukraine,2019,Europe,UKR,Ukraine,1,1,1,0.9459439590273062
+Ukraine,2020,Europe,UKR,Ukraine,1,1,1,0.9520814516680873
+Ukraine,2021,Europe,UKR,Ukraine,1,1,1,0.9436915711096218
+Ukraine,2022,Europe,UKR,Ukraine,1,1,1,0.9999999999635365
+Ukraine,2023,Europe,UKR,Ukraine,1,1,1,0.9999999485274198
+United Arab Emirates,2017,Middle East,ARE,United Arab Emirates,0,0,0,0.10257704922405003
+United Arab Emirates,2018,Middle East,ARE,United Arab Emirates,0,0,0,0.06811621390861962
+United Arab Emirates,2019,Middle East,ARE,United Arab Emirates,0,0,0,0.06532730930213625
+United Arab Emirates,2020,Middle East,ARE,United Arab Emirates,0,0,0,0.07177016616870277
+United Arab Emirates,2021,Middle East,ARE,United Arab Emirates,1,0,0,0.06344300840968191
+United Arab Emirates,2022,Middle East,ARE,United Arab Emirates,0,1,0,0.37977840785477973
+United Arab Emirates,2023,Middle East,ARE,United Arab Emirates,0,0,0,0.11805502651848838
+United Kingdom,2017,Europe,GBR,United Kingdom,0,0,0,0.05074972098096216
+United Kingdom,2018,Europe,GBR,United Kingdom,1,0,0,0.05098236607264421
+United Kingdom,2019,Europe,GBR,United Kingdom,0,1,1,0.6531022700579339
+United Kingdom,2020,Europe,GBR,United Kingdom,0,0,0,0.12724462399961706
+United Kingdom,2021,Europe,GBR,United Kingdom,0,0,0,0.05524818034266214
+United Kingdom,2022,Europe,GBR,United Kingdom,0,0,0,0.06322001856571095
+United Kingdom,2023,Europe,GBR,United Kingdom,0,0,0,0.06788180058933427
+United States of America,2017,Americas,USA,United States,1,1,0,0.35295457187616935
+United States of America,2018,Americas,USA,United States,1,1,1,0.5135223388023484
+United States of America,2019,Americas,USA,United States,0,1,1,0.6081243400834403
+United States of America,2020,Americas,USA,United States,0,0,0,0.27315796722563507
+United States of America,2021,Americas,USA,United States,1,0,0,0.11608460672548401
+United States of America,2022,Americas,USA,United States,0,1,0,0.45467453448676975
+United States of America,2023,Americas,USA,United States,0,0,0,0.18022151018887564
+Uruguay,2017,Americas,URY,Uruguay,0,0,0,0.027302555223115206
+Uruguay,2018,Americas,URY,Uruguay,0,0,0,0.02701807316046722
+Uruguay,2019,Americas,URY,Uruguay,0,0,0,0.025382774112192846
+Uruguay,2020,Americas,URY,Uruguay,0,0,0,0.03098087280189437
+Uruguay,2021,Americas,URY,Uruguay,0,0,0,0.021598801493493133
+Uruguay,2022,Americas,URY,Uruguay,0,0,0,0.02056315433494878
+Uruguay,2023,Americas,URY,Uruguay,0,0,0,0.02145998637437932
+Uzbekistan,2017,Asia,UZB,Uzbekistan,0,0,0,0.12265191175339629
+Uzbekistan,2018,Asia,UZB,Uzbekistan,0,0,0,0.1282384606900724
+Uzbekistan,2019,Asia,UZB,Uzbekistan,0,0,0,0.11064767740118893
+Uzbekistan,2020,Asia,UZB,Uzbekistan,0,0,0,0.12261964350610627
+Uzbekistan,2021,Asia,UZB,Uzbekistan,0,0,0,0.11300803891749395
+Uzbekistan,2022,Asia,UZB,Uzbekistan,0,0,0,0.0963003347979698
+Uzbekistan,2023,Asia,UZB,Uzbekistan,0,0,0,0.09313820394825433
+Vanuatu,2017,Asia,VUT,Vanuatu,0,0,0,0.051542682258388504
+Vanuatu,2018,Asia,VUT,Vanuatu,0,0,0,0.05189734133479898
+Vanuatu,2019,Asia,VUT,Vanuatu,0,0,0,0.04985190344536282
+Vanuatu,2020,Asia,VUT,Vanuatu,0,0,0,0.06709928703198945
+Vanuatu,2021,Asia,VUT,Vanuatu,0,0,0,0.058912535526623136
+Vanuatu,2022,Asia,VUT,Vanuatu,0,0,0,0.044177149808358365
+Vanuatu,2023,Asia,VUT,Vanuatu,0,0,0,0.03136626725531332
+Venezuela,2017,Americas,VEN,"Venezuela, RB",1,1,1,0.8784196585619569
+Venezuela,2018,Americas,VEN,"Venezuela, RB",1,1,1,0.9270471860996201
+Venezuela,2019,Americas,VEN,"Venezuela, RB",1,1,1,0.9362550436355104
+Venezuela,2020,Americas,VEN,"Venezuela, RB",1,1,1,0.8943474390522123
+Venezuela,2021,Americas,VEN,"Venezuela, RB",1,1,1,0.9893615996642136
+Venezuela,2022,Americas,VEN,"Venezuela, RB",1,1,1,0.9863923314480939
+Venezuela,2023,Americas,VEN,"Venezuela, RB",1,1,1,0.9390185591365909
+Vietnam (North Vietnam),2017,Asia,VNM,Viet Nam,0,0,0,0.04751130955778803
+Vietnam (North Vietnam),2018,Asia,VNM,Viet Nam,0,0,0,0.044786978401777214
+Vietnam (North Vietnam),2019,Asia,VNM,Viet Nam,0,0,0,0.041887537951874436
+Vietnam (North Vietnam),2020,Asia,VNM,Viet Nam,0,0,0,0.04463595124866943
+Vietnam (North Vietnam),2021,Asia,VNM,Viet Nam,0,0,0,0.04385261171982336
+Vietnam (North Vietnam),2022,Asia,VNM,Viet Nam,0,0,0,0.03701779053756934
+Vietnam (North Vietnam),2023,Asia,VNM,Viet Nam,0,0,0,0.042602610770344905
+Yemen (North Yemen),2017,Middle East,YEM,"Yemen, Rep.",1,1,1,0.9996294804460296
+Yemen (North Yemen),2018,Middle East,YEM,"Yemen, Rep.",1,1,1,0.9998520629925796
+Yemen (North Yemen),2019,Middle East,YEM,"Yemen, Rep.",1,1,1,0.9998353742872018
+Yemen (North Yemen),2020,Middle East,YEM,"Yemen, Rep.",1,1,1,0.9987222416817786
+Yemen (North Yemen),2021,Middle East,YEM,"Yemen, Rep.",1,1,1,0.9974763318436008
+Yemen (North Yemen),2022,Middle East,YEM,"Yemen, Rep.",1,1,1,0.9972403538619007
+Yemen (North Yemen),2023,Middle East,YEM,"Yemen, Rep.",1,1,1,0.9624803127671911
+Zambia,2017,Africa,ZMB,Zambia,0,0,0,0.1545540413322365
+Zambia,2018,Africa,ZMB,Zambia,0,0,0,0.14663936153491322
+Zambia,2019,Africa,ZMB,Zambia,0,0,0,0.14380479222241463
+Zambia,2020,Africa,ZMB,Zambia,0,0,0,0.1635122920583169
+Zambia,2021,Africa,ZMB,Zambia,0,0,0,0.16104747065456473
+Zambia,2022,Africa,ZMB,Zambia,0,0,0,0.11499911364849177
+Zambia,2023,Africa,ZMB,Zambia,0,0,0,0.11293535896874135
+Zimbabwe (Rhodesia),2017,Africa,ZWE,Zimbabwe,1,0,0,0.15839186587495233
+Zimbabwe (Rhodesia),2018,Africa,ZWE,Zimbabwe,1,1,0,0.4114015275144274
+Zimbabwe (Rhodesia),2019,Africa,ZWE,Zimbabwe,1,1,1,0.657713647294674
+Zimbabwe (Rhodesia),2020,Africa,ZWE,Zimbabwe,0,1,1,0.7404087020461227
+Zimbabwe (Rhodesia),2021,Africa,ZWE,Zimbabwe,0,0,0,0.3256696576390224
+Zimbabwe (Rhodesia),2022,Africa,ZWE,Zimbabwe,0,0,0,0.23478859134571411
+Zimbabwe (Rhodesia),2023,Africa,ZWE,Zimbabwe,0,0,0,0.2274111680292951

@@ -129,13 +129,17 @@ def main() -> None:
 
     df = pd.read_csv(DATA_PATH)
 
-    engineered_world_bank_columns = get_engineered_world_bank_columns(df)
-
+    # Main model currently uses the best feature set found in the
+    # World Bank ablation study: UCDP base + temporal conflict features
+    # + all raw World Bank indicators.
+    #
+    # Engineered World Bank features are still generated and evaluated
+    # in experiments, but are not part of the current main model because
+    # they reduced F1-score in the ablation analysis.
     feature_columns = (
         BASE_FEATURE_COLUMNS
         + TEMPORAL_FEATURE_COLUMNS
         + WORLD_BANK_RAW_COLUMNS
-        + engineered_world_bank_columns
     )
 
     train_mask = df["year"] <= TRAIN_END_YEAR
@@ -162,7 +166,7 @@ def main() -> None:
             y_pred_persistence,
         ),
         evaluate_predictions(
-            "Logistic Regression scaled - World Bank engineered",
+            "Logistic Regression scaled - World Bank all raw",
             y_test,
             y_pred_model,
         ),
