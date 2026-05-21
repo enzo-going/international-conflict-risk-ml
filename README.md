@@ -97,8 +97,8 @@ O projeto já saiu da fase inicial de estruturação e atualmente possui um pipe
 
 ### Em andamento
 
-- [ ] Reexecutar o modelo principal após a segunda expansão dos indicadores World Bank
-- [ ] Atualizar métricas caso o desempenho mude
+- [x] Reexecutar o modelo principal após a segunda expansão dos indicadores World Bank
+- [x] Atualizar métricas após a reexecução com indicadores World Bank expandidos
 - [ ] Validar arquivos WWI adicionados pelo grupo
 - [ ] Consolidar documentação para qualificação
 - [ ] Testar modelos adicionais, como Gradient Boosting e MLP

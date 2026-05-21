@@ -96,11 +96,11 @@ The training script generates:
 | Model | Accuracy | Precision | Recall | F1-score |
 |---|---:|---:|---:|---:|
 | Persistence baseline | 0.9072 | 0.8571 | 0.8571 | 0.8571 |
-| Logistic Regression + engineered World Bank features | 0.9183 | 0.8929 | 0.8503 | 0.8711 |
+| Logistic Regression + engineered World Bank features | 0.9175 | 0.8926 | 0.8481 | 0.8698 |
 
 The current main model improves F1-score over the persistence baseline by approximately:
 
-`+0.0139`
+`+0.0126`
 
 ## Interpretation
 
