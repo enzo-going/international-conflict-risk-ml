@@ -10,13 +10,15 @@ Acesse aqui:
 
 Projeto acadêmico de Machine Learning aplicado à análise preditiva de conflitos internacionais a partir de dados heterogêneos em formato tabular e temporal.
 
-Este projeto faz parte da Pesquisa Curricularizada da Graduação em Ciência da Computação, envolvendo os componentes de Reconhecimento de Padrões com Inteligência Artificial e Banco de Dados.
+Este projeto faz parte da Pesquisa Curricularizada da Graduação em Ciência da Computação, envolvendo principalmente os componentes de Reconhecimento de Padrões com Inteligência Artificial e Banco de Dados.
 
 ## Objetivo
 
 Desenvolver uma base analítica e experimental para estimar risco de ocorrência ou intensificação de conflitos internacionais utilizando dados históricos organizados em estrutura país-ano.
 
-A proposta inicial é utilizar o UCDP Organized Violence Country-Year Dataset como base central e integrar, progressivamente, outras fontes relacionadas a violência unilateral, temas de conflito, indicadores militares, econômicos, sociais, geopolíticos e ambientais.
+A proposta inicial partiu de uma questão ampla sobre tensões globais, escalada de conflitos e risco de grandes crises internacionais. Para tornar o problema tecnicamente defensável, o projeto foi reformulado como uma tarefa supervisionada de Machine Learning em estrutura `country-year`.
+
+O objetivo atual não é prever uma guerra mundial de forma determinística. O objetivo é construir um sistema experimental, probabilístico e reprodutível para estimar se um país apresentará violência organizada no ano seguinte, com base em dados históricos, features temporais e indicadores externos.
 
 ## Escopo técnico atual
 
@@ -50,29 +52,134 @@ A baseline obrigatória do projeto é a persistência de conflito:
 
 Essa baseline é forte porque conflitos tendem a apresentar continuidade histórica. Por isso, qualquer modelo mais complexo precisa ser comparado contra ela.
 
-## Estrutura do projeto
+## Arquitetura e organização do projeto
 
-A estrutura do repositório segue uma organização modular para separar dados brutos, dados processados, scripts, notebooks, documentação e artefatos de saída.
+O repositório foi organizado para separar dados, código, documentação, experimentos e artefatos gerados pelo pipeline de Machine Learning.
 
-Resumo das principais pastas:
+A estrutura segue a lógica do fluxo técnico do projeto:
 
-- `data/raw/` — dados brutos preservados, sem edição manual;
-- `data/interim/` — arquivos auxiliares de integração, como mapeamentos de países;
-- `data/processed/` — dados processados e padronizados;
-- `data/final/` — datasets finais usados em análise e modelagem;
-- `docs/` — documentação metodológica, referências e dashboard HTML;
-- `notebooks/exploration/` — notebooks de análise exploratória;
-- `notebooks/modeling/` — notebooks de modelagem e avaliação;
-- `src/data/` — scripts de ingestão, limpeza e integração;
-- `src/features/` — scripts de engenharia de atributos;
-- `src/models/` — scripts de treinamento e avaliação de modelos;
-- `outputs/tables/` — métricas, predições e tabelas exportadas;
-- `outputs/models/` — modelo treinado e metadados;
-- `reports/` — materiais voltados à qualificação e entrega final.
+```text
+ingestão de dados
+→ limpeza e padronização
+→ construção do dataset país-ano
+→ criação do target supervisionado
+→ engenharia de features temporais e socioeconômicas
+→ treinamento do modelo
+→ comparação com baseline
+→ geração de métricas, predições e dashboard
+```
 
-Para uma visão mais detalhada da função de cada arquivo e do fluxo principal do projeto, consulte:
+### Estrutura de pastas
+
+```text
+international-conflict-risk-ml/
+├── data/
+│   ├── raw/           # Dados brutos originais, preservados sem edição manual
+│   ├── interim/       # Arquivos auxiliares de integração, como mapeamentos de países
+│   ├── processed/     # Dados limpos e padronizados
+│   └── final/         # Datasets finais usados em análise e modelagem
+│
+├── src/
+│   ├── data/          # Scripts de ingestão, limpeza e integração dos datasets
+│   ├── features/      # Engenharia de atributos temporais e socioeconômicos
+│   ├── models/        # Treinamento, avaliação e exportação dos modelos
+│   └── visualization/ # Scripts futuros de visualização
+│
+├── notebooks/
+│   ├── exploration/   # Análise exploratória dos dados
+│   └── modeling/      # Experimentos de modelagem e avaliação
+│
+├── outputs/
+│   ├── charts/        # Gráficos exportados
+│   ├── tables/        # Métricas, predições e tabelas auxiliares
+│   └── models/        # Modelo treinado e metadados
+│
+├── docs/
+│   ├── academic/      # Materiais acadêmicos e entregas
+│   ├── methodology/   # Documentação metodológica do pipeline
+│   ├── references/    # Fontes, indicadores e referências externas
+│   ├── index.html     # Dashboard publicado via GitHub Pages
+│   └── project_map.md # Mapa técnico detalhado do projeto
+│
+└── reports/
+    ├── qualification/ # Materiais da qualificação
+    └── final/         # Materiais da entrega final
+```
+
+### Leitura prática das pastas
+
+| Pasta | Função no projeto |
+|---|---|
+| `data/raw/` | Guarda os arquivos originais baixados das fontes, sem edição manual. |
+| `data/processed/` | Contém dados limpos, padronizados e preparados para integração. |
+| `data/interim/` | Armazena arquivos auxiliares, como mapeamentos entre nomes/códigos de países. |
+| `data/final/` | Contém os datasets finais usados diretamente nas análises e modelos. |
+| `src/data/` | Scripts que constroem os datasets a partir das fontes brutas e processadas. |
+| `src/features/` | Scripts responsáveis por criar features temporais e socioeconômicas. |
+| `src/models/` | Scripts de treinamento, avaliação e exportação dos modelos. |
+| `notebooks/` | Ambiente de exploração, testes e experimentos comparativos. |
+| `outputs/` | Resultados produzidos pelo pipeline: métricas, predições, tabelas e modelos. |
+| `docs/` | Documentação metodológica, referências e dashboard visual do projeto. |
+| `reports/` | Materiais voltados à qualificação e à entrega final. |
+
+Para uma visão detalhada da função de cada arquivo e da ordem dos scripts, consulte:
 
 `docs/project_map.md`
+
+## Pipeline principal
+
+O pipeline oficial do projeto utiliza:
+
+- UCDP Organized Violence Country-Year como base central;
+- World Bank Open Data como fonte externa socioeconômica;
+- estrutura de análise `country-year`;
+- target supervisionado `target_conflict_next_year`;
+- split temporal para avaliação;
+- modelo principal reproduzível em `src/models/train_conflict_risk_model.py`.
+
+Ordem atual dos scripts principais:
+
+1. `src/data/prepare_ucdp_organized_violence.py`
+   - processa o arquivo bruto da UCDP.
+
+2. `src/data/build_conflict_country_year_base.py`
+   - cria o dataset base país-ano;
+   - cria `organized_violence_exists`;
+   - cria `target_conflict_next_year`.
+
+3. `src/features/build_temporal_features.py`
+   - cria features temporais de conflito.
+
+4. `src/data/prepare_world_bank_indicators.py`
+   - baixa e processa indicadores do World Bank.
+
+5. `src/data/build_conflict_country_year_world_bank.py`
+   - integra UCDP + World Bank usando mapeamento de países.
+
+6. `src/features/build_world_bank_features.py`
+   - cria features derivadas do World Bank.
+
+7. `src/models/train_conflict_risk_model.py`
+   - treina o modelo principal;
+   - compara contra a baseline de persistência;
+   - salva métricas, predições, metadados e modelo treinado.
+
+## Resultado atual do modelo principal
+
+Após a expansão dos indicadores do World Bank, o modelo principal foi reexecutado com 69 features.
+
+| Modelo | Accuracy | Precision | Recall | F1-score |
+|---|---:|---:|---:|---:|
+| Persistence baseline | 0.9072 | 0.8571 | 0.8571 | 0.8571 |
+| Logistic Regression + World Bank expandido | 0.9175 | 0.8926 | 0.8481 | 0.8698 |
+
+O modelo principal atual supera a baseline de persistência, com ganho aproximado de:
+
+`+0.0126` em F1-score.
+
+O melhor resultado histórico anterior foi `0.8711`, antes da segunda expansão dos indicadores World Bank. A expansão aumentou a riqueza do dataset, mas não melhorou a Logistic Regression atual.
+
+Esse resultado é metodologicamente relevante porque mostra que adicionar mais indicadores não garante ganho direto de desempenho. A próxima etapa técnica deve avaliar seleção de features, impacto individual dos indicadores e modelos tabulares mais robustos.
 
 ## Status atual
 
@@ -94,24 +201,86 @@ O projeto já saiu da fase inicial de estruturação e atualmente possui um pipe
 - [x] Análise de probabilidade e threshold
 - [x] Dashboard HTML publicado
 - [x] Mapa técnico do projeto em `docs/project_map.md`
+- [x] Reexecução do modelo principal após a segunda expansão dos indicadores World Bank
+- [x] Atualização das métricas após a reexecução com indicadores World Bank expandidos
 
 ### Em andamento
 
-- [x] Reexecutar o modelo principal após a segunda expansão dos indicadores World Bank
-- [x] Atualizar métricas após a reexecução com indicadores World Bank expandidos
 - [ ] Validar arquivos WWI adicionados pelo grupo
 - [ ] Consolidar documentação para qualificação
 - [ ] Testar modelos adicionais, como Gradient Boosting e MLP
+- [ ] Avaliar seleção de features e impacto individual dos indicadores World Bank
 
-## Principais fontes consideradas
+## Como reproduzir o modelo principal
+
+Instale as dependências:
+
+```powershell
+pip install -r requirements.txt
+```
+
+Execute o pipeline principal em ordem:
+
+```powershell
+python src\data\prepare_ucdp_organized_violence.py
+python src\data\build_conflict_country_year_base.py
+python src\features\build_temporal_features.py
+python src\data\prepare_world_bank_indicators.py
+python src\data\build_conflict_country_year_world_bank.py
+python src\features\build_world_bank_features.py
+python src\models\train_conflict_risk_model.py
+```
+
+O treinamento principal gera:
+
+- `outputs/models/conflict_risk_logistic_regression_pipeline.joblib`
+- `outputs/models/conflict_risk_model_features.json`
+- `outputs/tables/conflict_risk_model_metrics.csv`
+- `outputs/tables/conflict_risk_model_test_predictions.csv`
+
+## Notebooks
+
+### Exploração
+
+- `notebooks/exploration/01_ucdp_country_year_eda.ipynb`
+
+### Modelagem
+
+- `notebooks/modeling/01_baseline_models.ipynb`
+- `notebooks/modeling/02_temporal_features_models.ipynb`
+- `notebooks/modeling/03_world_bank_features_models.ipynb`
+- `notebooks/modeling/04_world_bank_engineered_features_models.ipynb`
+- `notebooks/modeling/05_probability_calibration.ipynb`
+
+Os notebooks registram experimentos e análises. O pipeline reproduzível principal está em `src/models/train_conflict_risk_model.py`.
+
+## Fontes utilizadas e consideradas
+
+### Fontes já utilizadas
 
 - UCDP — Uppsala Conflict Data Program
+- World Bank Open Data
+
+### Fontes consideradas para expansão futura
+
 - ACLED — Armed Conflict Location & Event Data
 - SIPRI — Stockholm International Peace Research Institute
 - UNHCR — United Nations High Commissioner for Refugees
-- World Bank Open Data
 - Correlates of War
 
-## Observação
+## Experimentos paralelos em revisão
 
-O projeto evita tratar a previsão de conflitos como uma previsão determinística. O objetivo é construir uma abordagem exploratória e probabilística, adequada às limitações dos dados históricos e à complexidade do fenômeno analisado.
+Arquivos relacionados à Primeira Guerra Mundial foram adicionados pelo grupo e ainda precisam de validação antes de entrarem no pipeline oficial:
+
+- `data/final/world_war_1_details_clean.csv`
+- `src/data/wwi_predictive_analysis_scalability_of_conflict.py`
+- `src/features/wwi_build_temporal_features.py`
+- `src/models/train_wwi_model.py`
+
+Esses arquivos devem ser tratados como experimento paralelo ou material histórico até revisão metodológica, pois ainda não seguem claramente o mesmo fluxo `country-year` do pipeline principal UCDP + World Bank.
+
+## Observação metodológica
+
+O projeto evita tratar a previsão de conflitos como uma previsão determinística. O objetivo é construir uma abordagem exploratória, probabilística e reproduzível, adequada às limitações dos dados históricos e à complexidade do fenômeno analisado.
+
+As saídas do modelo devem ser interpretadas como estimativas experimentais baseadas em padrões históricos e variáveis disponíveis, não como previsões absolutas sobre eventos geopolíticos futuros.
