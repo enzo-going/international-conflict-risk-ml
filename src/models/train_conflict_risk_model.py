@@ -65,11 +65,15 @@ TEMPORAL_FEATURE_COLUMNS = [
 
 WORLD_BANK_RAW_COLUMNS = [
     "population_total",
+    "population_growth_annual_pct",
+    "urban_population_pct",
     "gdp_per_capita_current_usd",
     "gdp_growth_annual_pct",
     "inflation_consumer_prices_annual_pct",
     "unemployment_total_pct",
+    "school_enrollment_secondary_gross_pct",
     "military_expenditure_pct_gdp",
+    "natural_resources_rents_pct_gdp",
 ]
 
 
