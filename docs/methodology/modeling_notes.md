@@ -255,3 +255,26 @@ Assim, o threshold `0.5` permanece como escolha principal atual para o algoritmo
 A análise por bins de probabilidade mostrou boa aderência nos extremos, especialmente nas faixas de baixa e alta probabilidade. No entanto, alguns intervalos intermediários apresentaram erro de calibração maior, como o bin `0.7–0.8`, onde a probabilidade média prevista foi superior à taxa positiva observada.
 
 Essa análise ainda não representa calibração completa do modelo. Ela serve como diagnóstico inicial antes de aplicar métodos como Platt scaling ou isotonic regression.
+
+## Reexecução após expansão dos indicadores World Bank
+
+Após a segunda leva de indicadores do World Bank, o pipeline principal foi reexecutado com o dataset atualizado.
+
+A nova versão passou de 53 para 69 features no modelo principal.
+
+### Resultado
+
+| Modelo | Accuracy | Precision | Recall | F1-score | Diferença vs persistência |
+|---|---:|---:|---:|---:|---:|
+| Persistence baseline | 0.9072 | 0.8571 | 0.8571 | 0.8571 | 0.0000 |
+| Logistic Regression + World Bank expandido | 0.9175 | 0.8926 | 0.8481 | 0.8698 | +0.0126 |
+
+### Interpretação
+
+A expansão dos indicadores World Bank não melhorou o melhor resultado anterior, que havia alcançado F1-score de `0.8711`.
+
+O novo resultado ficou em `0.8698`, indicando uma queda pequena de aproximadamente `-0.0013`.
+
+Isso sugere que adicionar mais indicadores não garante ganho direto de desempenho. A segunda leva aumentou a riqueza informacional do dataset, mas também pode ter introduzido ruído, multicolinearidade ou variáveis com cobertura incompleta.
+
+O modelo expandido ainda supera a baseline de persistência, mas o resultado reforça a necessidade de seleção de features, validação de impacto individual dos indicadores e comparação com modelos tabulares mais robustos.
