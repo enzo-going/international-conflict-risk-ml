@@ -278,3 +278,29 @@ O novo resultado ficou em `0.8698`, indicando uma queda pequena de aproximadamen
 Isso sugere que adicionar mais indicadores não garante ganho direto de desempenho. A segunda leva aumentou a riqueza informacional do dataset, mas também pode ter introduzido ruído, multicolinearidade ou variáveis com cobertura incompleta.
 
 O modelo expandido ainda supera a baseline de persistência, mas o resultado reforça a necessidade de seleção de features, validação de impacto individual dos indicadores e comparação com modelos tabulares mais robustos.
+
+## Análise de ablação dos indicadores World Bank
+
+Após a reexecução com o World Bank expandido, foi realizada uma análise de ablação para comparar diferentes grupos de features.
+
+O objetivo foi verificar se o melhor desempenho vinha das features derivadas do World Bank ou dos indicadores brutos.
+
+### Resultado principal
+
+| Experimento | Features | Accuracy | Precision | Recall | F1-score | Diferença vs persistência |
+|---|---:|---:|---:|---:|---:|---:|
+| Persistence baseline | 1 | 0.9072 | 0.8571 | 0.8571 | 0.8571 | 0.0000 |
+| UCDP temporal | 23 | 0.9161 | 0.8959 | 0.8390 | 0.8665 | +0.0094 |
+| World Bank wave 1 engineered | 53 | 0.9183 | 0.8929 | 0.8503 | 0.8711 | +0.0139 |
+| World Bank all engineered | 73 | 0.9175 | 0.8926 | 0.8481 | 0.8698 | +0.0126 |
+| World Bank all raw | 33 | 0.9197 | 0.9029 | 0.8435 | 0.8722 | +0.0151 |
+
+### Interpretação
+
+O melhor resultado foi obtido pelo experimento `world_bank_all_raw`, com F1-score de `0.8722`.
+
+Esse resultado superou tanto o modelo com features derivadas do World Bank quanto o modelo com todos os indicadores e features derivadas.
+
+A principal conclusão é que, para a regressão logística atual, o conjunto mais simples com UCDP, features temporais de conflito e indicadores brutos completos do World Bank apresentou melhor generalização.
+
+Isso indica que algumas features derivadas do World Bank podem ter introduzido ruído, redundância ou instabilidade para este modelo específico.

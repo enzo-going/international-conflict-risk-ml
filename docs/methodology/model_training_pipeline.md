@@ -23,7 +23,7 @@ This dataset combines:
 - UCDP Organized Violence country-year data;
 - temporal conflict features;
 - World Bank socioeconomic indicators;
-- engineered World Bank temporal features.
+- raw World Bank socioeconomic indicators.
 
 ## Unit of analysis
 
@@ -71,14 +71,9 @@ The model uses the following feature groups:
 1. UCDP conflict variables;
 2. temporal conflict features;
 3. raw World Bank indicators;
-4. engineered World Bank features.
+4. raw World Bank indicators.
 
-Engineered World Bank features include:
-
-- lagged values;
-- annual changes;
-- rolling 3-year means;
-- missing-value flags.
+The current main model uses raw World Bank indicators only. Engineered World Bank features are still generated and evaluated in experiments, but are not part of the current main model because the ablation analysis showed better performance without them.
 
 ## Output artifacts
 
@@ -96,17 +91,17 @@ The training script generates:
 | Model | Accuracy | Precision | Recall | F1-score |
 |---|---:|---:|---:|---:|
 | Persistence baseline | 0.9072 | 0.8571 | 0.8571 | 0.8571 |
-| Logistic Regression + engineered World Bank features | 0.9175 | 0.8926 | 0.8481 | 0.8698 |
+| Logistic Regression + World Bank all raw | 0.9197 | 0.9029 | 0.8435 | 0.8722 |
 
 The current main model improves F1-score over the persistence baseline by approximately:
 
-`+0.0126`
+`+0.0151`
 
 ## Interpretation
 
 The result suggests that adding heterogeneous socioeconomic data from the World Bank only becomes useful after feature engineering.
 
-Raw World Bank indicators alone did not improve the best model, but lagged values, annual changes, rolling means and missing-value flags produced the best result observed so far.
+The ablation analysis showed that the best current model uses the complete raw World Bank indicator set without the engineered World Bank temporal features.
 
 The improvement is moderate, but methodologically relevant.
 

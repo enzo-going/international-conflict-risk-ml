@@ -171,15 +171,15 @@ Após a expansão dos indicadores do World Bank, o modelo principal foi reexecut
 | Modelo | Accuracy | Precision | Recall | F1-score |
 |---|---:|---:|---:|---:|
 | Persistence baseline | 0.9072 | 0.8571 | 0.8571 | 0.8571 |
-| Logistic Regression + World Bank expandido | 0.9175 | 0.8926 | 0.8481 | 0.8698 |
+| Logistic Regression + World Bank all raw | 0.9197 | 0.9029 | 0.8435 | 0.8722 |
 
 O modelo principal atual supera a baseline de persistência, com ganho aproximado de:
 
-`+0.0126` em F1-score.
+`+0.0151` em F1-score.
 
-O melhor resultado histórico anterior foi `0.8711`, antes da segunda expansão dos indicadores World Bank. A expansão aumentou a riqueza do dataset, mas não melhorou a Logistic Regression atual.
+O melhor resultado histórico anterior era `0.8711`. Após a análise de ablação, o melhor conjunto passou a ser `World Bank all raw`, com F1-score de `0.8722`.
 
-Esse resultado é metodologicamente relevante porque mostra que adicionar mais indicadores não garante ganho direto de desempenho. A próxima etapa técnica deve avaliar seleção de features, impacto individual dos indicadores e modelos tabulares mais robustos.
+Esse resultado é metodologicamente relevante porque mostra que mais features nem sempre significam melhor desempenho. A análise de ablação indicou que os indicadores brutos completos do World Bank funcionaram melhor do que o conjunto com todas as features derivadas.
 
 ## Status atual
 
