@@ -780,7 +780,7 @@
           <div class="matrix-title">Persistence baseline</div>
           <div class="matrix-cells">
             <div class="matrix-cell">
-              <strong>868</strong>
+              <strong>854</strong>
               <span>True negatives</span>
             </div>
             <div class="matrix-cell">
@@ -799,37 +799,147 @@
         </div>
 
         <div class="matrix">
-          <div class="matrix-title">Temporal · Logistic Regression</div>
+          <div class="matrix-title">World Bank all raw · Logistic Regression</div>
           <div class="matrix-cells">
             <div class="matrix-cell">
-              <strong>865</strong>
+              <strong>877</strong>
               <span>True negatives</span>
             </div>
             <div class="matrix-cell">
-              <strong>66</strong>
+              <strong>40</strong>
               <span>False positives</span>
             </div>
             <div class="matrix-cell">
-              <strong>53</strong>
+              <strong>69</strong>
               <span>False negatives</span>
             </div>
             <div class="matrix-cell">
-              <strong>388</strong>
+              <strong>372</strong>
               <span>True positives</span>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="note amber">
-        A melhora do modelo temporal veio principalmente da redução de falsos negativos:
-        de 63 para 53. Em termos práticos, o modelo deixou de perder 10 casos positivos
-        no conjunto de teste, aceitando um pequeno aumento de falsos positivos.
+      <div class="note green">
+        O algoritmo principal atual reduziu falsos positivos de 63 para 40 e aumentou a precisão do modelo.
+        Em contrapartida, os falsos negativos subiram de 63 para 69. A melhora geral do F1-score vem do equilíbrio
+        entre maior precisão e leve redução de recall.
       </div>
     </section>
 
     <section>
-      <h2>6. Conclusão provisória</h2>
+      <h2>6. Interpretação do modelo: variáveis mais influentes</h2>
+
+      <p>
+        Como o algoritmo principal é uma regressão logística com variáveis padronizadas, é possível inspecionar
+        os coeficientes do modelo para entender quais atributos mais influenciam a previsão.
+      </p>
+
+      <p>
+        A tabela abaixo apresenta as principais variáveis ordenadas pela magnitude absoluta do coeficiente.
+        Coeficientes positivos aumentam o risco previsto; coeficientes negativos reduzem o risco previsto.
+      </p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Variável</th>
+            <th>Grupo</th>
+            <th>Coeficiente</th>
+            <th>Efeito estimado</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td><code>non_state_dyad_count</code></td>
+            <td>UCDP</td>
+            <td>+1.3980</td>
+            <td>Aumenta risco previsto</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td><code>state_based_dyad_count</code></td>
+            <td>UCDP</td>
+            <td>+1.1020</td>
+            <td>Aumenta risco previsto</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td><code>one_sided_dyad_count</code></td>
+            <td>UCDP</td>
+            <td>+0.8231</td>
+            <td>Aumenta risco previsto</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td><code>conflict_last_5_years_count</code></td>
+            <td>Temporal</td>
+            <td>+0.6305</td>
+            <td>Aumenta risco previsto</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td><code>organized_violence_exists</code></td>
+            <td>UCDP</td>
+            <td>+0.5451</td>
+            <td>Aumenta risco previsto</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td><code>years_since_last_conflict</code></td>
+            <td>Temporal</td>
+            <td>-0.4747</td>
+            <td>Reduz risco previsto</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td><code>intrastate_conflict_exists</code></td>
+            <td>UCDP</td>
+            <td>+0.4273</td>
+            <td>Aumenta risco previsto</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td><code>state_based_conflict_exists</code></td>
+            <td>UCDP</td>
+            <td>-0.3440</td>
+            <td>Reduz risco previsto</td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td><code>gdp_per_capita_current_usd</code></td>
+            <td>World Bank</td>
+            <td>-0.2739</td>
+            <td>Reduz risco previsto</td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td><code>year</code></td>
+            <td>Índice temporal</td>
+            <td>-0.2174</td>
+            <td>Reduz risco previsto</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="research-box">
+        <strong>Leitura técnica:</strong><br />
+        O modelo é dominado por variáveis históricas de conflito da UCDP, especialmente contagens de díades e persistência temporal.
+        Os indicadores do World Bank entram como complemento, com destaque para PIB per capita, educação, crescimento populacional
+        e dependência de recursos naturais.
+      </div>
+
+      <div class="note amber">
+        Importante: coeficientes de regressão logística indicam associação dentro do modelo, não causalidade.
+        Eles devem ser interpretados como sinais estatísticos condicionados às variáveis disponíveis e ao procedimento de padronização.
+      </div>
+    </section>
+
+    <section>
+      <h2>7. Conclusão provisória</h2>
 
       <p>
         O achado central até este ponto é que conflitos internacionais, medidos como violência organizada,
@@ -851,13 +961,13 @@
     </section>
 
     <section>
-      <h2>7. Próxima etapa técnica e evolução do sistema</h2>
+      <h2>8. Próxima etapa técnica e evolução do sistema</h2>
 
       <div class="timeline">
         <div class="timeline-item">
           <div class="timeline-title">Agora</div>
           <div class="timeline-text">
-            Consolidar dataset base + features temporais como fundação metodológica.
+            Consolidar o modelo principal atual com UCDP, features temporais e indicadores brutos completos do World Bank.
           </div>
         </div>
 
@@ -872,7 +982,7 @@
         <div class="timeline-item">
           <div class="timeline-title">Depois</div>
           <div class="timeline-text">
-            Reexecutar modelos e comparar novamente contra a baseline de persistência.
+            Comparar o modelo principal atual contra Gradient Boosting, Random Forest ajustado e uma MLP simples.
           </div>
         </div>
 
@@ -887,7 +997,7 @@
 
 
     <section>
-      <h2>8. Análise probabilística do modelo</h2>
+      <h2>9. Análise probabilística do modelo</h2>
 
       <p>
         O algoritmo principal também gera uma probabilidade estimada de conflito no ano seguinte.
@@ -979,7 +1089,7 @@
     </section>
 
     <section>
-      <h2>9. Módulo futuro: termômetro experimental de escalada</h2>
+      <h2>10. Módulo futuro: termômetro experimental de escalada</h2>
       <p>
         Uma evolução futura do sistema pode ser a criação de um índice agregado de risco,
         apresentado como um termômetro exploratório de escalada global. Esse módulo não deve
