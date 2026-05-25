@@ -4,3 +4,16 @@
 # Include SQL files in the language bar.
 *.sql linguist-language=SQL
 *.sql linguist-detectable=true
+
+# Include GitHub Pages frontend files in the language bar.
+docs/index.html linguist-language=HTML
+docs/index.html linguist-detectable=true
+docs/index.html -linguist-documentation
+
+docs/assets/*.css linguist-language=CSS
+docs/assets/*.css linguist-detectable=true
+docs/assets/*.css -linguist-documentation
+
+docs/assets/*.js linguist-language=JavaScript
+docs/assets/*.js linguist-detectable=true
+docs/assets/*.js -linguist-documentation
