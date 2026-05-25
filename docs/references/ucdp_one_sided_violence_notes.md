@@ -58,3 +58,41 @@ Próxima ação recomendada:
 2. comparar cobertura com o dataset UCDP Organized Violence;
 3. se houver ganho, criar um script específico de agregação para país-ano;
 4. só depois testar impacto no modelo.
+
+## Arquivo processado adicionado pelo grupo
+
+Também foi adicionado o arquivo:
+
+`data/final/UCDP_One-sided_Violence_Dataset_updated.csv`
+
+A inspeção inicial identificou:
+
+- 1330 linhas;
+- 4 colunas;
+- colunas: `year`, `actor_name`, `location`, `best_fatality_estimate`;
+- granularidade aproximada: ator/local/ano.
+
+Esse arquivo parece ser uma versão simplificada do dataset bruto `OneSided_v25_1.xlsx`.
+
+## Avaliação do arquivo processado
+
+O arquivo pode ser útil como etapa intermediária de análise, mas ainda não deve ser considerado dataset final oficial do pipeline.
+
+Motivos:
+
+- não está claro qual script gerou o arquivo;
+- ainda não está agregado para a unidade principal `country-year`;
+- pode duplicar informações que já existem em `ucdp_organized_violence_country_year.csv`;
+- precisa ser comparado com as variáveis atuais `one_sided_violence_exists`, `one_sided_dyad_count` e `one_sided_deaths_best`.
+
+## Decisão provisória sobre o CSV processado
+
+Manter como material em revisão.
+
+Antes de integrar ao modelo, é necessário:
+
+1. criar ou recuperar o script que gerou esse CSV;
+2. comparar a cobertura contra o dataset UCDP organizado já usado;
+3. verificar se há ganho informacional real;
+4. transformar para país-ano, se for usado;
+5. documentar a origem e a lógica de agregação.
