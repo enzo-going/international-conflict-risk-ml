@@ -304,3 +304,51 @@ Esse resultado superou tanto o modelo com features derivadas do World Bank quant
 A principal conclusão é que, para a regressão logística atual, o conjunto mais simples com UCDP, features temporais de conflito e indicadores brutos completos do World Bank apresentou melhor generalização.
 
 Isso indica que algumas features derivadas do World Bank podem ter introduzido ruído, redundância ou instabilidade para este modelo específico.
+
+## Comparação com modelos candidatos
+
+Após a consolidação do modelo principal com UCDP, features temporais e indicadores brutos do World Bank, foi executada uma comparação adicional com modelos candidatos.
+
+O objetivo dessa etapa foi verificar se algoritmos mais complexos poderiam superar a configuração principal atual.
+
+### Modelos avaliados
+
+Foram comparados:
+
+- baseline de persistência;
+- Logistic Regression com features World Bank all raw;
+- Random Forest;
+- Gradient Boosting;
+- MLP simples.
+
+Todos os modelos utilizaram o mesmo split temporal e o mesmo conjunto de features do modelo principal atual.
+
+### Resultados
+
+| Modelo | Accuracy | Precision | Recall | F1-score | Diferença vs persistência |
+|---|---:|---:|---:|---:|---:|
+| Logistic Regression + World Bank all raw | 0.9197 | 0.9029 | 0.8435 | 0.8722 | +0.0151 |
+| Random Forest + World Bank all raw | 0.9124 | 0.8594 | 0.8730 | 0.8661 | +0.0090 |
+| Gradient Boosting + World Bank all raw | 0.9138 | 0.9197 | 0.8050 | 0.8585 | +0.0014 |
+| Persistence baseline | 0.9072 | 0.8571 | 0.8571 | 0.8571 | 0.0000 |
+| MLP + World Bank all raw | 0.9094 | 0.9206 | 0.7891 | 0.8498 | -0.0073 |
+
+### Interpretação
+
+A Logistic Regression permaneceu como o melhor modelo geral pelo critério de F1-score.
+
+Apesar de modelos como Random Forest e Gradient Boosting serem mais flexíveis, eles não superaram a regressão logística no equilíbrio entre precision e recall.
+
+O Random Forest apresentou maior recall, reduzindo falsos negativos em comparação com o modelo principal, mas aumentou falsos positivos. Isso indica que ele pode ser útil como modelo alternativo mais sensível, porém não como substituto direto do modelo principal.
+
+O Gradient Boosting apresentou precision alta, mas recall menor. Isso sugere comportamento mais conservador, com menor captura de casos positivos.
+
+A MLP simples não superou a baseline de persistência, indicando que uma rede neural rasa, neste estágio do projeto e com este conjunto tabular de features, não trouxe ganho metodológico.
+
+### Decisão metodológica
+
+A configuração principal do projeto permanece:
+
+```text
+Logistic Regression scaled - World Bank all raw
+
