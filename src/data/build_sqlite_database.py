@@ -17,6 +17,7 @@ FEATURES_PATH = PROJECT_ROOT / "data" / "final" / "conflict_country_year_world_b
 PREDICTIONS_PATH = PROJECT_ROOT / "outputs" / "tables" / "conflict_risk_model_test_predictions.csv"
 METRICS_PATH = PROJECT_ROOT / "outputs" / "tables" / "conflict_risk_model_metrics.csv"
 COEFFICIENTS_PATH = PROJECT_ROOT / "outputs" / "tables" / "conflict_risk_model_coefficients.csv"
+CANDIDATE_MODELS_PATH = PROJECT_ROOT / "outputs" / "tables" / "candidate_model_comparison.csv"
 
 
 def get_git_commit_hash() -> str:
@@ -208,6 +209,40 @@ def load_model_coefficients(connection: sqlite3.Connection) -> int:
     return len(df)
 
 
+
+def load_candidate_model_comparison(connection: sqlite3.Connection) -> int:
+    df = read_csv(CANDIDATE_MODELS_PATH)
+
+    validate_required_columns(
+        df,
+        [
+            "model",
+            "feature_count",
+            "accuracy",
+            "precision",
+            "recall",
+            "f1_score",
+            "tn",
+            "fp",
+            "fn",
+            "tp",
+            "f1_difference_vs_persistence",
+        ],
+        "candidate model comparison dataset",
+    )
+
+    df = align_to_table_schema(df, connection, "candidate_model_comparison")
+
+    df.to_sql(
+        "candidate_model_comparison",
+        connection,
+        if_exists="append",
+        index=False,
+    )
+
+    return len(df)
+
+
 def insert_metadata(connection: sqlite3.Connection, rows_loaded: dict[str, int]) -> None:
     metadata = {
         "generated_at_utc": datetime.now(timezone.utc).isoformat(),
@@ -218,6 +253,7 @@ def insert_metadata(connection: sqlite3.Connection, rows_loaded: dict[str, int])
         "predictions_source": str(PREDICTIONS_PATH.relative_to(PROJECT_ROOT)),
         "metrics_source": str(METRICS_PATH.relative_to(PROJECT_ROOT)),
         "coefficients_source": str(COEFFICIENTS_PATH.relative_to(PROJECT_ROOT)),
+        "candidate_models_source": str(CANDIDATE_MODELS_PATH.relative_to(PROJECT_ROOT)),
     }
 
     for table_name, row_count in rows_loaded.items():
@@ -241,6 +277,7 @@ def validate_database(connection: sqlite3.Connection) -> None:
         "model_predictions",
         "model_coefficients",
         "model_metrics",
+        "candidate_model_comparison",
         "dataset_metadata",
     ]
 
@@ -269,6 +306,7 @@ def main() -> None:
             "model_predictions": load_model_predictions(connection),
             "model_metrics": load_model_metrics(connection),
             "model_coefficients": load_model_coefficients(connection),
+            "candidate_model_comparison": load_candidate_model_comparison(connection),
         }
 
         insert_metadata(connection, rows_loaded)

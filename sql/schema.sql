@@ -95,6 +95,21 @@ CREATE TABLE IF NOT EXISTS model_metrics (
     f1_difference_vs_persistence REAL
 );
 
+
+CREATE TABLE IF NOT EXISTS candidate_model_comparison (
+    model TEXT PRIMARY KEY,
+    feature_count INTEGER,
+    accuracy REAL,
+    precision REAL,
+    recall REAL,
+    f1_score REAL,
+    tn INTEGER,
+    fp INTEGER,
+    fn INTEGER,
+    tp INTEGER,
+    f1_difference_vs_persistence REAL
+);
+
 CREATE TABLE IF NOT EXISTS dataset_metadata (
     key TEXT PRIMARY KEY,
     value TEXT NOT NULL
