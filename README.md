@@ -183,6 +183,35 @@ Esse resultado é metodologicamente relevante porque mostra que mais features ne
 
 ## Status atual
 
+## Comparação de modelos candidatos
+
+Além do modelo principal, foram testados modelos candidatos usando o mesmo split temporal e o mesmo conjunto de 33 features.
+
+Modelos avaliados:
+
+- Persistence baseline;
+- Logistic Regression;
+- Random Forest;
+- Gradient Boosting;
+- MLP simples.
+
+Resultado resumido:
+
+| Modelo | Accuracy | Precision | Recall | F1-score |
+|---|---:|---:|---:|---:|
+| Logistic Regression + World Bank all raw | 0.9197 | 0.9029 | 0.8435 | 0.8722 |
+| Random Forest + World Bank all raw | 0.9124 | 0.8594 | 0.8730 | 0.8661 |
+| Gradient Boosting + World Bank all raw | 0.9138 | 0.9197 | 0.8050 | 0.8585 |
+| Persistence baseline | 0.9072 | 0.8571 | 0.8571 | 0.8571 |
+| MLP + World Bank all raw | 0.9094 | 0.9206 | 0.7891 | 0.8498 |
+
+A Logistic Regression permaneceu como modelo principal por apresentar o melhor F1-score, mantendo boa interpretabilidade e desempenho superior à baseline.
+
+Os resultados completos estão em:
+
+- `src/models/train_candidate_models.py`
+- `outputs/tables/candidate_model_comparison.csv`
+
 ## Camada SQL e banco SQLite
 
 Além dos scripts Python, notebooks e outputs em CSV, o projeto possui uma camada SQL inicial para consulta e organização dos dados.
@@ -239,7 +268,7 @@ O projeto já saiu da fase inicial de estruturação e atualmente possui um pipe
 
 - [ ] Validar arquivos WWI adicionados pelo grupo
 - [ ] Consolidar documentação para qualificação
-- [ ] Testar modelos adicionais, como Gradient Boosting e MLP
+- [x] Testar modelos adicionais, como Random Forest, Gradient Boosting e MLP
 - [ ] Avaliar seleção de features e impacto individual dos indicadores World Bank
 
 ## Como reproduzir o modelo principal
