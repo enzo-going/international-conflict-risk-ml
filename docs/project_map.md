@@ -42,6 +42,16 @@ Ordem atual dos principais scripts:
    - compara contra baseline de persistência;
    - salva métricas, predições, metadados e modelo treinado.
 
+8. `src/models/train_candidate_models.py`
+   - compara modelos candidatos;
+   - avalia Logistic Regression, Random Forest, Gradient Boosting e MLP;
+   - salva `outputs/tables/candidate_model_comparison.csv`.
+
+9. `src/data/build_sqlite_database.py`
+   - gera o banco SQLite local;
+   - carrega features, predições, métricas, coeficientes e comparação de modelos;
+   - usa o schema definido em `sql/schema.sql`.
+
 ## Datasets principais
 
 ### `data/raw/`
@@ -100,6 +110,9 @@ Arquivos importantes:
 
 - `conflict_risk_model_metrics.csv`
 - `conflict_risk_model_test_predictions.csv`
+- `conflict_risk_model_coefficients.csv`
+- `candidate_model_comparison.csv`
+- `world_bank_ablation_results.csv`
 - `probability_threshold_results.csv`
 - `probability_calibration_bins.csv`
 
@@ -122,6 +135,45 @@ Página publicada:
 
 Ele funciona como camada visual de acompanhamento e apresentação do projeto.
 
+Arquivos relacionados:
+
+- `docs/index.html`
+- `docs/assets/styles.css`
+- `docs/assets/dashboard.js`
+
+
+## Camada SQL e SQLite
+
+A camada SQL está em:
+
+- `sql/schema.sql`
+- `sql/README.md`
+- `sql/queries/`
+
+O banco local é gerado em:
+
+- `data/database/conflict_risk_ml.sqlite`
+
+Esse arquivo `.sqlite` não é versionado no Git, pois pode ser reproduzido a partir dos CSVs e scripts do projeto.
+
+Tabelas principais do banco:
+
+- `country_year_features`
+- `model_predictions`
+- `model_metrics`
+- `model_coefficients`
+- `candidate_model_comparison`
+- `dataset_metadata`
+
+Consultas SQL principais:
+
+- `01_highest_predicted_risk.sql`
+- `02_false_positives.sql`
+- `03_false_negatives.sql`
+- `04_top_model_coefficients.sql`
+- `05_model_metrics.sql`
+- `06_candidate_model_comparison.sql`
+
 ## Documentação metodológica
 
 Arquivos principais:
@@ -132,6 +184,7 @@ Arquivos principais:
 - `docs/methodology/ucdp_organized_violence_notes.md`
 - `docs/methodology/modeling_notes.md`
 - `docs/methodology/model_training_pipeline.md`
+- `docs/database/database_design.md`
 - `docs/references/world_bank_indicators.md`
 
 ## Experimentos paralelos / em revisão
@@ -147,8 +200,8 @@ Observação: o dataset WWI e os scripts WWI ainda parecem usar estruturas de co
 
 ## Próximas prioridades
 
-1. Reexecutar o modelo principal após a segunda leva de indicadores World Bank.
-2. Atualizar `README.md` com o estado real do projeto.
-3. Validar ou reorganizar os arquivos WWI adicionados pelo grupo.
-4. Atualizar o dashboard se houver novo resultado relevante.
-5. Só depois testar novos algoritmos, como Gradient Boosting ou MLP.
+1. Refinar a seleção de features do modelo principal.
+2. Testar novas fontes externas de dados além do World Bank.
+3. Avaliar modelos candidatos com validação mais robusta e análise de estabilidade.
+4. Atualizar o dashboard quando houver novo ganho metodológico ou resultado relevante.
+5. Validar ou reorganizar os arquivos WWI adicionados pelo grupo antes de integrá-los ao pipeline oficial.
