@@ -73,6 +73,7 @@ def rename_prediction_columns(df: pd.DataFrame) -> pd.DataFrame:
             "y_pred_model",
             "prediction",
             "predicted_label",
+            "predicted_conflict_next_year",
         ],
         "y_proba": [
             "y_proba",
@@ -80,6 +81,7 @@ def rename_prediction_columns(df: pd.DataFrame) -> pd.DataFrame:
             "probability",
             "predicted_probability",
             "predicted_risk",
+            "predicted_conflict_probability",
         ],
     }
 
