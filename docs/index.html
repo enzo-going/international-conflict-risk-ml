@@ -152,7 +152,52 @@
             </div>
           </div>
         </div>
-      </section>
+  
+      <h3>Camada SQL e banco SQLite</h3>
+
+      <p>
+        Além do pipeline em Python e dos notebooks de análise, o projeto possui uma camada SQL funcional
+        para organizar os principais artefatos em um banco relacional local.
+      </p>
+
+      <div class="research-box">
+        <strong>Fluxo da camada SQL:</strong><br />
+        CSV outputs -&gt; banco SQLite local -&gt; consultas SQL analíticas -&gt; documentação e dashboard.
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Componente</th>
+            <th>Função</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>sql/schema.sql</code></td>
+            <td>Define o schema relacional do banco SQLite.</td>
+          </tr>
+          <tr>
+            <td><code>src/data/build_sqlite_database.py</code></td>
+            <td>Gera o banco local a partir dos CSVs do projeto.</td>
+          </tr>
+          <tr>
+            <td><code>sql/queries/</code></td>
+            <td>Armazena consultas sobre risco previsto, falsos positivos, falsos negativos, métricas e coeficientes.</td>
+          </tr>
+          <tr>
+            <td><code>data/database/conflict_risk_ml.sqlite</code></td>
+            <td>Banco local reproduzível, ignorado pelo Git.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="note green">
+        Essa camada reforça a parte de Banco de Dados do projeto e permite consultar resultados do modelo usando SQL real,
+        sem substituir o pipeline principal de Machine Learning em Python.
+      </div>
+
+    </section>
 
       <section>
         <h2>3. Camadas de dados do projeto</h2>
