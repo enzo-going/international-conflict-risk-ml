@@ -183,6 +183,37 @@ Esse resultado é metodologicamente relevante porque mostra que mais features ne
 
 ## Status atual
 
+## Camada SQL e banco SQLite
+
+Além dos scripts Python, notebooks e outputs em CSV, o projeto possui uma camada SQL inicial para consulta e organização dos dados.
+
+Essa camada transforma os principais artefatos do pipeline em uma estrutura relacional consultável, reforçando a parte de Banco de Dados do projeto.
+
+### Componentes da camada SQL
+
+| Componente | Função |
+|---|---|
+| `sql/schema.sql` | Define o schema do banco SQLite. |
+| `src/data/build_sqlite_database.py` | Gera o banco local a partir dos CSVs do projeto. |
+| `data/database/conflict_risk_ml.sqlite` | Banco SQLite gerado localmente e ignorado pelo Git. |
+| `sql/queries/` | Consultas SQL analíticas. |
+| `docs/database/database_design.md` | Documentação do desenho da camada de banco. |
+
+### Consultas SQL disponíveis
+
+As queries em `sql/queries/` permitem consultar:
+
+- países e anos com maior risco previsto;
+- falsos positivos;
+- falsos negativos;
+- variáveis mais influentes do modelo;
+- métricas comparativas entre baseline e modelo principal.
+
+O banco local pode ser gerado com:
+
+```powershell
+python src\data\build_sqlite_database.py
+
 O projeto já saiu da fase inicial de estruturação e atualmente possui um pipeline funcional de Machine Learning.
 
 ### Concluído até o momento
