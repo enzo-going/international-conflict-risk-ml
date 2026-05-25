@@ -1,0 +1,11 @@
+﻿# GitHub Linguist configuration
+# This file controls how GitHub calculates repository language statistics.
+
+# Include SQL files in the language bar.
+*.sql linguist-language=SQL
+*.sql linguist-detectable=true
+
+# Prevent Jupyter notebooks from dominating the language bar.
+# Notebooks remain available in the repository, but are treated as documentation
+# for GitHub language statistics.
+notebooks/**/*.ipynb linguist-documentation=true
