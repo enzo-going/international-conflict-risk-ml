@@ -1,0 +1,1331 @@
+year,actor_name,location,best_fatality_estimate
+1989,SPLM/A,Ethiopia,120
+1989,LRA,Uganda,26
+1989,Renamo,"Mozambique, Zambia, Zimbabwe (Rhodesia)",527
+1989,UNITA,Angola,63
+1989,Sendero Luminoso,Peru,90
+1989,AUC,Colombia,28
+1989,Medellín Cartel,Colombia,114
+1989,Government of Mauritania,"Mauritania, Senegal",28
+1989,Government of Guatemala,Guatemala,409
+1989,Government of Venezuela,Venezuela,58
+1989,Government of Romania,Romania,199
+1989,Government of DR Congo (Zaire),DR Congo (Zaire),28
+1989,Government of Somalia,Somalia,688
+1989,Government of Ethiopia,Ethiopia,891
+1989,Government of South Africa,"Kingdom of eSwatini (Swaziland), South Africa",57
+1989,Government of Libya,Niger,170
+1989,Government of Sudan,Sudan,1000
+1989,Government of Israel,Israel,62
+1989,Government of China,China,2600
+1989,Government of Sri Lanka,Sri Lanka,59
+1989,NSCN-IM,India,90
+1989,JVP,Sri Lanka,250
+1989,PCJSS,Bangladesh,54
+1989,Sikh insurgents,India,140
+1989,LTTE,Sri Lanka,145
+1989,PKK,Turkey,96
+1990,UPA,Uganda,40
+1990,LRA,Uganda,63
+1990,Renamo,"Mozambique, Zambia, Zimbabwe (Rhodesia)",236
+1990,NPFL,Liberia,2011
+1990,INPFL,Liberia,84
+1990,FPR,Rwanda,52
+1990,UNITA,Angola,51
+1990,Sendero Luminoso,Peru,123
+1990,AUC,Colombia,58
+1990,Government of Mauritania,Mauritania,29
+1990,Government of Philippines,Philippines,35
+1990,ABSU,India,69
+1990,Government of Guatemala,Guatemala,598
+1990,Government of Colombia,Colombia,92
+1990,Government of Venezuela,Venezuela,64
+1990,Government of Mali,Mali,125
+1990,Government of Niger,Niger,200
+1990,Government of Liberia,Liberia,1250
+1990,Government of Nigeria,Nigeria,80
+1990,Government of Chad,"Chad, Sudan",41
+1990,Government of DR Congo (Zaire),DR Congo (Zaire),147
+1990,Government of Uganda,Uganda,80
+1990,Government of Rwanda,Rwanda,1469
+1990,Government of Ethiopia,Ethiopia,158
+1990,Government of South Africa,"Botswana, South Africa",195
+1990,Government of Sudan,Sudan,263
+1990,Government of Iraq,"Iraq, Kuwait",294
+1990,Government of India,"Bangladesh, India, Pakistan",43
+1990,Government of Sri Lanka,Sri Lanka,464
+1990,Government of Indonesia,Indonesia,96
+1990,PWG,India,47
+1990,KR,Cambodia (Kampuchea),103
+1990,PCJSS,Bangladesh,47
+1990,Sikh insurgents,India,296
+1990,LTTE,Sri Lanka,683
+1990,PKK,Turkey,86
+1990,Kashmir insurgents,India,59
+1990,GAM,Indonesia,32
+1991,LRA,Uganda,102
+1991,Renamo,Mozambique,547
+1991,NPFL,"Liberia, Sierra Leone",271
+1991,RUF,Sierra Leone,604
+1991,SSDF,Sudan,2001
+1991,Sendero Luminoso,Peru,146
+1991,Government of Djibouti,"Djibouti, Somalia",59
+1991,Government of Philippines,Philippines,30
+1991,Palipehutu,Burundi,26
+1991,MAS,Colombia,39
+1991,Government of Haiti,Haiti,70
+1991,Government of Guatemala,Guatemala,354
+1991,Government of Colombia,Colombia,70
+1991,Government of Venezuela,Venezuela,30
+1991,Government of Russia (Soviet Union),Russia (Soviet Union),33
+1991,Government of Mali,Mali,176
+1991,Government of Sierra Leone,Sierra Leone,56
+1991,Government of Togo,Togo,32
+1991,Government of Chad,Chad,27
+1991,Government of DR Congo (Zaire),DR Congo (Zaire),32
+1991,Government of Uganda,Uganda,59
+1991,Government of Burundi,Burundi,44
+1991,Government of Rwanda,Rwanda,932
+1991,Government of Somalia,Somalia,450
+1991,Government of Ethiopia,Ethiopia,37
+1991,Government of South Africa,South Africa,49
+1991,Government of Sudan,Sudan,250
+1991,Government of Iraq,"Iraq, Kuwait, Turkey",1759
+1991,Government of Myanmar (Burma),"Bangladesh, Myanmar (Burma)",231
+1991,Government of Sri Lanka,Sri Lanka,67
+1991,Government of Indonesia,Indonesia,368
+1991,KR,Cambodia (Kampuchea),92
+1991,PCJSS,Bangladesh,67
+1991,Sikh insurgents,"India, Nepal",433
+1991,LTTE,Sri Lanka,147
+1991,PKK,Turkey,49
+1992,SPLM/A,Sudan,161
+1992,Renamo,Mozambique,212
+1992,NPFL,"Liberia, Sierra Leone",403
+1992,FPR,Rwanda,49
+1992,MFDC,Senegal,51
+1992,RUF,Sierra Leone,289
+1992,SSDF,Sudan,271
+1992,Sendero Luminoso,Peru,139
+1992,SPM/SNA ,Somalia,90
+1992,Serbian Republic of Bosnia-Herzegovina,"Bosnia-Herzegovina, Serbia (Yugoslavia)",794
+1992,Government of Bangladesh,Bangladesh,138
+1992,PFT,Tajikistan,50
+1992,"Serbian irregulars, Serbian Republic of Bosnia-Herzegovina","Bosnia-Herzegovina, Serbia (Yugoslavia)",3581
+1992,Government of Guatemala,Guatemala,326
+1992,Government of Venezuela,Venezuela,79
+1992,Government of Bosnia-Herzegovina,Bosnia-Herzegovina,102
+1992,Government of Mali,Mali,77
+1992,Government of Chad,Chad,291
+1992,Government of DR Congo (Zaire),DR Congo (Zaire),67
+1992,Government of Rwanda,Rwanda,511
+1992,Government of South Africa,South Africa,57
+1992,Government of Sudan,Sudan,1558
+1992,Government of Iraq,"Iraq, Jordan",159
+1992,Government of Tajikistan,Tajikistan,46
+1992,Government of Myanmar (Burma),"Bangladesh, Myanmar (Burma)",142
+1992,Government of Sri Lanka,Sri Lanka,35
+1992,Government of Papua New Guinea,Papua New Guinea,27
+1992,MCC,India,37
+1992,KR,Cambodia (Kampuchea),73
+1992,PCJSS,Bangladesh,52
+1992,Sikh insurgents,India,445
+1992,LTTE,Sri Lanka,318
+1992,PKK,Turkey,216
+1992,Republic of Artsakh,Azerbaijan,774
+1992,NDFB,India,83
+1993,SPLM/A,"DR Congo (Zaire), Sudan",460
+1993,NPFL,"Ivory Coast, Liberia, Sierra Leone",994
+1993,FPR,Rwanda,247
+1993,MFDC,Senegal,49
+1993,RUF,Sierra Leone,202
+1993,GIA,Algeria,26
+1993,UNITA,Angola,343
+1993,LPC,Liberia,53
+1993,PAC,South Africa,47
+1993,SSDF,Sudan,36
+1993,ULIMO,"Liberia, Sierra Leone",1272
+1993,Sendero Luminoso,Peru,107
+1993,Medellín Cartel,Colombia,40
+1993,Government of Cambodia (Kampuchea),Cambodia (Kampuchea),26
+1993,UDA,United Kingdom,32
+1993,ANC,South Africa,40
+1993,FRODEBU,Burundi,1960
+1993,Katuku,DR Congo (Zaire),74
+1993,LDF,Liberia,269
+1993,IFP,South Africa,67
+1993,"Serbian irregulars, Serbian Republic of Bosnia-Herzegovina",Bosnia-Herzegovina,220
+1993,Government of Haiti,Haiti,37
+1993,Government of Guatemala,Guatemala,160
+1993,Government of Venezuela,Venezuela,63
+1993,Government of Brazil,Brazil,29
+1993,Government of Croatia,Croatia,28
+1993,Government of Bosnia-Herzegovina,Bosnia-Herzegovina,169
+1993,Government of Togo,Togo,48
+1993,Government of Chad,Chad,193
+1993,Government of Congo,Congo,82
+1993,Government of DR Congo (Zaire),"DR Congo (Zaire), Zambia",151
+1993,Government of Burundi,Burundi,4170
+1993,Government of Rwanda,Rwanda,377
+1993,Government of Ethiopia,Ethiopia,26
+1993,Government of South Africa,South Africa,67
+1993,Government of Sudan,Sudan,598
+1993,Government of Iraq,Iraq,133
+1993,Government of Afghanistan,Afghanistan,26
+1993,Government of India,India,56
+1993,NSCN-IM,India,194
+1993,KR,Cambodia (Kampuchea),184
+1993,ATTF,India,25
+1993,Sikh insurgents,India,34
+1993,PKK,Turkey,419
+1993,Kashmir insurgents,India,34
+1993,Republic of Abkhazia,Georgia,74
+1993,Croatian Republic of Bosnia-Herzegovina,Bosnia-Herzegovina,164
+1994,Palipehutu-FNL,Burundi,200
+1994,NPFL,"Ivory Coast, Liberia",1357
+1994,FIAA,Mali,96
+1994,FPR,"Burundi, Rwanda",11074
+1994,RUF,Sierra Leone,1390
+1994,UNITA,"Angola, Namibia",35
+1994,AWB,South Africa,52
+1994,"Interahamwe, ex-FAR","DR Congo (Zaire), Rwanda",80
+1994,LPC,Liberia,1165
+1994,ULIMO - K,Liberia,1148
+1994,MPGK ,Mali,246
+1994,FARC,Colombia,39
+1994,Government of Peru,Peru,72
+1994,Hezbollah,Argentina,86
+1994,CSNPD,Chad,124
+1994,Sans défaite,Burundi,50
+1994,"Serbian irregulars, Serbian Republic of Bosnia-Herzegovina",Bosnia-Herzegovina,282
+1994,Government of Haiti,Haiti,44
+1994,Government of Guatemala,Guatemala,250
+1994,Government of Venezuela,Venezuela,37
+1994,Government of Mali,Mali,251
+1994,Government of Sierra Leone,Sierra Leone,46
+1994,Government of Cameroon,"Cameroon, Nigeria",55
+1994,Government of Nigeria,Nigeria,56
+1994,Government of Chad,Chad,230
+1994,Government of Burundi,Burundi,252
+1994,Government of Rwanda,"Burundi, DR Congo (Zaire), Rwanda",759800
+1994,Government of Sudan,Sudan,471
+1994,Government of Iraq,"Iraq, Lebanon",45
+1994,Government of Myanmar (Burma),"Bangladesh, Myanmar (Burma)",98
+1994,Hamas,Israel,54
+1994,NSCN-IM,India,56
+1994,KR,Cambodia (Kampuchea),102
+1994,LTTE,Sri Lanka,25
+1994,PKK,Turkey,207
+1994,NDFB,India,108
+1995,Palipehutu-FNL,Burundi,59
+1995,SPLM/A,Sudan,147
+1995,LRA,"Sudan, Uganda",275
+1995,NPFL,"Ivory Coast, Liberia",1006
+1995,RUF,Sierra Leone,1645
+1995,UNITA,Angola,47
+1995,"Interahamwe, ex-FAR",Rwanda,25
+1995,LPC,Liberia,1003
+1995,ULIMO - J,Liberia,52
+1995,ULIMO - K,Liberia,211
+1995,FARC,Colombia,37
+1995,AUC,Colombia,62
+1995,CNDD,Burundi,186
+1995,Kamajors,Sierra Leone,37
+1995,Sans Echec,Burundi,27
+1995,"Serbian irregulars, Serbian Republic of Bosnia-Herzegovina","Bosnia-Herzegovina, Serbia (Yugoslavia)",8360
+1995,Government of Guatemala,Guatemala,95
+1995,Government of Venezuela,Venezuela,26
+1995,Government of Croatia,"Bosnia-Herzegovina, Croatia",137
+1995,Government of Russia (Soviet Union),"Afghanistan, Russia (Soviet Union)",141
+1995,Government of Niger,Niger,31
+1995,Government of Chad,Chad,47
+1995,Government of DR Congo (Zaire),DR Congo (Zaire),58
+1995,Government of Burundi,Burundi,2139
+1995,Government of Rwanda,"DR Congo (Zaire), Rwanda",4205
+1995,Government of Sudan,Sudan,208
+1995,Government of Iraq,Iraq,100
+1995,Government of Myanmar (Burma),"Myanmar (Burma), Thailand",128
+1995,Government of Indonesia,Indonesia,38
+1995,NSCN-IM,India,35
+1995,KR,Cambodia (Kampuchea),29
+1995,ASG,Philippines,25
+1995,LTTE,Sri Lanka,197
+1995,PKK,"Iraq, Turkey",67
+1995,Kashmir insurgents,India,37
+1995,al-Gama'a al-Islamiyya,Egypt,40
+1995,Republic of Abkhazia,Georgia,52
+1995,Croatian Republic of Bosnia-Herzegovina,Bosnia-Herzegovina,37
+1995,NDFB,India,39
+1996,BLTF,India,37
+1996,AFDL,DR Congo (Zaire),7489
+1996,Palipehutu-FNL,Burundi,49
+1996,LRA,"Sudan, Uganda",586
+1996,RUF,Sierra Leone,350
+1996,Mayi Mayi - Ngilima ,DR Congo (Zaire),50
+1996,ULIMO - J,Liberia,1025
+1996,ULIMO - K,"Guinea, Liberia",71
+1996,FARC,Colombia,39
+1996,AUC,Colombia,159
+1996,"GACI, Interahamwe, ex-FAR",DR Congo (Zaire),274
+1996,CNDD,"Burundi, DR Congo (Zaire)",873
+1996,WNBF,Uganda,27
+1996,"Government of Burundi, Government of Rwanda",DR Congo (Zaire),6042
+1996,"AFDL, Mayi Mayi",DR Congo (Zaire),2500
+1996,ALiR,"DR Congo (Zaire), Rwanda",1386
+1996,Government of Venezuela,Venezuela,33
+1996,Government of Russia (Soviet Union),Russia (Soviet Union),42
+1996,Government of DR Congo (Zaire),DR Congo (Zaire),1382
+1996,Government of Burundi,Burundi,16301
+1996,Government of Rwanda,"Burundi, DR Congo (Zaire), Rwanda",14303
+1996,Government of Sudan,Sudan,34
+1996,Government of Iraq,"Iraq, Kuwait",106
+1996,Government of Israel,Lebanon,102
+1996,Government of Myanmar (Burma),"Bangladesh, Myanmar (Burma)",296
+1996,Government of Sri Lanka,Sri Lanka,32
+1996,Government of Nepal,Nepal,27
+1996,Government of Papua New Guinea,Papua New Guinea,28
+1996,Hamas,Israel,44
+1996,NSCN-IM,India,33
+1996,KR,Cambodia (Kampuchea),53
+1996,PCJSS,Bangladesh,30
+1996,Taleban,Afghanistan,42
+1996,NLFT,India,36
+1996,LTTE,Sri Lanka,197
+1996,PKK,Turkey,35
+1996,Kashmir insurgents,India,121
+1996,al-Gama'a al-Islamiyya,Egypt,64
+1997,Ranvir Sena,India,74
+1997,AFDL,DR Congo (Zaire),784
+1997,Palipehutu-FNL,Burundi,105
+1997,FARF,Chad,33
+1997,SPLM/A,Sudan,146
+1997,LRA,"Sudan, Uganda",452
+1997,ADF,Uganda,144
+1997,MFDC,Senegal,39
+1997,RUF,Sierra Leone,125
+1997,GIA,Algeria,355
+1997,Cobras,Congo,39
+1997,FARC,Colombia,35
+1997,AUC,Colombia,209
+1997,Paz y Justicia,Mexico,45
+1997,CNDD,Burundi,619
+1997,CNDD-Benjamin,Burundi,53
+1997,ALiR,"DR Congo (Zaire), Rwanda",757
+1997,Government of Sierra Leone,Sierra Leone,345
+1997,Government of Congo,Congo,371
+1997,Government of DR Congo (Zaire),"DR Congo (Zaire), Uganda",4160
+1997,Government of Burundi,"Burundi, Tanzania",1438
+1997,Government of Rwanda,"DR Congo (Zaire), Rwanda",9619
+1997,Government of Angola,"Angola, Congo",39
+1997,Government of Sudan,Sudan,200
+1997,Government of Afghanistan,Afghanistan,323
+1997,Government of Myanmar (Burma),"Myanmar (Burma), Thailand",461
+1997,Government of Indonesia,Indonesia,29
+1997,ATTF,India,54
+1997,Kashmir insurgents,India,63
+1997,al-Gama'a al-Islamiyya,Egypt,77
+1997,NDFB,India,45
+1998,BLTF,India,31
+1998,LeJ,Pakistan,25
+1998,RCD,DR Congo (Zaire),1172
+1998,Palipehutu-FNL,Burundi,233
+1998,CNDD-FDD ,Burundi,128
+1998,SPLM/A,Sudan,60
+1998,LRA,"Sudan, Uganda",103
+1998,ADF,Uganda,202
+1998,MFDC,Senegal,56
+1998,RUF,"Guinea, Sierra Leone",650
+1998,GIA,Algeria,109
+1998,Ntsiloulous,Congo,58
+1998,UNITA,Angola,63
+1998,FARC,Colombia,39
+1998,ELN,Colombia,88
+1998,AUC,Colombia,379
+1998,Al-Umma,India,58
+1998,CNDD,Burundi,132
+1998,AFRC,"Guinea, Sierra Leone",1132
+1998,ALiR,"DR Congo (Zaire), Rwanda",681
+1998,Government of Serbia (Yugoslavia),Serbia (Yugoslavia),211
+1998,Government of Senegal,Senegal,38
+1998,Government of Niger,Niger,147
+1998,Government of Sierra Leone,Sierra Leone,84
+1998,Government of Nigeria,Nigeria,42
+1998,Government of Chad,Chad,145
+1998,Government of Congo,Congo,431
+1998,Government of DR Congo (Zaire),DR Congo (Zaire),1591
+1998,Government of Burundi,"Burundi, DR Congo (Zaire)",483
+1998,Government of Rwanda,"DR Congo (Zaire), Rwanda",1149
+1998,Government of Angola,"Angola, Congo",43
+1998,Government of Sudan,Sudan,597
+1998,Government of Afghanistan,Afghanistan,5801
+1998,Government of Myanmar (Burma),"Bangladesh, Myanmar (Burma)",435
+1998,Government of Nepal,Nepal,106
+1998,Government of Indonesia,Indonesia,102
+1998,KR,Cambodia (Kampuchea),25
+1998,ATTF,India,29
+1998,NLFT,India,61
+1998,LTTE,Sri Lanka,60
+1998,PKK,"Iraq, Turkey",68
+1998,Kashmir insurgents,India,251
+1998,NDFB,India,60
+1999,LeJ,Pakistan,25
+1999,Ranvir Sena,India,46
+1999,RCD,DR Congo (Zaire),913
+1999,Palipehutu-FNL,Burundi,281
+1999,CNDD-FDD ,Burundi,262
+1999,LRA,"Sudan, Uganda",33
+1999,ADF,"DR Congo (Zaire), Uganda",256
+1999,RUF,"Guinea, Sierra Leone",232
+1999,GIA,Algeria,125
+1999,UNITA,Angola,393
+1999,Mayi Mayi,DR Congo (Zaire),167
+1999,RRA,Somalia,37
+1999,FARC,Colombia,128
+1999,AUC,Colombia,729
+1999,AFRC,Sierra Leone,933
+1999,ALiR,"DR Congo (Zaire), Rwanda, Uganda",51
+1999,Government of Venezuela,Venezuela,26
+1999,Government of Brazil,Brazil,28
+1999,Government of Serbia (Yugoslavia),"North Macedonia, Serbia (Yugoslavia)",781
+1999,Government of Russia (Soviet Union),Russia (Soviet Union),311
+1999,Government of Liberia,Liberia,70
+1999,Government of Sierra Leone,Sierra Leone,88
+1999,Government of Nigeria,"Nigeria, Sierra Leone",2605
+1999,Government of Congo,Congo,322
+1999,Government of DR Congo (Zaire),DR Congo (Zaire),620
+1999,Government of Burundi,Burundi,508
+1999,Government of Rwanda,DR Congo (Zaire),1144
+1999,Government of Sudan,Sudan,100
+1999,Government of Iraq,Iraq,33
+1999,Government of Afghanistan,Afghanistan,436
+1999,Government of Myanmar (Burma),"Bangladesh, Myanmar (Burma), Thailand",299
+1999,Government of Nepal,Nepal,89
+1999,Government of Indonesia,Indonesia,914
+1999,MCC,India,49
+1999,CPN-M,Nepal,50
+1999,NLFT,India,48
+1999,LTTE,Sri Lanka,62
+1999,PKK,"Iraq, Turkey",43
+1999,Kashmir insurgents,India,251
+1999,Chechen Republic of Ichkeria,Russia (Soviet Union),32
+2000,Ranvir Sena,India,35
+2000,UPDS,India,27
+2000,RCD,DR Congo (Zaire),103
+2000,Palipehutu-FNL,Burundi,118
+2000,CNDD-FDD ,Burundi,216
+2000,LRA,"Sudan, Uganda",91
+2000,ADF,Uganda,96
+2000,RUF,"Guinea, Sierra Leone",476
+2000,GIA,Algeria,244
+2000,UNITA,"Angola, Namibia, Zambia",264
+2000,Bakassi boys,Nigeria,31
+2000,Mayi Mayi,DR Congo (Zaire),26
+2000,FARC,"Colombia, Venezuela",318
+2000,ELN,Colombia,97
+2000,ACCU,Colombia,31
+2000,AUC,"Colombia, Venezuela",1584
+2000,Laskar Jihad,Indonesia,98
+2000,ALiR,DR Congo (Zaire),73
+2000,"CNDD-FDD , Mayi Mayi",DR Congo (Zaire),37
+2000,Government of Colombia,Colombia,34
+2000,Government of Venezuela,Venezuela,25
+2000,Government of Russia (Soviet Union),Russia (Soviet Union),1411
+2000,Government of Ivory Coast,Ivory Coast,101
+2000,Government of Liberia,Liberia,44
+2000,Government of DR Congo (Zaire),DR Congo (Zaire),82
+2000,Government of Uganda,DR Congo (Zaire),26
+2000,Government of Burundi,Burundi,478
+2000,Government of Rwanda,DR Congo (Zaire),185
+2000,Government of Sudan,Sudan,281
+2000,Government of Afghanistan,Afghanistan,152
+2000,Government of Myanmar (Burma),"Bangladesh, Myanmar (Burma)",457
+2000,Government of Nepal,Nepal,51
+2000,Government of Indonesia,Indonesia,36
+2000,MCC,India,26
+2000,CPN-M,Nepal,46
+2000,MILF,Philippines,172
+2000,NLFT,India,64
+2000,LTTE,Sri Lanka,35
+2000,Kashmir insurgents,India,656
+2000,ULFA,India,85
+2000,NDFB,India,58
+2001,RCD,DR Congo (Zaire),84
+2001,RCD-ML ,DR Congo (Zaire),45
+2001,CNDD-FDD ,Burundi,105
+2001,LRA,"Sudan, Uganda",60
+2001,GIA,Algeria,32
+2001,UNITA,Angola,1033
+2001,Janjaweed ,Sudan,140
+2001,Mayi Mayi,DR Congo (Zaire),27
+2001,FARC,Colombia,337
+2001,ELN,Colombia,91
+2001,al-Qaida ,United States of America,2753
+2001,AUC,Colombia,1541
+2001,Government of Colombia,Colombia,39
+2001,Government of Venezuela,Venezuela,27
+2001,Government of Russia (Soviet Union),Russia (Soviet Union),188
+2001,Government of Liberia,Liberia,120
+2001,Government of Nigeria,Nigeria,367
+2001,Government of Central African Republic,"Central African Republic, Chad",25
+2001,Government of Tanzania,Tanzania,37
+2001,Government of Burundi,Burundi,277
+2001,Government of Rwanda,DR Congo (Zaire),180
+2001,Government of Sudan,Sudan,50
+2001,Government of Afghanistan,Afghanistan,298
+2001,Government of Myanmar (Burma),Myanmar (Burma),106
+2001,Government of Nepal,Nepal,74
+2001,Government of Indonesia,Indonesia,52
+2001,PIJ,Israel,38
+2001,Hamas,Israel,55
+2001,CPN-M,Nepal,66
+2001,ASG,Philippines,33
+2001,UIFSA,Afghanistan,200
+2001,NLFT,"Bangladesh, India",48
+2001,Kashmir insurgents,India,289
+2001,ULFA,India,36
+2001,NDFB,India,46
+2002,Jemaah Islamiya,Indonesia,202
+2002,VHP,India,405
+2002,RCD,DR Congo (Zaire),646
+2002,Palipehutu-FNL,"Burundi, DR Congo (Zaire)",123
+2002,CNDD-FDD ,Burundi,130
+2002,SPLM/A,Sudan,25
+2002,LRA,"Sudan, Uganda",1051
+2002,LURD,"Liberia, Sierra Leone",120
+2002,FDLR-FOCA,DR Congo (Zaire),29
+2002,GIA,Algeria,510
+2002,Ntsiloulous,Congo,58
+2002,MPCI,Ivory Coast,106
+2002,UNITA,"Angola, Namibia",46
+2002,FNI,DR Congo (Zaire),348
+2002,Janjaweed ,"Chad, Sudan",188
+2002,Mayi Mayi,DR Congo (Zaire),65
+2002,MFDC - FN,Senegal,25
+2002,FARC,Colombia,401
+2002,ELN,Colombia,60
+2002,al-Qaida ,"Kenya, Tunisia",34
+2002,AUC,Colombia,1132
+2002,UPC,DR Congo (Zaire),1894
+2002,FRPI,DR Congo (Zaire),164
+2002,Mayi Mayi - Makabe,DR Congo (Zaire),25
+2002,"MLC, RCD-N",DR Congo (Zaire),185
+2002,"FRPI, RCD-K-ML ",DR Congo (Zaire),1200
+2002,"MLC, RCD-N, UPC",DR Congo (Zaire),50
+2002,Government of Colombia,Colombia,67
+2002,Government of Russia (Soviet Union),Russia (Soviet Union),204
+2002,Government of Ivory Coast,Ivory Coast,227
+2002,Government of Liberia,Liberia,1648
+2002,Government of Nigeria,Nigeria,112
+2002,Government of DR Congo (Zaire),DR Congo (Zaire),189
+2002,Government of Burundi,Burundi,444
+2002,Government of Ethiopia,Ethiopia,35
+2002,Government of Sudan,Sudan,35
+2002,Government of India,India,59
+2002,Government of Myanmar (Burma),Myanmar (Burma),249
+2002,Government of Nepal,Nepal,274
+2002,Government of Indonesia,Indonesia,37
+2002,PIJ,Israel,26
+2002,Hamas,Israel,145
+2002,AMB,Israel,83
+2002,CPN-M,Nepal,212
+2002,ASG,Philippines,38
+2002,NLFT,India,40
+2002,Kashmir insurgents,India,381
+2002,NDFB,India,73
+2003,LeJ,Pakistan,66
+2003,Salafia Jihadia,Morocco,34
+2003,RCD,DR Congo (Zaire),126
+2003,Palipehutu-FNL,"Burundi, DR Congo (Zaire)",70
+2003,CNDD-FDD ,"Burundi, DR Congo (Zaire)",119
+2003,JEM,Sudan,69
+2003,LRA,"Sudan, Uganda",637
+2003,LURD,Liberia,418
+2003,GIA,Algeria,34
+2003,MPCI,Ivory Coast,50
+2003,MPIGO,Ivory Coast,65
+2003,FNI,DR Congo (Zaire),1418
+2003,Janjaweed ,Sudan,1049
+2003,FARC,Colombia,476
+2003,ELN,Colombia,81
+2003,al-Qaida ,"Saudi Arabia, Turkey",70
+2003,AUC,Colombia,1531
+2003,HPC,India,28
+2003,Lashkar-e-Taiba,India,54
+2003,UPC,DR Congo (Zaire),475
+2003,Mayi Mayi - Makabe,DR Congo (Zaire),25
+2003,Bloque Central Bolívar,Colombia,74
+2003,Frente William Rivas ,Colombia,35
+2003,FNDIC,Nigeria,53
+2003,"FNI, FRPI, RCD-K-ML ",DR Congo (Zaire),160
+2003,"FNI, FRPI",DR Congo (Zaire),1078
+2003,"FAPC, FNI",DR Congo (Zaire),33
+2003,Government of Colombia,Colombia,90
+2003,Government of Venezuela,Venezuela,25
+2003,Government of Ivory Coast,Ivory Coast,73
+2003,Government of Liberia,Liberia,1076
+2003,Government of Nigeria,Nigeria,42
+2003,Government of Burundi,Burundi,156
+2003,Government of Ethiopia,Ethiopia,509
+2003,Government of Angola,Angola,59
+2003,Government of Sudan,Sudan,1694
+2003,Government of Myanmar (Burma),Myanmar (Burma),195
+2003,Government of Nepal,Nepal,197
+2003,Government of Indonesia,Indonesia,52
+2003,Hamas,Israel,79
+2003,AMB,Israel,39
+2003,CPN-M,Nepal,194
+2003,MILF,Philippines,75
+2003,ATTF,India,62
+2003,NLFT,India,91
+2003,Kashmir insurgents,India,243
+2003,GAM,Indonesia,134
+2003,Chechen Republic of Ichkeria,Russia (Soviet Union),68
+2004,Gazotan Murdash,Russia (Soviet Union),41
+2004,GICM,Spain,191
+2004,LeJ,Pakistan,70
+2004,Tawhid wal Jihad,Egypt,34
+2004,Palipehutu-FNL,"Burundi, DR Congo (Zaire)",192
+2004,SPLM/A,"Central African Republic, Sudan",53
+2004,LRA,"Sudan, Uganda",952
+2004,FDLR-FOCA,DR Congo (Zaire),54
+2004,AQIM,Algeria,87
+2004,FAPC,DR Congo (Zaire),28
+2004,FNI,DR Congo (Zaire),200
+2004,Janjaweed ,"Chad, Sudan",644
+2004,Mayi Mayi - Chinja Chinja,DR Congo (Zaire),130
+2004,RCD - LN,DR Congo (Zaire),139
+2004,FARC,Colombia,338
+2004,al-Qaida ,Saudi Arabia,33
+2004,AUC,Colombia,1175
+2004,MS-13 (Honduras),Honduras,28
+2004,KRA,India,34
+2004,RCD - CP ,DR Congo (Zaire),30
+2004,FRPI,DR Congo (Zaire),29
+2004,Bloque Central Bolívar,Colombia,29
+2004,JMB,Bangladesh,25
+2004,Government of Colombia,Colombia,149
+2004,Government of Venezuela,Venezuela,31
+2004,Government of Ivory Coast,Ivory Coast,59
+2004,Government of Nigeria,Nigeria,38
+2004,Government of DR Congo (Zaire),DR Congo (Zaire),87
+2004,Government of Burundi,Burundi,34
+2004,Government of Ethiopia,Ethiopia,244
+2004,Government of Sudan,Sudan,4963
+2004,Government of Israel,Israel,31
+2004,Government of Myanmar (Burma),Myanmar (Burma),114
+2004,Government of Nepal,Nepal,176
+2004,Hamas,Israel,35
+2004,Ansar al-Islam,Iraq,41
+2004,IS,Iraq,92
+2004,CPN-M,Nepal,400
+2004,ASG,Philippines,122
+2004,Taleban,Afghanistan,53
+2004,Kashmir insurgents,India,596
+2004,ULFA,India,64
+2004,GAM,Indonesia,77
+2004,Chechen Republic of Ichkeria,Russia (Soviet Union),108
+2004,NDFB,"Bhutan, India",77
+2004,Patani insurgents,Thailand,146
+2005,Jamaat Jund al-Sahaba,Iraq,87
+2005,Tawhid wal Jihad,Egypt,88
+2005,Palipehutu-FNL,Burundi,133
+2005,SLM/A,Sudan,63
+2005,LRA,"Sudan, Uganda",304
+2005,FDLR-FOCA,DR Congo (Zaire),72
+2005,FNI,DR Congo (Zaire),55
+2005,Janjaweed ,"Chad, Sudan",350
+2005,Mayi Mayi - Chinja Chinja,DR Congo (Zaire),37
+2005,Rastas,DR Congo (Zaire),91
+2005,FARC,Colombia,210
+2005,al-Qaida ,"Pakistan, United Kingdom",52
+2005,AUC,"Colombia, Ecuador",709
+2005,DHD,India,79
+2005,Indian Mujahideen,India,78
+2005,Government of Gambia,"Gambia, Senegal",53
+2005,Government of Iran,Iran,25
+2005,Government of Haiti,Haiti,40
+2005,Government of Colombia,Colombia,131
+2005,Government of Venezuela,Venezuela,30
+2005,Government of Brazil,Brazil,34
+2005,Government of Togo,Togo,436
+2005,Government of Burundi,Burundi,52
+2005,Government of Sudan,"Chad, Sudan",424
+2005,Government of Iraq,Iraq,72
+2005,Government of Egypt,Egypt,36
+2005,Government of Israel,Israel,27
+2005,Government of Myanmar (Burma),Myanmar (Burma),198
+2005,Government of Nepal,Nepal,108
+2005,CPI-Maoist,India,43
+2005,PIJ,Israel,30
+2005,Ansar al-Islam,Iraq,76
+2005,IS,"Iraq, Jordan",727
+2005,CPN-M,Nepal,187
+2005,Taleban,"Afghanistan, Pakistan",114
+2005,Kashmir insurgents,India,247
+2005,Patani insurgents,Thailand,286
+2006,Jamaat Jund al-Sahaba,Iraq,69
+2006,Palipehutu-FNL,Burundi,36
+2006,SLM/A - MM,Sudan,72
+2006,LRA,"DR Congo (Zaire), Sudan, Uganda",47
+2006,FDLR-FOCA,"DR Congo (Zaire), Uganda",36
+2006,AQIM,Algeria,37
+2006,Janjaweed ,"Chad, Sudan",899
+2006,FARC,Colombia,117
+2006,AUC,Colombia,81
+2006,Indian Mujahideen,India,205
+2006,al-Mahdi Army,Iraq,54
+2006,Bloque Central Bolívar,Colombia,33
+2006,Government of Colombia,"Colombia, Ecuador",195
+2006,Government of Central African Republic,Central African Republic,133
+2006,Government of DR Congo (Zaire),DR Congo (Zaire),153
+2006,Government of Burundi,Burundi,74
+2006,Government of Ethiopia,"Ethiopia, Sudan",26
+2006,Government of Sudan,"Chad, Sudan",252
+2006,Government of Iraq,Iraq,84
+2006,Government of Myanmar (Burma),Myanmar (Burma),192
+2006,Government of Sri Lanka,Sri Lanka,28
+2006,Government of Nepal,Nepal,47
+2006,Government of Laos,Laos,73
+2006,CPI-Maoist,India,165
+2006,IS,Iraq,443
+2006,CPN-M,Nepal,62
+2006,Taleban,Afghanistan,196
+2006,LTTE,Sri Lanka,78
+2006,Kashmir insurgents,India,190
+2006,ULFA,India,36
+2006,Patani insurgents,Thailand,329
+2007,CNDP,DR Congo (Zaire),46
+2007,LRA,"Sudan, Uganda",62
+2007,ONLF,Ethiopia,82
+2007,FDLR-FOCA,"DR Congo (Zaire), Tanzania",37
+2007,AQIM,"Algeria, Mauritania",27
+2007,Janjaweed ,"Central African Republic, Chad, Sudan",303
+2007,Rastas,DR Congo (Zaire),33
+2007,SLDF,Kenya,53
+2007,Mungiki,Kenya,40
+2007,FARC,Colombia,39
+2007,AUC,Colombia,80
+2007,Lashkar-e-Taiba,India,68
+2007,al-Mahdi Army,Iraq,70
+2007,HuJI,India,44
+2007,Al-Khobar,Philippines,31
+2007,Government of Colombia,"Colombia, Ecuador",186
+2007,Government of Guinea,Guinea,45
+2007,Government of Central African Republic,Central African Republic,36
+2007,Government of DR Congo (Zaire),DR Congo (Zaire),92
+2007,Government of Kenya,Kenya,41
+2007,Government of Ethiopia,"Ethiopia, Somalia",162
+2007,Government of Sudan,Sudan,98
+2007,Government of Iraq,Iraq,63
+2007,Government of Myanmar (Burma),Myanmar (Burma),292
+2007,CPI-Maoist,India,133
+2007,IS,Iraq,1991
+2007,Taleban,Afghanistan,113
+2007,LTTE,Sri Lanka,46
+2007,Kashmir insurgents,India,38
+2007,ULFA,India,180
+2007,TTP,Pakistan,58
+2007,Patani insurgents,Thailand,320
+2008,DHD - BW,India,35
+2008,CNDP,DR Congo (Zaire),111
+2008,LRA,"Central African Republic, DR Congo (Zaire), Sudan",734
+2008,FDLR-FOCA,DR Congo (Zaire),31
+2008,Janjaweed ,Sudan,60
+2008,SLDF,Kenya,51
+2008,Mungiki,Kenya,29
+2008,Al-Shabaab,Somalia,43
+2008,FARC,Colombia,101
+2008,PARECO,DR Congo (Zaire),41
+2008,Buxton gang,Guyana,29
+2008,Fedayeen Islam,Pakistan,54
+2008,Indian Mujahideen,India,143
+2008,Lashkar-e-Taiba,India,148
+2008,Las Águilas Negras,Colombia,55
+2008,Dignidad por Arauca,Colombia,52
+2008,Government of Colombia,"Colombia, Ecuador",183
+2008,Government of Venezuela,Venezuela,27
+2008,Government of Nigeria,Nigeria,146
+2008,Government of DR Congo (Zaire),"DR Congo (Zaire), Uganda",49
+2008,Government of Kenya,Kenya,220
+2008,Government of Ethiopia,"Ethiopia, Somalia",33
+2008,Government of Zimbabwe (Rhodesia),Zimbabwe (Rhodesia),253
+2008,Government of Sudan,Sudan,186
+2008,Government of China,China,51
+2008,Government of Myanmar (Burma),Myanmar (Burma),54
+2008,CPI-Maoist,India,167
+2008,IS,Iraq,526
+2008,MILF,Philippines,39
+2008,Taleban,Afghanistan,108
+2008,LTTE,Sri Lanka,185
+2008,Kashmir insurgents,India,39
+2008,TTP,Pakistan,243
+2008,NDFB,India,80
+2008,Patani insurgents,Thailand,180
+2009,LRA,"Central African Republic, DR Congo (Zaire), Sudan",1394
+2009,FDLR-FOCA,DR Congo (Zaire),906
+2009,AQIM,"Algeria, Mali, Mauritania",38
+2009,Mungiki,Kenya,37
+2009,FARC,"Colombia, Panama",56
+2009,Ampatuan militia,Philippines,58
+2009,AAH,Iraq,35
+2009,Government of Iran,Iran,50
+2009,Las Águilas Negras,Colombia,39
+2009,MLIA ,DR Congo (Zaire),251
+2009,Government of Venezuela,Venezuela,27
+2009,Government of Guinea,Guinea,160
+2009,Government of DR Congo (Zaire),DR Congo (Zaire),895
+2009,Government of Rwanda,"DR Congo (Zaire), Rwanda",203
+2009,Government of Madagascar,Madagascar (Malagasy),31
+2009,CPI-Maoist,India,243
+2009,IS,Iraq,636
+2009,Taleban,Afghanistan,154
+2009,Jondullah,Iran,25
+2009,LTTE,Sri Lanka,248
+2009,Kashmir insurgents,India,30
+2009,ULFA,India,36
+2009,TTP,Pakistan,225
+2009,NDFB,India,33
+2009,Patani insurgents,Thailand,120
+2010,Forces of the Caucasus Emirate,Russia (Soviet Union),58
+2010,LeJ,Pakistan,166
+2010,LRA,"Central African Republic, DR Congo (Zaire), Sudan",464
+2010,ADF,DR Congo (Zaire),38
+2010,FDLR-FOCA,DR Congo (Zaire),69
+2010,Janjaweed ,Sudan,41
+2010,Al-Shabaab,"Somalia, Uganda",89
+2010,NDFB - RD,India,32
+2010,Los Zetas,Mexico,84
+2010,Mayi Mayi Complet,DR Congo (Zaire),27
+2010,"FDLR-FOCA, Forces of Nsengiyumva, NDC",DR Congo (Zaire),287
+2010,JAS,Nigeria,92
+2010,PCPA,India,146
+2010,Government of Ivory Coast,Ivory Coast,44
+2010,Government of Myanmar (Burma),Myanmar (Burma),25
+2010,CPI-Maoist,India,321
+2010,IS,Iraq,738
+2010,ASG,Philippines,25
+2010,BLA,Pakistan,31
+2010,Taleban,Afghanistan,185
+2010,Kashmir insurgents,India,25
+2010,TTP,Pakistan,549
+2010,Patani insurgents,Thailand,138
+2011,Forces of the Caucasus Emirate,Russia (Soviet Union),40
+2011,LeJ,"Afghanistan, Pakistan",121
+2011,LRA,"Central African Republic, DR Congo (Zaire), Sudan",211
+2011,AQIM,"Algeria, Mali, Morocco",27
+2011,Al-Shabaab,"Kenya, Somalia",44
+2011,Indian Mujahideen,India,26
+2011,Los Zetas,"Guatemala, Mexico",403
+2011,Government of Syria,"Lebanon, Syria",3114
+2011,Government of Yemen (North Yemen),Yemen (North Yemen),178
+2011,Government of Bahrain,Bahrain,26
+2011,FRCI,Ivory Coast,205
+2011,FRGO,Ivory Coast,315
+2011,JAS,Nigeria,82
+2011,AJPSN,Ivory Coast,206
+2011,Government of Ivory Coast,Ivory Coast,373
+2011,Government of Nigeria,Nigeria,36
+2011,Government of Somalia,Somalia,36
+2011,Government of Libya,Libya,152
+2011,Government of Sudan,Sudan,155
+2011,Government of Myanmar (Burma),Myanmar (Burma),89
+2011,CPI-Maoist,India,189
+2011,IS,Iraq,322
+2011,Taleban,Afghanistan,76
+2011,TTP,Pakistan,198
+2011,Patani insurgents,Thailand,115
+2012,LRA,"Central African Republic, DR Congo (Zaire), South Sudan",65
+2012,FDLR-FOCA,DR Congo (Zaire),187
+2012,Al-Shabaab,"Kenya, Somalia",112
+2012,FRPI,DR Congo (Zaire),31
+2012,Government of South Sudan,South Sudan,65
+2012,Government of Syria,"Lebanon, Syria",2954
+2012,Lashkar-e-Islam,Pakistan,29
+2012,Syrian insurgents,Syria,142
+2012,Sinaloa Cartel,Mexico,35
+2012,JAS,Nigeria,455
+2012,PLFI,India,105
+2012,Mayi Mayi Simba,DR Congo (Zaire),34
+2012,Raia Mutomboki,DR Congo (Zaire),52
+2012,Nyatura,DR Congo (Zaire),27
+2012,"Mayi Mayi Kifuafua, Raia Mutomboki",DR Congo (Zaire),241
+2012,TTP-Islahi,Pakistan,42
+2012,Government of Nigeria,Nigeria,212
+2012,Government of Central African Republic,Central African Republic,36
+2012,Government of DR Congo (Zaire),DR Congo (Zaire),112
+2012,Government of Somalia,Somalia,29
+2012,Government of Ethiopia,Ethiopia,88
+2012,Government of Sudan,"South Sudan, Sudan",53
+2012,Government of Myanmar (Burma),Myanmar (Burma),105
+2012,CPI-Maoist,India,104
+2012,IS,Iraq,769
+2012,Taleban,Afghanistan,83
+2012,TTP,Pakistan,166
+2012,Patani insurgents,Thailand,113
+2013,Forces of the Caucasus Emirate,Russia (Soviet Union),40
+2013,LeJ,Pakistan,311
+2013,LRA,"Central African Republic, DR Congo (Zaire), South Sudan",48
+2013,ADF,DR Congo (Zaire),83
+2013,Al-Shabaab,"Kenya, Somalia",185
+2013,Government of South Sudan,South Sudan,580
+2013,Government of Syria,Syria,2722
+2013,Kata Katanga,DR Congo (Zaire),173
+2013,anti-Balaka,Central African Republic,765
+2013,FPRC,Central African Republic,474
+2013,SPLM/A - IO,South Sudan,103
+2013,ADP,Lebanon,47
+2013,Syrian insurgents,Syria,148
+2013,PYD,Syria,45
+2013,Seleka,Central African Republic,44
+2013,THKP-C Acilciler,Turkey,52
+2013,"IS, Syrian insurgents",Syria,207
+2013,JAS,"Cameroon, Nigeria",839
+2013,M23,DR Congo (Zaire),56
+2013,NDC,DR Congo (Zaire),92
+2013,Nyatura,DR Congo (Zaire),43
+2013,Signed-in-Blood Battalion,Algeria,26
+2013,Government of Mali,Mali,26
+2013,Government of Central African Republic,Central African Republic,1375
+2013,Government of DR Congo (Zaire),DR Congo (Zaire),50
+2013,Government of Sudan,"South Sudan, Sudan",27
+2013,Government of Myanmar (Burma),Myanmar (Burma),27
+2013,CPI-Maoist,India,121
+2013,IS,"Iraq, Syria",2253
+2013,Taleban,Afghanistan,64
+2013,TTP,Pakistan,496
+2013,Patani insurgents,Thailand,60
+2014,LeJ,Pakistan,43
+2014,LRA,"Central African Republic, DR Congo (Zaire)",37
+2014,ADF,DR Congo (Zaire),227
+2014,Al-Shabaab,"Djibouti, Kenya, Somalia",261
+2014,Government of Mexico,Mexico,32
+2014,Government of South Sudan,South Sudan,205
+2014,Government of Syria,Syria,464
+2014,anti-Balaka,Central African Republic,1293
+2014,FPRC,Central African Republic,642
+2014,SPLM/A - IO,South Sudan,582
+2014,NDFB-S,India,135
+2014,Jaish-ul-Islam,Pakistan,35
+2014,Syrian insurgents,Syria,261
+2014,UPC,Central African Republic,184
+2014,PYD,Syria,87
+2014,"ADF, Mayi Mayi Mayangose",DR Congo (Zaire),119
+2014,JAS,"Cameroon, Chad, Nigeria",5134
+2014,UBA,Pakistan,43
+2014,FPR,Central African Republic,109
+2014,Government of Venezuela,Venezuela,44
+2014,Government of Nigeria,Nigeria,41
+2014,Government of Chad,Central African Republic,40
+2014,Government of DR Congo (Zaire),DR Congo (Zaire),36
+2014,Government of Sudan,Sudan,94
+2014,Government of Myanmar (Burma),Myanmar (Burma),43
+2014,CPI-Maoist,India,76
+2014,IS,"Iraq, Syria",4598
+2014,Taleban,Afghanistan,240
+2014,TTP,Pakistan,174
+2014,Patani insurgents,Thailand,32
+2015,LeJ,Pakistan,49
+2015,LRA,"Central African Republic, DR Congo (Zaire), South Sudan",32
+2015,ADF,DR Congo (Zaire),257
+2015,FDLR-FOCA,DR Congo (Zaire),59
+2015,Al-Shabaab,"Kenya, Somalia",212
+2015,Government of South Sudan,South Sudan,349
+2015,Government of Syria,Syria,264
+2015,anti-Balaka,Central African Republic,74
+2015,FPRC,Central African Republic,160
+2015,Syrian insurgents,Syria,155
+2015,UPC,Central African Republic,122
+2015,PYD,Syria,35
+2015,Elements (Luba militia),DR Congo (Zaire),70
+2015,Perci (Batwa militia),DR Congo (Zaire),47
+2015,SDF,Syria,34
+2015,JAS,"Cameroon, Chad, Niger, Nigeria",1282
+2015,FDPC,Central African Republic,39
+2015,Government of Venezuela,Venezuela,32
+2015,Government of Cameroon,Cameroon,34
+2015,Government of Nigeria,Nigeria,48
+2015,Government of Burundi,Burundi,80
+2015,Government of Ethiopia,"Ethiopia, Somalia",258
+2015,Government of Sudan,Sudan,371
+2015,Government of Iraq,Iraq,108
+2015,Government of Myanmar (Burma),Myanmar (Burma),30
+2015,CPP,Philippines,34
+2015,CPI-Maoist,India,70
+2015,IS,"Afghanistan, Bangladesh, Cameroon, Chad, Egypt, France, Iraq, Kuwait, Libya, Niger, Nigeria, Pakistan, Russia (Soviet Union), Saudi Arabia, Syria, Tunisia, Turkey, United States of America, Yemen (North Yemen)",6335
+2015,Taleban,Afghanistan,161
+2015,TTP,Pakistan,55
+2015,Patani insurgents,Thailand,27
+2016,ADF,DR Congo (Zaire),181
+2016,FDLR-FOCA,DR Congo (Zaire),28
+2016,AQIM,"Burkina Faso, Ivory Coast, Mali",41
+2016,Al-Shabaab,"Kenya, Somalia",109
+2016,Government of South Sudan,South Sudan,194
+2016,Government of Syria,Syria,135
+2016,Government of Philippines,Philippines,32
+2016,FPRC,Central African Republic,52
+2016,SPLM/A - IO,South Sudan,41
+2016,Syrian insurgents,Syria,48
+2016,UPC,Central African Republic,284
+2016,Mayi Mayi Mazembe,DR Congo (Zaire),76
+2016,3R,Central African Republic,50
+2016,"FPRC, MPC",Central African Republic,37
+2016,Kamuina Nsapu,DR Congo (Zaire),26
+2016,"ADF, Vuba militia",DR Congo (Zaire),31
+2016,Anti-Balaka - Mokom,Central African Republic,25
+2016,JAS,"Cameroon, Nigeria",208
+2016,Government of Venezuela,Venezuela,60
+2016,Government of Nigeria,Nigeria,71
+2016,Government of DR Congo (Zaire),DR Congo (Zaire),314
+2016,Government of Burundi,Burundi,85
+2016,Government of Rwanda,Rwanda,27
+2016,Government of Ethiopia,Ethiopia,301
+2016,Government of Sudan,Sudan,448
+2016,Government of Iraq,Iraq,114
+2016,Government of Myanmar (Burma),Myanmar (Burma),56
+2016,CPI-Maoist,India,90
+2016,IS,"Afghanistan, Bangladesh, Belgium, Cameroon, Chad, Egypt, France, Germany, Iraq, Lebanon, Libya, Niger, Nigeria, Pakistan, Philippines, Russia (Soviet Union), Saudi Arabia, Syria, Turkey, Yemen (North Yemen)",4393
+2016,Taleban,"Afghanistan, Pakistan",149
+2016,TTP,Pakistan,230
+2017,LeJ,Pakistan,102
+2017,LRA,"Central African Republic, DR Congo (Zaire)",26
+2017,ADF,DR Congo (Zaire),34
+2017,Al-Shabaab,"Kenya, Somalia",124
+2017,Government of South Sudan,South Sudan,230
+2017,Government of Syria,Syria,131
+2017,anti-Balaka,Central African Republic,177
+2017,Syrian insurgents,Syria,25
+2017,UPC,Central African Republic,278
+2017,MPC,Central African Republic,55
+2017,Mayi Mayi Mazembe,DR Congo (Zaire),70
+2017,3R,Central African Republic,88
+2017,"Mayi Mayi Mazembe, NDC-R",DR Congo (Zaire),27
+2017,Kamuina Nsapu,DR Congo (Zaire),559
+2017,Bana Mura,DR Congo (Zaire),339
+2017,Dozos (Mali),Mali,25
+2017,ARSA,Myanmar (Burma),88
+2017,Ansaroul Islam,"Burkina Faso, Mali",33
+2017,CMC,DR Congo (Zaire),29
+2017,"Anti-Balaka - Mokom, FPRC, MPC, RPRC",Central African Republic,69
+2017,JAS,"Cameroon, Niger, Nigeria",909
+2017,Government of Colombia,Colombia,36
+2017,Government of Venezuela,"Colombia, Venezuela",77
+2017,Government of Cameroon,Cameroon,50
+2017,Government of DR Congo (Zaire),DR Congo (Zaire),384
+2017,Government of Kenya,Kenya,43
+2017,Government of Burundi,"Burundi, Tanzania",39
+2017,Government of Ethiopia,Ethiopia,173
+2017,Government of Sudan,Sudan,65
+2017,Government of Iraq,Iraq,102
+2017,Government of Myanmar (Burma),Myanmar (Burma),1776
+2017,CPI-Maoist,India,129
+2017,IS,"Afghanistan, Bangladesh, Burkina Faso, Chad, Egypt, Iraq, Libya, Mali, Niger, Nigeria, Pakistan, Philippines, Spain, Sweden, Syria, Turkey, United States of America",2797
+2017,Taleban,Afghanistan,96
+2017,Kashmir insurgents,India,25
+2017,TTP,Pakistan,42
+2018,Al-Shabaab,"Kenya, Somalia",107
+2018,ELN,"Colombia, Venezuela",31
+2018,Government of Burkina Faso,Burkina Faso,73
+2018,Government of South Sudan,South Sudan,166
+2018,anti-Balaka,Central African Republic,52
+2018,FPRC,Central African Republic,37
+2018,SPLM/A - IO,South Sudan,27
+2018,Syrian insurgents,Syria,54
+2018,UPC,Central African Republic,44
+2018,RED-TABARA ,Burundi,26
+2018,Kamuina Nsapu,DR Congo (Zaire),63
+2018,JNIM,"Burkina Faso, Mali",59
+2018,Dozos (Mali),Mali,105
+2018,RMDC,"DR Congo (Zaire), Rwanda",26
+2018,MNLC,Central African Republic,48
+2018,ASWJ,Mozambique,119
+2018,Dan na Ambassagou,Mali,157
+2018,"GATIA, MSA","Mali, Niger",47
+2018,"FPRC, MPC, Self-Defense Mujahidin (CAR)",Central African Republic,30
+2018,Yan Sakai,Nigeria,35
+2018,FARC-EMC,Colombia,32
+2018,Frente Oliver Sinisterra ,Colombia,26
+2018,JAS,"Cameroon, Chad, Niger, Nigeria",519
+2018,Government of Haiti,Haiti,71
+2018,Government of Venezuela,Venezuela,87
+2018,Government of Mali,Mali,53
+2018,Government of Cameroon,Cameroon,101
+2018,Government of Nigeria,Nigeria,54
+2018,Government of DR Congo (Zaire),DR Congo (Zaire),136
+2018,Government of Kenya,"Kenya, Somalia",30
+2018,Government of Burundi,"Burundi, Somalia",87
+2018,Government of Ethiopia,"Ethiopia, Somalia",189
+2018,Government of Sudan,Sudan,75
+2018,CPI-Maoist,India,75
+2018,IS,"Afghanistan, Australia, Belgium, Burkina Faso, Cameroon, DR Congo (Zaire), Egypt, France, Iraq, Libya, Mali, Niger, Nigeria, Pakistan, Philippines, Russia (Soviet Union), Somalia, South Africa, Syria, Tajikistan",2040
+2018,Taleban,Afghanistan,122
+2018,Kashmir insurgents,India,28
+2018,TTP,Pakistan,31
+2018,Patani insurgents,Thailand,25
+2019,LRA,"Central African Republic, DR Congo (Zaire)",29
+2019,Al-Shabaab,"Kenya, Somalia",117
+2019,Government of Burkina Faso,Burkina Faso,183
+2019,Government of South Sudan,South Sudan,84
+2019,Government of Iran,Iran,252
+2019,SPLM/A - IO,South Sudan,34
+2019,Syrian insurgents,Syria,66
+2019,UPC,Central African Republic,25
+2019,3R,Central African Republic,92
+2019,JNIM,"Burkina Faso, Mali",428
+2019,Dozos (Mali),Mali,110
+2019,NDC-R,DR Congo (Zaire),75
+2019,Koglweogo,Burkina Faso,287
+2019,ASWJ,Mozambique,167
+2019,Dan na Ambassagou,Mali,186
+2019,URDPC,DR Congo (Zaire),170
+2019,JAS,"Cameroon, Chad, Nigeria",318
+2019,CNPSC,DR Congo (Zaire),109
+2019,PCC,Brazil,26
+2019,Government of Venezuela,Venezuela,78
+2019,Government of Cameroon,Cameroon,69
+2019,Government of Nigeria,Nigeria,26
+2019,Government of DR Congo (Zaire),DR Congo (Zaire),87
+2019,Government of Burundi,Burundi,59
+2019,Government of Ethiopia,Ethiopia,141
+2019,Government of Sudan,Sudan,218
+2019,Government of Iraq,Iraq,104
+2019,Government of Afghanistan,Afghanistan,28
+2019,CPI-Maoist,India,77
+2019,IS,"Afghanistan, Benin, Burkina Faso, Cameroon, Chad, DR Congo (Zaire), Egypt, Iraq, Libya, Mali, Mozambique, Niger, Nigeria, Philippines, Sri Lanka, Syria, Tanzania, United Kingdom",1663
+2019,Taleban,Afghanistan,168
+2019,Kashmir insurgents,India,34
+2019,TTP,Pakistan,26
+2020,FDLR-FOCA,DR Congo (Zaire),32
+2020,Al-Shabaab,"Kenya, Somalia",98
+2020,Government of Burkina Faso,Burkina Faso,175
+2020,Government of Eritrea,Ethiopia,1522
+2020,Government of Mozambique,Mozambique,110
+2020,Government of South Sudan,"DR Congo (Zaire), South Sudan",29
+2020,Government of Iran,Iran,27
+2020,Government of Syria,Syria,25
+2020,Government of Yemen (North Yemen),Yemen (North Yemen),52
+2020,TPLF,Ethiopia,280
+2020,Mayi Mayi Mazembe,DR Congo (Zaire),32
+2020,JNIM,"Burkina Faso, Mali",140
+2020,Dozos (Mali),Mali,69
+2020,NDC-R,DR Congo (Zaire),73
+2020,Koglweogo,Burkina Faso,43
+2020,CMC,DR Congo (Zaire),38
+2020,Twiganeho,DR Congo (Zaire),29
+2020,Dan na Ambassagou,Mali,54
+2020,Ambazonia insurgents,Cameroon,88
+2020,URDPC,DR Congo (Zaire),468
+2020,OLA,Ethiopia,77
+2020,FPIC Chambre noire sanduku,DR Congo (Zaire),92
+2020,Zaire self-defense group,DR Congo (Zaire),39
+2020,G9,Haiti,128
+2020,"Delmas 19 gang , Delmas 6 gang, Delmas 95 gang, Nan Barozi gang, Nan Belekou gang, Nan Boston gang, Nan Chabón, Nan Ti Bwa gang, Pilate Base gang, Simon Pele gang, Wharf de Jeremie gang",Haiti,34
+2020,"Government of Eritrea, Government of Ethiopia",Ethiopia,546
+2020,CODECO-BTD,DR Congo (Zaire),37
+2020,FARC-EMC,Colombia,38
+2020,JAS,"Cameroon, Chad, Niger, Nigeria",328
+2020,CNPSC,DR Congo (Zaire),58
+2020,Government of Colombia,Colombia,53
+2020,Government of Mali,Mali,257
+2020,Government of Niger,"Mali, Niger",141
+2020,Government of Cameroon,Cameroon,133
+2020,Government of Nigeria,Nigeria,43
+2020,Government of DR Congo (Zaire),DR Congo (Zaire),108
+2020,Government of Burundi,Burundi,64
+2020,Government of Ethiopia,"Ethiopia, Sudan",512
+2020,Government of Sudan,Sudan,52
+2020,Government of Iraq,Iraq,36
+2020,CPP,Philippines,25
+2020,CPI-Maoist,India,72
+2020,IS,"Afghanistan, Austria, Bangladesh, Burkina Faso, Cameroon, Chad, DR Congo (Zaire), Egypt, Iraq, Libya, Mali, Mozambique, Niger, Nigeria, Pakistan, Somalia, Syria",2481
+2020,Taleban,Afghanistan,174
+2021,Al-Shabaab,"Kenya, Somalia",87
+2021,ELN,"Colombia, Venezuela",30
+2021,Government of Mexico,Mexico,26
+2021,Government of Burkina Faso,Burkina Faso,35
+2021,Government of Eritrea,"Ethiopia, Yemen (North Yemen)",1513
+2021,Government of Mozambique,Mozambique,70
+2021,Government of South Sudan,South Sudan,46
+2021,Government of Iran,Iran,26
+2021,Government of Yemen (North Yemen),Yemen (North Yemen),34
+2021,TPLF,Ethiopia,523
+2021,UPC,Central African Republic,50
+2021,IPOB,Nigeria,37
+2021,JNIM,"Burkina Faso, Mali",299
+2021,EGC,Colombia,29
+2021,Ambazonia insurgents,"Cameroon, Nigeria",53
+2021,Yan Sakai,Nigeria,32
+2021,URDPC,DR Congo (Zaire),410
+2021,OLA,Ethiopia,25
+2021,FPIC Chambre noire sanduku,DR Congo (Zaire),57
+2021,Zaire self-defense group,DR Congo (Zaire),182
+2021,G9,Haiti,69
+2021,CPC,Central African Republic,79
+2021,"Government of Eritrea, Government of Ethiopia",Ethiopia,1440
+2021,"AFP-Gutabara, Ngumino",DR Congo (Zaire),30
+2021,Bonta Boys,Nigeria,33
+2021,Comando Vermelho,Brazil,43
+2021,NUG,Myanmar (Burma),82
+2021,FARC-EMC,Colombia,55
+2021,OLA - Fekade Abdisa faction,Ethiopia,29
+2021,JAS,"Cameroon, Niger, Nigeria",102
+2021,Government of eSwatini (Swaziland),Kingdom of eSwatini (Swaziland),48
+2021,Government of Colombia,Colombia,33
+2021,Government of Mali,Mali,48
+2021,Government of Cameroon,Cameroon,58
+2021,Government of Central African Republic,Central African Republic,45
+2021,Government of DR Congo (Zaire),DR Congo (Zaire),102
+2021,Government of Burundi,Burundi,52
+2021,Government of Ethiopia,"Ethiopia, Sudan",1294
+2021,Government of Sudan,Sudan,81
+2021,Government of Iraq,Iraq,34
+2021,Government of Afghanistan,Afghanistan,87
+2021,Government of Myanmar (Burma),Myanmar (Burma),600
+2021,KNU,Myanmar (Burma),25
+2021,CPI-Maoist,India,40
+2021,IS,"Afghanistan, Burkina Faso, Chad, DR Congo (Zaire), Egypt, India, Iraq, Mali, Mozambique, Niger, Nigeria, Pakistan, Syria, Tanzania, Uganda",3775
+2021,Taleban,Afghanistan,156
+2022,Al-Shabaab,"Kenya, Somalia",88
+2022,ELN,"Colombia, Venezuela",29
+2022,Government of Burkina Faso,Burkina Faso,196
+2022,Government of Eritrea,Ethiopia,974
+2022,Government of South Sudan,"DR Congo (Zaire), South Sudan",95
+2022,Government of Iran,Iran,211
+2022,TPLF,Ethiopia,78
+2022,Los Ardillos,Mexico,27
+2022,JNIM,"Burkina Faso, Mali, Niger, Togo",510
+2022,EGC,Colombia,40
+2022,Ambazonia insurgents,"Cameroon, Nigeria",130
+2022,URDPC,DR Congo (Zaire),595
+2022,ALC,DR Congo (Zaire),61
+2022,OLA,Ethiopia,117
+2022,"AFP-Gutabara, Ngumino, Twiganeho",DR Congo (Zaire),54
+2022,FPIC Chambre noire sanduku,DR Congo (Zaire),63
+2022,Zaire self-defense group,DR Congo (Zaire),154
+2022,G9,Haiti,43
+2022,FDBC,DR Congo (Zaire),258
+2022,"FPIC Chambre noire sanduku, URDPC",DR Congo (Zaire),25
+2022,CPC,Central African Republic,57
+2022,400 Mawozo ,Haiti,61
+2022,CODECO-BTD,DR Congo (Zaire),55
+2022,Fano,Ethiopia,237
+2022,Bonde do Maluco,Brazil,26
+2022,Comando Vermelho,Brazil,60
+2022,NUG,Myanmar (Burma),86
+2022,Sinaloa Cartel,Mexico,33
+2022,FARC-EMC,Colombia,48
+2022,Comandos de la Frontera,Colombia,26
+2022,Mayi Mayi Chini ya Tuna,DR Congo (Zaire),25
+2022,JAS,"Cameroon, Niger, Nigeria",178
+2022,Jalisco Cartel New Generation,"Ecuador, Mexico",26
+2022,M23,DR Congo (Zaire),300
+2022,PCC,Brazil,33
+2022,MS-13 (El Salvador),El Salvador,88
+2022,Government of Russia (Soviet Union),Ukraine,1130
+2022,Government of Mali,Mali,275
+2022,Government of Cameroon,Cameroon,47
+2022,Government of Nigeria,Nigeria,77
+2022,Government of Central African Republic,Central African Republic,35
+2022,Government of DR Congo (Zaire),DR Congo (Zaire),121
+2022,Government of Burundi,"Burundi, DR Congo (Zaire)",39
+2022,Government of Rwanda,DR Congo (Zaire),69
+2022,Government of Ethiopia,Ethiopia,378
+2022,Government of Sudan,Sudan,74
+2022,Government of Afghanistan,Afghanistan,189
+2022,Government of Myanmar (Burma),Myanmar (Burma),616
+2022,CPI-Maoist,India,48
+2022,IS,"Afghanistan, Burkina Faso, Cameroon, DR Congo (Zaire), Egypt, Iraq, Mali, Mozambique, Niger, Nigeria, Pakistan, Philippines, Syria",3808
+2023,Al-Shabaab,"Kenya, Somalia",60
+2023,ELN,"Colombia, Venezuela",34
+2023,Government of Burkina Faso,Burkina Faso,355
+2023,Government of South Sudan,South Sudan,38
+2023,OPM,Indonesia,28
+2023,JNIM,"Benin, Burkina Faso, Mali, Niger, Togo",1064
+2023,EGC,"Colombia, Venezuela",145
+2023,Ambazonia insurgents,"Cameroon, Nigeria",105
+2023,URDPC,DR Congo (Zaire),760
+2023,OLA,Ethiopia,148
+2023,FPIC Chambre noire sanduku,DR Congo (Zaire),44
+2023,Zaire self-defense group,DR Congo (Zaire),61
+2023,CPC,Central African Republic,28
+2023,Fano,Ethiopia,131
+2023,Bonde do Maluco,Brazil,32
+2023,Comando Vermelho,Brazil,90
+2023,FARC-EMC,Colombia,79
+2023,FARC - Segunda Marquetalia ,Colombia,34
+2023,Bonde dos 40,Brazil,25
+2023,Mobondo,DR Congo (Zaire),180
+2023,RSF,Sudan,1784
+2023,"5 Segond, Taliban",Haiti,70
+2023,Grand Ravine,Haiti,65
+2023,VDP,DR Congo (Zaire),58
+2023,G-Pep,Haiti,49
+2023,Terre Noire,Haiti,72
+2023,AFC,DR Congo (Zaire),26
+2023,Forces of Terwase Akwanza,Nigeria,58
+2023,JAS,"Cameroon, Chad, Niger, Nigeria",166
+2023,Jalisco Cartel New Generation,Mexico,27
+2023,M23,DR Congo (Zaire),138
+2023,Government of Haiti,Haiti,84
+2023,Government of Russia (Soviet Union),"Georgia, Ukraine",314
+2023,Government of Mali,Mali,204
+2023,Government of Cameroon,Cameroon,25
+2023,Government of Nigeria,Nigeria,36
+2023,Government of DR Congo (Zaire),DR Congo (Zaire),136
+2023,Government of Burundi,"Burundi, DR Congo (Zaire)",39
+2023,Government of Rwanda,DR Congo (Zaire),100
+2023,Government of Ethiopia,Ethiopia,190
+2023,Government of Israel,Israel,39
+2023,Government of Afghanistan,Afghanistan,43
+2023,Government of Myanmar (Burma),Myanmar (Burma),596
+2023,CPI-Maoist,India,43
+2023,Hamas,Israel,673
+2023,IS,"Afghanistan, Belgium, Burkina Faso, Cameroon, DR Congo (Zaire), France, Iraq, Mali, Mozambique, Niger, Nigeria, Pakistan, Philippines, Somalia, Syria, Uganda",2218
+2024,FDLR-FOCA,DR Congo (Zaire),27
+2024,Al-Shabaab,"Kenya, Somalia",92
+2024,Government of Burkina Faso,Burkina Faso,795
+2024,Government of Mozambique,Mozambique,230
+2024,Government of South Sudan,South Sudan,39
+2024,JNIM,"Benin, Burkina Faso, Mali, Niger, Togo",1396
+2024,Dozos (Mali),Mali,30
+2024,EGC,Colombia,74
+2024,Ambazonia insurgents,Cameroon,34
+2024,URDPC,DR Congo (Zaire),343
+2024,BRAS,Pakistan,39
+2024,OLA,Ethiopia,52
+2024,Zaire self-defense group,DR Congo (Zaire),33
+2024,UPLD,DR Congo (Zaire),65
+2024,G9,Haiti,66
+2024,Gran Grif,Haiti,179
+2024,CPC,"Central African Republic, DR Congo (Zaire)",99
+2024,Fano,Ethiopia,271
+2024,Comando Vermelho,Brazil,55
+2024,Sinaloa Cartel,Mexico,43
+2024,M18 (Guatemala),Guatemala,25
+2024,FARC-EMC,Colombia,78
+2024,Mobondo,DR Congo (Zaire),86
+2024,RSF,Sudan,1851
+2024,Grand Ravine,Haiti,27
+2024,VDP,DR Congo (Zaire),67
+2024,AFC,DR Congo (Zaire),242
+2024,AAKG,Central African Republic,44
+2024,Viv Ansanm,Haiti,549
+2024,I don't care,Papua New Guinea,26
+2024,Forces of Ayongou,Nigeria,75
+2024,FARC-EMC-Calarcá,Colombia,30
+2024,"Government of Mali, Government of Russia (Soviet Union)",Mali,299
+2024,Chandelle self-defense group,Haiti,39
+2024,JAS,"Cameroon, Chad, Niger, Nigeria",223
+2024,Jalisco Cartel New Generation,Mexico,53
+2024,ULA,Myanmar (Burma),106
+2024,Government of Haiti,Haiti,45
+2024,Government of Russia (Soviet Union),"Central African Republic, Mali, Ukraine",151
+2024,Government of Mali,Mali,29
+2024,Government of DR Congo (Zaire),DR Congo (Zaire),353
+2024,Government of Burundi,Burundi,51
+2024,Government of Ethiopia,Ethiopia,704
+2024,Government of Sudan,Sudan,465
+2024,Government of Israel,"Israel, Syria",42
+2024,Government of Afghanistan,"Afghanistan, Pakistan",37
+2024,Government of Myanmar (Burma),Myanmar (Burma),421
+2024,CPI-Maoist,India,55
+2024,IS,"Afghanistan, Burkina Faso, Cameroon, DR Congo (Zaire), Germany, Iran, Iraq, Mali, Mozambique, Niger, Nigeria, Pakistan, Russia (Soviet Union), Syria, Turkey",3792
