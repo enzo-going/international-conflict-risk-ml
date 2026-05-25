@@ -291,96 +291,115 @@
     </div>
 
     <section>
-      <h2>4. Comparação de modelos</h2>
+      <h2>4. Comparação de modelos candidatos</h2>
+
       <p>
-        O experimento atual compara o dataset base contra o dataset com features temporais.
-        A baseline de persistência continua sendo a referência mínima que qualquer modelo mais complexo
-        precisa superar.
+        Após a consolidação do modelo principal com UCDP, features temporais e indicadores brutos do World Bank,
+        foram testados modelos candidatos para verificar se algoritmos mais complexos superariam a configuração atual.
+      </p>
+
+      <p>
+        Todos os modelos utilizaram o mesmo split temporal, o mesmo target supervisionado e o mesmo conjunto de
+        33 features do modelo principal.
       </p>
 
       <table>
         <thead>
           <tr>
-            <th>Experimento</th>
             <th>Modelo</th>
             <th>Accuracy</th>
             <th>Precision</th>
             <th>Recall</th>
             <th>F1-score</th>
-            <th>Leitura técnica</th>
+            <th>Diferença vs baseline</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>Referência</td>
+            <td>Logistic Regression · World Bank all raw</td>
+            <td>0.9197</td>
+            <td>0.9029</td>
+            <td>0.8435</td>
+            <td class="best">0.8722</td>
+            <td>+0.0151</td>
+          </tr>
+          <tr>
+            <td>Random Forest · World Bank all raw</td>
+            <td>0.9124</td>
+            <td>0.8594</td>
+            <td>0.8730</td>
+            <td>0.8661</td>
+            <td>+0.0090</td>
+          </tr>
+          <tr>
+            <td>Gradient Boosting · World Bank all raw</td>
+            <td>0.9138</td>
+            <td>0.9197</td>
+            <td>0.8050</td>
+            <td>0.8585</td>
+            <td>+0.0014</td>
+          </tr>
+          <tr>
             <td>Persistence baseline</td>
-            <td>0.9082</td>
+            <td>0.9072</td>
             <td>0.8571</td>
             <td>0.8571</td>
             <td>0.8571</td>
-            <td>Baseline forte devido à persistência temporal do fenômeno.</td>
+            <td>0.0000</td>
           </tr>
           <tr>
-            <td>Dataset base</td>
-            <td>Random Forest</td>
-            <td>0.9082</td>
-            <td>0.8571</td>
-            <td>0.8571</td>
-            <td>0.8571</td>
-            <td>Empatou com a baseline; não adicionou ganho real.</td>
-          </tr>
-          <tr>
-            <td>Dataset temporal</td>
-            <td>Logistic Regression</td>
-            <td>0.9133</td>
-            <td>0.8546</td>
-            <td>0.8798</td>
-            <td class="best">0.8670</td>
-            <td>Melhor F1; maior recall, mas com aviso de convergência.</td>
-          </tr>
-          <tr>
-            <td>Dataset temporal</td>
-            <td>Logistic Regression scaled</td>
-            <td>0.9162</td>
-            <td>0.8937</td>
-            <td>0.8390</td>
-            <td class="best">0.8655</td>
-            <td>Mais estável numericamente; melhor precisão e accuracy.</td>
+            <td>MLP · World Bank all raw</td>
+            <td>0.9094</td>
+            <td>0.9206</td>
+            <td>0.7891</td>
+            <td>0.8498</td>
+            <td>-0.0073</td>
           </tr>
         </tbody>
       </table>
 
       <h3>Comparação visual por F1-score</h3>
 
-      <div class="bar-list">
+      <div class="bar-chart">
+        <div class="bar-row">
+          <div class="bar-label">Logistic Regression</div>
+          <div class="bar-track"><div class="bar-fill blue" style="width: 87.22%;"></div></div>
+          <div class="bar-value">0.8722</div>
+        </div>
+
+        <div class="bar-row">
+          <div class="bar-label">Random Forest</div>
+          <div class="bar-track"><div class="bar-fill green" style="width: 86.61%;"></div></div>
+          <div class="bar-value">0.8661</div>
+        </div>
+
+        <div class="bar-row">
+          <div class="bar-label">Gradient Boosting</div>
+          <div class="bar-track"><div class="bar-fill green" style="width: 85.85%;"></div></div>
+          <div class="bar-value">0.8585</div>
+        </div>
+
         <div class="bar-row">
           <div class="bar-label">Persistence baseline</div>
-          <div class="bar-track"><div class="bar-fill" style="width: 85.71%;"></div></div>
+          <div class="bar-track"><div class="bar-fill amber" style="width: 85.71%;"></div></div>
           <div class="bar-value">0.8571</div>
         </div>
 
         <div class="bar-row">
-          <div class="bar-label">Dataset base · Random Forest</div>
-          <div class="bar-track"><div class="bar-fill" style="width: 85.71%;"></div></div>
-          <div class="bar-value">0.8571</div>
-        </div>
-
-        <div class="bar-row">
-          <div class="bar-label">Temporal · Logistic Regression</div>
-          <div class="bar-track"><div class="bar-fill green" style="width: 86.70%;"></div></div>
-          <div class="bar-value">0.8670</div>
-        </div>
-
-        <div class="bar-row">
-          <div class="bar-label">Temporal · Logistic scaled</div>
-          <div class="bar-track"><div class="bar-fill green" style="width: 86.55%;"></div></div>
-          <div class="bar-value">0.8655</div>
+          <div class="bar-label">MLP simples</div>
+          <div class="bar-track"><div class="bar-fill amber" style="width: 84.98%;"></div></div>
+          <div class="bar-value">0.8498</div>
         </div>
       </div>
 
       <div class="note green">
-        Resultado temporário: as features temporais geraram ganho pequeno, mas mensurável.
-        O melhor F1-score passou de 0.8571 para 0.8670, diferença de aproximadamente +0.0099.
+        Resultado atual: a Logistic Regression com World Bank all raw permanece como modelo principal,
+        pois obteve o maior F1-score e mantém alta interpretabilidade.
+      </div>
+
+      <div class="note amber">
+        O Random Forest apresentou maior recall e reduziu falsos negativos, mas aumentou falsos positivos.
+        Por isso, ele pode ser tratado como modelo alternativo mais sensível, não como substituto direto.
       </div>
     </section>
 
