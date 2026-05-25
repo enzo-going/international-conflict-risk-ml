@@ -143,6 +143,23 @@ Contém:
 
 Essa tabela permite comparar a baseline de persistência com o modelo principal e futuros modelos candidatos.
 
+### `candidate_model_comparison`
+
+Tabela com a comparação entre modelos candidatos.
+
+Contém:
+
+- nome do modelo;
+- quantidade de features;
+- accuracy;
+- precision;
+- recall;
+- F1-score;
+- matriz de confusão;
+- diferença de F1-score em relação à baseline de persistência.
+
+Essa tabela permite consultar e comparar diretamente a baseline, o modelo principal e os modelos candidatos testados, como Random Forest, Gradient Boosting e MLP.
+
 ### `dataset_metadata`
 
 Tabela simples de metadados em formato chave-valor.
@@ -167,6 +184,7 @@ As primeiras consultas foram adicionadas em `sql/queries/`.
 | `03_false_negatives.sql` | Lista casos em que o modelo não previu conflito, mas o target real foi 1. |
 | `04_top_model_coefficients.sql` | Lista as features mais influentes do modelo. |
 | `05_model_metrics.sql` | Lista as métricas da baseline e do modelo principal. |
+| `06_candidate_model_comparison.sql` | Lista a comparação entre modelos candidatos ordenada por F1-score. |
 
 ## Modelo principal atual
 
@@ -223,7 +241,8 @@ Já foram implementados:
 - carregamento de predições;
 - carregamento de métricas;
 - carregamento de coeficientes;
-- queries SQL analíticas iniciais.
+- queries SQL analíticas iniciais;
+- integração da comparação de modelos candidatos ao banco SQLite.
 
 ## Próximos passos
 

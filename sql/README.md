@@ -57,6 +57,7 @@ CSV outputs
 | `model_predictions` | Predições do modelo no conjunto de teste. |
 | `model_coefficients` | Coeficientes extraídos da regressão logística. |
 | `model_metrics` | Métricas de avaliação da baseline e do modelo principal. |
+| `candidate_model_comparison` | Comparação entre baseline, modelo principal e modelos candidatos. |
 | `dataset_metadata` | Metadados sobre a geração do banco. |
 
 ## Status atual
@@ -78,4 +79,5 @@ A geração automática do banco SQLite ainda será implementada em Python.
 3. Carregar predições em `model_predictions`.
 4. Carregar métricas em `model_metrics`.
 5. Carregar coeficientes em `model_coefficients`.
-6. Criar consultas SQL em `sql/queries/`.
+6. Carregar comparação de modelos em `candidate_model_comparison`.
+7. Criar consultas SQL em `sql/queries/`.
