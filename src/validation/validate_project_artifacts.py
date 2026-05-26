@@ -101,6 +101,20 @@ PREDICTIVE_ANALYSIS_FILES = [
     "reports/final/predictive_analysis_report.md",
 ]
 
+
+PREDICTIVE_CHART_FILES = [
+    "src/visualization/generate_predictive_charts.py",
+    "outputs/charts/predictive_analysis/chart_index.json",
+    "outputs/charts/predictive_analysis/threshold_f1_curve.png",
+    "outputs/charts/predictive_analysis/threshold_precision_recall_curve.png",
+    "outputs/charts/predictive_analysis/region_mean_predicted_probability.png",
+    "outputs/charts/predictive_analysis/region_f1_score.png",
+    "outputs/charts/predictive_analysis/risk_band_distribution.png",
+    "outputs/charts/predictive_analysis/prediction_result_counts.png",
+    "outputs/charts/predictive_analysis/top_countries_mean_predicted_probability.png",
+    "outputs/charts/predictive_analysis/top_cases_predicted_probability.png",
+]
+
 CSV_EXPECTATIONS.update(
     {
         "outputs/tables/predictive_top_risk_cases.csv": [
@@ -286,6 +300,9 @@ def main() -> None:
 
     for relative_path in PREDICTIVE_ANALYSIS_FILES:
         validate_file_exists(rows, relative_path, "predictive_analysis_file")
+
+    for relative_path in PREDICTIVE_CHART_FILES:
+        validate_file_exists(rows, relative_path, "predictive_chart_file")
 
     for relative_path, expected_columns in CSV_EXPECTATIONS.items():
         validate_csv_columns(rows, relative_path, expected_columns)
