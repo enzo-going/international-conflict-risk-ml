@@ -488,3 +488,128 @@
     width: 100%;
   }
 }
+
+/* Predictive chart gallery */
+.predictive-gallery-section {
+  overflow: visible;
+}
+
+.predictive-chart-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 22px;
+  margin-top: 24px;
+}
+
+.predictive-chart-card {
+  margin: 0;
+  padding: 14px;
+  border: 1px solid rgba(15, 23, 42, 0.12);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.78);
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.08);
+  cursor: zoom-in;
+  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+}
+
+.predictive-chart-card:hover,
+.predictive-chart-card:focus {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 34px rgba(15, 23, 42, 0.14);
+  border-color: rgba(37, 99, 235, 0.36);
+  outline: none;
+}
+
+.predictive-chart-thumb {
+  width: 100%;
+  min-height: 230px;
+  max-height: 310px;
+  object-fit: contain;
+  border-radius: 14px;
+  background: #ffffff;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.predictive-chart-card figcaption {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  line-height: 1.45;
+}
+
+.predictive-chart-card figcaption strong {
+  font-size: 0.98rem;
+}
+
+.predictive-chart-card figcaption span {
+  color: #475569;
+  font-size: 0.9rem;
+}
+
+.chart-lightbox {
+  position: fixed;
+  inset: 0;
+  display: none;
+  z-index: 9999;
+}
+
+.chart-lightbox.is-open {
+  display: block;
+}
+
+.chart-lightbox-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.72);
+  backdrop-filter: blur(4px);
+}
+
+.chart-lightbox-dialog {
+  position: relative;
+  width: min(1180px, calc(100vw - 42px));
+  max-height: calc(100vh - 42px);
+  margin: 21px auto;
+  padding: 22px;
+  border-radius: 22px;
+  background: #ffffff;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.32);
+  overflow: auto;
+}
+
+.chart-lightbox-dialog h3 {
+  margin: 0 48px 16px 0;
+  font-size: 1.2rem;
+}
+
+.chart-lightbox-dialog img {
+  width: 100%;
+  max-height: calc(100vh - 150px);
+  object-fit: contain;
+  display: block;
+  border-radius: 14px;
+  background: #ffffff;
+}
+
+.chart-lightbox-close {
+  position: absolute;
+  top: 16px;
+  right: 18px;
+  width: 38px;
+  height: 38px;
+  border: 0;
+  border-radius: 999px;
+  background: #0f172a;
+  color: #ffffff;
+  font-size: 1.6rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.chart-lightbox-close:hover {
+  background: #1e293b;
+}
+
+body.chart-lightbox-open {
+  overflow: hidden;
+}

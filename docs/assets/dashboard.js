@@ -90,3 +90,70 @@ document.addEventListener("DOMContentLoaded", () => {
 
   sections.forEach((section) => observer.observe(section));
 });
+
+// Predictive chart lightbox
+(function () {
+  const lightbox = document.getElementById("chartLightbox");
+  const lightboxImage = document.getElementById("chartLightboxImage");
+  const lightboxTitle = document.getElementById("chartLightboxTitle");
+
+  if (!lightbox || !lightboxImage || !lightboxTitle) {
+    return;
+  }
+
+  const closeButton = lightbox.querySelector(".chart-lightbox-close");
+  const cards = document.querySelectorAll(".predictive-chart-card");
+
+  function openLightbox(card) {
+    const src = card.getAttribute("data-chart-src");
+    const title = card.getAttribute("data-chart-title") || "Gráfico preditivo";
+
+    if (!src) {
+      return;
+    }
+
+    lightboxImage.setAttribute("src", src);
+    lightboxImage.setAttribute("alt", title);
+    lightboxTitle.textContent = title;
+    lightbox.classList.add("is-open");
+    lightbox.setAttribute("aria-hidden", "false");
+    document.body.classList.add("chart-lightbox-open");
+  }
+
+  function closeLightbox() {
+    lightbox.classList.remove("is-open");
+    lightbox.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("chart-lightbox-open");
+    lightboxImage.setAttribute("src", "");
+    lightboxImage.setAttribute("alt", "");
+    lightboxTitle.textContent = "";
+  }
+
+  cards.forEach((card) => {
+    card.addEventListener("click", () => openLightbox(card));
+
+    card.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        openLightbox(card);
+      }
+    });
+  });
+
+  if (closeButton) {
+    closeButton.addEventListener("click", closeLightbox);
+  }
+
+  lightbox.addEventListener("click", (event) => {
+    const target = event.target;
+    if (target && target.getAttribute("data-chart-close") === "true") {
+      closeLightbox();
+    }
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && lightbox.classList.contains("is-open")) {
+      closeLightbox();
+    }
+  });
+})();
