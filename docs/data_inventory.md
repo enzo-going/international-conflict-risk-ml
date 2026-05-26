@@ -114,3 +114,21 @@ Datasets de guerras mundiais e cenários de WW3 não devem ser usados como alvo 
 
 \- \[ ] Separar datasets descartados, secundários e prioritários
 
+## UCDP One-sided Violence — arquivos adicionados pelo grupo
+
+Foram adicionados dois arquivos relacionados à violência unilateral:
+
+| Arquivo | Camada | Status | Observação |
+|---|---|---|---|
+| `data/raw/ucdp/OneSided_v25_1.xlsx` | raw | em revisão | Dataset bruto UCDP One-Sided Violence. |
+| `data/final/UCDP_One-sided_Violence_Dataset_updated.csv` | final/provisório | em revisão | Versão simplificada com `year`, `actor_name`, `location` e `best_fatality_estimate`. |
+
+Esses arquivos ainda não fazem parte do pipeline principal.
+
+Antes de integrar ao modelo, é necessário comparar essas informações com as variáveis já existentes no dataset principal:
+
+- `one_sided_violence_exists`
+- `one_sided_dyad_count`
+- `one_sided_deaths_best`
+
+Decisão provisória: manter como material em revisão até validação metodológica.
