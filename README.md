@@ -183,6 +183,10 @@ Esse resultado é metodologicamente relevante porque mostra que mais features ne
 
 ## Status atual
 
+O projeto possui atualmente um pipeline principal funcional baseado em UCDP Organized Violence, indicadores World Bank, split temporal, baseline de persistência, comparação de modelos candidatos, camada SQL e dashboard via GitHub Pages.
+
+Além do pipeline principal, existe um módulo experimental complementar para UCDP One-Sided Violence. Esse módulo foi preservado e documentado, mas ainda não substitui nem altera o modelo principal.
+
 ## Comparação de modelos candidatos
 
 Além do modelo principal, foram testados modelos candidatos usando o mesmo split temporal e o mesmo conjunto de 33 features.
@@ -242,6 +246,7 @@ O banco local pode ser gerado com:
 
 ```powershell
 python src\data\build_sqlite_database.py
+```
 
 O projeto já saiu da fase inicial de estruturação e atualmente possui um pipeline funcional de Machine Learning.
 
