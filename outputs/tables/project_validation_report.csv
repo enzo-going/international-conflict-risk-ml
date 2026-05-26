@@ -1,0 +1,32 @@
+category,item,status,detail
+required_file,README.md,PASS,file exists
+required_file,docs/project_map.md,PASS,file exists
+required_file,docs/data_inventory.md,PASS,file exists
+required_file,docs/index.html,PASS,file exists
+required_file,docs/methodology/final_methodological_summary.md,PASS,file exists
+required_file,docs/methodology/modeling_notes.md,PASS,file exists
+required_file,docs/methodology/one_sided_experimental_module_review.md,PASS,file exists
+required_file,src/models/train_conflict_risk_model.py,PASS,file exists
+required_file,src/models/train_candidate_models.py,PASS,file exists
+required_file,src/data/build_sqlite_database.py,PASS,file exists
+required_file,sql/schema.sql,PASS,file exists
+required_file,outputs/tables/conflict_risk_model_metrics.csv,PASS,file exists
+required_file,outputs/tables/conflict_risk_model_test_predictions.csv,PASS,file exists
+required_file,outputs/tables/conflict_risk_model_coefficients.csv,PASS,file exists
+required_file,outputs/tables/candidate_model_comparison.csv,PASS,file exists
+required_file,outputs/models/conflict_risk_model_features.json,PASS,file exists
+experimental_file,src/models/ml_onesided_violence.py,PASS,file exists
+experimental_file,data/raw/ucdp/OneSided_v25_1.xlsx,PASS,file exists
+experimental_file,data/final/UCDP_One-sided_Violence_Dataset_updated.csv,PASS,file exists
+experimental_file,outputs/tables/one_sided_predictions.csv,PASS,file exists
+experimental_file,outputs/tables/one_sided_feature_importance.csv,PASS,file exists
+experimental_file,outputs/tables/neighbors.json,PASS,file exists
+csv_schema,outputs/tables/conflict_risk_model_metrics.csv,PASS,"rows=2, columns=10"
+csv_schema,outputs/tables/conflict_risk_model_test_predictions.csv,PASS,"rows=1358, columns=9"
+csv_schema,outputs/tables/conflict_risk_model_coefficients.csv,PASS,"rows=33, columns=6"
+csv_schema,outputs/tables/candidate_model_comparison.csv,PASS,"rows=5, columns=11"
+csv_schema,outputs/tables/one_sided_predictions.csv,PASS,"rows=800, columns=5"
+csv_schema,outputs/tables/one_sided_feature_importance.csv,PASS,"rows=14, columns=3"
+model_metrics,main_model_vs_baseline,PASS,"logistic_f1=0.8722, baseline_f1=0.8571"
+metadata,target_column,PASS,target_conflict_next_year
+metadata,feature_count,PASS,n_features=33

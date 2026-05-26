@@ -1,0 +1,7 @@
+{
+  "total_checks": 31,
+  "status_counts": {
+    "PASS": 31
+  },
+  "report_csv": "outputs\\tables\\project_validation_report.csv"
+}
