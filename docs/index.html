@@ -592,7 +592,34 @@
     </section>
 
     <section>
-      <h2>8. Próxima etapa técnica e evolução do sistema</h2>
+      <h3>Módulo experimental: UCDP One-Sided Violence</h3>
+
+<div class="card">
+  <p>
+    Além do pipeline principal UCDP + World Bank, o projeto possui um módulo experimental complementar
+    baseado no dataset <strong>UCDP One-Sided Violence</strong>.
+  </p>
+
+  <p>
+    Esse módulo gera predições e coeficientes próprios a partir de dados de violência unilateral,
+    incluindo arquivos como <code>one_sided_predictions.csv</code>,
+    <code>one_sided_feature_importance.csv</code> e <code>neighbors.json</code>.
+  </p>
+
+  <p>
+    A decisão metodológica atual é manter esse módulo como uma frente paralela em revisão.
+    Ele não substitui o modelo principal, pois possui unidade de análise e lógica própria,
+    mais próxima de <code>location-year</code>, enquanto o pipeline oficial permanece em
+    <code>country-year</code>.
+  </p>
+
+  <p>
+    A revisão metodológica desse módulo está documentada em
+    <code>docs/methodology/one_sided_experimental_module_review.md</code>.
+  </p>
+</div>
+
+<h2>8. Próxima etapa técnica e evolução do sistema</h2>
 
       <div class="timeline">
         <div class="timeline-item">
