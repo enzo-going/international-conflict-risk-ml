@@ -1,0 +1,282 @@
+{
+  "analysis_scope": {
+    "unit": "country-year",
+    "target": "target_conflict_next_year",
+    "prediction_column": "predicted_conflict_probability",
+    "test_start_year": 2017,
+    "test_end_year": 2023,
+    "n_cases": 1358,
+    "n_countries": 194,
+    "n_regions": 5
+  },
+  "prediction_distribution": {
+    "actual_positive_rate": 0.3247422680412371,
+    "predicted_positive_rate": 0.30338733431516934,
+    "mean_probability": 0.33885627943861696,
+    "median_probability": 0.09642598258948835,
+    "max_probability": 1.0,
+    "min_probability": 0.0008963354878484
+  },
+  "error_counts": {
+    "true_negative": 877,
+    "true_positive": 372,
+    "false_negative": 69,
+    "false_positive": 40
+  },
+  "risk_band_counts": {
+    "very_low": 851,
+    "very_high": 348,
+    "low": 68,
+    "moderate": 48,
+    "high": 43
+  },
+  "main_metrics": {
+    "available": true,
+    "rows": 2,
+    "main_model": {
+      "model": "Logistic Regression scaled - World Bank all raw",
+      "accuracy": 0.9197349042709868,
+      "precision": 0.9029126213592232,
+      "recall": 0.8435374149659864,
+      "f1_score": 0.8722157092614302,
+      "tn": 877,
+      "fp": 40,
+      "fn": 69,
+      "tp": 372,
+      "f1_difference_vs_persistence": 0.0150728521185731
+    },
+    "baseline": {
+      "model": "Persistence baseline",
+      "accuracy": 0.9072164948453608,
+      "precision": 0.8571428571428571,
+      "recall": 0.8571428571428571,
+      "f1_score": 0.8571428571428571,
+      "tn": 854,
+      "fp": 63,
+      "fn": 63,
+      "tp": 378,
+      "f1_difference_vs_persistence": 0.0
+    },
+    "f1_gain_vs_baseline": 0.015072852118573121
+  },
+  "best_threshold_by_f1": {
+    "threshold": 0.5,
+    "predicted_positive_rate": 0.30338733431516934,
+    "accuracy": 0.9197349042709867,
+    "precision": 0.9029126213592233,
+    "recall": 0.8435374149659864,
+    "f1_score": 0.8722157092614302,
+    "true_negatives": 877.0,
+    "false_positives": 40.0,
+    "false_negatives": 69.0,
+    "true_positives": 372.0
+  },
+  "top_coefficients": [
+    {
+      "rank": 1,
+      "feature": "non_state_dyad_count",
+      "feature_group": "ucdp_conflict",
+      "coefficient": 1.3979911755667411,
+      "absolute_coefficient": 1.3979911755667411,
+      "effect": "increases_predicted_risk"
+    },
+    {
+      "rank": 2,
+      "feature": "state_based_dyad_count",
+      "feature_group": "ucdp_conflict",
+      "coefficient": 1.1019618282079404,
+      "absolute_coefficient": 1.1019618282079404,
+      "effect": "increases_predicted_risk"
+    },
+    {
+      "rank": 3,
+      "feature": "one_sided_dyad_count",
+      "feature_group": "ucdp_conflict",
+      "coefficient": 0.8230922656364056,
+      "absolute_coefficient": 0.8230922656364056,
+      "effect": "increases_predicted_risk"
+    },
+    {
+      "rank": 4,
+      "feature": "conflict_last_5_years_count",
+      "feature_group": "temporal_conflict",
+      "coefficient": 0.6305433113029146,
+      "absolute_coefficient": 0.6305433113029146,
+      "effect": "increases_predicted_risk"
+    },
+    {
+      "rank": 5,
+      "feature": "organized_violence_exists",
+      "feature_group": "ucdp_conflict",
+      "coefficient": 0.5450511890554187,
+      "absolute_coefficient": 0.5450511890554187,
+      "effect": "increases_predicted_risk"
+    },
+    {
+      "rank": 6,
+      "feature": "years_since_last_conflict",
+      "feature_group": "temporal_conflict",
+      "coefficient": -0.4746703577787484,
+      "absolute_coefficient": 0.4746703577787484,
+      "effect": "decreases_predicted_risk"
+    },
+    {
+      "rank": 7,
+      "feature": "intrastate_conflict_exists",
+      "feature_group": "ucdp_conflict",
+      "coefficient": 0.4273445159266787,
+      "absolute_coefficient": 0.4273445159266787,
+      "effect": "increases_predicted_risk"
+    },
+    {
+      "rank": 8,
+      "feature": "state_based_conflict_exists",
+      "feature_group": "ucdp_conflict",
+      "coefficient": -0.3440306114819227,
+      "absolute_coefficient": 0.3440306114819227,
+      "effect": "decreases_predicted_risk"
+    },
+    {
+      "rank": 9,
+      "feature": "gdp_per_capita_current_usd",
+      "feature_group": "world_bank",
+      "coefficient": -0.2739355998790578,
+      "absolute_coefficient": 0.2739355998790578,
+      "effect": "decreases_predicted_risk"
+    },
+    {
+      "rank": 10,
+      "feature": "year",
+      "feature_group": "time_index",
+      "coefficient": -0.217366801111431,
+      "absolute_coefficient": 0.217366801111431,
+      "effect": "decreases_predicted_risk"
+    },
+    {
+      "rank": 11,
+      "feature": "school_enrollment_secondary_gross_pct",
+      "feature_group": "world_bank",
+      "coefficient": -0.1873384539005262,
+      "absolute_coefficient": 0.1873384539005262,
+      "effect": "decreases_predicted_risk"
+    },
+    {
+      "rank": 12,
+      "feature": "conflict_previous_year",
+      "feature_group": "temporal_conflict",
+      "coefficient": 0.1820306319033495,
+      "absolute_coefficient": 0.1820306319033495,
+      "effect": "increases_predicted_risk"
+    },
+    {
+      "rank": 13,
+      "feature": "interstate_deaths_best",
+      "feature_group": "ucdp_conflict",
+      "coefficient": 0.181415422138585,
+      "absolute_coefficient": 0.181415422138585,
+      "effect": "increases_predicted_risk"
+    },
+    {
+      "rank": 14,
+      "feature": "population_growth_annual_pct",
+      "feature_group": "world_bank",
+      "coefficient": 0.1773857130573397,
+      "absolute_coefficient": 0.1773857130573397,
+      "effect": "increases_predicted_risk"
+    },
+    {
+      "rank": 15,
+      "feature": "gdp_growth_annual_pct",
+      "feature_group": "world_bank",
+      "coefficient": -0.1484878193833876,
+      "absolute_coefficient": 0.1484878193833876,
+      "effect": "decreases_predicted_risk"
+    }
+  ],
+  "candidate_models": [
+    {
+      "model": "Logistic Regression scaled - World Bank all raw",
+      "feature_count": 33,
+      "accuracy": 0.9197349042709868,
+      "precision": 0.9029126213592232,
+      "recall": 0.8435374149659864,
+      "f1_score": 0.8722157092614302,
+      "tn": 877,
+      "fp": 40,
+      "fn": 69,
+      "tp": 372,
+      "f1_difference_vs_persistence": 0.0150728521185731
+    },
+    {
+      "model": "Random Forest - World Bank all raw",
+      "feature_count": 33,
+      "accuracy": 0.9123711340206184,
+      "precision": 0.859375,
+      "recall": 0.873015873015873,
+      "f1_score": 0.8661417322834646,
+      "tn": 854,
+      "fp": 63,
+      "fn": 56,
+      "tp": 385,
+      "f1_difference_vs_persistence": 0.0089988751406074
+    },
+    {
+      "model": "Gradient Boosting - World Bank all raw",
+      "feature_count": 33,
+      "accuracy": 0.9138438880706922,
+      "precision": 0.9196891191709844,
+      "recall": 0.8049886621315193,
+      "f1_score": 0.8585247883917775,
+      "tn": 886,
+      "fp": 31,
+      "fn": 86,
+      "tp": 355,
+      "f1_difference_vs_persistence": 0.0013819312489203
+    },
+    {
+      "model": "Persistence baseline",
+      "feature_count": 1,
+      "accuracy": 0.9072164948453608,
+      "precision": 0.8571428571428571,
+      "recall": 0.8571428571428571,
+      "f1_score": 0.8571428571428571,
+      "tn": 854,
+      "fp": 63,
+      "fn": 63,
+      "tp": 378,
+      "f1_difference_vs_persistence": 0.0
+    },
+    {
+      "model": "MLP scaled - World Bank all raw",
+      "feature_count": 33,
+      "accuracy": 0.9094256259204712,
+      "precision": 0.9206349206349206,
+      "recall": 0.7891156462585034,
+      "f1_score": 0.8498168498168498,
+      "tn": 887,
+      "fp": 30,
+      "fn": 93,
+      "tp": 348,
+      "f1_difference_vs_persistence": -0.0073260073260073
+    }
+  ],
+  "validation_summary": {
+    "available": true,
+    "content": {
+      "total_checks": 31,
+      "status_counts": {
+        "PASS": 31
+      },
+      "report_csv": "outputs\\tables\\project_validation_report.csv"
+    }
+  },
+  "generated_files": {
+    "top_risk": "outputs\\tables\\predictive_top_risk_cases.csv",
+    "error_analysis": "outputs\\tables\\predictive_error_analysis.csv",
+    "region_summary": "outputs\\tables\\predictive_region_summary.csv",
+    "country_summary": "outputs\\tables\\predictive_country_summary.csv",
+    "threshold_summary": "outputs\\tables\\predictive_threshold_summary.csv",
+    "summary_json": "outputs\\tables\\predictive_analysis_summary.json",
+    "markdown_report": "reports\\final\\predictive_analysis_report.md"
+  }
+}

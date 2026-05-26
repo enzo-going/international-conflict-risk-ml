@@ -89,6 +89,59 @@ CSV_EXPECTATIONS = {
 }
 
 
+
+PREDICTIVE_ANALYSIS_FILES = [
+    "src/analysis/generate_predictive_analysis_report.py",
+    "outputs/tables/predictive_top_risk_cases.csv",
+    "outputs/tables/predictive_error_analysis.csv",
+    "outputs/tables/predictive_region_summary.csv",
+    "outputs/tables/predictive_country_summary.csv",
+    "outputs/tables/predictive_threshold_summary.csv",
+    "outputs/tables/predictive_analysis_summary.json",
+    "reports/final/predictive_analysis_report.md",
+]
+
+CSV_EXPECTATIONS.update(
+    {
+        "outputs/tables/predictive_top_risk_cases.csv": [
+            "country",
+            "year",
+            "region",
+            "predicted_conflict_probability",
+            "risk_band",
+            "prediction_result",
+        ],
+        "outputs/tables/predictive_error_analysis.csv": [
+            "country",
+            "year",
+            "region",
+            "predicted_conflict_probability",
+            "prediction_result",
+        ],
+        "outputs/tables/predictive_region_summary.csv": [
+            "region",
+            "cases",
+            "countries",
+            "mean_predicted_probability",
+            "f1_score",
+        ],
+        "outputs/tables/predictive_country_summary.csv": [
+            "country",
+            "region",
+            "years_observed",
+            "mean_predicted_probability",
+            "max_predicted_probability",
+        ],
+        "outputs/tables/predictive_threshold_summary.csv": [
+            "threshold",
+            "precision",
+            "recall",
+            "f1_score",
+        ],
+    }
+)
+
+
 def add_check(rows: list[dict], category: str, item: str, status: str, detail: str) -> None:
     rows.append(
         {
@@ -230,6 +283,9 @@ def main() -> None:
 
     for relative_path in OPTIONAL_EXPERIMENTAL_FILES:
         validate_file_exists(rows, relative_path, "experimental_file")
+
+    for relative_path in PREDICTIVE_ANALYSIS_FILES:
+        validate_file_exists(rows, relative_path, "predictive_analysis_file")
 
     for relative_path, expected_columns in CSV_EXPECTATIONS.items():
         validate_csv_columns(rows, relative_path, expected_columns)

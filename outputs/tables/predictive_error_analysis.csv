@@ -1,0 +1,110 @@
+country,year,region,target_conflict_next_year,organized_violence_exists,predicted_conflict_next_year,predicted_conflict_probability,risk_band,prediction_result
+Liberia,2019,Africa,1,1,0,0.491880329356771,moderate,false_negative
+Congo,2018,Africa,1,0,0,0.4903329262322284,moderate,false_negative
+Peru,2018,Americas,1,0,0,0.4856404305300257,moderate,false_negative
+Rwanda,2020,Africa,1,0,0,0.4761564595520526,moderate,false_negative
+Lebanon,2019,Middle East,1,0,0,0.4490395381523078,moderate,false_negative
+Rwanda,2023,Africa,1,0,0,0.4454752837817058,moderate,false_negative
+Ghana,2022,Africa,1,1,0,0.4365205314259005,moderate,false_negative
+France,2023,Europe,1,1,0,0.4142779708374979,moderate,false_negative
+Zimbabwe (Rhodesia),2018,Africa,1,1,0,0.4114015275144274,moderate,false_negative
+Haiti,2017,Americas,1,1,0,0.4023257122376804,moderate,false_negative
+China,2022,Asia,1,0,0,0.3868063229480691,low,false_negative
+El Salvador,2020,Americas,1,0,0,0.3829557418378594,low,false_negative
+United States of America,2017,Americas,1,1,0,0.3529545718761693,low,false_negative
+Armenia,2017,Europe,1,0,0,0.3491568071144831,low,false_negative
+Saudi Arabia,2022,Middle East,1,0,0,0.3412171438582701,low,false_negative
+Kingdom of eSwatini (Swaziland),2019,Africa,1,1,0,0.3342318017443064,low,false_negative
+Madagascar (Malagasy),2018,Africa,1,0,0,0.3237612165591017,low,false_negative
+Papua New Guinea,2020,Asia,1,0,0,0.3196087288543552,low,false_negative
+Senegal,2019,Africa,1,0,0,0.2902039219151177,low,false_negative
+Paraguay,2019,Americas,1,0,0,0.2744598703695315,low,false_negative
+Tajikistan,2020,Asia,1,0,0,0.2705310834859684,low,false_negative
+El Salvador,2018,Americas,1,0,0,0.2686105521948869,low,false_negative
+Lebanon,2022,Middle East,1,0,0,0.2542492867170763,low,false_negative
+Sri Lanka,2018,Asia,1,0,0,0.246174604884409,low,false_negative
+Guatemala,2020,Americas,1,0,0,0.2441898607023254,low,false_negative
+Tajikistan,2021,Asia,1,1,0,0.2416678744421696,low,false_negative
+Guinea,2018,Africa,1,0,0,0.2413646874709905,low,false_negative
+Benin,2019,Africa,1,1,0,0.2284002462726124,low,false_negative
+Senegal,2017,Africa,1,0,0,0.2252121718049108,low,false_negative
+Tajikistan,2017,Asia,1,0,0,0.2176390898198756,low,false_negative
+South Africa,2017,Africa,1,0,0,0.2132484777822045,low,false_negative
+Paraguay,2017,Americas,1,0,0,0.2036401834552668,low,false_negative
+Liberia,2023,Africa,1,0,0,0.1975038386094041,very_low,false_negative
+Mauritania,2022,Africa,1,0,0,0.1974747509912831,very_low,false_negative
+Ivory Coast,2019,Africa,1,0,0,0.1928971871958054,very_low,false_negative
+Papua New Guinea,2018,Asia,1,0,0,0.1915255838917632,very_low,false_negative
+Togo,2021,Africa,1,0,0,0.1881224730844663,very_low,false_negative
+Kyrgyzstan,2020,Asia,1,0,0,0.1876165723124567,very_low,false_negative
+Bolivia,2022,Americas,1,0,0,0.1788447666409054,very_low,false_negative
+Mauritania,2018,Africa,1,0,0,0.1693065960912146,very_low,false_negative
+Zimbabwe (Rhodesia),2017,Africa,1,0,0,0.1583918658749523,very_low,false_negative
+Sierra Leone,2020,Africa,1,0,0,0.1549449812532863,very_low,false_negative
+Kyrgyzstan,2021,Asia,1,1,0,0.1536909320396301,very_low,false_negative
+Eritrea,2021,Africa,1,0,0,0.1455955909735564,very_low,false_negative
+Liberia,2018,Africa,1,0,0,0.1439056249323018,very_low,false_negative
+Bolivia,2020,Americas,1,0,0,0.1339373255801216,very_low,false_negative
+Djibouti,2017,Africa,1,0,0,0.1337168420589797,very_low,false_negative
+Djibouti,2020,Africa,1,0,0,0.1313868264866187,very_low,false_negative
+Togo,2018,Africa,1,0,0,0.1311824859024523,very_low,false_negative
+Ghana,2021,Africa,1,0,0,0.1268656877584401,very_low,false_negative
+United States of America,2021,Americas,1,0,0,0.116084606725484,very_low,false_negative
+Ecuador,2018,Americas,1,0,0,0.1159730375275147,very_low,false_negative
+Morocco,2019,Africa,1,0,0,0.1096609692609126,very_low,false_negative
+Gambia,2023,Africa,1,0,0,0.1048058351747669,very_low,false_negative
+Nepal,2021,Asia,1,0,0,0.1008252144218046,very_low,false_negative
+Kingdom of eSwatini (Swaziland),2018,Africa,1,0,0,0.0996602318508262,very_low,false_negative
+France,2022,Europe,1,0,0,0.0963839589066712,very_low,false_negative
+Jordan,2023,Middle East,1,0,0,0.093194719320394,very_low,false_negative
+Belgium,2017,Europe,1,0,0,0.0714375754844176,very_low,false_negative
+Spain,2022,Europe,1,0,0,0.0650044834202153,very_low,false_negative
+United Arab Emirates,2021,Middle East,1,0,0,0.0634430084096819,very_low,false_negative
+Georgia,2022,Europe,1,0,0,0.0608762837515059,very_low,false_negative
+Benin,2018,Africa,1,0,0,0.0536744465493737,very_low,false_negative
+United Kingdom,2018,Europe,1,0,0,0.0509823660726442,very_low,false_negative
+Germany,2023,Europe,1,0,0,0.0465137763087591,very_low,false_negative
+Belgium,2022,Europe,1,0,0,0.0446634494903783,very_low,false_negative
+Poland,2021,Europe,1,0,0,0.0210094515697345,very_low,false_negative
+Austria,2019,Europe,1,0,0,0.0187277999063981,very_low,false_negative
+Australia,2017,Asia,1,0,0,0.0154236742467172,very_low,false_negative
+Rwanda,2022,Africa,0,1,1,0.9657320241118492,very_high,false_positive
+Tanzania,2022,Africa,0,1,1,0.9482745774559104,very_high,false_positive
+Egypt,2023,Middle East,0,1,1,0.9374916633356926,very_high,false_positive
+Congo,2020,Africa,0,1,1,0.9143362965101176,very_high,false_positive
+Congo,2017,Africa,0,1,1,0.8973255004806145,very_high,false_positive
+Tunisia,2023,Africa,0,1,1,0.8887010857305689,very_high,false_positive
+Lebanon,2018,Middle East,0,1,1,0.8798809440082475,very_high,false_positive
+Azerbaijan,2023,Europe,0,1,1,0.874602957299001,very_high,false_positive
+China,2017,Asia,0,1,1,0.8732924654241678,very_high,false_positive
+Peru,2017,Americas,0,1,1,0.8652530276444498,very_high,false_positive
+Rwanda,2019,Africa,0,1,1,0.8595218439936702,very_high,false_positive
+Armenia,2023,Europe,0,1,1,0.8519799225297238,very_high,false_positive
+Lebanon,2020,Middle East,0,1,1,0.8499298071912191,very_high,false_positive
+Uganda,2019,Africa,0,1,1,0.8414980228678244,very_high,false_positive
+Peru,2023,Americas,0,1,1,0.8293681908174708,very_high,false_positive
+Senegal,2021,Africa,0,1,1,0.8281374955634707,very_high,false_positive
+Saudi Arabia,2021,Middle East,0,1,1,0.8219326785031522,very_high,false_positive
+Saudi Arabia,2023,Middle East,0,1,1,0.8117042624628157,very_high,false_positive
+China,2023,Asia,0,1,1,0.7945997534969037,high,false_positive
+France,2018,Europe,0,1,1,0.7897249259926385,high,false_positive
+Tajikistan,2019,Asia,0,1,1,0.7849035487235339,high,false_positive
+Congo,2022,Africa,0,1,1,0.756511537419735,high,false_positive
+Madagascar (Malagasy),2020,Africa,0,1,1,0.7563017463358982,high,false_positive
+Liberia,2020,Africa,0,1,1,0.7421593741623604,high,false_positive
+Zimbabwe (Rhodesia),2020,Africa,0,1,1,0.7404087020461227,high,false_positive
+Kingdom of eSwatini (Swaziland),2023,Africa,0,1,1,0.726969502589635,high,false_positive
+El Salvador,2022,Americas,0,1,1,0.7239111783296045,high,false_positive
+Mauritania,2020,Africa,0,1,1,0.7101288522146247,high,false_positive
+Guinea,2021,Africa,0,1,1,0.7098545155761403,high,false_positive
+Paraguay,2021,Americas,0,1,1,0.697415128591548,high,false_positive
+United Kingdom,2019,Europe,0,1,1,0.6531022700579339,high,false_positive
+Madagascar (Malagasy),2017,Africa,0,1,1,0.6403521116469659,high,false_positive
+Malaysia,2017,Asia,0,1,1,0.6260457688540332,high,false_positive
+United States of America,2019,Americas,0,1,1,0.6081243400834403,high,false_positive
+China,2018,Asia,0,0,1,0.5991311441975339,moderate,false_positive
+Eritrea,2022,Africa,0,1,1,0.5904069556002384,moderate,false_positive
+Ivory Coast,2020,Africa,0,1,1,0.5821247087288405,moderate,false_positive
+El Salvador,2019,Americas,0,1,1,0.5634884413428757,moderate,false_positive
+Papua New Guinea,2019,Asia,0,1,1,0.5446771295011884,moderate,false_positive
+Senegal,2018,Africa,0,1,1,0.5302071615829245,moderate,false_positive

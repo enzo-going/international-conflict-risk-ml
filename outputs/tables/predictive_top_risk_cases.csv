@@ -1,0 +1,101 @@
+country,year,region,target_conflict_next_year,organized_violence_exists,predicted_conflict_next_year,predicted_conflict_probability,risk_band,prediction_result
+DR Congo (Zaire),2020,Africa,1,1,1,1.0,very_high,true_positive
+DR Congo (Zaire),2022,Africa,1,1,1,1.0,very_high,true_positive
+DR Congo (Zaire),2021,Africa,1,1,1,1.0,very_high,true_positive
+Nigeria,2020,Africa,1,1,1,0.9999999999999982,very_high,true_positive
+DR Congo (Zaire),2017,Africa,1,1,1,0.9999999999999962,very_high,true_positive
+DR Congo (Zaire),2019,Africa,1,1,1,0.9999999999999908,very_high,true_positive
+Nigeria,2022,Africa,1,1,1,0.999999999999988,very_high,true_positive
+DR Congo (Zaire),2018,Africa,1,1,1,0.9999999999999858,very_high,true_positive
+DR Congo (Zaire),2023,Africa,1,1,1,0.9999999999999832,very_high,true_positive
+Nigeria,2019,Africa,1,1,1,0.9999999999997604,very_high,true_positive
+Nigeria,2017,Africa,1,1,1,0.9999999999995696,very_high,true_positive
+Nigeria,2023,Africa,1,1,1,0.9999999999995216,very_high,true_positive
+Nigeria,2018,Africa,1,1,1,0.9999999999986732,very_high,true_positive
+Syria,2017,Middle East,1,1,1,0.999999999997308,very_high,true_positive
+Nigeria,2021,Africa,1,1,1,0.9999999999754376,very_high,true_positive
+Mexico,2021,Americas,1,1,1,0.999999999966706,very_high,true_positive
+Syria,2018,Middle East,1,1,1,0.9999999999651108,very_high,true_positive
+Ukraine,2022,Europe,1,1,1,0.9999999999635364,very_high,true_positive
+Brazil,2023,Americas,1,1,1,0.9999999999419776,very_high,true_positive
+Mexico,2020,Americas,1,1,1,0.9999999998676716,very_high,true_positive
+Brazil,2022,Americas,1,1,1,0.999999999838198,very_high,true_positive
+Mexico,2019,Americas,1,1,1,0.9999999997134494,very_high,true_positive
+Mexico,2018,Americas,1,1,1,0.9999999989681204,very_high,true_positive
+Mexico,2022,Americas,1,1,1,0.9999999988942324,very_high,true_positive
+Brazil,2021,Americas,1,1,1,0.9999999988748068,very_high,true_positive
+Central African Republic,2017,Africa,1,1,1,0.9999999987744366,very_high,true_positive
+Mali,2017,Africa,1,1,1,0.999999986777439,very_high,true_positive
+Brazil,2020,Americas,1,1,1,0.999999968583824,very_high,true_positive
+Ukraine,2023,Europe,1,1,1,0.9999999485274198,very_high,true_positive
+Sudan,2017,Africa,1,1,1,0.9999999327181862,very_high,true_positive
+Sudan,2022,Africa,1,1,1,0.9999999318284504,very_high,true_positive
+Mexico,2023,Americas,1,1,1,0.9999999310373684,very_high,true_positive
+Brazil,2019,Americas,1,1,1,0.9999999005171492,very_high,true_positive
+Ethiopia,2020,Africa,1,1,1,0.9999998858375496,very_high,true_positive
+South Sudan,2018,Africa,1,1,1,0.9999998338248888,very_high,true_positive
+South Sudan,2020,Africa,1,1,1,0.9999997995317492,very_high,true_positive
+Central African Republic,2020,Africa,1,1,1,0.9999997162797206,very_high,true_positive
+Sudan,2021,Africa,1,1,1,0.999999472927728,very_high,true_positive
+South Sudan,2019,Africa,1,1,1,0.9999994293393168,very_high,true_positive
+Mali,2018,Africa,1,1,1,0.999999080403749,very_high,true_positive
+Mali,2019,Africa,1,1,1,0.9999989755921708,very_high,true_positive
+South Sudan,2021,Africa,1,1,1,0.9999984800826502,very_high,true_positive
+Sudan,2020,Africa,1,1,1,0.9999984798188264,very_high,true_positive
+Syria,2020,Middle East,1,1,1,0.9999981885711964,very_high,true_positive
+Central African Republic,2018,Africa,1,1,1,0.9999975776666584,very_high,true_positive
+Ethiopia,2018,Africa,1,1,1,0.9999974525270984,very_high,true_positive
+Sudan,2023,Africa,1,1,1,0.9999974082113208,very_high,true_positive
+Mali,2022,Africa,1,1,1,0.9999968203979088,very_high,true_positive
+Central African Republic,2019,Africa,1,1,1,0.9999967265038906,very_high,true_positive
+Somalia,2018,Africa,1,1,1,0.9999961137551466,very_high,true_positive
+Colombia,2020,Americas,1,1,1,0.9999960897536267,very_high,true_positive
+India,2023,Asia,1,1,1,0.9999960038630888,very_high,true_positive
+Syria,2019,Middle East,1,1,1,0.9999959627749556,very_high,true_positive
+Mexico,2017,Americas,1,1,1,0.9999948317219236,very_high,true_positive
+Colombia,2023,Americas,1,1,1,0.9999946178150732,very_high,true_positive
+Myanmar (Burma),2022,Asia,1,1,1,0.9999940814332132,very_high,true_positive
+India,2018,Asia,1,1,1,0.999994017723647,very_high,true_positive
+Mali,2023,Africa,1,1,1,0.9999932212329152,very_high,true_positive
+South Sudan,2017,Africa,1,1,1,0.9999927284423588,very_high,true_positive
+Pakistan,2017,Asia,1,1,1,0.9999925968493062,very_high,true_positive
+Mali,2020,Africa,1,1,1,0.999992247650682,very_high,true_positive
+Myanmar (Burma),2021,Asia,1,1,1,0.9999922006744556,very_high,true_positive
+South Sudan,2022,Africa,1,1,1,0.9999910033005518,very_high,true_positive
+Afghanistan,2017,Asia,1,1,1,0.999990578498939,very_high,true_positive
+Pakistan,2021,Asia,1,1,1,0.9999904407951248,very_high,true_positive
+Somalia,2019,Africa,1,1,1,0.999990097687242,very_high,true_positive
+Myanmar (Burma),2023,Asia,1,1,1,0.9999894539730864,very_high,true_positive
+Sudan,2018,Africa,1,1,1,0.999987945797282,very_high,true_positive
+Libya,2018,Africa,1,1,1,0.9999810591363992,very_high,true_positive
+Colombia,2019,Americas,1,1,1,0.9999797212107264,very_high,true_positive
+Ethiopia,2023,Africa,1,1,1,0.9999769414187094,very_high,true_positive
+Syria,2021,Middle East,1,1,1,0.9999767424324576,very_high,true_positive
+India,2020,Asia,1,1,1,0.9999722903293128,very_high,true_positive
+India,2019,Asia,1,1,1,0.9999659715718288,very_high,true_positive
+Syria,2023,Middle East,1,1,1,0.9999629445438994,very_high,true_positive
+Mali,2021,Africa,1,1,1,0.9999595757848608,very_high,true_positive
+Libya,2017,Africa,1,1,1,0.999949786014544,very_high,true_positive
+Colombia,2022,Americas,1,1,1,0.9999392591348036,very_high,true_positive
+Brazil,2018,Americas,1,1,1,0.9999379130446322,very_high,true_positive
+Ethiopia,2019,Africa,1,1,1,0.999935206758344,very_high,true_positive
+Kenya,2017,Africa,1,1,1,0.9999349799604448,very_high,true_positive
+India,2017,Asia,1,1,1,0.9999220912808996,very_high,true_positive
+India,2022,Asia,1,1,1,0.9999195999755316,very_high,true_positive
+Pakistan,2023,Asia,1,1,1,0.999906873084338,very_high,true_positive
+Somalia,2020,Africa,1,1,1,0.9999055035936044,very_high,true_positive
+Cameroon,2023,Africa,1,1,1,0.9999049399236164,very_high,true_positive
+Ethiopia,2022,Africa,1,1,1,0.9998886681210004,very_high,true_positive
+Colombia,2021,Americas,1,1,1,0.9998748668945115,very_high,true_positive
+Brazil,2017,Americas,1,1,1,0.999871752201158,very_high,true_positive
+Kenya,2018,Africa,1,1,1,0.9998563709744508,very_high,true_positive
+Pakistan,2018,Asia,1,1,1,0.9998523642272428,very_high,true_positive
+Yemen (North Yemen),2018,Middle East,1,1,1,0.9998520629925796,very_high,true_positive
+Kenya,2019,Africa,1,1,1,0.999851051919022,very_high,true_positive
+Ecuador,2023,Americas,1,1,1,0.9998384495744284,very_high,true_positive
+Yemen (North Yemen),2019,Middle East,1,1,1,0.9998353742872018,very_high,true_positive
+India,2021,Asia,1,1,1,0.9998292400013368,very_high,true_positive
+Cameroon,2021,Africa,1,1,1,0.9998239980894358,very_high,true_positive
+Sudan,2019,Africa,1,1,1,0.9997799589885576,very_high,true_positive
+Colombia,2018,Americas,1,1,1,0.9997786747777616,very_high,true_positive
+Afghanistan,2021,Asia,1,1,1,0.999773086369132,very_high,true_positive

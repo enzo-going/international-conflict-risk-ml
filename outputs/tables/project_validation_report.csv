@@ -21,12 +21,25 @@ experimental_file,data/final/UCDP_One-sided_Violence_Dataset_updated.csv,PASS,fi
 experimental_file,outputs/tables/one_sided_predictions.csv,PASS,file exists
 experimental_file,outputs/tables/one_sided_feature_importance.csv,PASS,file exists
 experimental_file,outputs/tables/neighbors.json,PASS,file exists
+predictive_analysis_file,src/analysis/generate_predictive_analysis_report.py,PASS,file exists
+predictive_analysis_file,outputs/tables/predictive_top_risk_cases.csv,PASS,file exists
+predictive_analysis_file,outputs/tables/predictive_error_analysis.csv,PASS,file exists
+predictive_analysis_file,outputs/tables/predictive_region_summary.csv,PASS,file exists
+predictive_analysis_file,outputs/tables/predictive_country_summary.csv,PASS,file exists
+predictive_analysis_file,outputs/tables/predictive_threshold_summary.csv,PASS,file exists
+predictive_analysis_file,outputs/tables/predictive_analysis_summary.json,PASS,file exists
+predictive_analysis_file,reports/final/predictive_analysis_report.md,PASS,file exists
 csv_schema,outputs/tables/conflict_risk_model_metrics.csv,PASS,"rows=2, columns=10"
 csv_schema,outputs/tables/conflict_risk_model_test_predictions.csv,PASS,"rows=1358, columns=9"
 csv_schema,outputs/tables/conflict_risk_model_coefficients.csv,PASS,"rows=33, columns=6"
 csv_schema,outputs/tables/candidate_model_comparison.csv,PASS,"rows=5, columns=11"
 csv_schema,outputs/tables/one_sided_predictions.csv,PASS,"rows=800, columns=5"
 csv_schema,outputs/tables/one_sided_feature_importance.csv,PASS,"rows=14, columns=3"
+csv_schema,outputs/tables/predictive_top_risk_cases.csv,PASS,"rows=100, columns=9"
+csv_schema,outputs/tables/predictive_error_analysis.csv,PASS,"rows=109, columns=9"
+csv_schema,outputs/tables/predictive_region_summary.csv,PASS,"rows=5, columns=15"
+csv_schema,outputs/tables/predictive_country_summary.csv,PASS,"rows=194, columns=12"
+csv_schema,outputs/tables/predictive_threshold_summary.csv,PASS,"rows=17, columns=10"
 model_metrics,main_model_vs_baseline,PASS,"logistic_f1=0.8722, baseline_f1=0.8571"
 metadata,target_column,PASS,target_conflict_next_year
 metadata,feature_count,PASS,n_features=33
