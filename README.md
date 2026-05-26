@@ -126,6 +126,10 @@ Para uma visão detalhada da função de cada arquivo e da ordem dos scripts, co
 
 `docs/project_map.md`
 
+Para uma síntese metodológica final do projeto, consulte:
+
+`docs/methodology/final_methodological_summary.md`
+
 ## Pipeline principal
 
 O pipeline oficial do projeto utiliza:

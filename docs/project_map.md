@@ -184,6 +184,8 @@ Arquivos principais:
 - `docs/methodology/ucdp_organized_violence_notes.md`
 - `docs/methodology/modeling_notes.md`
 - `docs/methodology/model_training_pipeline.md`
+- `docs/methodology/final_methodological_summary.md`
+- `docs/methodology/one_sided_experimental_module_review.md`
 - `docs/database/database_design.md`
 - `docs/references/world_bank_indicators.md`
 
