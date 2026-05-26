@@ -747,7 +747,87 @@
     </section>
 
     <section>
-      <h2>10. Módulo futuro: termômetro experimental de escalada</h2>
+      <h2>Visualizações preditivas geradas por Python</h2>
+
+<div class="card predictive-gallery-section">
+  <p>
+    Além das tabelas e métricas, o projeto gera visualizações preditivas diretamente por scripts Python.
+    Esses gráficos são produzidos a partir dos outputs do modelo principal e dos relatórios de análise preditiva.
+  </p>
+
+  <p>
+    O script responsável é <code>src/visualization/generate_predictive_charts.py</code>.
+    Os arquivos públicos usados neste dashboard ficam em <code>docs/assets/charts/predictive_analysis/</code>.
+  </p>
+
+  <p class="muted">
+    Clique em qualquer gráfico para abrir em tamanho ampliado.
+  </p>
+
+  <div class="predictive-chart-grid">
+    <figure class="predictive-chart-card" tabindex="0"
+      data-chart-src="assets/charts/predictive_analysis/threshold_f1_curve.png"
+      data-chart-title="F1-score por threshold">
+      <img class="predictive-chart-thumb" src="assets/charts/predictive_analysis/threshold_f1_curve.png" alt="F1-score por threshold" />
+      <figcaption>
+        <strong>F1-score por threshold</strong>
+        <span>Mostra o ponto de corte com melhor equilíbrio geral do modelo.</span>
+      </figcaption>
+    </figure>
+
+    <figure class="predictive-chart-card" tabindex="0"
+      data-chart-src="assets/charts/predictive_analysis/threshold_precision_recall_curve.png"
+      data-chart-title="Precision e recall por threshold">
+      <img class="predictive-chart-thumb" src="assets/charts/predictive_analysis/threshold_precision_recall_curve.png" alt="Precision e recall por threshold" />
+      <figcaption>
+        <strong>Precision e recall por threshold</strong>
+        <span>Mostra a troca entre reduzir falsos positivos e reduzir falsos negativos.</span>
+      </figcaption>
+    </figure>
+
+    <figure class="predictive-chart-card" tabindex="0"
+      data-chart-src="assets/charts/predictive_analysis/region_mean_predicted_probability.png"
+      data-chart-title="Risco médio previsto por região">
+      <img class="predictive-chart-thumb" src="assets/charts/predictive_analysis/region_mean_predicted_probability.png" alt="Risco médio previsto por região" />
+      <figcaption>
+        <strong>Risco médio previsto por região</strong>
+        <span>Compara a probabilidade média estimada nas regiões do conjunto de teste.</span>
+      </figcaption>
+    </figure>
+
+    <figure class="predictive-chart-card" tabindex="0"
+      data-chart-src="assets/charts/predictive_analysis/prediction_result_counts.png"
+      data-chart-title="Distribuição dos acertos e erros">
+      <img class="predictive-chart-thumb" src="assets/charts/predictive_analysis/prediction_result_counts.png" alt="Distribuição dos acertos e erros do modelo" />
+      <figcaption>
+        <strong>Distribuição dos acertos e erros</strong>
+        <span>Resume verdadeiros positivos, verdadeiros negativos, falsos positivos e falsos negativos.</span>
+      </figcaption>
+    </figure>
+
+    <figure class="predictive-chart-card" tabindex="0"
+      data-chart-src="assets/charts/predictive_analysis/risk_band_distribution.png"
+      data-chart-title="Distribuição das faixas de risco">
+      <img class="predictive-chart-thumb" src="assets/charts/predictive_analysis/risk_band_distribution.png" alt="Distribuição das faixas de risco" />
+      <figcaption>
+        <strong>Distribuição das faixas de risco</strong>
+        <span>Mostra como os casos foram distribuídos entre risco muito baixo e muito alto.</span>
+      </figcaption>
+    </figure>
+
+    <figure class="predictive-chart-card" tabindex="0"
+      data-chart-src="assets/charts/predictive_analysis/country_prediction_gap.png"
+      data-chart-title="Países com maior divergência preditiva">
+      <img class="predictive-chart-thumb" src="assets/charts/predictive_analysis/country_prediction_gap.png" alt="Países com maior divergência preditiva" />
+      <figcaption>
+        <strong>Países com maior divergência preditiva</strong>
+        <span>Mostra onde a taxa prevista mais diverge da taxa real observada.</span>
+      </figcaption>
+    </figure>
+  </div>
+</div>
+
+<h2>10. Módulo futuro: termômetro experimental de escalada</h2>
       <p>
         Uma evolução futura do sistema pode ser a criação de um índice agregado de risco,
         apresentado como um termômetro exploratório de escalada global. Esse módulo não deve
@@ -773,5 +853,14 @@
     </div>
   </div>
   <script src="assets/dashboard.js" defer></script>
+<div id="chartLightbox" class="chart-lightbox" aria-hidden="true">
+  <div class="chart-lightbox-backdrop" data-chart-close="true"></div>
+  <div class="chart-lightbox-dialog" role="dialog" aria-modal="true" aria-label="Visualização ampliada do gráfico">
+    <button class="chart-lightbox-close" type="button" aria-label="Fechar gráfico ampliado">×</button>
+    <h3 id="chartLightboxTitle"></h3>
+    <img id="chartLightboxImage" src="" alt="" />
+  </div>
+</div>
+
 </body>
 </html>

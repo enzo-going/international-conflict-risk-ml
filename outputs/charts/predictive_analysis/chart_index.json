@@ -1,5 +1,5 @@
 {
-  "chart_count": 8,
+  "chart_count": 9,
   "charts": [
     "outputs/charts/predictive_analysis/threshold_f1_curve.png",
     "outputs/charts/predictive_analysis/threshold_precision_recall_curve.png",
@@ -8,6 +8,7 @@
     "outputs/charts/predictive_analysis/risk_band_distribution.png",
     "outputs/charts/predictive_analysis/prediction_result_counts.png",
     "outputs/charts/predictive_analysis/top_countries_mean_predicted_probability.png",
+    "outputs/charts/predictive_analysis/country_prediction_gap.png",
     "outputs/charts/predictive_analysis/top_cases_predicted_probability.png"
   ]
 }

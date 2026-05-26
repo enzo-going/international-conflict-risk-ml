@@ -11,7 +11,10 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 OUTPUT_TABLES_DIR = PROJECT_ROOT / "outputs" / "tables"
 OUTPUT_CHARTS_DIR = PROJECT_ROOT / "outputs" / "charts" / "predictive_analysis"
+PUBLIC_CHARTS_DIR = PROJECT_ROOT / "docs" / "assets" / "charts" / "predictive_analysis"
+
 OUTPUT_CHARTS_DIR.mkdir(parents=True, exist_ok=True)
+PUBLIC_CHARTS_DIR.mkdir(parents=True, exist_ok=True)
 
 THRESHOLD_PATH = OUTPUT_TABLES_DIR / "predictive_threshold_summary.csv"
 REGION_PATH = OUTPUT_TABLES_DIR / "predictive_region_summary.csv"
@@ -31,6 +34,9 @@ def save_chart(path: Path) -> None:
     plt.tight_layout()
     plt.savefig(path, dpi=160, bbox_inches="tight")
     plt.close()
+
+    public_path = PUBLIC_CHARTS_DIR / path.name
+    public_path.write_bytes(path.read_bytes())
 
 
 def plot_threshold_f1(threshold_df: pd.DataFrame) -> Path:
@@ -160,6 +166,34 @@ def plot_top_countries_mean_probability(country_df: pd.DataFrame, limit: int = 1
     return output_path
 
 
+
+def plot_country_prediction_gap(country_df: pd.DataFrame, limit: int = 15) -> Path:
+    output_path = OUTPUT_CHARTS_DIR / "country_prediction_gap.png"
+
+    df = country_df.copy()
+    df["prediction_gap"] = df["predicted_conflict_rate"] - df["actual_conflict_rate"]
+    df["absolute_prediction_gap"] = df["prediction_gap"].abs()
+
+    df = (
+        df[df["years_observed"] >= 3]
+        .sort_values("absolute_prediction_gap", ascending=False)
+        .head(limit)
+        .sort_values("absolute_prediction_gap", ascending=True)
+    )
+
+    df["case_label"] = df["country"].astype(str) + " (" + df["region"].astype(str) + ")"
+
+    plt.figure(figsize=(10, 8))
+    plt.barh(df["case_label"], df["absolute_prediction_gap"])
+    plt.xlabel("Diferença absoluta entre taxa prevista e taxa real")
+    plt.ylabel("País")
+    plt.title(f"Top {limit} países com maior divergência preditiva")
+    plt.grid(axis="x", alpha=0.3)
+
+    save_chart(output_path)
+    return output_path
+
+
 def plot_top_cases_probability(top_risk_df: pd.DataFrame, limit: int = 20) -> Path:
     output_path = OUTPUT_CHARTS_DIR / "top_cases_predicted_probability.png"
 
@@ -199,6 +233,7 @@ def main() -> None:
         plot_risk_band_distribution(summary),
         plot_prediction_result_counts(summary),
         plot_top_countries_mean_probability(country_df),
+        plot_country_prediction_gap(country_df),
         plot_top_cases_probability(top_risk_df),
     ]
 
@@ -212,6 +247,19 @@ def main() -> None:
 
     CHART_INDEX_PATH.write_text(
         json.dumps(chart_index, indent=2, ensure_ascii=False),
+        encoding="utf-8",
+    )
+
+    public_chart_index = {
+        "chart_count": len(generated_paths),
+        "charts": [
+            f"assets/charts/predictive_analysis/{path.name}"
+            for path in generated_paths
+        ],
+    }
+
+    (PUBLIC_CHARTS_DIR / "chart_index.json").write_text(
+        json.dumps(public_chart_index, indent=2, ensure_ascii=False),
         encoding="utf-8",
     )
 

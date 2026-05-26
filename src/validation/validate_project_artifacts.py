@@ -112,7 +112,22 @@ PREDICTIVE_CHART_FILES = [
     "outputs/charts/predictive_analysis/risk_band_distribution.png",
     "outputs/charts/predictive_analysis/prediction_result_counts.png",
     "outputs/charts/predictive_analysis/top_countries_mean_predicted_probability.png",
+    "outputs/charts/predictive_analysis/country_prediction_gap.png",
     "outputs/charts/predictive_analysis/top_cases_predicted_probability.png",
+]
+
+
+PUBLIC_PREDICTIVE_CHART_FILES = [
+    "docs/assets/charts/predictive_analysis/chart_index.json",
+    "docs/assets/charts/predictive_analysis/threshold_f1_curve.png",
+    "docs/assets/charts/predictive_analysis/threshold_precision_recall_curve.png",
+    "docs/assets/charts/predictive_analysis/region_mean_predicted_probability.png",
+    "docs/assets/charts/predictive_analysis/region_f1_score.png",
+    "docs/assets/charts/predictive_analysis/risk_band_distribution.png",
+    "docs/assets/charts/predictive_analysis/prediction_result_counts.png",
+    "docs/assets/charts/predictive_analysis/top_countries_mean_predicted_probability.png",
+    "docs/assets/charts/predictive_analysis/country_prediction_gap.png",
+    "docs/assets/charts/predictive_analysis/top_cases_predicted_probability.png",
 ]
 
 CSV_EXPECTATIONS.update(
@@ -303,6 +318,9 @@ def main() -> None:
 
     for relative_path in PREDICTIVE_CHART_FILES:
         validate_file_exists(rows, relative_path, "predictive_chart_file")
+
+    for relative_path in PUBLIC_PREDICTIVE_CHART_FILES:
+        validate_file_exists(rows, relative_path, "public_predictive_chart_file")
 
     for relative_path, expected_columns in CSV_EXPECTATIONS.items():
         validate_csv_columns(rows, relative_path, expected_columns)
