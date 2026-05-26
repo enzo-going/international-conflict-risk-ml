@@ -280,6 +280,25 @@ O projeto já saiu da fase inicial de estruturação e atualmente possui um pipe
 - [x] Testar modelos adicionais, como Random Forest, Gradient Boosting e MLP
 - [ ] Avaliar seleção de features e impacto individual dos indicadores World Bank
 
+## Validação automática dos artefatos
+
+O projeto possui um script de validação automática para verificar a consistência dos principais arquivos, outputs, schemas e metadados do pipeline.
+
+O script está em:
+
+`src/validation/validate_project_artifacts.py`
+
+Ele gera:
+
+- `outputs/tables/project_validation_report.csv`
+- `outputs/tables/project_validation_summary.json`
+
+Na execução atual, a validação retornou 31 checks com status PASS, sem falhas.
+
+Para executar:
+
+`python src/validation/validate_project_artifacts.py`
+
 ## Como reproduzir o modelo principal
 
 Instale as dependências:

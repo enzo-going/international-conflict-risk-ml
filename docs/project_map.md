@@ -200,6 +200,25 @@ Os seguintes arquivos foram adicionados posteriormente pelo grupo e ainda precis
 
 Observação: o dataset WWI e os scripts WWI ainda parecem usar estruturas de colunas diferentes. Portanto, devem ser tratados como experimento paralelo ou material histórico até revisão.
 
+## Validação automática
+
+O projeto possui uma camada de validação em:
+
+- `src/validation/validate_project_artifacts.py`
+
+Esse script verifica:
+
+- existência dos principais arquivos do projeto;
+- schemas dos CSVs principais;
+- métricas do modelo principal;
+- metadados das features;
+- artefatos do módulo experimental One-Sided Violence.
+
+Outputs gerados:
+
+- `outputs/tables/project_validation_report.csv`
+- `outputs/tables/project_validation_summary.json`
+
 ## Próximas prioridades
 
 1. Refinar a seleção de features do modelo principal.
