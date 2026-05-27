@@ -279,3 +279,22 @@ Outputs gerados:
 3. Avaliar modelos candidatos com validação mais robusta e análise de estabilidade.
 4. Atualizar o dashboard quando houver novo ganho metodológico ou resultado relevante.
 5. Validar ou reorganizar os arquivos WWI adicionados pelo grupo antes de integrá-los ao pipeline oficial.
+
+## Módulo experimental WWI/WWII
+
+O projeto possui um módulo experimental relacionado à análise histórica de mortes e escalada em guerras mundiais.
+
+Documento de revisão:
+
+- `docs/methodology/war_deaths_experimental_module_review.md`
+
+Arquivos relacionados:
+
+- `data/final/world_war_1_details_clean.csv`
+- `data/final/world_war_2_clean.csv`
+- `src/data/wwi_predictive_analysis_scalability_of_conflict.py`
+- `src/features/build_temporal_generation_wars_deaths.py`
+- `src/features/build_features_wars_deaths.py`
+- `src/models/train_model_wars_deaths.py`
+
+Status: experimental. Não integra o pipeline principal `country-year`.

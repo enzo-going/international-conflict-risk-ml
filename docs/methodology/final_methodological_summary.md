@@ -398,6 +398,19 @@ A camada gera frases interpretáveis como:
 
 As explicações são aproximações baseadas nos coeficientes e valores relativos das features. Elas não devem ser lidas como causalidade direta.
 
+## Módulo experimental WWI/WWII
+
+Além do pipeline principal, o repositório contém um módulo experimental relacionado à Primeira e Segunda Guerra Mundial.
+
+Esse módulo trabalha com datasets históricos de guerras, baixas militares e civis, alianças, frentes de batalha e intensidade de mortes.
+
+A revisão metodológica concluiu que esse módulo não deve substituir o pipeline principal, porque trabalha com outra granularidade e outro objetivo preditivo:
+
+- pipeline principal: previsão de violência organizada no ano seguinte em estrutura `country-year`;
+- módulo WWI/WWII: análise experimental de escalada e mortes em guerras históricas.
+
+Portanto, o módulo foi preservado como expansão experimental e possível base futura para estudos de severidade, duração e escalada de guerras.
+
 ## Auditoria e governança dos datasets
 
 Durante a execução do projeto, diferentes integrantes do grupo adicionaram datasets e arquivos derivados ao repositório.
