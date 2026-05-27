@@ -10,9 +10,9 @@ Datasets que não possuem país/localidade e ano precisam ser transformados, agr
 
 ## Resumo executivo
 
-- Total de datasets auditados: 22
+- Total de datasets auditados: 23
 - Datasets compatíveis ou candidatos ao pipeline principal: 6
-- Datasets experimentais/em revisão: 3
+- Datasets experimentais/em revisão: 4
 - Arquivos brutos preservados como suporte/rastreabilidade: 11
 - Datasets que requerem transformação: 0
 - Datasets ainda não prontos ou não integráveis diretamente: 2
@@ -23,7 +23,7 @@ Datasets que não possuem país/localidade e ano precisam ser transformados, agr
 | --- | --- |
 | supporting_raw_data | 11 |
 | official | 6 |
-| experimental | 3 |
+| experimental | 4 |
 | not_ready | 2 |
 
 ## Contagem por fonte detectada
@@ -37,6 +37,7 @@ Datasets que não possuem país/localidade e ano precisam ser transformados, agr
 | project_world_bank_dataset | 2 |
 | ucdp | 2 |
 | wwi | 1 |
+| wwii | 1 |
 
 ## Datasets oficiais, candidatos e experimentais
 
@@ -45,6 +46,7 @@ Datasets que não possuem país/localidade e ano precisam ser transformados, agr
 | data/final/UCDP_One-sided_Violence_Dataset_updated.csv | ucdp_one_sided | final | 1330.0000 | 4.0000 | actor-country-year | experimental_review | experimental | Fonte adicionada pelo grupo ou módulo paralelo; requer validação e possível agregação antes de integração ao pipeline principal. |
 | data/raw/ucdp/OneSided_v25_1.xlsx | ucdp_one_sided | raw | 1330.0000 | 17.0000 | actor-country-year | experimental_review | experimental | Fonte adicionada pelo grupo ou módulo paralelo; requer validação e possível agregação antes de integração ao pipeline principal. |
 | data/final/world_war_1_details_clean.csv | wwi | final | 10000.0000 | 11.0000 | event-country-year | experimental_review | experimental | Fonte adicionada pelo grupo ou módulo paralelo; requer validação e possível agregação antes de integração ao pipeline principal. |
+| data/final/world_war_2_clean.csv | wwii | final | 10000.0000 | 11.0000 | event-country-year | experimental_review | experimental | Fonte adicionada pelo grupo ou módulo paralelo; requer validação e possível agregação antes de integração ao pipeline principal. |
 | data/final/conflict_country_year_base.csv | project_final_dataset | final | 6737.0000 | 22.0000 | country-year | official_project_dataset | official | Dataset final produzido pelo pipeline do projeto e compatível com a unidade country-year. |
 | data/final/conflict_country_year_temporal.csv | project_final_dataset | final | 6737.0000 | 28.0000 | country-year | official_project_dataset | official | Dataset final produzido pelo pipeline do projeto e compatível com a unidade country-year. |
 | data/final/conflict_country_year_world_bank.csv | project_world_bank_dataset | final | 6663.0000 | 43.0000 | country-year | official_project_dataset | official | Dataset final produzido pelo pipeline do projeto e compatível com a unidade country-year. |
