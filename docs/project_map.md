@@ -200,6 +200,31 @@ Os seguintes arquivos foram adicionados posteriormente pelo grupo e ainda precis
 
 Observação: o dataset WWI e os scripts WWI ainda parecem usar estruturas de colunas diferentes. Portanto, devem ser tratados como experimento paralelo ou material histórico até revisão.
 
+## Análise preditiva por país
+
+Scripts:
+
+- `src/analysis/generate_country_risk_assessment.py`
+- `src/analysis/generate_country_risk_explanations.py`
+
+Outputs:
+
+- `outputs/tables/country_risk_assessment_latest_year.csv`
+- `outputs/tables/country_risk_assessment_summary.json`
+- `outputs/tables/country_risk_level_summary.csv`
+- `outputs/tables/country_risk_explanations_latest_year.csv`
+- `outputs/tables/country_risk_explanation_group_summary.csv`
+- `outputs/tables/country_risk_explanation_summary.json`
+- `reports/final/country_risk_assessment_latest_year.md`
+- `reports/final/country_risk_explanations_latest_year.md`
+
+Função:
+
+- traduzir probabilidades do modelo em faixas de risco;
+- gerar frases interpretáveis por país;
+- cruzar probabilidades, features, coeficientes e grupos de variáveis;
+- apoiar a apresentação do projeto como sistema de análise preditiva.
+
 ## Auditoria de integração de datasets
 
 A auditoria automática de datasets está em:

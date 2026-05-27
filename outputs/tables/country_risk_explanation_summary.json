@@ -1,0 +1,15 @@
+{
+  "latest_year": 2023,
+  "forecast_year": 2024,
+  "countries_evaluated": 194,
+  "feature_count_from_model_metadata": 33,
+  "coefficient_count": 33,
+  "explanation_method": "heuristic_coefficient_feature_signal",
+  "methodological_warning": "Signals are approximate explanations based on coefficients and relative feature values; they are not causal effects and not an exact SHAP/logit decomposition.",
+  "generated_files": {
+    "explanations_csv": "outputs\\tables\\country_risk_explanations_latest_year.csv",
+    "group_summary_csv": "outputs\\tables\\country_risk_explanation_group_summary.csv",
+    "summary_json": "outputs\\tables\\country_risk_explanation_summary.json",
+    "markdown_report": "reports\\final\\country_risk_explanations_latest_year.md"
+  }
+}

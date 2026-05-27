@@ -147,6 +147,15 @@ COUNTRY_RISK_ASSESSMENT_FILES = [
     "reports/final/country_risk_assessment_latest_year.md",
 ]
 
+
+COUNTRY_RISK_EXPLANATION_FILES = [
+    "src/analysis/generate_country_risk_explanations.py",
+    "outputs/tables/country_risk_explanations_latest_year.csv",
+    "outputs/tables/country_risk_explanation_group_summary.csv",
+    "outputs/tables/country_risk_explanation_summary.json",
+    "reports/final/country_risk_explanations_latest_year.md",
+]
+
 CSV_EXPECTATIONS.update(
     {
         "outputs/tables/predictive_top_risk_cases.csv": [
@@ -344,6 +353,9 @@ def main() -> None:
 
     for relative_path in COUNTRY_RISK_ASSESSMENT_FILES:
         validate_file_exists(rows, relative_path, "country_risk_assessment_file")
+
+    for relative_path in COUNTRY_RISK_EXPLANATION_FILES:
+        validate_file_exists(rows, relative_path, "country_risk_explanation_file")
 
     for relative_path, expected_columns in CSV_EXPECTATIONS.items():
         validate_csv_columns(rows, relative_path, expected_columns)

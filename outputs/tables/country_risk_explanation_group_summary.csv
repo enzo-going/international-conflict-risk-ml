@@ -1,0 +1,5 @@
+feature_group,feature_group_label,mean_signal,mean_absolute_signal,total_absolute_signal,feature_count,country_count
+ucdp_conflict,histórico e intensidade de conflitos UCDP,0.09479335752770654,0.13749893787316997,400.1219092109246,15,194
+temporal_conflict,persistência temporal de conflito,0.03883206839138974,0.14491941186032864,196.8005613063263,7,194
+world_bank,indicadores socioeconômicos World Bank,-0.0040593158095118,0.05330801307956216,103.41754537435058,10,194
+time_index,tendência temporal geral,0.0,0.0,0.0,1,194

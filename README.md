@@ -280,6 +280,42 @@ O projeto já saiu da fase inicial de estruturação e atualmente possui um pipe
 - [x] Testar modelos adicionais, como Random Forest, Gradient Boosting e MLP
 - [ ] Avaliar seleção de features e impacto individual dos indicadores World Bank
 
+## Análise preditiva por país
+
+Além das métricas globais do modelo, o projeto gera uma avaliação preditiva por país.
+
+Scripts principais:
+
+- `src/analysis/generate_country_risk_assessment.py`
+- `src/analysis/generate_country_risk_explanations.py`
+
+Arquivos gerados:
+
+- `outputs/tables/country_risk_assessment_latest_year.csv`
+- `outputs/tables/country_risk_level_summary.csv`
+- `outputs/tables/country_risk_explanations_latest_year.csv`
+- `outputs/tables/country_risk_explanation_group_summary.csv`
+- `reports/final/country_risk_assessment_latest_year.md`
+- `reports/final/country_risk_explanations_latest_year.md`
+
+Resultado atual:
+
+| Item | Valor |
+|---|---:|
+| Ano-base | 2023 |
+| Ano previsto | 2024 |
+| Países avaliados | 194 |
+| Probabilidade média estimada | 0.3427 |
+| Países em risco alto ou muito alto | 59 |
+| Previsões positivas pelo threshold atual | 60 |
+| Casos positivos observados no ano previsto | 58 |
+| Features usadas na explicação | 33 |
+| Coeficientes usados | 33 |
+
+Essa camada permite formular análises como: para o ano-base `2023`, o modelo estimou determinada probabilidade de violência organizada em `2024` para cada país.
+
+As explicações são aproximações baseadas nas features e nos coeficientes do modelo. Elas indicam associação estatística, não causalidade direta.
+
 ## Auditoria de integração de datasets
 
 Como o projeto recebeu datasets de diferentes integrantes do grupo, foi criada uma auditoria automática para classificar cada fonte antes de qualquer integração ao pipeline principal.

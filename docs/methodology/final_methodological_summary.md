@@ -369,6 +369,35 @@ A decisão atual é não misturar esses arquivos com o pipeline oficial sem vali
 
 ---
 
+## Camada de análise preditiva por país
+
+Para tornar o projeto mais próximo de um sistema de análise preditiva, foi criada uma camada específica de avaliação por país.
+
+Essa camada utiliza:
+
+- probabilidades previstas pelo modelo principal;
+- dataset final integrado em formato `country-year`;
+- coeficientes extraídos da regressão logística;
+- grupos de features relacionados a UCDP, persistência temporal e World Bank.
+
+A avaliação atual considera o ano-base `2023` e estima risco para `2024`, avaliando 194 países.
+
+Resultados resumidos:
+
+| Item | Valor |
+|---|---:|
+| Probabilidade média estimada | 0.3427 |
+| Países classificados como risco alto ou muito alto | 59 |
+| Previsões positivas pelo threshold atual | 60 |
+| Casos positivos observados no ano previsto | 58 |
+| Features consideradas nas explicações | 33 |
+
+A camada gera frases interpretáveis como:
+
+> Para determinado país, o modelo estimou uma probabilidade de violência organizada no ano seguinte e associou essa estimativa a grupos de variáveis como histórico de conflitos UCDP, persistência temporal e indicadores World Bank.
+
+As explicações são aproximações baseadas nos coeficientes e valores relativos das features. Elas não devem ser lidas como causalidade direta.
+
 ## Auditoria e governança dos datasets
 
 Durante a execução do projeto, diferentes integrantes do grupo adicionaram datasets e arquivos derivados ao repositório.
