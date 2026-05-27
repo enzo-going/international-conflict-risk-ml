@@ -1,44 +1,30 @@
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-.Python
-.venv/
-venv/
-env/
+# ============================================================
+# PYTHON
+# ============================================================
 
-# Jupyter
+__pycache__/
+*.pyc
+
+# ============================================================
+# JUPYTER
+# ============================================================
+
 .ipynb_checkpoints/
 
-# Environment variables
-.env
+# ============================================================
+# GENERATED DATASETS
+# ============================================================
 
-# OS files
-.DS_Store
-Thumbs.db
+data/generated/
 
-# Large/raw data policy
-# Raw datasets should be added intentionally.
-# Keep this section conservative during project setup.
+# ============================================================
+# TRAINED MODELS
+# ============================================================
 
-# Model artifacts
-outputs/models/*
-!outputs/models/.gitkeep
+models/*.pkl
 
-# Temporary files
-*.tmp
-*.log
+# ============================================================
+# VS CODE
+# ============================================================
 
-# Excel temporary files
-~$*.xlsx
-~$*.xls
-# Primary trained model artifacts
-!outputs/models/conflict_risk_logistic_regression_pipeline.joblib
-!outputs/models/conflict_risk_model_features.json
-
-# Local database files
-data/database/*.db
-data/database/*.sqlite
-data/database/*.sqlite3
-!data/database/.gitkeep
+.vscode/
