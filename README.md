@@ -280,6 +280,32 @@ O projeto já saiu da fase inicial de estruturação e atualmente possui um pipe
 - [x] Testar modelos adicionais, como Random Forest, Gradient Boosting e MLP
 - [ ] Avaliar seleção de features e impacto individual dos indicadores World Bank
 
+## Auditoria de integração de datasets
+
+Como o projeto recebeu datasets de diferentes integrantes do grupo, foi criada uma auditoria automática para classificar cada fonte antes de qualquer integração ao pipeline principal.
+
+O script responsável é:
+
+`src/validation/audit_dataset_integration.py`
+
+A auditoria gera:
+
+- `outputs/tables/dataset_integration_audit.csv`
+- `outputs/tables/dataset_integration_summary.json`
+- `reports/final/dataset_integration_audit.md`
+
+Resultado atual da auditoria:
+
+| Categoria | Quantidade |
+|---|---:|
+| Total de datasets auditados | 22 |
+| Oficiais ou candidatos ao pipeline | 6 |
+| Experimentais em revisão | 3 |
+| Dados brutos preservados para rastreabilidade | 11 |
+| Não prontos para integração direta | 2 |
+
+A decisão metodológica adotada foi não integrar todos os datasets cegamente. Apenas fontes compatíveis com a unidade `country-year`, com chave geográfica e temporal, podem entrar no pipeline principal. As demais são preservadas como dados brutos de suporte, módulos experimentais ou fontes futuras.
+
 ## Validação automática dos artefatos
 
 O projeto possui um script de validação automática para verificar a consistência dos principais arquivos, outputs, schemas e metadados do pipeline.

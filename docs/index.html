@@ -747,7 +747,61 @@
     </section>
 
     <section>
-      <h2>Visualizações preditivas geradas por Python</h2>
+      <h2>Auditoria e governança dos datasets</h2>
+
+<div class="card">
+  <p>
+    Como o projeto recebeu datasets de diferentes integrantes do grupo, foi criada uma auditoria automática
+    para classificar cada fonte antes de qualquer integração ao pipeline principal.
+  </p>
+
+  <p>
+    O script responsável é <code>src/validation/audit_dataset_integration.py</code>.
+    A auditoria verifica arquivos em <code>data/raw</code>, <code>data/interim</code>,
+    <code>data/processed</code> e <code>data/final</code>.
+  </p>
+
+  <div class="metrics-grid">
+    <div class="metric-card">
+      <span class="metric-label">Datasets auditados</span>
+      <span class="metric-value">22</span>
+    </div>
+
+    <div class="metric-card">
+      <span class="metric-label">Oficiais/candidatos</span>
+      <span class="metric-value">6</span>
+    </div>
+
+    <div class="metric-card">
+      <span class="metric-label">Experimentais</span>
+      <span class="metric-value">3</span>
+    </div>
+
+    <div class="metric-card">
+      <span class="metric-label">Dados brutos de suporte</span>
+      <span class="metric-value">11</span>
+    </div>
+
+    <div class="metric-card">
+      <span class="metric-label">Não prontos</span>
+      <span class="metric-value">2</span>
+    </div>
+  </div>
+
+  <p>
+    A decisão metodológica atual é integrar ao pipeline principal apenas datasets compatíveis com
+    <code>country-year</code>, chave geográfica, chave temporal e justificativa preditiva.
+    Datasets adicionados pelo grupo, como módulos históricos ou fontes paralelas, são preservados,
+    mas classificados como experimentais quando ainda exigem validação.
+  </p>
+
+  <p>
+    Relatório completo:
+    <code>reports/final/dataset_integration_audit.md</code>
+  </p>
+</div>
+
+<h2>Visualizações preditivas geradas por Python</h2>
 
 <div class="card predictive-gallery-section">
   <p>

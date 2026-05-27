@@ -369,6 +369,33 @@ A decisão atual é não misturar esses arquivos com o pipeline oficial sem vali
 
 ---
 
+## Auditoria e governança dos datasets
+
+Durante a execução do projeto, diferentes integrantes do grupo adicionaram datasets e arquivos derivados ao repositório.
+
+Para evitar integração desorganizada, foi criada uma auditoria automática de datasets. Essa auditoria classifica cada arquivo de dados conforme sua compatibilidade com o pipeline principal.
+
+A auditoria atual identificou:
+
+| Categoria | Quantidade |
+|---|---:|
+| Total de datasets auditados | 22 |
+| Oficiais ou candidatos ao pipeline principal | 6 |
+| Experimentais em revisão | 3 |
+| Dados brutos preservados para rastreabilidade | 11 |
+| Não prontos para integração direta | 2 |
+
+A decisão metodológica foi manter o pipeline principal baseado na unidade `country-year`.
+
+Datasets que não possuem chave geográfica e temporal clara não devem ser integrados automaticamente ao modelo final. Nesses casos, eles são preservados como:
+
+- fonte bruta de suporte;
+- módulo experimental;
+- material candidato para expansão futura;
+- ou arquivo não pronto para integração direta.
+
+Essa decisão evita que a adição de múltiplos datasets prejudique a consistência do target `target_conflict_next_year`, do split temporal e da interpretação do modelo.
+
 ## 15. Fontes candidatas futuras
 
 O projeto possui um documento separado para fontes candidatas de dados.

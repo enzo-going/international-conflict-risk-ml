@@ -200,6 +200,34 @@ Os seguintes arquivos foram adicionados posteriormente pelo grupo e ainda precis
 
 Observação: o dataset WWI e os scripts WWI ainda parecem usar estruturas de colunas diferentes. Portanto, devem ser tratados como experimento paralelo ou material histórico até revisão.
 
+## Auditoria de integração de datasets
+
+A auditoria automática de datasets está em:
+
+- `src/validation/audit_dataset_integration.py`
+
+Outputs gerados:
+
+- `outputs/tables/dataset_integration_audit.csv`
+- `outputs/tables/dataset_integration_summary.json`
+- `reports/final/dataset_integration_audit.md`
+
+Função da auditoria:
+
+- listar todos os datasets presentes nas camadas `raw`, `interim`, `processed` e `final`;
+- detectar colunas relacionadas a país, ano, data, evento e ator;
+- estimar a unidade de análise de cada arquivo;
+- classificar cada fonte como oficial, experimental, dado bruto de suporte ou não pronta;
+- evitar integração desorganizada de datasets adicionados pelo grupo.
+
+Resumo atual:
+
+- total de datasets auditados: 22;
+- oficiais ou candidatos ao pipeline: 6;
+- experimentais em revisão: 3;
+- dados brutos preservados: 11;
+- não prontos para integração direta: 2.
+
 ## Validação automática
 
 O projeto possui uma camada de validação em:
