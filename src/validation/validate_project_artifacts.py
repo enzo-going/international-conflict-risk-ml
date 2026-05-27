@@ -130,6 +130,14 @@ PUBLIC_PREDICTIVE_CHART_FILES = [
     "docs/assets/charts/predictive_analysis/top_cases_predicted_probability.png",
 ]
 
+
+DATASET_AUDIT_FILES = [
+    "src/validation/audit_dataset_integration.py",
+    "outputs/tables/dataset_integration_audit.csv",
+    "outputs/tables/dataset_integration_summary.json",
+    "reports/final/dataset_integration_audit.md",
+]
+
 CSV_EXPECTATIONS.update(
     {
         "outputs/tables/predictive_top_risk_cases.csv": [
@@ -321,6 +329,9 @@ def main() -> None:
 
     for relative_path in PUBLIC_PREDICTIVE_CHART_FILES:
         validate_file_exists(rows, relative_path, "public_predictive_chart_file")
+
+    for relative_path in DATASET_AUDIT_FILES:
+        validate_file_exists(rows, relative_path, "dataset_audit_file")
 
     for relative_path, expected_columns in CSV_EXPECTATIONS.items():
         validate_csv_columns(rows, relative_path, expected_columns)
