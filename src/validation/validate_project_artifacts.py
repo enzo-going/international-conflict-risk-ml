@@ -138,6 +138,15 @@ DATASET_AUDIT_FILES = [
     "reports/final/dataset_integration_audit.md",
 ]
 
+
+COUNTRY_RISK_ASSESSMENT_FILES = [
+    "src/analysis/generate_country_risk_assessment.py",
+    "outputs/tables/country_risk_assessment_latest_year.csv",
+    "outputs/tables/country_risk_level_summary.csv",
+    "outputs/tables/country_risk_assessment_summary.json",
+    "reports/final/country_risk_assessment_latest_year.md",
+]
+
 CSV_EXPECTATIONS.update(
     {
         "outputs/tables/predictive_top_risk_cases.csv": [
@@ -332,6 +341,9 @@ def main() -> None:
 
     for relative_path in DATASET_AUDIT_FILES:
         validate_file_exists(rows, relative_path, "dataset_audit_file")
+
+    for relative_path in COUNTRY_RISK_ASSESSMENT_FILES:
+        validate_file_exists(rows, relative_path, "country_risk_assessment_file")
 
     for relative_path, expected_columns in CSV_EXPECTATIONS.items():
         validate_csv_columns(rows, relative_path, expected_columns)

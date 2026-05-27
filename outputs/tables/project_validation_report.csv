@@ -54,6 +54,11 @@ dataset_audit_file,src/validation/audit_dataset_integration.py,PASS,file exists
 dataset_audit_file,outputs/tables/dataset_integration_audit.csv,PASS,file exists
 dataset_audit_file,outputs/tables/dataset_integration_summary.json,PASS,file exists
 dataset_audit_file,reports/final/dataset_integration_audit.md,PASS,file exists
+country_risk_assessment_file,src/analysis/generate_country_risk_assessment.py,PASS,file exists
+country_risk_assessment_file,outputs/tables/country_risk_assessment_latest_year.csv,PASS,file exists
+country_risk_assessment_file,outputs/tables/country_risk_level_summary.csv,PASS,file exists
+country_risk_assessment_file,outputs/tables/country_risk_assessment_summary.json,PASS,file exists
+country_risk_assessment_file,reports/final/country_risk_assessment_latest_year.md,PASS,file exists
 csv_schema,outputs/tables/conflict_risk_model_metrics.csv,PASS,"rows=2, columns=10"
 csv_schema,outputs/tables/conflict_risk_model_test_predictions.csv,PASS,"rows=1358, columns=9"
 csv_schema,outputs/tables/conflict_risk_model_coefficients.csv,PASS,"rows=33, columns=6"

@@ -1,0 +1,25 @@
+{
+  "latest_year": 2023,
+  "forecast_year": 2024,
+  "countries_evaluated": 194,
+  "mean_probability": 0.3427109945196274,
+  "median_probability": 0.09316646163432415,
+  "max_probability": 0.9999999999999832,
+  "min_probability": 0.0008963354878484,
+  "high_or_very_high_count": 59,
+  "predicted_positive_count": 60,
+  "actual_positive_count": 58,
+  "risk_level_counts": {
+    "very_low": 120,
+    "very_high": 54,
+    "low": 11,
+    "high": 5,
+    "moderate": 4
+  },
+  "generated_files": {
+    "latest_risk_csv": "outputs\\tables\\country_risk_assessment_latest_year.csv",
+    "risk_level_summary_csv": "outputs\\tables\\country_risk_level_summary.csv",
+    "summary_json": "outputs\\tables\\country_risk_assessment_summary.json",
+    "markdown_report": "reports\\final\\country_risk_assessment_latest_year.md"
+  }
+}
