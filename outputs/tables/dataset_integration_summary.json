@@ -1,42 +1,45 @@
 {
-  "total_datasets": 23,
-  "candidate_or_official_count": 6,
+  "total_datasets": 33,
+  "candidate_or_official_count": 11,
   "experimental_count": 4,
   "requires_transformation_count": 0,
-  "supporting_raw_data_count": 11,
+  "supporting_raw_data_count": 16,
   "not_ready_or_reject_count": 2,
   "decision_counts": {
-    "supporting_raw_data": 11,
+    "supporting_raw_data": 16,
     "official": 6,
+    "candidate": 5,
     "experimental": 4,
     "not_ready": 2
   },
   "integration_status_counts": {
-    "raw_source_reference": 10,
+    "raw_source_reference": 14,
+    "candidate_for_main_pipeline": 5,
     "experimental_review": 4,
     "official_project_dataset": 4,
     "requires_temporal_key": 2,
+    "official_raw_source": 2,
     "official_or_candidate": 1,
-    "official_or_already_integrated": 1,
-    "official_raw_source": 1
+    "official_or_already_integrated": 1
   },
   "source_counts": {
-    "world_bank": 11,
+    "world_bank": 15,
+    "unknown": 5,
+    "ucdp": 3,
     "ucdp_one_sided": 2,
     "country_mapping": 2,
     "project_final_dataset": 2,
     "project_world_bank_dataset": 2,
-    "ucdp": 2,
     "wwi": 1,
     "wwii": 1
   },
   "detected_unit_counts": {
-    "unreadable_or_unsupported": 10,
-    "country-year": 6,
-    "actor-country-year": 2,
+    "country-year": 11,
+    "unreadable_or_unsupported": 11,
+    "unknown": 4,
+    "actor-country-year": 3,
     "event-country-year": 2,
-    "country-only": 2,
-    "unknown": 1
+    "country-only": 2
   },
   "generated_files": {
     "audit_csv": "outputs\\tables\\dataset_integration_audit.csv",
