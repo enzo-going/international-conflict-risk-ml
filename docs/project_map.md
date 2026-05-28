@@ -236,6 +236,7 @@ Outputs gerados:
 - `outputs/tables/dataset_integration_audit.csv`
 - `outputs/tables/dataset_integration_summary.json`
 - `reports/final/dataset_integration_audit.md`
+- `reports/final/project_consolidation_review.md`
 
 Função da auditoria:
 

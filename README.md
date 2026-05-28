@@ -361,6 +361,12 @@ Para executar:
 
 `python src/validation/validate_project_artifacts.py`
 
+## Documento de consolidação do projeto
+
+Para uma visão consolidada do estado atual do projeto, incluindo pipeline principal, datasets oficiais/candidatos, módulos experimentais, resultados válidos, limitações e próximos passos, consulte:
+
+`reports/final/project_consolidation_review.md`
+
 ## Como reproduzir o modelo principal
 
 Instale as dependências:
