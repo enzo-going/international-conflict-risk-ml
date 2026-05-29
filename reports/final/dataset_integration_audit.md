@@ -10,22 +10,23 @@ Datasets que não possuem país/localidade e ano precisam ser transformados, agr
 
 ## Resumo executivo
 
-- Total de datasets auditados: 33
-- Datasets compatíveis ou candidatos ao pipeline principal: 11
+- Total de datasets auditados: 35
+- Datasets compatíveis ou candidatos ao pipeline principal: 12
 - Datasets experimentais/em revisão: 4
 - Arquivos brutos preservados como suporte/rastreabilidade: 16
 - Datasets que requerem transformação: 0
-- Datasets ainda não prontos ou não integráveis diretamente: 2
+- Datasets ainda não prontos ou não integráveis diretamente: 3
 
 ## Contagem por decisão
 
 | decision | count |
 | --- | --- |
 | supporting_raw_data | 16 |
+| candidate | 6 |
 | official | 6 |
-| candidate | 5 |
 | experimental | 4 |
 | not_ready | 2 |
+| reject | 1 |
 
 ## Contagem por fonte detectada
 
@@ -34,6 +35,7 @@ Datasets que não possuem país/localidade e ano precisam ser transformados, agr
 | world_bank | 15 |
 | unknown | 5 |
 | ucdp | 3 |
+| sipri | 2 |
 | ucdp_one_sided | 2 |
 | country_mapping | 2 |
 | project_final_dataset | 2 |
@@ -45,6 +47,7 @@ Datasets que não possuem país/localidade e ano precisam ser transformados, agr
 
 | dataset_path | source_name | layer | rows | columns | detected_unit | integration_status | decision | reason |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| data/final/conflict_country_year_sipri.csv | sipri | final | 6737.0000 | 28.0000 | country-year | candidate_for_main_pipeline | candidate | Dataset possui sinais mínimos de país e ano, podendo ser avaliado para integração futura. |
 | data/final/conflict_country_year_prio.csv | unknown | final | 6737.0000 | 36.0000 | country-year | candidate_for_main_pipeline | candidate | Dataset possui sinais mínimos de país e ano, podendo ser avaliado para integração futura. |
 | data/final/gdp_growth_ml_ready.csv | unknown | final | 14133.0000 | 3.0000 | country-year | candidate_for_main_pipeline | candidate | Dataset possui sinais mínimos de país e ano, podendo ser avaliado para integração futura. |
 | data/final/gdp_per_capita_usd.csv | unknown | final | 14561.0000 | 3.0000 | country-year | candidate_for_main_pipeline | candidate | Dataset possui sinais mínimos de país e ano, podendo ser avaliado para integração futura. |
@@ -83,6 +86,7 @@ Datasets que não possuem país/localidade e ano precisam ser transformados, agr
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | data/interim/country_name_mapping_candidates.csv | country_mapping | interim | 199.0000 | 7.0000 | country-only | requires_temporal_key | not_ready | Possui país/localidade, mas não possui chave temporal clara. |
 | data/interim/country_name_mapping_reviewed.csv | country_mapping | interim | 199.0000 | 10.0000 | country-only | requires_temporal_key | not_ready | Possui país/localidade, mas não possui chave temporal clara. |
+| data/raw/sipri/sipri_raw.xlsx | sipri | raw | 0.0000 | 0.0000 | unknown | empty_or_invalid | reject | Arquivo sem linhas úteis detectadas. |
 
 ## Decisão metodológica
 

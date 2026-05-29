@@ -1,31 +1,34 @@
 {
-  "total_datasets": 33,
-  "candidate_or_official_count": 11,
+  "total_datasets": 35,
+  "candidate_or_official_count": 12,
   "experimental_count": 4,
   "requires_transformation_count": 0,
   "supporting_raw_data_count": 16,
-  "not_ready_or_reject_count": 2,
+  "not_ready_or_reject_count": 3,
   "decision_counts": {
     "supporting_raw_data": 16,
+    "candidate": 6,
     "official": 6,
-    "candidate": 5,
     "experimental": 4,
-    "not_ready": 2
+    "not_ready": 2,
+    "reject": 1
   },
   "integration_status_counts": {
     "raw_source_reference": 14,
-    "candidate_for_main_pipeline": 5,
+    "candidate_for_main_pipeline": 6,
     "experimental_review": 4,
     "official_project_dataset": 4,
     "requires_temporal_key": 2,
     "official_raw_source": 2,
     "official_or_candidate": 1,
-    "official_or_already_integrated": 1
+    "official_or_already_integrated": 1,
+    "empty_or_invalid": 1
   },
   "source_counts": {
     "world_bank": 15,
     "unknown": 5,
     "ucdp": 3,
+    "sipri": 2,
     "ucdp_one_sided": 2,
     "country_mapping": 2,
     "project_final_dataset": 2,
@@ -34,9 +37,9 @@
     "wwii": 1
   },
   "detected_unit_counts": {
-    "country-year": 11,
+    "country-year": 12,
     "unreadable_or_unsupported": 11,
-    "unknown": 4,
+    "unknown": 5,
     "actor-country-year": 3,
     "event-country-year": 2,
     "country-only": 2
