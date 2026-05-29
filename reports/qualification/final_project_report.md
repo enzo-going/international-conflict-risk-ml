@@ -128,6 +128,26 @@ A interpretação correta do resultado é que o modelo melhora a estimativa de r
 
 ## 11. Análise preditiva por país
 
+Além das métricas agregadas do modelo, o projeto gera uma camada de análise preditiva por país. Essa etapa utiliza o ano-base mais recente disponível no dataset final para estimar a probabilidade de violência organizada no ano seguinte.
+
+Na execução atual, a análise utiliza o ano-base de 2023 para estimar risco em 2024. O objetivo dessa camada não é afirmar que determinado conflito ocorrerá com certeza, mas produzir uma estimativa probabilística comparável entre países.
+
+Resumo da análise preditiva atual:
+
+| Item | Valor |
+|---|---:|
+| Ano-base | 2023 |
+| Ano previsto | 2024 |
+| Países avaliados | 194 |
+| Probabilidade média estimada | 0.3427 |
+| Países em risco alto ou muito alto | 59 |
+| Previsões positivas pelo threshold atual | 60 |
+| Casos positivos observados | 58 |
+
+Essa camada torna o projeto mais próximo de uma análise preditiva aplicada, pois permite observar quais países apresentam maior risco estimado, quais regiões concentram maior probabilidade média e onde o modelo comete falsos positivos ou falsos negativos.
+
+A interpretação deve permanecer cautelosa. A probabilidade estimada representa um sinal estatístico baseado nos dados disponíveis, não uma previsão determinística nem uma afirmação causal.
+
 ## 12. Experimentos complementares
 
 ### 12.1 Features de choque econômico
