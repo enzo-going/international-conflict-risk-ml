@@ -95,7 +95,36 @@ Além do pipeline principal, o projeto possui scripts de validação automática
 
 ## 9. Modelos avaliados
 
+Foram avaliados diferentes modelos candidatos com o objetivo de verificar se algoritmos mais complexos superariam a baseline de persistência e o modelo linear principal.
+
+Os modelos comparados foram:
+
+| Modelo | F1-score |
+|---|---:|
+| Logistic Regression + World Bank all raw | 0.872216 |
+| Random Forest + World Bank all raw | 0.866142 |
+| Gradient Boosting + World Bank all raw | 0.858525 |
+| Persistence baseline | 0.857143 |
+| MLP + World Bank all raw | 0.849817 |
+
+A Regressão Logística apresentou o melhor desempenho geral. Embora modelos como Random Forest, Gradient Boosting e MLP tenham sido testados, eles não superaram a combinação entre desempenho e interpretabilidade obtida pelo modelo linear principal.
+
 ## 10. Resultado principal
+
+O melhor resultado consolidado do projeto foi obtido com o modelo `Logistic Regression + World Bank all raw`, utilizando 33 features.
+
+| Métrica | Valor |
+|---|---:|
+| Accuracy | 0.919735 |
+| Precision | 0.902913 |
+| Recall | 0.843537 |
+| F1-score | 0.872216 |
+| F1-score da baseline de persistência | 0.857143 |
+| Ganho sobre a baseline | +0.015073 |
+
+O ganho sobre a baseline é moderado, mas metodologicamente relevante. A baseline de persistência é forte porque conflitos tendem a continuar ao longo do tempo. Portanto, superar essa referência simples indica que os indicadores externos, especialmente os dados socioeconômicos do World Bank, adicionam informação útil ao histórico direto de conflitos.
+
+A interpretação correta do resultado é que o modelo melhora a estimativa de risco em relação a uma regra simples de persistência, mas não elimina limitações como falsos negativos, dificuldade de prever novos conflitos e dependência da qualidade dos dados históricos.
 
 ## 11. Análise preditiva por país
 
