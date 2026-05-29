@@ -46,6 +46,23 @@ O modelo principal consolidado é uma Regressão Logística com imputação por 
 
 ## 7. Datasets utilizados
 
+O projeto utiliza como base central o dataset **UCDP Organized Violence**, responsável por representar ocorrências de violência organizada em estrutura país-ano. A partir dessa fonte, foram construídas variáveis relacionadas à existência de conflito, quantidade de díades, mortes estimadas e histórico recente de violência.
+
+Além da base central de conflitos, o projeto integra indicadores do **World Bank**, incluindo população, crescimento populacional, urbanização, PIB per capita, crescimento do PIB, inflação, desemprego, escolarização, gasto militar e dependência de recursos naturais. Esses indicadores permitem enriquecer o modelo com variáveis socioeconômicas externas ao histórico direto de conflito.
+
+A auditoria atual do projeto reconhece **35 datasets**, classificados em diferentes categorias:
+
+| Categoria | Quantidade |
+|---|---:|
+| Oficiais ou candidatos ao pipeline | 12 |
+| Experimentais | 4 |
+| Dados brutos de suporte | 16 |
+| Não prontos ou rejeitados | 3 |
+
+O dataset **SIPRI** foi incorporado como fonte candidata, principalmente por sua relação com militarização e gastos militares. No entanto, ele ainda não substitui o pipeline principal e precisa ser avaliado de forma controlada antes de ser tratado como fonte oficial do modelo.
+
+Os módulos **WWI/WWII** e **One-Sided Violence** foram preservados como experimentais. Eles são úteis para exploração histórica e expansão futura, mas não devem ser confundidos com o modelo principal, que permanece centrado na previsão de violência organizada em estrutura `country-year`.
+
 ## 8. Pipeline de Machine Learning
 
 ## 9. Modelos avaliados
