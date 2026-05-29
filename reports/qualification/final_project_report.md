@@ -34,6 +34,16 @@ Desenvolver e avaliar um sistema de Machine Learning aplicado à análise predit
 
 ## 6. Fundamentação metodológica
 
+O projeto utiliza aprendizado supervisionado aplicado a dados tabulares. A unidade de análise adotada é `country-year`, em que cada registro representa um país em determinado ano. Essa estrutura permite relacionar informações históricas de conflito e indicadores externos com um alvo de previsão definido para o ano seguinte.
+
+O target principal do projeto é `target_conflict_next_year`, variável binária que indica se há ocorrência de violência organizada no ano posterior ao registro analisado. Essa escolha permite transformar uma questão geopolítica ampla em um problema técnico mensurável de classificação.
+
+A estratégia de avaliação utiliza separação temporal entre treino e teste. O modelo é treinado com dados até 2016 e avaliado no período de 2017 a 2023. Essa abordagem evita misturar anos futuros no treinamento e torna a avaliação mais próxima de um cenário real de previsão.
+
+A baseline adotada é a persistência do conflito: se houve violência organizada no ano atual, assume-se que haverá violência organizada no ano seguinte. Essa baseline é forte porque conflitos apresentam continuidade temporal. Portanto, qualquer modelo candidato precisa demonstrar ganho real sobre essa referência simples.
+
+O modelo principal consolidado é uma Regressão Logística com imputação por mediana, padronização das variáveis e balanceamento de classe. A escolha desse modelo se justifica pela combinação entre desempenho, interpretabilidade e adequação ao escopo acadêmico do projeto.
+
 ## 7. Datasets utilizados
 
 ## 8. Pipeline de Machine Learning
