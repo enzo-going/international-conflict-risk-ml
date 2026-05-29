@@ -65,6 +65,34 @@ Os módulos **WWI/WWII** e **One-Sided Violence** foram preservados como experim
 
 ## 8. Pipeline de Machine Learning
 
+O pipeline principal do projeto foi estruturado para transformar dados históricos e socioeconômicos em uma base supervisionada de classificação binária.
+
+A sequência principal do pipeline é:
+
+1. preparação da base UCDP Organized Violence;
+2. construção da estrutura país-ano;
+3. criação do target `target_conflict_next_year`;
+4. geração de features temporais de conflito;
+5. integração de indicadores World Bank;
+6. separação temporal entre treino e teste;
+7. treinamento dos modelos candidatos;
+8. comparação contra baseline de persistência;
+9. geração de métricas, coeficientes, predições e relatórios.
+
+O modelo principal utiliza dados até 2016 para treinamento e avalia o desempenho no período de 2017 a 2023. Essa divisão temporal é importante porque simula melhor um cenário real de previsão, no qual informações futuras não podem ser usadas durante o treinamento.
+
+Os principais artefatos gerados pelo pipeline incluem:
+
+- `outputs/tables/conflict_risk_model_metrics.csv`;
+- `outputs/tables/candidate_model_comparison.csv`;
+- `outputs/tables/conflict_risk_model_coefficients.csv`;
+- `outputs/tables/country_risk_assessment_latest_year.csv`;
+- `outputs/tables/country_risk_explanations_latest_year.csv`;
+- `outputs/models/conflict_risk_logistic_regression_pipeline.joblib`;
+- `outputs/models/conflict_risk_model_features.json`.
+
+Além do pipeline principal, o projeto possui scripts de validação automática e auditoria de datasets. Isso permite verificar se os artefatos essenciais continuam presentes e se as fontes de dados estão classificadas corretamente como oficiais, candidatas, experimentais ou não prontas.
+
 ## 9. Modelos avaliados
 
 ## 10. Resultado principal
