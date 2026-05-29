@@ -1,0 +1,5 @@
+experiment,n_features,accuracy,precision,recall,f1_score,tn,fp,fn,tp,f1_vs_official_baseline,f1_vs_official_current_model
+persistence_baseline,1,0.897644,0.847926,0.834467,0.841143,851,66,73,368,-0.016,-0.031073
+base_model_replicated,33,0.919735,0.902913,0.843537,0.872216,877,40,69,372,0.015073,-0.0
+base_plus_shock_features,39,0.918999,0.902676,0.84127,0.870892,877,40,70,371,0.013749,-0.001324
+shock_only_control,8,0.897644,0.851163,0.829932,0.840413,853,64,75,366,-0.01673,-0.031803
