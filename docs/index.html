@@ -570,24 +570,31 @@
     </section>
 
     <section>
-      <h2>7. Conclusão provisória</h2>
+      <h2>7. Síntese do estado consolidado</h2>
 
       <p>
-        O achado central até este ponto é que conflitos internacionais, medidos como violência organizada,
-        apresentam forte persistência temporal. Isso explica por que uma baseline simples já alcança F1-score alto.
+        O estado consolidado do projeto mostra que a previsão de violência organizada em estrutura
+        <code>country-year</code> já possui um pipeline funcional, validado e reproduzível.
+        A baseline de persistência continua forte, mas o modelo principal supera essa referência mantendo interpretabilidade.
       </p>
 
       <p>
-        A engenharia de features temporais adicionou algum ganho ao modelo, principalmente ao aumentar a capacidade
-        de identificar casos positivos. Porém, o ganho ainda é modesto. Isso indica que trocar apenas o algoritmo
-        não deve ser a principal estratégia de evolução.
+        A evolução recente do projeto não está apenas na troca de algoritmo, mas na organização de um sistema completo:
+        dados heterogêneos, auditoria de fontes, comparação de modelos, análise preditiva por país,
+        explicabilidade aproximada e validação automática de artefatos.
       </p>
 
       <div class="research-box">
-        <strong>Direção metodológica:</strong><br />
-        A próxima melhoria relevante deve vir da integração de dados heterogêneos, especialmente indicadores
-        socioeconômicos por país-ano, para testar se variáveis externas ao histórico direto de conflito aumentam
-        o poder preditivo do sistema.
+        <strong>Leitura metodológica atual:</strong><br />
+        O projeto não deve ser apresentado como previsão direta de uma Terceira Guerra Mundial.
+        A tese tecnicamente defensável é a construção de um sistema de Machine Learning para estimar risco
+        de violência organizada no ano seguinte, com possibilidade futura de evoluir para análises agregadas
+        de escalada internacional.
+      </div>
+
+      <div class="note blue">
+        Documento de consolidação:
+        <code>reports/final/project_consolidation_review.md</code>
       </div>
     </section>
 
@@ -619,35 +626,38 @@
   </p>
 </div>
 
-<h2>8. Próxima etapa técnica e evolução do sistema</h2>
+<h2>8. Roadmap técnico após consolidação</h2>
 
       <div class="timeline">
         <div class="timeline-item">
-          <div class="timeline-title">Agora</div>
+          <div class="timeline-title">Estado atual</div>
           <div class="timeline-text">
-            Consolidar o modelo principal atual com UCDP, features temporais e indicadores brutos completos do World Bank.
+            Pipeline principal validado com UCDP, features temporais, indicadores World Bank,
+            análise preditiva por país, auditoria de datasets e validação automática com 79 checks aprovados.
           </div>
         </div>
 
         <div class="timeline-item">
-          <div class="timeline-title">Próximo bloco</div>
+          <div class="timeline-title">Curto prazo</div>
           <div class="timeline-text">
-            Integrar indicadores socioeconômicos do World Bank em estrutura país-ano para transformar
-            o projeto em um sistema com dados realmente heterogêneos.
+            Revisar a integração das novas fontes World Bank/PRIO, separando o que já é oficial,
+            o que é candidato ao pipeline e o que permanece apenas como suporte bruto ou experimento.
           </div>
         </div>
 
         <div class="timeline-item">
-          <div class="timeline-title">Depois</div>
+          <div class="timeline-title">Próxima melhoria técnica</div>
           <div class="timeline-text">
-            Comparar o modelo principal atual contra Gradient Boosting, Random Forest ajustado e uma MLP simples.
+            Testar se novas variáveis econômicas e geopolíticas realmente melhoram o desempenho contra a baseline,
+            sem introduzir vazamento temporal ou perda de interpretabilidade.
           </div>
         </div>
 
         <div class="timeline-item">
-          <div class="timeline-title">Qualificação</div>
+          <div class="timeline-title">Entrega acadêmica</div>
           <div class="timeline-text">
-            Apresentar problema, dados, target, baseline, modelagem, resultados, limitações e próximos passos.
+            Apresentar o sistema como análise preditiva probabilística de violência organizada,
+            deixando módulos WWI/WWII, One-Sided Violence e escalada histórica como extensões experimentais.
           </div>
         </div>
       </div>
@@ -764,17 +774,17 @@
   <div class="metrics-grid">
     <div class="metric-card">
       <span class="metric-label">Datasets auditados</span>
-      <span class="metric-value">22</span>
+      <span class="metric-value">33</span>
     </div>
 
     <div class="metric-card">
       <span class="metric-label">Oficiais/candidatos</span>
-      <span class="metric-value">6</span>
+      <span class="metric-value">16</span>
     </div>
 
     <div class="metric-card">
       <span class="metric-label">Experimentais</span>
-      <span class="metric-value">3</span>
+      <span class="metric-value">4</span>
     </div>
 
     <div class="metric-card">

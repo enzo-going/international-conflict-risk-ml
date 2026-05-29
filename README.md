@@ -170,7 +170,7 @@ Ordem atual dos scripts principais:
 
 ## Resultado atual do modelo principal
 
-Após a expansão dos indicadores do World Bank, o modelo principal foi reexecutado com 69 features.
+No estado consolidado atual, o melhor modelo documentado permanece `Logistic Regression + World Bank all raw`. A camada de explicabilidade atual registra 33 features e 33 coeficientes para análise por país, enquanto novas fontes World Bank/PRIO foram auditadas como oficiais, candidatas ou dados de suporte antes de qualquer integração definitiva ao pipeline principal.
 
 | Modelo | Accuracy | Precision | Recall | F1-score |
 |---|---:|---:|---:|---:|
@@ -187,9 +187,9 @@ Esse resultado é metodologicamente relevante porque mostra que mais features ne
 
 ## Status atual
 
-O projeto possui atualmente um pipeline principal funcional baseado em UCDP Organized Violence, indicadores World Bank, split temporal, baseline de persistência, comparação de modelos candidatos, camada SQL e dashboard via GitHub Pages.
+O projeto possui atualmente um pipeline principal funcional baseado em UCDP Organized Violence, indicadores World Bank, split temporal, baseline de persistência, comparação de modelos candidatos, análise preditiva por país, camada SQL, validação automática e dashboard via GitHub Pages.
 
-Além do pipeline principal, existe um módulo experimental complementar para UCDP One-Sided Violence. Esse módulo foi preservado e documentado, mas ainda não substitui nem altera o modelo principal.
+Após as contribuições recentes do grupo, o repositório também passou a conter novas fontes World Bank/PRIO e módulos experimentais relacionados a One-Sided Violence, WWI, WWII, inflação, juros, PIB e escalada histórica. Essas fontes foram auditadas e classificadas, mas nem todas substituem ou alteram o modelo principal.
 
 ## Comparação de modelos candidatos
 
@@ -334,10 +334,10 @@ Resultado atual da auditoria:
 
 | Categoria | Quantidade |
 |---|---:|
-| Total de datasets auditados | 22 |
-| Oficiais ou candidatos ao pipeline | 6 |
-| Experimentais em revisão | 3 |
-| Dados brutos preservados para rastreabilidade | 11 |
+| Total de datasets auditados | 33 |
+| Oficiais ou candidatos ao pipeline | 11 |
+| Experimentais em revisão | 4 |
+| Dados brutos preservados para rastreabilidade | 16 |
 | Não prontos para integração direta | 2 |
 
 A decisão metodológica adotada foi não integrar todos os datasets cegamente. Apenas fontes compatíveis com a unidade `country-year`, com chave geográfica e temporal, podem entrar no pipeline principal. As demais são preservadas como dados brutos de suporte, módulos experimentais ou fontes futuras.
@@ -355,11 +355,17 @@ Ele gera:
 - `outputs/tables/project_validation_report.csv`
 - `outputs/tables/project_validation_summary.json`
 
-Na execução atual, a validação retornou 31 checks com status PASS, sem falhas.
+Na execução atual, a validação retornou 79 checks com status PASS, sem falhas.
 
 Para executar:
 
 `python src/validation/validate_project_artifacts.py`
+
+## Documento de consolidação do projeto
+
+Para uma visão consolidada do estado atual do projeto, incluindo pipeline principal, datasets oficiais/candidatos, módulos experimentais, resultados válidos, limitações e próximos passos, consulte:
+
+`reports/final/project_consolidation_review.md`
 
 ## Como reproduzir o modelo principal
 

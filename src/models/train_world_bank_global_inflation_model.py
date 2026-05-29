@@ -5,8 +5,10 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
+from xgboost import XGBClassifier
 from sklearn.impute import SimpleImputer
-from sklearn.linear_model import LogisticRegression
+from sklearn.pipeline import Pipeline
+
 from sklearn.metrics import (
     accuracy_score,
     confusion_matrix,
@@ -15,8 +17,7 @@ from sklearn.metrics import (
     recall_score,
     roc_auc_score,
 )
-from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import StandardScaler
+
 
 
 # =========================================================
@@ -30,6 +31,27 @@ DATA_PATH = (
     / "data"
     / "final"
     / "inflation_country_year_clean.csv"
+)
+
+GDP_PATH = (
+    PROJECT_ROOT
+    / "data"
+    / "final"
+    / "gdp_per_capita_usd.csv"
+)
+
+GDP_GROWTH_PATH = (
+    PROJECT_ROOT
+    / "data"
+    / "final"
+    / "gdp_growth_ml_ready.csv"
+)
+
+INTEREST_RATE_PATH = (
+    PROJECT_ROOT
+    / "data"
+    / "final"
+    / "real_interest_rate_ml_ready.csv"
 )
 
 TARGET_COLUMN = "high_inflation_next_year"
@@ -48,6 +70,27 @@ print("LOADING DATASET")
 print("=" * 60)
 
 df = pd.read_csv(DATA_PATH)
+gdp_df = pd.read_csv(GDP_PATH)
+gdp_growth_df = pd.read_csv(GDP_GROWTH_PATH)
+interest_df = pd.read_csv(INTEREST_RATE_PATH)
+
+df = df.merge(
+    gdp_df,
+    on=["country", "year"],
+    how="left",
+)
+
+df = df.merge(
+    gdp_growth_df,
+    on=["country", "year"],
+    how="left",
+)
+
+df = df.merge(
+    interest_df,
+    on=["country", "year"],
+    how="left",
+)
 
 print(df.head())
 print()
@@ -140,6 +183,93 @@ df["inflation_volatility_5y"] = (
     )
 )
 
+df["gdp_previous_year"] = (
+    df.groupby("country")["gdp_per_capita_current_usd"]
+    .shift(1)
+)
+
+df["gdp_growth_rate"] = (
+    df["gdp_per_capita_current_usd"]
+    /
+    (df["gdp_previous_year"] + 1)
+)
+
+df["gdp_last_3_years_mean"] = (
+    df.groupby("country")["gdp_per_capita_current_usd"]
+    .transform(
+        lambda x: (
+            x.shift(1)
+            .rolling(3, min_periods=1)
+            .mean()
+        )
+    )
+)
+
+df["gdp_growth_previous_year"] = (
+    df.groupby("country")["gdp_growth"]
+    .shift(1)
+)
+
+df["gdp_growth_last_3_years_mean"] = (
+    df.groupby("country")["gdp_growth"]
+    .transform(
+        lambda x: (
+            x.shift(1)
+            .rolling(3, min_periods=1)
+            .mean()
+        )
+    )
+)
+
+df["gdp_growth_volatility"] = (
+    df.groupby("country")["gdp_growth"]
+    .transform(
+        lambda x: (
+            x.shift(1)
+            .rolling(3, min_periods=1)
+            .std()
+        )
+    )
+)
+
+df["interest_previous_year"] = (
+    df.groupby("country")["real_interest_rate"]
+    .shift(1)
+)
+
+df["interest_last_3_years_mean"] = (
+    df.groupby("country")["real_interest_rate"]
+    .transform(
+        lambda x: (
+            x.shift(1)
+            .rolling(3, min_periods=1)
+            .mean()
+        )
+    )
+)
+
+df["interest_volatility"] = (
+    df.groupby("country")["real_interest_rate"]
+    .transform(
+        lambda x: (
+            x.shift(1)
+            .rolling(3, min_periods=1)
+            .std()
+        )
+    )
+)
+
+df["inflation_interest_interaction"] = (
+    df["inflation_previous_year"]
+    *
+    df["real_interest_rate"]
+)
+
+df["gdp_interest_interaction"] = (
+    df["gdp_growth"]
+    *
+    df["real_interest_rate"]
+)
 
 # =========================================================
 # CLEAN NULLS
@@ -159,6 +289,23 @@ FEATURE_COLUMNS = [
     "inflation_last_5_years_mean",
     "inflation_growth_rate",
     "inflation_volatility_5y",
+    
+    "gdp_per_capita_current_usd",
+    "gdp_previous_year",
+    "gdp_growth_rate",
+    "gdp_last_3_years_mean",
+    
+    "gdp_growth_previous_year",
+    "gdp_growth_last_3_years_mean",
+    "gdp_growth_volatility",
+    
+    "real_interest_rate",
+    "interest_previous_year",
+    "interest_last_3_years_mean",
+    "interest_volatility",
+    
+    "inflation_interest_interaction",
+    "gdp_interest_interaction",
 ]
 
 print()
@@ -212,7 +359,7 @@ print(f"Test rows: {len(X_test)}")
 
 
 # =========================================================
-# MODEL
+# MODEL - XGBOOST
 # =========================================================
 
 model = Pipeline(
@@ -221,21 +368,36 @@ model = Pipeline(
             "imputer",
             SimpleImputer(strategy="median"),
         ),
-        (
-            "scaler",
-            StandardScaler(),
-        ),
+
         (
             "model",
-            LogisticRegression(
-                max_iter=5000,
-                class_weight="balanced",
+            XGBClassifier(
+
+                # trees
+                n_estimators=300,
+                max_depth=6,
+
+                # learning
+                learning_rate=0.05,
+
+                # randomness
+                subsample=0.8,
+                colsample_bytree=0.8,
+
+                # imbalance handling
+                scale_pos_weight=2,
+
+                # regularization
+                reg_alpha=0.5,
+                reg_lambda=1,
+
+                # performance
                 random_state=42,
+                eval_metric="logloss",
             ),
         ),
     ]
 )
-
 
 # =========================================================
 # TRAIN
@@ -292,22 +454,20 @@ tn, fp, fn, tp = confusion_matrix(
 # FEATURE IMPORTANCE
 # =========================================================
 
-coefficients = (
+importances = (
     model.named_steps["model"]
-    .coef_[0]
+    .feature_importances_
 )
 
 importance_df = pd.DataFrame({
     "feature": FEATURE_COLUMNS,
-    "coefficient": coefficients,
-    "absolute_value": np.abs(coefficients),
+    "importance": importances,
 })
 
 importance_df = importance_df.sort_values(
-    "absolute_value",
+    "importance",
     ascending=False,
 )
-
 
 # =========================================================
 # RESULTS

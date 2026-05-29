@@ -9,3 +9,4 @@ notebook
 jupyter
 geopandas
 joblib
+xgboost

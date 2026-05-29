@@ -45,7 +45,7 @@ MODEL_PATH = (
 )
 
 # ============================================================
-# TEMPORAL SPLIT
+# TEMPORAL 
 # ============================================================
 
 def temporal_split(
@@ -238,8 +238,9 @@ def evaluate_model(
     )
 
     disp.plot(
-        cmap="Blues",
-        ax=ax
+    cmap="Blues",
+    values_format=",",
+    ax=ax
     )
 
     plt.tight_layout()
