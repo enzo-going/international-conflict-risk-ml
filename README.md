@@ -334,11 +334,11 @@ Resultado atual da auditoria:
 
 | Categoria | Quantidade |
 |---|---:|
-| Total de datasets auditados | 33 |
-| Oficiais ou candidatos ao pipeline | 11 |
+| Total de datasets auditados | 35 |
+| Oficiais ou candidatos ao pipeline | 12 |
 | Experimentais em revisão | 4 |
 | Dados brutos preservados para rastreabilidade | 16 |
-| Não prontos para integração direta | 2 |
+| Não prontos para integração direta | 3 |
 
 A decisão metodológica adotada foi não integrar todos os datasets cegamente. Apenas fontes compatíveis com a unidade `country-year`, com chave geográfica e temporal, podem entrar no pipeline principal. As demais são preservadas como dados brutos de suporte, módulos experimentais ou fontes futuras.
 
