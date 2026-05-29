@@ -91,6 +91,22 @@ O modelo não afirma que um conflito ocorrerá com certeza. Ele estima risco com
 
 ---
 
+### Experimento complementar: features de choque econômico
+
+Foi executado um experimento adicional para testar se variáveis de choque econômico, como variações anuais de PIB, inflação, gasto militar e renda per capita, melhorariam o desempenho do modelo principal.
+
+O resultado não superou o modelo oficial:
+
+| Experimento | F1-score |
+|---|---:|
+| Modelo oficial replicado | 0.872216 |
+| Modelo + features de choque | 0.870892 |
+| Apenas controle com shock features | 0.840413 |
+
+A conclusão técnica é que, no estado atual dos dados, adicionar features de choque econômico não trouxe ganho preditivo. Esse resultado reforça a decisão de manter o modelo principal como `Logistic Regression + World Bank all raw`, com 33 features, e tratar novas variáveis econômicas com cautela metodológica.
+
+---
+
 ## 5. Validação automática
 
 O projeto possui validação automática dos principais artefatos.
@@ -219,7 +235,7 @@ Ainda não deve ser prometido:
 
 Antes da entrega final, as próximas ações devem ser:
 
-1. atualizar o README para refletir 33 datasets e 79 checks;
+1. manter README e dashboard alinhados com a auditoria atual de 35 datasets e 79 checks;
 2. revisar o dashboard oficial para reduzir seções desatualizadas;
 3. destacar a análise preditiva por país;
 4. separar visualmente pipeline oficial e módulos experimentais;
