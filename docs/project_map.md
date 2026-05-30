@@ -23,6 +23,15 @@ Resultado oficial atual:
 
 Esse ganho é moderado/pequeno e deve ser interpretado com cautela. O projeto não deve ser apresentado como previsão determinística de guerra mundial ou de eventos geopolíticos específicos.
 
+Avaliação temporal adicional:
+
+- `src/models/run_temporal_robustness_evaluation.py`;
+- `docs/methodology/temporal_robustness_evaluation.md`;
+- rolling one-year test: 8 vitórias, 1 empate e 2 derrotas contra a persistência;
+- expanding holdout: 7 vitórias em 7 janelas contra a persistência.
+
+Interpretação: a vantagem do modelo é positiva em janelas multi-ano, mas não é estável em todos os testes anuais.
+
 ## Fluxo principal de dados
 
 Ordem atual dos principais scripts:
@@ -57,7 +66,12 @@ Ordem atual dos principais scripts:
    - avalia Logistic Regression, Random Forest, Gradient Boosting e MLP;
    - salva `outputs/tables/candidate_model_comparison.csv`.
 
-9. `src/data/build_sqlite_database.py`
+9. `src/models/run_temporal_robustness_evaluation.py`
+   - reavalia o modelo oficial em múltiplos recortes temporais;
+   - compara cada janela contra a baseline de persistência;
+   - salva tabelas e gráficos de robustez temporal.
+
+10. `src/data/build_sqlite_database.py`
    - gera o banco SQLite local;
    - carrega features, predições, métricas, coeficientes e comparação de modelos;
    - usa o schema definido em `sql/schema.sql`.
@@ -152,6 +166,9 @@ Arquivos importantes:
 - `conflict_risk_model_coefficients.csv`
 - `candidate_model_comparison.csv`
 - `world_bank_ablation_results.csv`
+- `temporal_robustness_summary.json`
+- `temporal_robustness_one_year.csv`
+- `temporal_robustness_expanding_holdout.csv`
 - `probability_threshold_results.csv`
 - `probability_calibration_bins.csv`
 
@@ -223,6 +240,7 @@ Arquivos principais:
 - `docs/methodology/ucdp_organized_violence_notes.md`
 - `docs/methodology/modeling_notes.md`
 - `docs/methodology/model_training_pipeline.md`
+- `docs/methodology/temporal_robustness_evaluation.md`
 - `docs/methodology/final_methodological_summary.md`
 - `docs/methodology/one_sided_experimental_module_review.md`
 - `docs/database/database_design.md`
@@ -307,6 +325,7 @@ Esses scripts verificam:
 - schemas dos CSVs principais;
 - métricas do modelo principal;
 - metadados das features;
+- outputs da avaliação de robustez temporal;
 - artefatos do módulo experimental One-Sided Violence.
 - contrato de reprodutibilidade do pipeline oficial, incluindo scripts, outputs, métricas esperadas, 33 features, 10 gráficos preditivos e referências do dashboard.
 
@@ -332,8 +351,8 @@ O CI não baixa novos datasets e não roda treinamento pesado por padrão.
 ## Próximas prioridades
 
 1. Refinar a seleção de features do modelo principal.
-2. Testar novas fontes externas de dados além do World Bank.
-3. Avaliar modelos candidatos com validação mais robusta e análise de estabilidade.
+2. Investigar os anos em que o rolling one-year test não superou a persistência.
+3. Testar novas fontes externas de dados além do World Bank.
 4. Atualizar o dashboard quando houver novo ganho metodológico ou resultado relevante.
 5. Validar ou reorganizar os arquivos WWI adicionados pelo grupo antes de integrá-los ao pipeline oficial.
 

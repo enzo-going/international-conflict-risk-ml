@@ -100,6 +100,58 @@ def check_official_outputs() -> None:
         check_exists("official_outputs", output)
 
 
+def check_temporal_robustness_outputs() -> None:
+    outputs = [
+        "outputs/tables/temporal_robustness_summary.json",
+        "outputs/tables/temporal_robustness_one_year.csv",
+        "outputs/tables/temporal_robustness_expanding_holdout.csv",
+        "outputs/tables/temporal_robustness_official_split.csv",
+        "docs/methodology/temporal_robustness_evaluation.md",
+    ]
+
+    for output in outputs:
+        check_exists("temporal_robustness", output)
+
+    summary_path = "outputs/tables/temporal_robustness_summary.json"
+    if not project_path(summary_path).exists():
+        return
+
+    try:
+        summary = load_json(summary_path)
+    except Exception as exc:  # noqa: BLE001
+        add_check("temporal_robustness", "read_summary_json", "FAIL", str(exc))
+        return
+
+    required_sections = [
+        "official_split",
+        "rolling_one_year",
+        "expanding_holdout",
+    ]
+
+    for section in required_sections:
+        status = (
+            "PASS"
+            if isinstance(summary, dict) and isinstance(summary.get(section), dict)
+            else "FAIL"
+        )
+        add_check(
+            "temporal_robustness",
+            f"summary_section:{section}",
+            status,
+            "present" if status == "PASS" else "missing",
+        )
+
+    if isinstance(summary, dict):
+        n_features = summary.get("n_features")
+        status = "PASS" if n_features == EXPECTED_FEATURE_COUNT else "FAIL"
+        add_check(
+            "temporal_robustness",
+            "summary_n_features",
+            status,
+            f"actual={n_features}, expected={EXPECTED_FEATURE_COUNT}",
+        )
+
+
 def check_metrics() -> None:
     metrics_path = "outputs/tables/conflict_risk_model_metrics.csv"
     if not check_exists("metrics", metrics_path):
@@ -239,6 +291,7 @@ def check_docs_and_dashboard() -> None:
     docs = [
         "docs/methodology/consolidated_experimental_decision.md",
         "docs/methodology/probabilistic_risk_interpretation.md",
+        "docs/methodology/temporal_robustness_evaluation.md",
         "docs/methodology/model_training_pipeline.md",
         "docs/methodology/final_methodological_summary.md",
         "docs/project_map.md",
@@ -304,6 +357,7 @@ def print_report() -> int:
 def main() -> int:
     check_official_scripts()
     check_official_outputs()
+    check_temporal_robustness_outputs()
     check_metrics()
     check_feature_metadata()
     check_charts()

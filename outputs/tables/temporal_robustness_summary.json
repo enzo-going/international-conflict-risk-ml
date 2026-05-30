@@ -1,0 +1,47 @@
+{
+  "dataset": "data\\final\\conflict_country_year_world_bank_features.csv",
+  "feature_metadata": "outputs\\models\\conflict_risk_model_features.json",
+  "n_features": 33,
+  "target_column": "target_conflict_next_year",
+  "persistence_column": "organized_violence_exists",
+  "model": "Pipeline(SimpleImputer median -> StandardScaler -> LogisticRegression balanced)",
+  "official_split": {
+    "train_end_year": 2016,
+    "test_start_year": 2017,
+    "test_end_year": 2023,
+    "model_f1": 0.8722157092614302,
+    "persistence_f1": 0.8571428571428571,
+    "f1_difference_vs_persistence": 0.015072852118573121,
+    "model_accuracy": 0.9197349042709867,
+    "model_precision": 0.9029126213592233,
+    "model_recall": 0.8435374149659864,
+    "model_brier_score": 0.06296534024219087,
+    "model_roc_auc": 0.9651431637722337,
+    "model_average_precision": 0.9481744072625685
+  },
+  "rolling_one_year": {
+    "windows": 11,
+    "wins_vs_persistence": 8,
+    "ties_vs_persistence": 1,
+    "losses_vs_persistence": 2,
+    "mean_model_f1": 0.8638873650175309,
+    "mean_persistence_f1": 0.8503904200588214,
+    "mean_f1_difference_vs_persistence": 0.013496944958709496,
+    "min_f1_difference_vs_persistence": -0.017579197949093572,
+    "max_f1_difference_vs_persistence": 0.039331366764995046,
+    "stable_win_vs_persistence": false
+  },
+  "expanding_holdout": {
+    "windows": 7,
+    "wins_vs_persistence": 7,
+    "ties_vs_persistence": 0,
+    "losses_vs_persistence": 0,
+    "mean_model_f1": 0.8662719446810548,
+    "mean_persistence_f1": 0.855410600080604,
+    "mean_f1_difference_vs_persistence": 0.010861344600450564,
+    "min_f1_difference_vs_persistence": 0.006276877834998196,
+    "max_f1_difference_vs_persistence": 0.015371289077880101,
+    "stable_win_vs_persistence": true
+  },
+  "interpretation": "The model is considered temporally stable only if it beats the persistence baseline in every rolling one-year and expanding holdout window."
+}

@@ -185,6 +185,24 @@ O melhor resultado histórico anterior era `0.8711`. Após a análise de ablaç�
 
 Esse resultado é metodologicamente relevante porque mostra que mais features nem sempre significam melhor desempenho. A análise de ablação indicou que os indicadores brutos completos do World Bank funcionaram melhor do que o conjunto com todas as features derivadas.
 
+### Robustez temporal
+
+Foi adicionada uma avaliação de robustez temporal para testar o modelo oficial em múltiplas janelas, além do split consolidado 2017-2023.
+
+Resumo atual:
+
+- split oficial reproduzido: F1 `0.8722` contra `0.8571` da persistência;
+- rolling one-year test: 8 vitórias, 1 empate e 2 derrotas contra a persistência;
+- expanding holdout: 7 vitórias em 7 janelas contra a persistência.
+
+Interpretação: o modelo mantém ganho agregado e vence em todos os holdouts expansivos, mas a vantagem anual não é perfeitamente estável. Portanto, esse resultado deve ser tratado como evidência de robustez parcial, não como substituição do resultado principal.
+
+Arquivos principais:
+
+- `src/models/run_temporal_robustness_evaluation.py`
+- `docs/methodology/temporal_robustness_evaluation.md`
+- `outputs/tables/temporal_robustness_summary.json`
+
 ## Status atual
 
 O projeto possui atualmente um pipeline principal funcional baseado em UCDP Organized Violence, indicadores World Bank, split temporal, baseline de persistência, comparação de modelos candidatos, análise preditiva por país, camada SQL, validação automática e dashboard via GitHub Pages.
@@ -433,6 +451,12 @@ Para regenerar apenas os gráficos preditivos:
 
 ```powershell
 python src\visualization\generate_predictive_charts.py
+```
+
+Para regenerar a avaliação de robustez temporal:
+
+```powershell
+python src\models\run_temporal_robustness_evaluation.py
 ```
 
 O treinamento principal gera:
