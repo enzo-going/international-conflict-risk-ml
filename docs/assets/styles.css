@@ -182,6 +182,7 @@ p {
 }
 
 .metric-strip,
+.temporal-metrics,
 .dataset-grid,
 .risk-grid,
 .module-grid,
@@ -194,6 +195,19 @@ p {
 .metric-strip {
   grid-template-columns: repeat(4, 1fr);
   margin-top: 22px;
+}
+
+.temporal-metrics {
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  margin-top: 18px;
+}
+
+.temporal-metrics .metric-card {
+  min-width: 0;
+}
+
+.temporal-metrics .metric-card strong {
+  font-size: 1.35rem;
 }
 
 .metric-card {
@@ -312,6 +326,7 @@ p {
 .mini-viz-grid,
 .detail-grid,
 .confusion-grid,
+.temporal-summary,
 .risk-explorer {
   display: grid;
   gap: 14px;
@@ -323,6 +338,7 @@ p {
 }
 
 .mini-viz-grid article,
+.temporal-summary article,
 .model-detail,
 .risk-explorer > div {
   padding: 16px;
@@ -333,6 +349,10 @@ p {
 
 .mini-viz-grid h3 {
   margin-top: 0;
+}
+
+.temporal-summary {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .mini-bar {
@@ -673,6 +693,7 @@ body.chart-lightbox-open {
 
 @media (max-width: 980px) {
   .metric-strip,
+  .temporal-metrics,
   .pipeline,
   .dataset-grid,
   .risk-grid,
@@ -680,6 +701,7 @@ body.chart-lightbox-open {
   .mini-viz-grid,
   .detail-grid,
   .confusion-grid,
+  .temporal-summary,
   .risk-explorer,
   .chart-grid.compact {
     grid-template-columns: repeat(2, 1fr);
@@ -703,6 +725,7 @@ body.chart-lightbox-open {
   }
 
   .metric-strip,
+  .temporal-metrics,
   .pipeline,
   .dataset-grid,
   .risk-grid,
@@ -710,6 +733,7 @@ body.chart-lightbox-open {
   .mini-viz-grid,
   .detail-grid,
   .confusion-grid,
+  .temporal-summary,
   .risk-explorer,
   .chart-grid.compact {
     grid-template-columns: 1fr;

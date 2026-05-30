@@ -11,6 +11,7 @@
     <a href="#overview">Visão geral</a>
     <a href="#pipeline">Pipeline</a>
     <a href="#results">Resultados</a>
+    <a href="#temporal-robustness">Robustez</a>
     <a href="#probability">Probabilidades</a>
     <a href="#risk-bands">Risk bands</a>
     <a href="#experiments">Módulos</a>
@@ -217,6 +218,108 @@
         </div>
         <a class="button" href="methodology/consolidated_experimental_decision.md">Ler decisão experimental consolidada</a>
       </details>
+    </section>
+
+    <section id="temporal-robustness" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Robustez temporal</p>
+        <h2>O desempenho foi reavaliado em múltiplas janelas temporais</h2>
+        <p>
+          A avaliação de robustez temporal testa se o modelo oficial continua competitivo quando o recorte de treino
+          e teste muda. Isso reduz o risco de interpretar um único split como evidência suficiente de estabilidade.
+        </p>
+      </div>
+
+      <div class="temporal-metrics" aria-label="Métricas de robustez temporal">
+        <article class="metric-card emphasis">
+          <span class="metric-label">F1 oficial</span>
+          <strong>0.8722</strong>
+          <span>teste 2017-2023</span>
+        </article>
+        <article class="metric-card">
+          <span class="metric-label">Baseline</span>
+          <strong>0.8571</strong>
+          <span>persistência</span>
+        </article>
+        <article class="metric-card">
+          <span class="metric-label">Ganho F1</span>
+          <strong>+0.0151</strong>
+          <span>moderado</span>
+        </article>
+        <article class="metric-card">
+          <span class="metric-label">Rolling</span>
+          <strong>8V / 1E / 2D</strong>
+          <span>11 janelas anuais</span>
+        </article>
+        <article class="metric-card">
+          <span class="metric-label">Expanding</span>
+          <strong>7V / 0E / 0D</strong>
+          <span>7 holdouts</span>
+        </article>
+        <article class="metric-card">
+          <span class="metric-label">ROC AUC</span>
+          <strong>0.9651</strong>
+          <span>split oficial</span>
+        </article>
+        <article class="metric-card">
+          <span class="metric-label">Brier</span>
+          <strong>0.0630</strong>
+          <span>split oficial</span>
+        </article>
+      </div>
+
+      <div class="temporal-summary">
+        <article>
+          <h3>Por que testar?</h3>
+          <p>
+            Conflitos têm dependência histórica forte. Um modelo pode ir bem em 2017-2023 e ainda assim perder
+            para uma regra simples em anos específicos. Por isso, cada janela foi comparada contra a baseline de
+            persistência.
+          </p>
+        </article>
+        <article>
+          <h3>Resultado cauteloso</h3>
+          <p>
+            O modelo vence no split oficial e em todos os holdouts expansivos. No rolling one-year, porém, houve
+            dois anos em que ele ficou abaixo da persistência e um empate. A conclusão é robustez parcial, não
+            superioridade estável em qualquer ano.
+          </p>
+        </article>
+      </div>
+
+      <div class="chart-group">
+        <h3>Galeria de robustez temporal</h3>
+        <div class="chart-grid compact">
+          <figure data-chart-src="assets/charts/temporal_robustness/f1_by_test_year.png" data-chart-title="F1 por ano de teste">
+            <img src="assets/charts/temporal_robustness/f1_by_test_year.png" alt="F1 do modelo e da persistência por ano de teste" />
+            <figcaption>F1 por ano</figcaption>
+          </figure>
+          <figure data-chart-src="assets/charts/temporal_robustness/f1_gain_vs_persistence_by_year.png" data-chart-title="Ganho de F1 contra baseline por ano">
+            <img src="assets/charts/temporal_robustness/f1_gain_vs_persistence_by_year.png" alt="Ganho de F1 contra a baseline de persistência por ano" />
+            <figcaption>Ganho vs baseline</figcaption>
+          </figure>
+          <figure data-chart-src="assets/charts/temporal_robustness/precision_recall_by_year.png" data-chart-title="Precision e recall por ano">
+            <img src="assets/charts/temporal_robustness/precision_recall_by_year.png" alt="Precision e recall do modelo por ano de teste" />
+            <figcaption>Precision/recall por ano</figcaption>
+          </figure>
+          <figure data-chart-src="assets/charts/temporal_robustness/expanding_holdout_f1.png" data-chart-title="F1 no expanding holdout">
+            <img src="assets/charts/temporal_robustness/expanding_holdout_f1.png" alt="F1 do modelo e da persistência no expanding holdout" />
+            <figcaption>F1 expanding holdout</figcaption>
+          </figure>
+          <figure data-chart-src="assets/charts/temporal_robustness/brier_score_by_year.png" data-chart-title="Brier score por ano">
+            <img src="assets/charts/temporal_robustness/brier_score_by_year.png" alt="Brier score do modelo por ano de teste" />
+            <figcaption>Brier score por ano</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div class="notice">
+        Esta seção não altera o modelo oficial. Ela adiciona uma camada de diagnóstico temporal e reforça que o
+        projeto estima risco probabilístico em estrutura <code>country-year</code>, sem promessa operacional ou
+        previsão determinística de conflitos.
+      </div>
+
+      <a class="button" href="methodology/temporal_robustness_evaluation.md">Ler relatório metodológico</a>
     </section>
 
     <section id="probability" class="section">
