@@ -3,928 +3,286 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PCG ML · Análise Preditiva de Conflitos Internacionais</title>
-
-  <link rel="stylesheet" href="assets/styles.css">
+  <title>International Conflict Risk ML | Dashboard</title>
+  <link rel="stylesheet" href="assets/styles.css" />
 </head>
-
 <body>
-  <div class="page">
-    <header class="hero">
-      <div class="eyebrow">Relatório técnico interativo · PCG Machine Learning</div>
-      <h1>Sistema Machine Learning de Análise Preditiva de Conflitos Internacionais</h1>
+  <header class="topbar">
+    <a href="#overview">Visão geral</a>
+    <a href="#pipeline">Pipeline</a>
+    <a href="#results">Resultados</a>
+    <a href="#probability">Probabilidades</a>
+    <a href="#risk-bands">Risk bands</a>
+    <a href="#experiments">Módulos</a>
+    <a href="#docs">Docs</a>
+  </header>
+
+  <main class="page">
+    <section id="overview" class="hero">
+      <div class="eyebrow">GitHub Pages dashboard · projeto acadêmico de Machine Learning</div>
+      <h1>Análise preditiva de violência organizada em estrutura country-year</h1>
       <p class="subtitle">
-        Projeto experimental aplicado a dados históricos e heterogêneos em estrutura <strong>país-ano</strong>,
-        com pipeline de dados, baseline, engenharia de features, modelos supervisionados e avaliação temporal
-        para análise preditiva de conflitos em contexto de Big Data.
+        Pipeline experimental e reproduzível para estimar se um país apresentará violência organizada no ano seguinte,
+        usando UCDP Organized Violence, features temporais e indicadores brutos do World Bank.
       </p>
-
-      <div class="tags">
-        <span class="tag">Classificação supervisionada</span>
-        <span class="tag">Country-year</span>
-        <span class="tag">Split temporal</span>
-        <span class="tag">Baseline de persistência</span>
-        <span class="tag">Feature engineering</span>
-      </div>
-    </header>
-
-    <section>
-      <h2>1. Formulação do problema</h2>
-      <p class="lead">
-        A motivação original do projeto envolve a análise de tensões internacionais, escalada de conflitos
-        e risco de grandes crises globais, até um possível desencadeamento de uma Terceira Guerra Mundial. 
-        Porém após diversas análises e debates entre os desenvolvedores do projeto foi concluido que, seria
-        metodologicamente frágil a sustentação dessa possível tese, pois além de ser um evento raro, é complexo 
-        de definir métricas e paramêtros relevantes, e seria necessário uma quantidade de amostras históricas
-        suficientes para treinamento supervisionado. Por isso, o problema foi reformulado para uma tarefa
-        observável de Machine Learning: estimar através de big data, se a tendência é ter mais ou menos conflitos.
-      </p>
-
-      <div class="research-box">
-        <strong>Pergunta de pesquisa operacional:</strong><br />
-        Dado o histórico de violência organizada e, futuramente, indicadores socioeconômicos, políticos e
-        militares de um país em determinado ano, é possível estimar a ocorrência de violência organizada
-        no ano seguinte com desempenho superior a uma baseline simples de persistência?
-      </div>
-
-      <div class="note amber">
-        A reformulação não abandona a motivação original sobre escalada global. Muito Pelo contrário,
-        ela transforma uma ideia ampla em um problema técnico mensurável, permitindo que
-        o projeto avance de forma científica antes de propor
-        qualquer índice agregado de risco sistêmico.
-      </div>
-
-      <div class="grid-3">
-        <div class="metric-card">
-          <div class="metric-label">Unidade de análise</div>
-          <div class="metric-value">país-ano</div>
-          <div class="metric-note">Uma observação por país em cada ano.</div>
-        </div>
-
-        <div class="metric-card">
-          <div class="metric-label">Target supervisionado</div>
-          <div class="metric-value">t + 1</div>
-          <div class="metric-note"><code>target_conflict_next_year</code></div>
-        </div>
-
-        <div class="metric-card">
-          <div class="metric-label">Avaliação principal</div>
-          <div class="metric-value">F1-score</div>
-          <div class="metric-note">Métrica central por haver desbalanceamento moderado.</div>
-        </div>
+      <div class="hero-actions">
+        <a class="button primary" href="#results">Ver resultado oficial</a>
+        <a class="button" href="methodology/model_training_pipeline.md">Metodologia do modelo</a>
       </div>
     </section>
 
-    <div class="layout">
-      <section>
-        <h2>2. Arquitetura técnica do sistema</h2>
+    <section class="metric-strip" aria-label="Métricas principais">
+      <article class="metric-card emphasis">
+        <span class="metric-label">Modelo oficial</span>
+        <strong>Logistic Regression</strong>
+        <span>World Bank all raw · 33 features</span>
+      </article>
+      <article class="metric-card">
+        <span class="metric-label">F1-score</span>
+        <strong>0.8722</strong>
+        <span>vs baseline 0.8571</span>
+      </article>
+      <article class="metric-card">
+        <span class="metric-label">Ganho F1</span>
+        <strong>+0.0151</strong>
+        <span>incremental e cauteloso</span>
+      </article>
+      <article class="metric-card">
+        <span class="metric-label">Países avaliados</span>
+        <strong>194</strong>
+        <span>ano-base 2023</span>
+      </article>
+    </section>
 
+    <section id="pipeline" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Pipeline oficial atual</p>
+        <h2>UCDP + features temporais + World Bank raw + Logistic Regression</h2>
         <p>
-          O projeto está sendo estruturado como um pipeline reprodutível de dados e Machine Learning,
-          não apenas como um notebook isolado. Cada etapa transforma dados históricos em variáveis
-          utilizáveis para modelagem preditiva.
+          A unidade oficial de análise é <code>country-year</code>. O target é
+          <code>target_conflict_next_year</code>, avaliado com split temporal e sempre comparado à baseline de persistência.
         </p>
-
-        <div class="pipeline">
-          <div class="step">
-            <div class="step-number">1</div>
-            <div>
-              <div class="step-title">Fontes de dados heterogêneas</div>
-              <div class="step-text">
-                UCDP como base central e, nas próximas etapas, integração de indicadores socioeconômicos
-                do World Bank e possíveis fontes geopolíticas/militares.
-              </div>
-            </div>
-          </div>
-
-          <div class="step">
-            <div class="step-number">2</div>
-            <div>
-              <div class="step-title">Padronização em país-ano</div>
-              <div class="step-text">
-                Todos os dados precisam ser convertidos para uma granularidade comum:
-                <code>country-year</code>. Essa etapa permite combinar fontes diferentes.
-              </div>
-            </div>
-          </div>
-
-          <div class="step">
-            <div class="step-number">3</div>
-            <div>
-              <div class="step-title">Feature engineering</div>
-              <div class="step-text">
-                Criação de variáveis históricas, temporais, socioeconômicas e regionais para representar
-                melhor o contexto de risco de cada país.
-              </div>
-            </div>
-          </div>
-
-          <div class="step">
-            <div class="step-number">4</div>
-            <div>
-              <div class="step-title">Modelagem supervisionada</div>
-              <div class="step-text">
-                Treinamento de modelos de classificação para estimar
-                <code>target_conflict_next_year</code>, sempre comparando contra a baseline de persistência.
-              </div>
-            </div>
-          </div>
-
-          <div class="step">
-            <div class="step-number">5</div>
-            <div>
-              <div class="step-title">Avaliação temporal</div>
-              <div class="step-text">
-                Treino no passado e teste no futuro. Essa escolha evita avaliação artificialmente otimista
-                e simula melhor o uso real do modelo.
-              </div>
-            </div>
-          </div>
-
-          <div class="step">
-            <div class="step-number">6</div>
-            <div>
-              <div class="step-title">Camada visual e interpretativa</div>
-              <div class="step-text">
-                Painel HTML para acompanhar resultados, explicar decisões metodológicas e, futuramente,
-                visualizar um índice exploratório de escalada global.
-              </div>
-            </div>
-          </div>
-        </div>
-  
-      <h3>Camada SQL e banco SQLite</h3>
-
-      <p>
-        Além do pipeline em Python e dos notebooks de análise, o projeto possui uma camada SQL funcional
-        para organizar os principais artefatos em um banco relacional local.
-      </p>
-
-      <div class="research-box">
-        <strong>Fluxo da camada SQL:</strong><br />
-        CSV outputs -&gt; banco SQLite local -&gt; consultas SQL analíticas -&gt; documentação e dashboard.
       </div>
 
-      <table>
-        <thead>
-          <tr>
-            <th>Componente</th>
-            <th>Função</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><code>sql/schema.sql</code></td>
-            <td>Define o schema relacional do banco SQLite.</td>
-          </tr>
-          <tr>
-            <td><code>src/data/build_sqlite_database.py</code></td>
-            <td>Gera o banco local a partir dos CSVs do projeto.</td>
-          </tr>
-          <tr>
-            <td><code>sql/queries/</code></td>
-            <td>Armazena consultas sobre risco previsto, falsos positivos, falsos negativos, métricas e coeficientes.</td>
-          </tr>
-          <tr>
-            <td><code>data/database/conflict_risk_ml.sqlite</code></td>
-            <td>Banco local reproduzível, ignorado pelo Git.</td>
-          </tr>
-        </tbody>
-      </table>
-
-      <div class="note green">
-        Essa camada reforça a parte de Banco de Dados do projeto e permite consultar resultados do modelo usando SQL real,
-        sem substituir o pipeline principal de Machine Learning em Python.
+      <div class="pipeline">
+        <div class="pipeline-step"><span>1</span><strong>UCDP raw</strong><p>Organized Violence Country-Year preservado em <code>data/raw</code>.</p></div>
+        <div class="pipeline-step"><span>2</span><strong>Dataset base</strong><p>Criação de <code>organized_violence_exists</code> e target t+1.</p></div>
+        <div class="pipeline-step"><span>3</span><strong>Features temporais</strong><p>Persistência, mortes recentes e anos desde último conflito.</p></div>
+        <div class="pipeline-step"><span>4</span><strong>World Bank raw</strong><p>10 indicadores socioeconômicos em estrutura país-ano.</p></div>
+        <div class="pipeline-step"><span>5</span><strong>Treino temporal</strong><p>Treino 1989-2016; teste 2017-2023.</p></div>
+        <div class="pipeline-step"><span>6</span><strong>Outputs</strong><p>Métricas, predições, modelo, coeficientes e relatórios.</p></div>
       </div>
-
     </section>
 
-      <section>
-        <h2>3. Camadas de dados do projeto</h2>
+    <section id="datasets" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Governança de dados</p>
+        <h2>Datasets oficiais, candidatos, experimentais e suporte bruto</h2>
+        <p>A auditoria evita integrar fontes heterogêneas sem chave temporal, chave geográfica e justificativa metodológica.</p>
+      </div>
+      <div class="dataset-grid">
+        <article class="dataset-card official"><strong>6 oficiais</strong><span>Artefatos diretamente ligados ao pipeline principal.</span></article>
+        <article class="dataset-card candidate"><strong>6 candidatos</strong><span>Fontes com potencial, ainda exigem validação de cobertura e chaves.</span></article>
+        <article class="dataset-card experimental"><strong>4 experimentais</strong><span>Frentes paralelas em revisão metodológica.</span></article>
+        <article class="dataset-card support"><strong>16 suporte/raw</strong><span>Arquivos preservados para rastreabilidade.</span></article>
+        <article class="dataset-card blocked"><strong>3 não prontos</strong><span>Sem estrutura suficiente para integração direta.</span></article>
+      </div>
+      <p class="small-note">Resumo auditado: 35 datasets em <code>outputs/tables/dataset_integration_summary.json</code>.</p>
+    </section>
 
-        <div class="grid-3">
-          <div class="metric-card">
-            <div class="metric-label">Registros</div>
-            <div class="metric-value">6.737</div>
-            <div class="metric-note">Após remoção do último ano sem target futuro.</div>
-          </div>
+    <section id="results" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Resultado oficial</p>
+        <h2>Modelo principal supera a persistência, mas com ganho moderado</h2>
+      </div>
 
-          <div class="metric-card">
-            <div class="metric-label">Países</div>
-            <div class="metric-value">199</div>
-            <div class="metric-note">Cobertura internacional ampla.</div>
-          </div>
-
-          <div class="metric-card">
-            <div class="metric-label">Período</div>
-            <div class="metric-value">1989–2023</div>
-            <div class="metric-note">Série histórica anual.</div>
-          </div>
+      <div class="model-result">
+        <div class="score-card">
+          <span>Logistic Regression scaled - World Bank all raw</span>
+          <strong>F1 0.8722</strong>
+          <p>Accuracy 0.9197 · Precision 0.9029 · Recall 0.8435 · 33 features</p>
         </div>
+        <div class="score-card baseline">
+          <span>Persistence baseline</span>
+          <strong>F1 0.8571</strong>
+          <p><code>y_pred = organized_violence_exists</code></p>
+        </div>
+      </div>
 
-        <h3>Distribuição do target</h3>
+      <h3>Comparação de modelos candidatos</h3>
+      <div class="table-wrap">
         <table>
           <thead>
-            <tr>
-              <th>Classe</th>
-              <th>Significado</th>
-              <th>Proporção</th>
-            </tr>
+            <tr><th>Modelo</th><th>Accuracy</th><th>Precision</th><th>Recall</th><th>F1</th><th>Δ F1</th></tr>
           </thead>
           <tbody>
-            <tr>
-              <td>0</td>
-              <td>Sem violência organizada no ano seguinte</td>
-              <td>70,51%</td>
-            </tr>
-            <tr>
-              <td>1</td>
-              <td>Com violência organizada no ano seguinte</td>
-              <td>29,49%</td>
-            </tr>
+            <tr class="selected"><td>Logistic Regression</td><td>0.9197</td><td>0.9029</td><td>0.8435</td><td>0.8722</td><td>+0.0151</td></tr>
+            <tr><td>Random Forest</td><td>0.9124</td><td>0.8594</td><td>0.8730</td><td>0.8661</td><td>+0.0090</td></tr>
+            <tr><td>Gradient Boosting</td><td>0.9138</td><td>0.9197</td><td>0.8050</td><td>0.8585</td><td>+0.0014</td></tr>
+            <tr><td>Persistence baseline</td><td>0.9072</td><td>0.8571</td><td>0.8571</td><td>0.8571</td><td>0.0000</td></tr>
+            <tr><td>MLP</td><td>0.9094</td><td>0.9206</td><td>0.7891</td><td>0.8498</td><td>-0.0073</td></tr>
           </tbody>
         </table>
+      </div>
 
-        <div class="note blue">
-          O problema é moderadamente desbalanceado. Por isso, accuracy sozinha não é suficiente;
-          precision, recall e F1-score são essenciais.
-        </div>
+      <div class="bar-list" aria-label="Comparação visual de F1-score">
+        <div class="bar-row"><span>Logistic Regression</span><div><i style="width:87.22%"></i></div><b>0.8722</b></div>
+        <div class="bar-row"><span>Random Forest</span><div><i style="width:86.61%"></i></div><b>0.8661</b></div>
+        <div class="bar-row"><span>Gradient Boosting</span><div><i style="width:85.85%"></i></div><b>0.8585</b></div>
+        <div class="bar-row"><span>Baseline</span><div><i class="muted-bar" style="width:85.71%"></i></div><b>0.8571</b></div>
+        <div class="bar-row"><span>MLP</span><div><i class="muted-bar" style="width:84.98%"></i></div><b>0.8498</b></div>
+      </div>
+    </section>
 
-        <h3>Estratégia de enriquecimento</h3>
+    <section id="probability" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Análise probabilística</p>
+        <h2>Thresholds, calibração preliminar e cautela interpretativa</h2>
+        <p>As probabilidades são estimativas experimentais. Elas não devem ser lidas como previsão determinística de eventos geopolíticos.</p>
+      </div>
+
+      <div class="split">
+        <article class="callout">
+          <h3>Threshold oficial 0.50</h3>
+          <p>Melhor F1 na grade testada: <strong>0.8722</strong>. Mantém maior precisão e reduz falsos positivos.</p>
+        </article>
+        <article class="callout alt">
+          <h3>Threshold alternativo 0.40</h3>
+          <p>Recall maior: <strong>0.8662</strong>. Útil para leitura mais sensível, com mais falsos positivos.</p>
+        </article>
+      </div>
+
+      <div class="table-wrap">
         <table>
-          <thead>
-            <tr>
-              <th>Camada</th>
-              <th>Fonte</th>
-              <th>Status</th>
-              <th>Função no modelo</th>
-            </tr>
-          </thead>
+          <thead><tr><th>Threshold</th><th>Precision</th><th>Recall</th><th>F1</th><th>Uso interpretativo</th></tr></thead>
           <tbody>
-            <tr>
-              <td>Conflito histórico</td>
-              <td>UCDP Organized Violence</td>
-              <td>Integrado</td>
-              <td>Base central, target e histórico de violência organizada.</td>
-            </tr>
-            <tr>
-              <td>Histórico temporal</td>
-              <td>Features derivadas</td>
-              <td>Integrado</td>
-              <td>Persistência, mortes recentes e anos desde último conflito.</td>
-            </tr>
-            <tr>
-              <td>Socioeconômica</td>
-              <td>World Bank</td>
-              <td>Próxima etapa</td>
-              <td>Adicionar contexto externo: população, PIB, desemprego, inflação e indicadores relacionados.</td>
-            </tr>
-            <tr>
-              <td>Geopolítica/militar</td>
-              <td>SIPRI / COW / outras</td>
-              <td>Planejado</td>
-              <td>Adicionar capacidade explicativa sobre poder militar, alianças ou tensões estruturais.</td>
-            </tr>
+            <tr><td>0.40</td><td>0.8702</td><td>0.8662</td><td>0.8682</td><td>Mais sensível</td></tr>
+            <tr class="selected"><td>0.50</td><td>0.9029</td><td>0.8435</td><td>0.8722</td><td>Oficial atual</td></tr>
+            <tr><td>0.60</td><td>0.9130</td><td>0.8095</td><td>0.8582</td><td>Mais conservador</td></tr>
           </tbody>
         </table>
-      </section>
-    </div>
-
-    <section>
-      <h2>4. Comparação de modelos candidatos</h2>
-
-      <p>
-        Após a consolidação do modelo principal com UCDP, features temporais e indicadores brutos do World Bank,
-        foram testados modelos candidatos para verificar se algoritmos mais complexos superariam a configuração atual.
-      </p>
-
-      <p>
-        Todos os modelos utilizaram o mesmo split temporal, o mesmo target supervisionado e o mesmo conjunto de
-        33 features do modelo principal.
-      </p>
-
-      <table>
-        <thead>
-          <tr>
-            <th>Modelo</th>
-            <th>Accuracy</th>
-            <th>Precision</th>
-            <th>Recall</th>
-            <th>F1-score</th>
-            <th>Diferença vs baseline</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Logistic Regression · World Bank all raw</td>
-            <td>0.9197</td>
-            <td>0.9029</td>
-            <td>0.8435</td>
-            <td class="best">0.8722</td>
-            <td>+0.0151</td>
-          </tr>
-          <tr>
-            <td>Random Forest · World Bank all raw</td>
-            <td>0.9124</td>
-            <td>0.8594</td>
-            <td>0.8730</td>
-            <td>0.8661</td>
-            <td>+0.0090</td>
-          </tr>
-          <tr>
-            <td>Gradient Boosting · World Bank all raw</td>
-            <td>0.9138</td>
-            <td>0.9197</td>
-            <td>0.8050</td>
-            <td>0.8585</td>
-            <td>+0.0014</td>
-          </tr>
-          <tr>
-            <td>Persistence baseline</td>
-            <td>0.9072</td>
-            <td>0.8571</td>
-            <td>0.8571</td>
-            <td>0.8571</td>
-            <td>0.0000</td>
-          </tr>
-          <tr>
-            <td>MLP · World Bank all raw</td>
-            <td>0.9094</td>
-            <td>0.9206</td>
-            <td>0.7891</td>
-            <td>0.8498</td>
-            <td>-0.0073</td>
-          </tr>
-        </tbody>
-      </table>
-
-      <h3>Comparação visual por F1-score</h3>
-
-      <div class="bar-chart">
-        <div class="bar-row">
-          <div class="bar-label">Logistic Regression</div>
-          <div class="bar-track"><div class="bar-fill blue" style="width: 87.22%;"></div></div>
-          <div class="bar-value">0.8722</div>
-        </div>
-
-        <div class="bar-row">
-          <div class="bar-label">Random Forest</div>
-          <div class="bar-track"><div class="bar-fill green" style="width: 86.61%;"></div></div>
-          <div class="bar-value">0.8661</div>
-        </div>
-
-        <div class="bar-row">
-          <div class="bar-label">Gradient Boosting</div>
-          <div class="bar-track"><div class="bar-fill green" style="width: 85.85%;"></div></div>
-          <div class="bar-value">0.8585</div>
-        </div>
-
-        <div class="bar-row">
-          <div class="bar-label">Persistence baseline</div>
-          <div class="bar-track"><div class="bar-fill amber" style="width: 85.71%;"></div></div>
-          <div class="bar-value">0.8571</div>
-        </div>
-
-        <div class="bar-row">
-          <div class="bar-label">MLP simples</div>
-          <div class="bar-track"><div class="bar-fill amber" style="width: 84.98%;"></div></div>
-          <div class="bar-value">0.8498</div>
-        </div>
       </div>
 
-      <div class="note green">
-        Resultado atual: a Logistic Regression com World Bank all raw permanece como modelo principal,
-        pois obteve o maior F1-score e mantém alta interpretabilidade.
-      </div>
+      <details class="method-note" open>
+        <summary>Resumo de calibração</summary>
+        <p>
+          Os extremos apresentaram boa aderência: o bin <code>0.9-1.0</code> teve probabilidade média 0.9831
+          e taxa observada 0.9863. Bins intermediários foram menos estáveis, como <code>0.5-0.6</code>
+          e <code>0.7-0.8</code>, exigindo cautela antes de tratar probabilidades como risco calibrado.
+        </p>
+      </details>
+    </section>
 
-      <div class="note amber">
-        O Random Forest apresentou maior recall e reduziu falsos negativos, mas aumentou falsos positivos.
-        Por isso, ele pode ser tratado como modelo alternativo mais sensível, não como substituto direto.
+    <section id="risk-bands" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Country risk assessment</p>
+        <h2>Risk bands para 194 países no ano-base 2023</h2>
+      </div>
+      <div class="risk-grid">
+        <article><span>very_low</span><strong>120</strong><p>média 0.0558</p></article>
+        <article><span>low</span><strong>11</strong><p>média 0.2716</p></article>
+        <article><span>moderate</span><strong>4</strong><p>média 0.4678</p></article>
+        <article class="high"><span>high</span><strong>5</strong><p>média 0.7183</p></article>
+        <article class="very-high"><span>very_high</span><strong>54</strong><p>média 0.9507</p></article>
+      </div>
+      <div class="notice">
+        <strong>59 países</strong> foram classificados como <code>high</code> ou <code>very_high</code>; destes,
+        <strong>54</strong> ficaram em <code>very_high</code>. Essas faixas são uma camada interpretativa do modelo,
+        não uma afirmação causal ou operacional.
       </div>
     </section>
 
-    <section>
-      <h2>5. Matriz de confusão: baseline vs algoritmo principal</h2>
-
-      <div class="matrix-grid">
-        <div class="matrix">
-          <div class="matrix-title">Persistence baseline</div>
-          <div class="matrix-cells">
-            <div class="matrix-cell">
-              <strong>854</strong>
-              <span>True negatives</span>
-            </div>
-            <div class="matrix-cell">
-              <strong>63</strong>
-              <span>False positives</span>
-            </div>
-            <div class="matrix-cell">
-              <strong>63</strong>
-              <span>False negatives</span>
-            </div>
-            <div class="matrix-cell">
-              <strong>378</strong>
-              <span>True positives</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="matrix">
-          <div class="matrix-title">World Bank all raw · Logistic Regression</div>
-          <div class="matrix-cells">
-            <div class="matrix-cell">
-              <strong>877</strong>
-              <span>True negatives</span>
-            </div>
-            <div class="matrix-cell">
-              <strong>40</strong>
-              <span>False positives</span>
-            </div>
-            <div class="matrix-cell">
-              <strong>69</strong>
-              <span>False negatives</span>
-            </div>
-            <div class="matrix-cell">
-              <strong>372</strong>
-              <span>True positives</span>
-            </div>
-          </div>
-        </div>
+    <section id="charts" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Visualizações existentes</p>
+        <h2>Gráficos preditivos integrados ao dashboard</h2>
+        <p>Os gráficos abaixo já existem em <code>docs/assets/charts/predictive_analysis/</code>; nenhum novo arquivo de imagem foi gerado nesta fase.</p>
       </div>
-
-      <div class="note green">
-        O algoritmo principal atual reduziu falsos positivos de 63 para 40 e aumentou a precisão do modelo.
-        Em contrapartida, os falsos negativos subiram de 63 para 69. A melhora geral do F1-score vem do equilíbrio
-        entre maior precisão e leve redução de recall.
+      <div class="chart-grid">
+        <figure data-chart-src="assets/charts/predictive_analysis/threshold_f1_curve.png" data-chart-title="F1-score por threshold">
+          <img src="assets/charts/predictive_analysis/threshold_f1_curve.png" alt="F1-score por threshold" />
+          <figcaption>F1-score por threshold</figcaption>
+        </figure>
+        <figure data-chart-src="assets/charts/predictive_analysis/threshold_precision_recall_curve.png" data-chart-title="Precision e recall por threshold">
+          <img src="assets/charts/predictive_analysis/threshold_precision_recall_curve.png" alt="Precision e recall por threshold" />
+          <figcaption>Precision e recall</figcaption>
+        </figure>
+        <figure data-chart-src="assets/charts/predictive_analysis/risk_band_distribution.png" data-chart-title="Distribuição das faixas de risco">
+          <img src="assets/charts/predictive_analysis/risk_band_distribution.png" alt="Distribuição das faixas de risco" />
+          <figcaption>Distribuição das faixas de risco</figcaption>
+        </figure>
+        <figure data-chart-src="assets/charts/predictive_analysis/prediction_result_counts.png" data-chart-title="Acertos e erros">
+          <img src="assets/charts/predictive_analysis/prediction_result_counts.png" alt="Acertos e erros do modelo" />
+          <figcaption>Acertos e erros</figcaption>
+        </figure>
+        <figure data-chart-src="assets/charts/predictive_analysis/region_mean_predicted_probability.png" data-chart-title="Probabilidade média por região">
+          <img src="assets/charts/predictive_analysis/region_mean_predicted_probability.png" alt="Probabilidade média por região" />
+          <figcaption>Probabilidade média por região</figcaption>
+        </figure>
+        <figure data-chart-src="assets/charts/predictive_analysis/top_cases_predicted_probability.png" data-chart-title="Top casos por probabilidade">
+          <img src="assets/charts/predictive_analysis/top_cases_predicted_probability.png" alt="Top casos por probabilidade prevista" />
+          <figcaption>Top casos por probabilidade</figcaption>
+        </figure>
       </div>
     </section>
 
-    <section>
-      <h2>6. Interpretação do modelo: variáveis mais influentes</h2>
-
-      <p>
-        Como o algoritmo principal é uma regressão logística com variáveis padronizadas, é possível inspecionar
-        os coeficientes do modelo para entender quais atributos mais influenciam a previsão.
-      </p>
-
-      <p>
-        A tabela abaixo apresenta as principais variáveis ordenadas pela magnitude absoluta do coeficiente.
-        Coeficientes positivos aumentam o risco previsto; coeficientes negativos reduzem o risco previsto.
-      </p>
-
-      <table>
-        <thead>
-          <tr>
-            <th>Rank</th>
-            <th>Variável</th>
-            <th>Grupo</th>
-            <th>Coeficiente</th>
-            <th>Efeito estimado</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>1</td>
-            <td><code>non_state_dyad_count</code></td>
-            <td>UCDP</td>
-            <td>+1.3980</td>
-            <td>Aumenta risco previsto</td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td><code>state_based_dyad_count</code></td>
-            <td>UCDP</td>
-            <td>+1.1020</td>
-            <td>Aumenta risco previsto</td>
-          </tr>
-          <tr>
-            <td>3</td>
-            <td><code>one_sided_dyad_count</code></td>
-            <td>UCDP</td>
-            <td>+0.8231</td>
-            <td>Aumenta risco previsto</td>
-          </tr>
-          <tr>
-            <td>4</td>
-            <td><code>conflict_last_5_years_count</code></td>
-            <td>Temporal</td>
-            <td>+0.6305</td>
-            <td>Aumenta risco previsto</td>
-          </tr>
-          <tr>
-            <td>5</td>
-            <td><code>organized_violence_exists</code></td>
-            <td>UCDP</td>
-            <td>+0.5451</td>
-            <td>Aumenta risco previsto</td>
-          </tr>
-          <tr>
-            <td>6</td>
-            <td><code>years_since_last_conflict</code></td>
-            <td>Temporal</td>
-            <td>-0.4747</td>
-            <td>Reduz risco previsto</td>
-          </tr>
-          <tr>
-            <td>7</td>
-            <td><code>intrastate_conflict_exists</code></td>
-            <td>UCDP</td>
-            <td>+0.4273</td>
-            <td>Aumenta risco previsto</td>
-          </tr>
-          <tr>
-            <td>8</td>
-            <td><code>state_based_conflict_exists</code></td>
-            <td>UCDP</td>
-            <td>-0.3440</td>
-            <td>Reduz risco previsto</td>
-          </tr>
-          <tr>
-            <td>9</td>
-            <td><code>gdp_per_capita_current_usd</code></td>
-            <td>World Bank</td>
-            <td>-0.2739</td>
-            <td>Reduz risco previsto</td>
-          </tr>
-          <tr>
-            <td>10</td>
-            <td><code>year</code></td>
-            <td>Índice temporal</td>
-            <td>-0.2174</td>
-            <td>Reduz risco previsto</td>
-          </tr>
-        </tbody>
-      </table>
-
-      <div class="research-box">
-        <strong>Leitura técnica:</strong><br />
-        O modelo é dominado por variáveis históricas de conflito da UCDP, especialmente contagens de díades e persistência temporal.
-        Os indicadores do World Bank entram como complemento, com destaque para PIB per capita, educação, crescimento populacional
-        e dependência de recursos naturais.
+    <section id="experiments" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Módulos experimentais e paralelos</p>
+        <h2>Expansões preservadas, mas separadas do resultado oficial</h2>
       </div>
-
-      <div class="note amber">
-        Importante: coeficientes de regressão logística indicam associação dentro do modelo, não causalidade.
-        Eles devem ser interpretados como sinais estatísticos condicionados às variáveis disponíveis e ao procedimento de padronização.
+      <div class="module-grid">
+        <article><h3>SIPRI</h3><p>Fonte candidata/apoio; ainda não substitui nem altera o modelo principal.</p></article>
+        <article><h3>PRIO</h3><p>Fonte candidata em revisão; requer validação de chaves, cobertura e perda de linhas.</p></article>
+        <article><h3>WWI/WWII</h3><p>Módulo histórico experimental com granularidade e target diferentes.</p></article>
+        <article><h3>One-sided violence</h3><p>Frente complementar que deve ser comparada às variáveis one-sided já presentes na UCDP oficial.</p></article>
+        <article><h3>Shock features</h3><p>Experimento não oficial; F1 0.8709, abaixo do modelo oficial 0.8722.</p></article>
+        <article><h3>Global inflation</h3><p>Indicador/feature de suporte, não resultado principal separado.</p></article>
       </div>
     </section>
 
-    <section>
-      <h2>7. Síntese do estado consolidado</h2>
-
-      <p>
-        O estado consolidado do projeto mostra que a previsão de violência organizada em estrutura
-        <code>country-year</code> já possui um pipeline funcional, validado e reproduzível.
-        A baseline de persistência continua forte, mas o modelo principal supera essa referência mantendo interpretabilidade.
-      </p>
-
-      <p>
-        A evolução recente do projeto não está apenas na troca de algoritmo, mas na organização de um sistema completo:
-        dados heterogêneos, auditoria de fontes, comparação de modelos, análise preditiva por país,
-        explicabilidade aproximada e validação automática de artefatos.
-      </p>
-
-      <div class="research-box">
-        <strong>Leitura metodológica atual:</strong><br />
-        O projeto não deve ser apresentado como previsão direta de uma Terceira Guerra Mundial.
-        A tese tecnicamente defensável é a construção de um sistema de Machine Learning para estimar risco
-        de violência organizada no ano seguinte, com possibilidade futura de evoluir para análises agregadas
-        de escalada internacional.
+    <section id="limitations" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Limitações metodológicas</p>
+        <h2>Como interpretar o projeto sem overclaim</h2>
       </div>
+      <ul class="limitations">
+        <li>O modelo estima risco em nível país-ano; não prevê guerras mundiais.</li>
+        <li>O ganho sobre a baseline é real, mas pequeno/moderado.</li>
+        <li>Coeficientes indicam associação dentro do modelo, não causalidade.</li>
+        <li>Indicadores externos podem ter atraso, lacunas e problemas de cobertura.</li>
+        <li>Risk bands são uma camada interpretativa, não uma classificação operacional calibrada.</li>
+      </ul>
+    </section>
 
-      <div class="note blue">
-        Documento de consolidação:
-        <code>reports/final/project_consolidation_review.md</code>
+    <section id="docs" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Documentação</p>
+        <h2>Leituras metodológicas e técnicas</h2>
+      </div>
+      <div class="link-grid">
+        <a href="project_map.md">Mapa técnico do projeto</a>
+        <a href="methodology/model_training_pipeline.md">Pipeline de treinamento</a>
+        <a href="methodology/consolidated_experimental_decision.md">Decisão experimental consolidada</a>
+        <a href="methodology/probabilistic_risk_interpretation.md">Interpretação probabilística de risco</a>
+        <a href="references/world_bank_indicators.md">Indicadores World Bank</a>
       </div>
     </section>
 
-    <section>
-      <h3>Módulo experimental: UCDP One-Sided Violence</h3>
+    <footer class="footer">
+      Projeto acadêmico de Machine Learning aplicado à análise preditiva de conflitos internacionais.
+    </footer>
+  </main>
 
-<div class="card">
-  <p>
-    Além do pipeline principal UCDP + World Bank, o projeto possui um módulo experimental complementar
-    baseado no dataset <strong>UCDP One-Sided Violence</strong>.
-  </p>
-
-  <p>
-    Esse módulo gera predições e coeficientes próprios a partir de dados de violência unilateral,
-    incluindo arquivos como <code>one_sided_predictions.csv</code>,
-    <code>one_sided_feature_importance.csv</code> e <code>neighbors.json</code>.
-  </p>
-
-  <p>
-    A decisão metodológica atual é manter esse módulo como uma frente paralela em revisão.
-    Ele não substitui o modelo principal, pois possui unidade de análise e lógica própria,
-    mais próxima de <code>location-year</code>, enquanto o pipeline oficial permanece em
-    <code>country-year</code>.
-  </p>
-
-  <p>
-    A revisão metodológica desse módulo está documentada em
-    <code>docs/methodology/one_sided_experimental_module_review.md</code>.
-  </p>
-</div>
-
-<h2>8. Roadmap técnico após consolidação</h2>
-
-      <div class="timeline">
-        <div class="timeline-item">
-          <div class="timeline-title">Estado atual</div>
-          <div class="timeline-text">
-            Pipeline principal validado com UCDP, features temporais, indicadores World Bank,
-            análise preditiva por país, auditoria de datasets e validação automática com 79 checks aprovados.
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-title">Curto prazo</div>
-          <div class="timeline-text">
-            Revisar a integração das novas fontes World Bank/PRIO, separando o que já é oficial,
-            o que é candidato ao pipeline e o que permanece apenas como suporte bruto ou experimento.
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-title">Próxima melhoria técnica</div>
-          <div class="timeline-text">
-            Testar se novas variáveis econômicas e geopolíticas realmente melhoram o desempenho contra a baseline,
-            sem introduzir vazamento temporal ou perda de interpretabilidade.
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-title">Entrega acadêmica</div>
-          <div class="timeline-text">
-            Apresentar o sistema como análise preditiva probabilística de violência organizada,
-            deixando módulos WWI/WWII, One-Sided Violence e escalada histórica como extensões experimentais.
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <section>
-      <h2>9. Análise probabilística do modelo</h2>
-
-      <p>
-        O algoritmo principal também gera uma probabilidade estimada de conflito no ano seguinte.
-        Isso permite interpretar a saída do modelo como uma medida experimental de risco em nível
-        país-ano, mantendo a cautela metodológica de que não se trata de uma previsão determinística.
-      </p>
-
-      <div class="grid-4">
-        <div class="metric-card">
-          <div class="metric-label">Threshold principal</div>
-          <div class="metric-value">0.50</div>
-          <div class="metric-note">Melhor F1-score na grade testada.</div>
-        </div>
-
-        <div class="metric-card">
-          <div class="metric-label">F1-score atual</div>
-          <div class="metric-value">0.8722</div>
-          <div class="metric-note">Modelo principal com indicadores brutos completos do World Bank.</div>
-        </div>
-
-        <div class="metric-card">
-          <div class="metric-label">Precision</div>
-          <div class="metric-value">0.9029</div>
-          <div class="metric-note">Boa confiabilidade nas previsões positivas.</div>
-        </div>
-
-        <div class="metric-card">
-          <div class="metric-label">Recall</div>
-          <div class="metric-value">0.8435</div>
-          <div class="metric-note">Capacidade de capturar casos positivos.</div>
-        </div>
-      </div>
-
-      <h3>Análise de threshold</h3>
-
-      <table>
-        <thead>
-          <tr>
-            <th>Threshold</th>
-            <th>Precision</th>
-            <th>Recall</th>
-            <th>F1-score</th>
-            <th>Leitura técnica</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>0.30</td>
-            <td>0.8387</td>
-            <td>0.8844</td>
-            <td>0.8609</td>
-            <td>Mais sensível: captura mais conflitos, mas aumenta falsos positivos.</td>
-          </tr>
-          <tr>
-            <td>0.40</td>
-            <td>0.8702</td>
-            <td>0.8662</td>
-            <td>0.8682</td>
-            <td>Equilíbrio próximo ao melhor resultado.</td>
-          </tr>
-          <tr>
-            <td>0.50</td>
-            <td>0.9029</td>
-            <td>0.8435</td>
-            <td class="best">0.8722</td>
-            <td>Threshold principal atual; melhor F1-score na grade testada.</td>
-          </tr>
-          <tr>
-            <td>0.60</td>
-            <td>0.9121</td>
-            <td>0.8231</td>
-            <td>0.8653</td>
-            <td>Mais conservador: aumenta precisão, mas perde casos positivos.</td>
-          </tr>
-        </tbody>
-      </table>
-
-      <div class="note blue">
-        Esta etapa aproxima o projeto de um sistema probabilístico de risco. A saída ainda deve
-        ser interpretada como estimativa experimental baseada em dados históricos, features
-        temporais e indicadores socioeconômicos.
-      </div>
-
-      <div class="note amber">
-        A calibração preliminar mostrou boa aderência nos extremos de probabilidade, mas alguns
-        intervalos intermediários ainda apresentaram erro maior. Métodos formais de calibração
-        podem ser avaliados em uma etapa futura.
-      </div>
-    </section>
-
-    <section>
-      <h2>Auditoria e governança dos datasets</h2>
-
-<div class="card">
-  <p>
-    Como o projeto recebeu datasets de diferentes integrantes do grupo, foi criada uma auditoria automática
-    para classificar cada fonte antes de qualquer integração ao pipeline principal.
-  </p>
-
-  <p>
-    O script responsável é <code>src/validation/audit_dataset_integration.py</code>.
-    A auditoria verifica arquivos em <code>data/raw</code>, <code>data/interim</code>,
-    <code>data/processed</code> e <code>data/final</code>.
-  </p>
-
-  <div class="metrics-grid">
-    <div class="metric-card">
-      <span class="metric-label">Datasets auditados</span>
-      <span class="metric-value">35</span>
-    </div>
-
-    <div class="metric-card">
-      <span class="metric-label">Oficiais/candidatos</span>
-      <span class="metric-value">12</span>
-    </div>
-
-    <div class="metric-card">
-      <span class="metric-label">Experimentais</span>
-      <span class="metric-value">4</span>
-    </div>
-
-    <div class="metric-card">
-      <span class="metric-label">Dados brutos de suporte</span>
-      <span class="metric-value">16</span>
-    </div>
-
-    <div class="metric-card">
-      <span class="metric-label">Não prontos</span>
-      <span class="metric-value">3</span>
+  <div id="chartLightbox" class="chart-lightbox" aria-hidden="true">
+    <button class="chart-lightbox-backdrop" type="button" data-chart-close="true" aria-label="Fechar visualização"></button>
+    <div class="chart-lightbox-dialog" role="dialog" aria-modal="true" aria-label="Gráfico ampliado">
+      <button class="chart-lightbox-close" type="button" aria-label="Fechar">×</button>
+      <h3 id="chartLightboxTitle"></h3>
+      <img id="chartLightboxImage" src="" alt="" />
     </div>
   </div>
 
-  <p>
-    A decisão metodológica atual é integrar ao pipeline principal apenas datasets compatíveis com
-    <code>country-year</code>, chave geográfica, chave temporal e justificativa preditiva.
-    Datasets adicionados pelo grupo, como módulos históricos ou fontes paralelas, são preservados,
-    mas classificados como experimentais quando ainda exigem validação.
-  </p>
-
-  <p>
-    Relatório completo:
-    <code>reports/final/dataset_integration_audit.md</code>
-  </p>
-</div>
-
-<h2>Visualizações preditivas geradas por Python</h2>
-
-<div class="card predictive-gallery-section">
-  <p>
-    Além das tabelas e métricas, o projeto gera visualizações preditivas diretamente por scripts Python.
-    Esses gráficos são produzidos a partir dos outputs do modelo principal e dos relatórios de análise preditiva.
-  </p>
-
-  <p>
-    O script responsável é <code>src/visualization/generate_predictive_charts.py</code>.
-    Os arquivos públicos usados neste dashboard ficam em <code>docs/assets/charts/predictive_analysis/</code>.
-  </p>
-
-  <p class="muted">
-    Clique em qualquer gráfico para abrir em tamanho ampliado.
-  </p>
-
-  <div class="predictive-chart-grid">
-    <figure class="predictive-chart-card" tabindex="0"
-      data-chart-src="assets/charts/predictive_analysis/threshold_f1_curve.png"
-      data-chart-title="F1-score por threshold">
-      <img class="predictive-chart-thumb" src="assets/charts/predictive_analysis/threshold_f1_curve.png" alt="F1-score por threshold" />
-      <figcaption>
-        <strong>F1-score por threshold</strong>
-        <span>Mostra o ponto de corte com melhor equilíbrio geral do modelo.</span>
-      </figcaption>
-    </figure>
-
-    <figure class="predictive-chart-card" tabindex="0"
-      data-chart-src="assets/charts/predictive_analysis/threshold_precision_recall_curve.png"
-      data-chart-title="Precision e recall por threshold">
-      <img class="predictive-chart-thumb" src="assets/charts/predictive_analysis/threshold_precision_recall_curve.png" alt="Precision e recall por threshold" />
-      <figcaption>
-        <strong>Precision e recall por threshold</strong>
-        <span>Mostra a troca entre reduzir falsos positivos e reduzir falsos negativos.</span>
-      </figcaption>
-    </figure>
-
-    <figure class="predictive-chart-card" tabindex="0"
-      data-chart-src="assets/charts/predictive_analysis/region_mean_predicted_probability.png"
-      data-chart-title="Risco médio previsto por região">
-      <img class="predictive-chart-thumb" src="assets/charts/predictive_analysis/region_mean_predicted_probability.png" alt="Risco médio previsto por região" />
-      <figcaption>
-        <strong>Risco médio previsto por região</strong>
-        <span>Compara a probabilidade média estimada nas regiões do conjunto de teste.</span>
-      </figcaption>
-    </figure>
-
-    <figure class="predictive-chart-card" tabindex="0"
-      data-chart-src="assets/charts/predictive_analysis/prediction_result_counts.png"
-      data-chart-title="Distribuição dos acertos e erros">
-      <img class="predictive-chart-thumb" src="assets/charts/predictive_analysis/prediction_result_counts.png" alt="Distribuição dos acertos e erros do modelo" />
-      <figcaption>
-        <strong>Distribuição dos acertos e erros</strong>
-        <span>Resume verdadeiros positivos, verdadeiros negativos, falsos positivos e falsos negativos.</span>
-      </figcaption>
-    </figure>
-
-    <figure class="predictive-chart-card" tabindex="0"
-      data-chart-src="assets/charts/predictive_analysis/risk_band_distribution.png"
-      data-chart-title="Distribuição das faixas de risco">
-      <img class="predictive-chart-thumb" src="assets/charts/predictive_analysis/risk_band_distribution.png" alt="Distribuição das faixas de risco" />
-      <figcaption>
-        <strong>Distribuição das faixas de risco</strong>
-        <span>Mostra como os casos foram distribuídos entre risco muito baixo e muito alto.</span>
-      </figcaption>
-    </figure>
-
-    <figure class="predictive-chart-card" tabindex="0"
-      data-chart-src="assets/charts/predictive_analysis/country_prediction_gap.png"
-      data-chart-title="Países com maior divergência preditiva">
-      <img class="predictive-chart-thumb" src="assets/charts/predictive_analysis/country_prediction_gap.png" alt="Países com maior divergência preditiva" />
-      <figcaption>
-        <strong>Países com maior divergência preditiva</strong>
-        <span>Mostra onde a taxa prevista mais diverge da taxa real observada.</span>
-      </figcaption>
-    </figure>
-  </div>
-</div>
-
-<h2>10. Módulo futuro: termômetro experimental de escalada</h2>
-      <p>
-        Uma evolução futura do sistema pode ser a criação de um índice agregado de risco,
-        apresentado como um termômetro exploratório de escalada global. Esse módulo não deve
-        ser interpretado como previsão determinística de guerra mundial, mas como visualização
-        agregada dos sinais estimados pelo modelo.
-      </p>
-
-      <div class="research-box">
-        <strong>Ideia futura:</strong><br />
-        Agregar probabilidades previstas por país, região e ano para criar um indicador visual
-        de tendência sistêmica. Esse indicador só deve ser exibido com porcentagens reais quando
-        houver dados heterogêneos integrados, calibração adequada e validação metodológica.
-      </div>
-
-      <div class="note amber">
-        Status atual: conceito em planejamento. O modelo atual ainda estima risco em nível país-ano,
-        não uma probabilidade direta de Terceira Guerra Mundial.
-      </div>
-    </section>
-
-    <div class="footer">
-      Projeto acadêmico em desenvolvimento · Ciência da Computação · Reconhecimento de Padrões / Machine Learning
-    </div>
-  </div>
   <script src="assets/dashboard.js" defer></script>
-<div id="chartLightbox" class="chart-lightbox" aria-hidden="true">
-  <div class="chart-lightbox-backdrop" data-chart-close="true"></div>
-  <div class="chart-lightbox-dialog" role="dialog" aria-modal="true" aria-label="Visualização ampliada do gráfico">
-    <button class="chart-lightbox-close" type="button" aria-label="Fechar gráfico ampliado">×</button>
-    <h3 id="chartLightboxTitle"></h3>
-    <img id="chartLightboxImage" src="" alt="" />
-  </div>
-</div>
-
 </body>
 </html>
