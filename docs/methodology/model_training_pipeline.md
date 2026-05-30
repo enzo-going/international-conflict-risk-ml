@@ -22,8 +22,11 @@ This dataset combines:
 
 - UCDP Organized Violence country-year data;
 - temporal conflict features;
-- World Bank socioeconomic indicators;
 - raw World Bank socioeconomic indicators.
+
+Therefore, the official pipeline state is:
+
+`UCDP Organized Violence + temporal conflict features + World Bank indicators`
 
 ## Unit of analysis
 
@@ -60,6 +63,12 @@ The current main model is a scikit-learn pipeline:
 2. `StandardScaler()`
 3. `LogisticRegression(class_weight="balanced", max_iter=5000, random_state=42)`
 
+The current official feature set contains 33 features:
+
+- 16 UCDP conflict/base variables;
+- 7 temporal conflict features;
+- 10 raw World Bank indicators.
+
 The training script is:
 
 `src/models/train_conflict_risk_model.py`
@@ -70,10 +79,9 @@ The model uses the following feature groups:
 
 1. UCDP conflict variables;
 2. temporal conflict features;
-3. raw World Bank indicators;
-4. raw World Bank indicators.
+3. raw World Bank indicators.
 
-The current main model uses raw World Bank indicators only. Engineered World Bank features are still generated and evaluated in experiments, but are not part of the current main model because the ablation analysis showed better performance without them.
+The current main model uses the raw World Bank indicators, not the engineered World Bank lag/change/rolling features. Engineered World Bank features are still generated and evaluated in experiments, but are not part of the current main model because the ablation analysis showed better performance without them.
 
 ## Output artifacts
 
@@ -99,26 +107,24 @@ The current main model improves F1-score over the persistence baseline by approx
 
 ## Interpretation
 
-The result suggests that adding heterogeneous socioeconomic data from the World Bank only becomes useful after feature engineering.
-
 The ablation analysis showed that the best current model uses the complete raw World Bank indicator set without the engineered World Bank temporal features.
 
-The improvement is moderate, but methodologically relevant.
+The improvement over the persistence baseline is small/moderate, but methodologically relevant. It should be interpreted with caution: most predictive signal still comes from historical conflict persistence, and the model should not be presented as a deterministic forecasting system or as a model for predicting a world war.
 
 ## Current limitations
 
-- The model is still a classical ML baseline, not yet a neural network.
-- The predicted probabilities are not calibrated yet.
-- The threshold is still the default 0.5.
+- The model is still a classical ML model.
+- Probability/threshold analyses exist as diagnostics, but the official model still uses the default binary decision rule in the main training script.
 - Only one external dataset family, World Bank, has been integrated so far.
 - Some historical countries/entities were excluded from the World Bank merge due to mapping limitations.
+- SIPRI, PRIO, WWI/WWII, One-Sided Violence, shock features and global inflation analyses are experimental or supporting modules unless explicitly integrated into the official `country-year` pipeline.
 
 ## Next technical steps
 
 Recommended next steps:
 
-1. evaluate probability calibration;
-2. test threshold tuning;
-3. test stronger tabular models, such as gradient boosting;
-4. test a small neural network as a comparative model;
-5. update the dashboard with the current main algorithm result.
+1. consolidate documentation around the current 33-feature official model;
+2. validate feature selection and stability before adding new external datasets;
+3. keep experimental modules separated from the official UCDP + World Bank pipeline;
+4. evaluate probability calibration more formally before using risk bands as operational claims;
+5. treat new sources such as SIPRI or PRIO as candidates requiring key, coverage, missingness and row-loss validation before integration.

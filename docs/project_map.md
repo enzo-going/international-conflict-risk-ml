@@ -8,10 +8,20 @@ O pipeline oficial do projeto utiliza:
 
 - UCDP Organized Violence Country-Year como base central;
 - World Bank como fonte socioeconômica externa;
+- features temporais derivadas do histórico de conflito;
 - estrutura de análise `country-year`;
 - target supervisionado `target_conflict_next_year`;
 - split temporal para avaliação;
-- modelo principal reproduzível em `src/models/train_conflict_risk_model.py`.
+- modelo principal reproduzível em `src/models/train_conflict_risk_model.py`;
+- Logistic Regression com 33 features como configuração oficial atual.
+
+Resultado oficial atual:
+
+- Persistence baseline: F1-score `0.8571`;
+- Logistic Regression scaled - World Bank all raw: F1-score `0.8722`;
+- ganho aproximado sobre a persistência: `+0.0151`.
+
+Esse ganho é moderado/pequeno e deve ser interpretado com cautela. O projeto não deve ser apresentado como previsão determinística de guerra mundial ou de eventos geopolíticos específicos.
 
 ## Fluxo principal de dados
 
@@ -248,11 +258,11 @@ Função da auditoria:
 
 Resumo atual:
 
-- total de datasets auditados: 22;
-- oficiais ou candidatos ao pipeline: 6;
-- experimentais em revisão: 3;
-- dados brutos preservados: 11;
-- não prontos para integração direta: 2.
+- total de datasets auditados: 35;
+- oficiais ou candidatos ao pipeline: 12;
+- experimentais em revisão: 4;
+- dados brutos preservados: 16;
+- não prontos para integração direta: 3.
 
 ## Validação automática
 
@@ -280,6 +290,27 @@ Outputs gerados:
 3. Avaliar modelos candidatos com validação mais robusta e análise de estabilidade.
 4. Atualizar o dashboard quando houver novo ganho metodológico ou resultado relevante.
 5. Validar ou reorganizar os arquivos WWI adicionados pelo grupo antes de integrá-los ao pipeline oficial.
+
+## Separação entre oficial e experimental
+
+### Oficial
+
+- UCDP Organized Violence Country-Year;
+- features temporais de conflito;
+- indicadores World Bank integrados em estrutura `country-year`;
+- Logistic Regression scaled - World Bank all raw com 33 features;
+- baseline de persistência como comparação obrigatória.
+
+### Experimental, paralelo ou candidato
+
+- SIPRI: fonte candidata/apoio; ainda não integra o modelo principal.
+- PRIO: fonte candidata; ainda não há integração oficial consolidada no pipeline principal.
+- WWI/WWII: módulo histórico experimental com granularidade e target diferentes.
+- One-sided violence: módulo experimental complementar, separado das variáveis one-sided já existentes no dataset UCDP principal.
+- Shock features: experimento adicional; não superou o modelo oficial atual.
+- Global inflation: feature/fonte de suporte ou experimento, não resultado principal separado.
+
+Esses módulos podem apoiar discussão acadêmica e evolução futura, mas não devem ser vendidos como resultado principal do pipeline oficial atual.
 
 ## Módulo experimental WWI/WWII
 

@@ -260,7 +260,7 @@ Essa análise ainda não representa calibração completa do modelo. Ela serve c
 
 Após a segunda leva de indicadores do World Bank, o pipeline principal foi reexecutado com o dataset atualizado.
 
-A nova versão passou de 53 para 69 features no modelo principal.
+A nova versão expandida foi tratada como experimento intermediário de World Bank expandido, não como o estado oficial atual do modelo principal. O estado oficial consolidado após a análise de ablação usa 33 features no experimento `world_bank_all_raw`.
 
 ### Resultado
 
@@ -277,7 +277,7 @@ O novo resultado ficou em `0.8698`, indicando uma queda pequena de aproximadamen
 
 Isso sugere que adicionar mais indicadores não garante ganho direto de desempenho. A segunda leva aumentou a riqueza informacional do dataset, mas também pode ter introduzido ruído, multicolinearidade ou variáveis com cobertura incompleta.
 
-O modelo expandido ainda supera a baseline de persistência, mas o resultado reforça a necessidade de seleção de features, validação de impacto individual dos indicadores e comparação com modelos tabulares mais robustos.
+O modelo expandido ainda supera a baseline de persistência, mas não superou a configuração oficial atual com 33 features brutas do World Bank. O resultado reforça a necessidade de seleção de features, validação de impacto individual dos indicadores e comparação com modelos tabulares mais robustos.
 
 ## Análise de ablação dos indicadores World Bank
 
@@ -297,13 +297,15 @@ O objetivo foi verificar se o melhor desempenho vinha das features derivadas do 
 
 ### Interpretação
 
-O melhor resultado foi obtido pelo experimento `world_bank_all_raw`, com F1-score de `0.8722`.
+O melhor resultado foi obtido pelo experimento `world_bank_all_raw`, com 33 features e F1-score de `0.8722`.
 
 Esse resultado superou tanto o modelo com features derivadas do World Bank quanto o modelo com todos os indicadores e features derivadas.
 
 A principal conclusão é que, para a regressão logística atual, o conjunto mais simples com UCDP, features temporais de conflito e indicadores brutos completos do World Bank apresentou melhor generalização.
 
 Isso indica que algumas features derivadas do World Bank podem ter introduzido ruído, redundância ou instabilidade para este modelo específico.
+
+O ganho em relação à baseline de persistência é pequeno/moderado (`0.8722` contra `0.8571`, diferença aproximada de `+0.0151` em F1-score). Portanto, o resultado deve ser apresentado como evidência metodológica incremental, não como capacidade forte ou determinística de previsão geopolítica.
 
 ## Comparação com modelos candidatos
 
@@ -351,4 +353,23 @@ A configuração principal do projeto permanece:
 
 ```text
 Logistic Regression scaled - World Bank all raw
+```
 
+Essa configuração usa 33 features e combina:
+
+- variáveis UCDP Organized Violence;
+- features temporais de conflito;
+- indicadores brutos do World Bank.
+
+## Módulos experimentais e paralelos
+
+Os módulos abaixo não substituem o pipeline oficial UCDP + features temporais + World Bank:
+
+- SIPRI: fonte candidata/apoio, ainda sem integração oficial ao modelo principal.
+- PRIO: fonte candidata citada em revisões recentes, ainda sem integração oficial consolidada no pipeline principal.
+- WWI/WWII: módulo histórico experimental com granularidade e target diferentes.
+- One-sided violence: módulo experimental complementar; deve ser comparado com as variáveis one-sided já presentes na UCDP principal antes de qualquer integração.
+- Shock features: experimento de features de choque; não superou o modelo oficial atual.
+- Global inflation: deve ser tratada como indicador/feature de suporte ou experimento, não como resultado principal separado.
+
+Esses módulos podem ser usados academicamente como evidência de governança de dados e exploração controlada, mas os resultados principais continuam sendo os do modelo oficial de 33 features.
