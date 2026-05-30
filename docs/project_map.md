@@ -62,6 +62,35 @@ Ordem atual dos principais scripts:
    - carrega features, predições, métricas, coeficientes e comparação de modelos;
    - usa o schema definido em `sql/schema.sql`.
 
+## Execução oficial reproduzível
+
+A camada de reprodutibilidade do projeto está organizada em:
+
+- `src/pipeline/run_official_pipeline.py`
+- `scripts/run_official_pipeline.ps1`
+
+O runner Python orquestra as etapas locais oficiais, mede tempo por etapa, para no primeiro erro e mostra um resumo final. Por padrão, ele não executa download/preparação de World Bank dependente de rede; usa os arquivos locais já processados.
+
+Comando de inspeção:
+
+```powershell
+python src\pipeline\run_official_pipeline.py --dry-run
+```
+
+Comando recomendado no Windows:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts\run_official_pipeline.ps1 -InstallRequirements
+```
+
+Flags disponíveis:
+
+- `--skip-data-preparation` / `-SkipDataPreparation`
+- `--skip-training` / `-SkipTraining`
+- `--skip-charts` / `-SkipCharts`
+- `--skip-validation` / `-SkipValidation`
+- `--dry-run` / `-DryRun`
+
 ## Datasets principais
 
 ### `data/raw/`
@@ -268,20 +297,37 @@ Resumo atual:
 
 O projeto possui uma camada de validação em:
 
+- `src/validation/validate_pipeline_state.py`
 - `src/validation/validate_project_artifacts.py`
+- `src/validation/validate_reproducibility_contract.py`
 
-Esse script verifica:
+Esses scripts verificam:
 
 - existência dos principais arquivos do projeto;
 - schemas dos CSVs principais;
 - métricas do modelo principal;
 - metadados das features;
 - artefatos do módulo experimental One-Sided Violence.
+- contrato de reprodutibilidade do pipeline oficial, incluindo scripts, outputs, métricas esperadas, 33 features, 10 gráficos preditivos e referências do dashboard.
 
 Outputs gerados:
 
 - `outputs/tables/project_validation_report.csv`
 - `outputs/tables/project_validation_summary.json`
+
+A validação de contrato retorna código de erro diferente de zero quando encontra `FAIL`, para uso local e em CI.
+
+## Integração contínua
+
+O workflow `.github/workflows/validate-project.yml` roda em `push` e `pull_request`.
+
+Ele instala as dependências do `requirements.txt` e executa:
+
+- `python src/validation/validate_pipeline_state.py`
+- `python src/validation/validate_project_artifacts.py`
+- `python src/validation/validate_reproducibility_contract.py`
+
+O CI não baixa novos datasets e não roda treinamento pesado por padrão.
 
 ## Próximas prioridades
 

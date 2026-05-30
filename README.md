@@ -367,24 +367,72 @@ Para uma visão consolidada do estado atual do projeto, incluindo pipeline princ
 
 `reports/final/project_consolidation_review.md`
 
-## Como reproduzir o modelo principal
+## Como reproduzir o pipeline oficial
 
-Instale as dependências:
+O pipeline oficial é o fluxo UCDP Organized Violence + features temporais + World Bank raw + Logistic Regression. Ele estima `target_conflict_next_year` em estrutura `country-year`; não é uma previsão determinística de guerra mundial ou de eventos geopolíticos específicos.
+
+### Opção recomendada no Windows
+
+O script PowerShell cria uma `.venv`, ativa o ambiente e chama o runner oficial em Python.
+
+Para testar sem alterar arquivos:
 
 ```powershell
-pip install -r requirements.txt
+powershell -ExecutionPolicy Bypass -File scripts\run_official_pipeline.ps1 -DryRun
 ```
 
-Execute o pipeline principal em ordem:
+Para criar o ambiente, instalar dependências e rodar o pipeline oficial:
 
 ```powershell
-python src\data\prepare_ucdp_organized_violence.py
-python src\data\build_conflict_country_year_base.py
-python src\features\build_temporal_features.py
-python src\data\prepare_world_bank_indicators.py
-python src\data\build_conflict_country_year_world_bank.py
-python src\features\build_world_bank_features.py
-python src\models\train_conflict_risk_model.py
+powershell -ExecutionPolicy Bypass -File scripts\run_official_pipeline.ps1 -InstallRequirements
+```
+
+Parâmetros úteis:
+
+- `-SkipDataPreparation`
+- `-SkipTraining`
+- `-SkipCharts`
+- `-SkipValidation`
+- `-DryRun`
+
+### Opção manual com Python
+
+Crie e ative um ambiente virtual:
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+```
+
+Rode o runner oficial:
+
+```powershell
+python src\pipeline\run_official_pipeline.py
+```
+
+Para inspecionar a ordem das etapas sem executar:
+
+```powershell
+python src\pipeline\run_official_pipeline.py --dry-run
+```
+
+O runner oficial não executa download/preparação de World Bank por padrão. Ele usa os arquivos locais já processados para evitar dependência de rede na reprodução normal.
+
+### Validações
+
+Para validar o estado do pipeline e dos artefatos:
+
+```powershell
+python src\validation\validate_pipeline_state.py
+python src\validation\validate_project_artifacts.py
+python src\validation\validate_reproducibility_contract.py
+```
+
+Para regenerar apenas os gráficos preditivos:
+
+```powershell
+python src\visualization\generate_predictive_charts.py
 ```
 
 O treinamento principal gera:
