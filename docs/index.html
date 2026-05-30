@@ -81,13 +81,71 @@
         <p>A auditoria evita integrar fontes heterogêneas sem chave temporal, chave geográfica e justificativa metodológica.</p>
       </div>
       <div class="dataset-grid">
-        <article class="dataset-card official"><strong>6 oficiais</strong><span>Artefatos diretamente ligados ao pipeline principal.</span></article>
-        <article class="dataset-card candidate"><strong>6 candidatos</strong><span>Fontes com potencial, ainda exigem validação de cobertura e chaves.</span></article>
-        <article class="dataset-card experimental"><strong>4 experimentais</strong><span>Frentes paralelas em revisão metodológica.</span></article>
-        <article class="dataset-card support"><strong>16 suporte/raw</strong><span>Arquivos preservados para rastreabilidade.</span></article>
-        <article class="dataset-card blocked"><strong>3 não prontos</strong><span>Sem estrutura suficiente para integração direta.</span></article>
+        <article class="dataset-card official is-active" data-panel-target="dataset-official"><strong>6 oficiais</strong><span>Artefatos diretamente ligados ao pipeline principal.</span><button type="button">Ver detalhes</button></article>
+        <article class="dataset-card candidate" data-panel-target="dataset-candidate"><strong>6 candidatos</strong><span>Fontes com potencial, ainda exigem validação de cobertura e chaves.</span><button type="button">Ver detalhes</button></article>
+        <article class="dataset-card experimental" data-panel-target="dataset-experimental"><strong>4 experimentais</strong><span>Frentes paralelas em revisão metodológica.</span><button type="button">Ver detalhes</button></article>
+        <article class="dataset-card support" data-panel-target="dataset-support"><strong>16 suporte/raw</strong><span>Arquivos preservados para rastreabilidade.</span><button type="button">Ver detalhes</button></article>
+        <article class="dataset-card blocked" data-panel-target="dataset-blocked"><strong>3 não prontos</strong><span>Sem estrutura suficiente para integração direta.</span><button type="button">Ver detalhes</button></article>
       </div>
       <p class="small-note">Resumo auditado: 35 datasets em <code>outputs/tables/dataset_integration_summary.json</code>.</p>
+
+      <div class="explorer-panels">
+        <article id="dataset-official" class="explorer-panel is-active">
+          <h3>Oficiais</h3>
+          <p><strong>Papel:</strong> sustentam o pipeline oficial UCDP + temporal + World Bank.</p>
+          <p><strong>Exemplos:</strong> UCDP processado, datasets <code>conflict_country_year_*</code> e World Bank processado.</p>
+          <p><strong>Unidade:</strong> principalmente <code>country-year</code>. <strong>Entra no pipeline:</strong> sim.</p>
+        </article>
+        <article id="dataset-candidate" class="explorer-panel">
+          <h3>Candidatos</h3>
+          <p><strong>Papel:</strong> possíveis expansões, como SIPRI, PRIO, GDP, inflação e juros.</p>
+          <p><strong>Unidade:</strong> em geral <code>country-year</code>. <strong>Entra no pipeline:</strong> não automaticamente.</p>
+          <p><strong>Limitação:</strong> exigem validação de chaves, cobertura, nulos, duplicatas e perda de linhas.</p>
+        </article>
+        <article id="dataset-experimental" class="explorer-panel">
+          <h3>Experimentais</h3>
+          <p><strong>Papel:</strong> frentes paralelas para exploração metodológica.</p>
+          <p><strong>Exemplos:</strong> UCDP One-Sided Violence, WWI e WWII.</p>
+          <p><strong>Unidade:</strong> actor-country-year ou event-country-year. <strong>Entra no pipeline:</strong> não no estado atual.</p>
+        </article>
+        <article id="dataset-support" class="explorer-panel">
+          <h3>Suporte/raw</h3>
+          <p><strong>Papel:</strong> rastreabilidade dos dados brutos e fontes originais.</p>
+          <p><strong>Exemplos:</strong> arquivos raw World Bank, UCDP raw, PRIO/UCDP raw.</p>
+          <p><strong>Limitação:</strong> alguns arquivos são não tabulares ou precisam de parser específico.</p>
+        </article>
+        <article id="dataset-blocked" class="explorer-panel">
+          <h3>Não prontos/rejeitados</h3>
+          <p><strong>Papel:</strong> não devem ser integrados sem tratamento adicional.</p>
+          <p><strong>Exemplos:</strong> mapeamentos sem ano e arquivo raw SIPRI vazio na auditoria.</p>
+          <p><strong>Entra no pipeline:</strong> não.</p>
+        </article>
+      </div>
+
+      <div class="mini-viz-grid">
+        <article>
+          <h3>Distribuição por decisão</h3>
+          <div class="mini-bar"><span>supporting_raw_data</span><div><i style="width:45.7%"></i></div><b>16</b></div>
+          <div class="mini-bar"><span>candidate</span><div><i style="width:17.1%"></i></div><b>6</b></div>
+          <div class="mini-bar"><span>official</span><div><i style="width:17.1%"></i></div><b>6</b></div>
+          <div class="mini-bar"><span>experimental</span><div><i style="width:11.4%"></i></div><b>4</b></div>
+          <div class="mini-bar"><span>not_ready/reject</span><div><i style="width:8.6%"></i></div><b>3</b></div>
+        </article>
+        <article>
+          <h3>Fontes mais frequentes</h3>
+          <div class="mini-bar"><span>world_bank</span><div><i style="width:42.9%"></i></div><b>15</b></div>
+          <div class="mini-bar"><span>unknown</span><div><i style="width:14.3%"></i></div><b>5</b></div>
+          <div class="mini-bar"><span>ucdp</span><div><i style="width:8.6%"></i></div><b>3</b></div>
+          <div class="mini-bar"><span>sipri / one-sided / mappings</span><div><i style="width:5.7%"></i></div><b>2</b></div>
+        </article>
+        <article>
+          <h3>Unidade detectada</h3>
+          <div class="mini-bar"><span>country-year</span><div><i style="width:34.3%"></i></div><b>12</b></div>
+          <div class="mini-bar"><span>unreadable/support</span><div><i style="width:31.4%"></i></div><b>11</b></div>
+          <div class="mini-bar"><span>unknown</span><div><i style="width:14.3%"></i></div><b>5</b></div>
+          <div class="mini-bar"><span>actor/event-country-year</span><div><i style="width:14.3%"></i></div><b>5</b></div>
+        </article>
+      </div>
     </section>
 
     <section id="results" class="section">
@@ -132,6 +190,33 @@
         <div class="bar-row"><span>Baseline</span><div><i class="muted-bar" style="width:85.71%"></i></div><b>0.8571</b></div>
         <div class="bar-row"><span>MLP</span><div><i class="muted-bar" style="width:84.98%"></i></div><b>0.8498</b></div>
       </div>
+
+      <details class="model-detail" open>
+        <summary>Ver detalhes metodológicos do modelo oficial</summary>
+        <div class="detail-grid">
+          <article>
+            <h3>Por que Logistic Regression?</h3>
+            <p>Foi escolhida por combinar melhor F1-score, estabilidade, simplicidade e interpretabilidade dos coeficientes. Isso é importante em um projeto acadêmico, onde a comparação metodológica pesa tanto quanto o desempenho bruto.</p>
+          </article>
+          <article>
+            <h3>Comparação com baseline</h3>
+            <p>A baseline de persistência já é forte: F1 0.8571. O modelo oficial chega a 0.8722, ganho moderado de +0.0151. O resultado é incremental, não uma promessa de previsão forte.</p>
+          </article>
+          <article>
+            <h3>Por que não Random Forest?</h3>
+            <p>Teve recall maior (0.8730), mas menor precision e F1 inferior. Pode ser útil como modelo mais sensível, mas não substitui o principal.</p>
+          </article>
+          <article>
+            <h3>Por que não Gradient Boosting/MLP?</h3>
+            <p>Gradient Boosting foi mais conservador, com recall menor. A MLP simples ficou abaixo da baseline, então não trouxe ganho metodológico neste estágio.</p>
+          </article>
+        </div>
+        <div class="confusion-grid">
+          <article><h3>Baseline</h3><p>TN 854 · FP 63 · FN 63 · TP 378</p></article>
+          <article><h3>Modelo oficial</h3><p>TN 877 · FP 40 · FN 69 · TP 372</p></article>
+        </div>
+        <a class="button" href="methodology/consolidated_experimental_decision.md">Ler decisão experimental consolidada</a>
+      </details>
     </section>
 
     <section id="probability" class="section">
@@ -190,6 +275,37 @@
         <strong>54</strong> ficaram em <code>very_high</code>. Essas faixas são uma camada interpretativa do modelo,
         não uma afirmação causal ou operacional.
       </div>
+
+      <div class="risk-explorer">
+        <div>
+          <h3>Top países por probabilidade no assessment 2023 → 2024</h3>
+          <ol class="rank-list">
+            <li><strong>DR Congo (Zaire)</strong><span>100.0% · very_high · true positive</span></li>
+            <li><strong>Nigeria</strong><span>100.0% · very_high · true positive</span></li>
+            <li><strong>Brazil</strong><span>100.0% · very_high · true positive</span></li>
+            <li><strong>Ukraine</strong><span>100.0% · very_high · true positive</span></li>
+            <li><strong>Mexico</strong><span>100.0% · very_high · true positive</span></li>
+          </ol>
+        </div>
+        <div>
+          <h3>Exemplos de erros do teste temporal</h3>
+          <div class="error-tabs">
+            <button type="button" class="is-active" data-error-target="false-negatives">Falsos negativos</button>
+            <button type="button" data-error-target="false-positives">Falsos positivos</button>
+          </div>
+          <div id="false-negatives" class="error-panel is-active">
+            <p>Liberia 2019, Congo 2018, Peru 2018, Rwanda 2020 e Lebanon 2019 ficaram abaixo do threshold, mas tiveram target positivo.</p>
+          </div>
+          <div id="false-positives" class="error-panel">
+            <p>Rwanda 2022, Tanzania 2022, Egypt 2023, Congo 2020 e Tunisia 2023 foram previstos como positivos, mas o target observado foi 0.</p>
+          </div>
+        </div>
+      </div>
+
+      <details class="method-note">
+        <summary>Como ler esta seção</summary>
+        <p>Os países listados são exemplos de maior probabilidade estimada ou de erro no conjunto de teste. A camada é interpretativa e probabilística; ela não afirma causalidade nem previsão determinística.</p>
+      </details>
     </section>
 
     <section id="charts" class="section">
@@ -198,31 +314,67 @@
         <h2>Gráficos preditivos integrados ao dashboard</h2>
         <p>Os gráficos abaixo já existem em <code>docs/assets/charts/predictive_analysis/</code>; nenhum novo arquivo de imagem foi gerado nesta fase.</p>
       </div>
-      <div class="chart-grid">
-        <figure data-chart-src="assets/charts/predictive_analysis/threshold_f1_curve.png" data-chart-title="F1-score por threshold">
-          <img src="assets/charts/predictive_analysis/threshold_f1_curve.png" alt="F1-score por threshold" />
-          <figcaption>F1-score por threshold</figcaption>
-        </figure>
-        <figure data-chart-src="assets/charts/predictive_analysis/threshold_precision_recall_curve.png" data-chart-title="Precision e recall por threshold">
-          <img src="assets/charts/predictive_analysis/threshold_precision_recall_curve.png" alt="Precision e recall por threshold" />
-          <figcaption>Precision e recall</figcaption>
-        </figure>
-        <figure data-chart-src="assets/charts/predictive_analysis/risk_band_distribution.png" data-chart-title="Distribuição das faixas de risco">
-          <img src="assets/charts/predictive_analysis/risk_band_distribution.png" alt="Distribuição das faixas de risco" />
-          <figcaption>Distribuição das faixas de risco</figcaption>
-        </figure>
-        <figure data-chart-src="assets/charts/predictive_analysis/prediction_result_counts.png" data-chart-title="Acertos e erros">
-          <img src="assets/charts/predictive_analysis/prediction_result_counts.png" alt="Acertos e erros do modelo" />
-          <figcaption>Acertos e erros</figcaption>
-        </figure>
-        <figure data-chart-src="assets/charts/predictive_analysis/region_mean_predicted_probability.png" data-chart-title="Probabilidade média por região">
-          <img src="assets/charts/predictive_analysis/region_mean_predicted_probability.png" alt="Probabilidade média por região" />
-          <figcaption>Probabilidade média por região</figcaption>
-        </figure>
-        <figure data-chart-src="assets/charts/predictive_analysis/top_cases_predicted_probability.png" data-chart-title="Top casos por probabilidade">
-          <img src="assets/charts/predictive_analysis/top_cases_predicted_probability.png" alt="Top casos por probabilidade prevista" />
-          <figcaption>Top casos por probabilidade</figcaption>
-        </figure>
+      <div class="chart-group">
+        <h3>a) Thresholds</h3>
+        <div class="chart-grid compact">
+          <figure data-chart-src="assets/charts/predictive_analysis/threshold_f1_curve.png" data-chart-title="F1-score por threshold">
+            <img src="assets/charts/predictive_analysis/threshold_f1_curve.png" alt="F1-score por threshold" />
+            <figcaption>F1-score por threshold</figcaption>
+          </figure>
+          <figure data-chart-src="assets/charts/predictive_analysis/threshold_precision_recall_curve.png" data-chart-title="Precision e recall por threshold">
+            <img src="assets/charts/predictive_analysis/threshold_precision_recall_curve.png" alt="Precision e recall por threshold" />
+            <figcaption>Precision e recall</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="chart-group">
+        <h3>b) Calibração/probabilidade</h3>
+        <div class="chart-grid compact">
+          <figure data-chart-src="assets/charts/predictive_analysis/prediction_result_counts.png" data-chart-title="Acertos e erros">
+            <img src="assets/charts/predictive_analysis/prediction_result_counts.png" alt="Acertos e erros do modelo" />
+            <figcaption>Acertos e erros</figcaption>
+          </figure>
+        </div>
+        <p class="small-note">Próxima melhoria recomendada: gráfico dedicado de calibration bins, sem gerar nova imagem nesta fase.</p>
+      </div>
+      <div class="chart-group">
+        <h3>c) Risk bands</h3>
+        <div class="chart-grid compact">
+          <figure data-chart-src="assets/charts/predictive_analysis/risk_band_distribution.png" data-chart-title="Distribuição das faixas de risco">
+            <img src="assets/charts/predictive_analysis/risk_band_distribution.png" alt="Distribuição das faixas de risco" />
+            <figcaption>Distribuição das faixas de risco</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="chart-group">
+        <h3>d) Regiões</h3>
+        <div class="chart-grid compact">
+          <figure data-chart-src="assets/charts/predictive_analysis/region_mean_predicted_probability.png" data-chart-title="Probabilidade média por região">
+            <img src="assets/charts/predictive_analysis/region_mean_predicted_probability.png" alt="Probabilidade média por região" />
+            <figcaption>Probabilidade média por região</figcaption>
+          </figure>
+          <figure data-chart-src="assets/charts/predictive_analysis/region_f1_score.png" data-chart-title="F1-score por região">
+            <img src="assets/charts/predictive_analysis/region_f1_score.png" alt="F1-score por região" />
+            <figcaption>F1-score por região</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="chart-group">
+        <h3>e) Países/top cases</h3>
+        <div class="chart-grid compact">
+          <figure data-chart-src="assets/charts/predictive_analysis/top_countries_mean_predicted_probability.png" data-chart-title="Top países por probabilidade média">
+            <img src="assets/charts/predictive_analysis/top_countries_mean_predicted_probability.png" alt="Top países por probabilidade média" />
+            <figcaption>Top países por probabilidade média</figcaption>
+          </figure>
+          <figure data-chart-src="assets/charts/predictive_analysis/country_prediction_gap.png" data-chart-title="Gap preditivo por país">
+            <img src="assets/charts/predictive_analysis/country_prediction_gap.png" alt="Gap preditivo por país" />
+            <figcaption>Gap preditivo por país</figcaption>
+          </figure>
+          <figure data-chart-src="assets/charts/predictive_analysis/top_cases_predicted_probability.png" data-chart-title="Top casos por probabilidade">
+            <img src="assets/charts/predictive_analysis/top_cases_predicted_probability.png" alt="Top casos por probabilidade prevista" />
+            <figcaption>Top casos por probabilidade</figcaption>
+          </figure>
+        </div>
       </div>
     </section>
 

@@ -29,6 +29,34 @@ document.addEventListener("DOMContentLoaded", () => {
   const closeButton = lightbox ? lightbox.querySelector(".chart-lightbox-close") : null;
   const chartCards = Array.from(document.querySelectorAll("[data-chart-src]"));
 
+  const datasetCards = Array.from(document.querySelectorAll("[data-panel-target]"));
+  const datasetPanels = Array.from(document.querySelectorAll(".explorer-panel"));
+
+  datasetCards.forEach((card) => {
+    card.addEventListener("click", () => {
+      const targetId = card.getAttribute("data-panel-target");
+
+      datasetCards.forEach((item) => item.classList.toggle("is-active", item === card));
+      datasetPanels.forEach((panel) => {
+        panel.classList.toggle("is-active", panel.id === targetId);
+      });
+    });
+  });
+
+  const errorButtons = Array.from(document.querySelectorAll("[data-error-target]"));
+  const errorPanels = Array.from(document.querySelectorAll(".error-panel"));
+
+  errorButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const targetId = button.getAttribute("data-error-target");
+
+      errorButtons.forEach((item) => item.classList.toggle("is-active", item === button));
+      errorPanels.forEach((panel) => {
+        panel.classList.toggle("is-active", panel.id === targetId);
+      });
+    });
+  });
+
   if (!lightbox || !lightboxImage || !lightboxTitle || chartCards.length === 0) {
     return;
   }
@@ -47,6 +75,9 @@ document.addEventListener("DOMContentLoaded", () => {
     lightbox.classList.add("is-open");
     lightbox.setAttribute("aria-hidden", "false");
     document.body.classList.add("chart-lightbox-open");
+    if (closeButton) {
+      closeButton.focus();
+    }
   }
 
   function closeLightbox() {

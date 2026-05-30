@@ -263,6 +263,7 @@ p {
 .dataset-card {
   padding: 16px;
   border-top-width: 4px;
+  cursor: pointer;
 }
 
 .dataset-card.official { border-top-color: var(--green); }
@@ -270,6 +271,92 @@ p {
 .dataset-card.experimental { border-top-color: var(--amber); }
 .dataset-card.support { border-top-color: #718096; }
 .dataset-card.blocked { border-top-color: var(--red); }
+
+.dataset-card button {
+  margin-top: 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #f8fafc;
+  color: var(--navy);
+  cursor: pointer;
+  font-weight: 800;
+  padding: 7px 10px;
+}
+
+.dataset-card.is-active {
+  outline: 3px solid rgba(36, 87, 166, 0.18);
+}
+
+.explorer-panels {
+  margin-top: 16px;
+}
+
+.explorer-panel,
+.error-panel {
+  display: none;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #f8fafc;
+}
+
+.explorer-panel.is-active,
+.error-panel.is-active {
+  display: block;
+}
+
+.explorer-panel h3 {
+  margin-top: 0;
+}
+
+.mini-viz-grid,
+.detail-grid,
+.confusion-grid,
+.risk-explorer {
+  display: grid;
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.mini-viz-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.mini-viz-grid article,
+.model-detail,
+.risk-explorer > div {
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.mini-viz-grid h3 {
+  margin-top: 0;
+}
+
+.mini-bar {
+  display: grid;
+  grid-template-columns: minmax(120px, 1fr) 1fr 34px;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+  font-size: 0.84rem;
+}
+
+.mini-bar div {
+  height: 10px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #e4eaf2;
+}
+
+.mini-bar i {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--blue);
+}
 
 .model-result,
 .split {
@@ -365,6 +452,33 @@ tr.selected td {
   text-align: right;
 }
 
+.model-detail summary {
+  cursor: pointer;
+  color: var(--navy);
+  font-weight: 900;
+}
+
+.detail-grid {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.detail-grid article,
+.confusion-grid article {
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #f8fafc;
+}
+
+.detail-grid h3,
+.confusion-grid h3 {
+  margin-top: 0;
+}
+
+.confusion-grid {
+  grid-template-columns: repeat(2, 1fr);
+}
+
 .method-note,
 .notice,
 .limitations {
@@ -402,8 +516,60 @@ tr.selected td {
   font-weight: 800;
 }
 
+.risk-explorer {
+  grid-template-columns: 1fr 1fr;
+}
+
+.rank-list {
+  margin: 0;
+  padding-left: 22px;
+}
+
+.rank-list li {
+  margin: 8px 0;
+}
+
+.rank-list span {
+  display: block;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.error-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.error-tabs button {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #f8fafc;
+  color: var(--navy);
+  cursor: pointer;
+  font-weight: 800;
+  padding: 7px 11px;
+}
+
+.error-tabs button.is-active {
+  background: var(--blue-soft);
+  color: var(--blue);
+  border-color: #b9cbea;
+}
+
 .chart-grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.chart-group {
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+
+.chart-grid.compact {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .chart-grid figure {
@@ -510,7 +676,12 @@ body.chart-lightbox-open {
   .pipeline,
   .dataset-grid,
   .risk-grid,
-  .module-grid {
+  .module-grid,
+  .mini-viz-grid,
+  .detail-grid,
+  .confusion-grid,
+  .risk-explorer,
+  .chart-grid.compact {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -535,7 +706,12 @@ body.chart-lightbox-open {
   .pipeline,
   .dataset-grid,
   .risk-grid,
-  .module-grid {
+  .module-grid,
+  .mini-viz-grid,
+  .detail-grid,
+  .confusion-grid,
+  .risk-explorer,
+  .chart-grid.compact {
     grid-template-columns: 1fr;
   }
 
