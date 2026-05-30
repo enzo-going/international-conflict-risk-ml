@@ -312,7 +312,7 @@
       <div class="section-heading">
         <p class="eyebrow">Visualizações existentes</p>
         <h2>Gráficos preditivos integrados ao dashboard</h2>
-        <p>Os gráficos abaixo já existem em <code>docs/assets/charts/predictive_analysis/</code>; nenhum novo arquivo de imagem foi gerado nesta fase.</p>
+        <p>Os gráficos abaixo são gerados por <code>src/visualization/generate_predictive_charts.py</code> e publicados em <code>docs/assets/charts/predictive_analysis/</code>.</p>
       </div>
       <div class="chart-group">
         <h3>a) Thresholds</h3>
@@ -334,8 +334,12 @@
             <img src="assets/charts/predictive_analysis/prediction_result_counts.png" alt="Acertos e erros do modelo" />
             <figcaption>Acertos e erros</figcaption>
           </figure>
+          <figure data-chart-src="assets/charts/predictive_analysis/probability_calibration_bins.png" data-chart-title="Calibração por bins de probabilidade">
+            <img src="assets/charts/predictive_analysis/probability_calibration_bins.png" alt="Calibração por bins de probabilidade" />
+            <figcaption>Calibração por bins</figcaption>
+          </figure>
         </div>
-        <p class="small-note">Próxima melhoria recomendada: gráfico dedicado de calibration bins, sem gerar nova imagem nesta fase.</p>
+        <p class="small-note">A calibração compara a probabilidade média prevista com a taxa positiva observada por faixa de probabilidade.</p>
       </div>
       <div class="chart-group">
         <h3>c) Risk bands</h3>

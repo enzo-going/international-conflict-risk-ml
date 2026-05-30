@@ -205,8 +205,8 @@ Os seguintes arquivos foram adicionados posteriormente pelo grupo e ainda precis
 
 - `data/final/world_war_1_details_clean.csv`
 - `src/data/wwi_predictive_analysis_scalability_of_conflict.py`
-- `src/features/wwi_build_temporal_features.py`
-- `src/models/train_wwi_model.py`
+- `src/features/wwi_wwii_build_temporal_generation_wars_deaths.py`
+- `src/models/train_model_wars_deaths.py`
 
 Observação: o dataset WWI e os scripts WWI ainda parecem usar estruturas de colunas diferentes. Portanto, devem ser tratados como experimento paralelo ou material histórico até revisão.
 

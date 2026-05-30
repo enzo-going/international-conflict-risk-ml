@@ -1,5 +1,5 @@
 {
-  "chart_count": 9,
+  "chart_count": 10,
   "charts": [
     "assets/charts/predictive_analysis/threshold_f1_curve.png",
     "assets/charts/predictive_analysis/threshold_precision_recall_curve.png",
@@ -9,6 +9,7 @@
     "assets/charts/predictive_analysis/prediction_result_counts.png",
     "assets/charts/predictive_analysis/top_countries_mean_predicted_probability.png",
     "assets/charts/predictive_analysis/country_prediction_gap.png",
-    "assets/charts/predictive_analysis/top_cases_predicted_probability.png"
+    "assets/charts/predictive_analysis/top_cases_predicted_probability.png",
+    "assets/charts/predictive_analysis/probability_calibration_bins.png"
   ]
 }

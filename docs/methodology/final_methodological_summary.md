@@ -421,11 +421,11 @@ A auditoria atual identificou:
 
 | Categoria | Quantidade |
 |---|---:|
-| Total de datasets auditados | 22 |
-| Oficiais ou candidatos ao pipeline principal | 6 |
-| Experimentais em revisão | 3 |
-| Dados brutos preservados para rastreabilidade | 11 |
-| Não prontos para integração direta | 2 |
+| Total de datasets auditados | 35 |
+| Oficiais ou candidatos ao pipeline principal | 12 |
+| Experimentais em revisão | 4 |
+| Dados brutos preservados para rastreabilidade | 16 |
+| Não prontos para integração direta | 3 |
 
 A decisão metodológica foi manter o pipeline principal baseado na unidade `country-year`.
 

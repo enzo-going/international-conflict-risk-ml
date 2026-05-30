@@ -21,6 +21,7 @@ REGION_PATH = OUTPUT_TABLES_DIR / "predictive_region_summary.csv"
 COUNTRY_PATH = OUTPUT_TABLES_DIR / "predictive_country_summary.csv"
 TOP_RISK_PATH = OUTPUT_TABLES_DIR / "predictive_top_risk_cases.csv"
 SUMMARY_JSON_PATH = OUTPUT_TABLES_DIR / "predictive_analysis_summary.json"
+CALIBRATION_PATH = OUTPUT_TABLES_DIR / "probability_calibration_bins.csv"
 
 CHART_INDEX_PATH = OUTPUT_CHARTS_DIR / "chart_index.json"
 
@@ -146,6 +147,39 @@ def plot_prediction_result_counts(summary: dict) -> Path:
     return output_path
 
 
+def plot_probability_calibration(calibration_df: pd.DataFrame) -> Path:
+    output_path = OUTPUT_CHARTS_DIR / "probability_calibration_bins.png"
+
+    df = calibration_df.copy()
+    df["probability_bin"] = df["probability_bin"].astype(str)
+
+    x = range(len(df))
+
+    plt.figure(figsize=(11, 6))
+    plt.plot(
+        x,
+        df["mean_predicted_probability"],
+        marker="o",
+        label="Probabilidade média prevista",
+    )
+    plt.plot(
+        x,
+        df["observed_positive_rate"],
+        marker="o",
+        label="Taxa positiva observada",
+    )
+    plt.xticks(x, df["probability_bin"], rotation=35, ha="right")
+    plt.xlabel("Bin de probabilidade prevista")
+    plt.ylabel("Taxa")
+    plt.title("Calibração por bins de probabilidade")
+    plt.ylim(0, 1.05)
+    plt.legend()
+    plt.grid(True, alpha=0.3)
+
+    save_chart(output_path)
+    return output_path
+
+
 def plot_top_countries_mean_probability(country_df: pd.DataFrame, limit: int = 15) -> Path:
     output_path = OUTPUT_CHARTS_DIR / "top_countries_mean_predicted_probability.png"
 
@@ -218,11 +252,13 @@ def main() -> None:
     require_file(COUNTRY_PATH)
     require_file(TOP_RISK_PATH)
     require_file(SUMMARY_JSON_PATH)
+    require_file(CALIBRATION_PATH)
 
     threshold_df = pd.read_csv(THRESHOLD_PATH)
     region_df = pd.read_csv(REGION_PATH)
     country_df = pd.read_csv(COUNTRY_PATH)
     top_risk_df = pd.read_csv(TOP_RISK_PATH)
+    calibration_df = pd.read_csv(CALIBRATION_PATH)
     summary = json.loads(SUMMARY_JSON_PATH.read_text(encoding="utf-8"))
 
     generated_paths = [
@@ -232,6 +268,7 @@ def main() -> None:
         plot_region_f1(region_df),
         plot_risk_band_distribution(summary),
         plot_prediction_result_counts(summary),
+        plot_probability_calibration(calibration_df),
         plot_top_countries_mean_probability(country_df),
         plot_country_prediction_gap(country_df),
         plot_top_cases_probability(top_risk_df),
