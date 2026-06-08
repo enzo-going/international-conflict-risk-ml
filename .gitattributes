@@ -5,6 +5,10 @@
 *.sql linguist-language=SQL
 *.sql linguist-detectable=true
 
+# Contar notebooks Jupyter como Python (o conteúdo das células é Python).
+*.ipynb linguist-language=Python
+*.ipynb linguist-detectable=true
+
 # Include GitHub Pages frontend files in the language bar.
 docs/index.html linguist-language=HTML
 docs/index.html linguist-detectable=true
