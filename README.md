@@ -1,5 +1,7 @@
 # International Conflict Risk ML
 
+[![Validate project artifacts](https://github.com/enzo-going/international-conflict-risk-ml/actions/workflows/validate-project.yml/badge.svg)](https://github.com/enzo-going/international-conflict-risk-ml/actions/workflows/validate-project.yml)
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
