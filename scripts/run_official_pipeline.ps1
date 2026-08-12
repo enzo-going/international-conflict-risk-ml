@@ -27,11 +27,6 @@ function Find-SystemPython {
         }
     }
 
-    $BundledPython = Join-Path $env:USERPROFILE ".cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe"
-    if (Test-Path $BundledPython) {
-        return $BundledPython
-    }
-
     throw "Python was not found. Install Python 3 and make it available as 'python' or 'py', then rerun this script."
 }
 
