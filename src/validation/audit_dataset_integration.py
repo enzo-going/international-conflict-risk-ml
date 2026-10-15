@@ -282,7 +282,6 @@ def classify_dataset(
     row_count: int | None,
 ) -> tuple[str, str, str]:
     path_lower = relative_path.lower()
-    normalized_columns = {normalize_column_name(column) for column in columns}
 
     if "country_year_features" in path_lower or "conflict_risk_model" in path_lower:
         return (
