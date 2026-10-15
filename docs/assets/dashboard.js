@@ -65,7 +65,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const src = card.getAttribute("data-chart-src");
     const title = card.getAttribute("data-chart-title") || "Gráfico preditivo";
 
-    if (!src) {
+    // Só abre gráfico do próprio dashboard: o atributo vem do HTML, mas um caminho
+    // de outro lugar (ou javascript:) nunca deve virar src da imagem ampliada.
+    if (!src || !/^assets\/charts\/(?!.*\.\.)[\w\/.-]+\.png$/.test(src)) {
       return;
     }
 
