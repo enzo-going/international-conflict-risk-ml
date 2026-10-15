@@ -4,6 +4,10 @@ on:
   push:
   pull_request:
 
+# Só leitura para o GITHUB_TOKEN: nenhum job aqui precisa escrever no repositório.
+permissions:
+  contents: read
+
 jobs:
   validate:
     runs-on: ubuntu-latest
