@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Dashboard do International Conflict Risk ML: previsão de violência organizada por país e ano com dados UCDP e World Bank, validação temporal e comparação com a baseline de persistência." />
   <title>International Conflict Risk ML | Dashboard</title>
   <link rel="stylesheet" href="assets/styles.css" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2310233f'/%3E%3Cpath d='M7 22l6-7 5 4 7-9' fill='none' stroke='%23e8f0ff' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
@@ -292,23 +293,23 @@
         <h3>Galeria de robustez temporal</h3>
         <div class="chart-grid compact">
           <figure data-chart-src="assets/charts/temporal_robustness/f1_by_test_year.png" data-chart-title="F1 por ano de teste">
-            <img src="assets/charts/temporal_robustness/f1_by_test_year.png" alt="F1 do modelo e da persistência por ano de teste" />
+            <img src="assets/charts/temporal_robustness/f1_by_test_year.png" alt="F1 do modelo e da persistência por ano de teste" loading="lazy" decoding="async" />
             <figcaption>F1 por ano</figcaption>
           </figure>
           <figure data-chart-src="assets/charts/temporal_robustness/f1_gain_vs_persistence_by_year.png" data-chart-title="Ganho de F1 contra baseline por ano">
-            <img src="assets/charts/temporal_robustness/f1_gain_vs_persistence_by_year.png" alt="Ganho de F1 contra a baseline de persistência por ano" />
+            <img src="assets/charts/temporal_robustness/f1_gain_vs_persistence_by_year.png" alt="Ganho de F1 contra a baseline de persistência por ano" loading="lazy" decoding="async" />
             <figcaption>Ganho vs baseline</figcaption>
           </figure>
           <figure data-chart-src="assets/charts/temporal_robustness/precision_recall_by_year.png" data-chart-title="Precision e recall por ano">
-            <img src="assets/charts/temporal_robustness/precision_recall_by_year.png" alt="Precision e recall do modelo por ano de teste" />
+            <img src="assets/charts/temporal_robustness/precision_recall_by_year.png" alt="Precision e recall do modelo por ano de teste" loading="lazy" decoding="async" />
             <figcaption>Precision/recall por ano</figcaption>
           </figure>
           <figure data-chart-src="assets/charts/temporal_robustness/expanding_holdout_f1.png" data-chart-title="F1 no expanding holdout">
-            <img src="assets/charts/temporal_robustness/expanding_holdout_f1.png" alt="F1 do modelo e da persistência no expanding holdout" />
+            <img src="assets/charts/temporal_robustness/expanding_holdout_f1.png" alt="F1 do modelo e da persistência no expanding holdout" loading="lazy" decoding="async" />
             <figcaption>F1 expanding holdout</figcaption>
           </figure>
           <figure data-chart-src="assets/charts/temporal_robustness/brier_score_by_year.png" data-chart-title="Brier score por ano">
-            <img src="assets/charts/temporal_robustness/brier_score_by_year.png" alt="Brier score do modelo por ano de teste" />
+            <img src="assets/charts/temporal_robustness/brier_score_by_year.png" alt="Brier score do modelo por ano de teste" loading="lazy" decoding="async" />
             <figcaption>Brier score por ano</figcaption>
           </figure>
         </div>
@@ -422,11 +423,11 @@
         <h3>a) Thresholds</h3>
         <div class="chart-grid compact">
           <figure data-chart-src="assets/charts/predictive_analysis/threshold_f1_curve.png" data-chart-title="F1-score por threshold">
-            <img src="assets/charts/predictive_analysis/threshold_f1_curve.png" alt="F1-score por threshold" />
+            <img src="assets/charts/predictive_analysis/threshold_f1_curve.png" alt="F1-score por threshold" loading="lazy" decoding="async" />
             <figcaption>F1-score por threshold</figcaption>
           </figure>
           <figure data-chart-src="assets/charts/predictive_analysis/threshold_precision_recall_curve.png" data-chart-title="Precision e recall por threshold">
-            <img src="assets/charts/predictive_analysis/threshold_precision_recall_curve.png" alt="Precision e recall por threshold" />
+            <img src="assets/charts/predictive_analysis/threshold_precision_recall_curve.png" alt="Precision e recall por threshold" loading="lazy" decoding="async" />
             <figcaption>Precision e recall</figcaption>
           </figure>
         </div>
@@ -435,11 +436,11 @@
         <h3>b) Calibração/probabilidade</h3>
         <div class="chart-grid compact">
           <figure data-chart-src="assets/charts/predictive_analysis/prediction_result_counts.png" data-chart-title="Acertos e erros">
-            <img src="assets/charts/predictive_analysis/prediction_result_counts.png" alt="Acertos e erros do modelo" />
+            <img src="assets/charts/predictive_analysis/prediction_result_counts.png" alt="Acertos e erros do modelo" loading="lazy" decoding="async" />
             <figcaption>Acertos e erros</figcaption>
           </figure>
           <figure data-chart-src="assets/charts/predictive_analysis/probability_calibration_bins.png" data-chart-title="Calibração por bins de probabilidade">
-            <img src="assets/charts/predictive_analysis/probability_calibration_bins.png" alt="Calibração por bins de probabilidade" />
+            <img src="assets/charts/predictive_analysis/probability_calibration_bins.png" alt="Calibração por bins de probabilidade" loading="lazy" decoding="async" />
             <figcaption>Calibração por bins</figcaption>
           </figure>
         </div>
@@ -449,7 +450,7 @@
         <h3>c) Risk bands</h3>
         <div class="chart-grid compact">
           <figure data-chart-src="assets/charts/predictive_analysis/risk_band_distribution.png" data-chart-title="Distribuição das faixas de risco">
-            <img src="assets/charts/predictive_analysis/risk_band_distribution.png" alt="Distribuição das faixas de risco" />
+            <img src="assets/charts/predictive_analysis/risk_band_distribution.png" alt="Distribuição das faixas de risco" loading="lazy" decoding="async" />
             <figcaption>Distribuição das faixas de risco</figcaption>
           </figure>
         </div>
@@ -458,11 +459,11 @@
         <h3>d) Regiões</h3>
         <div class="chart-grid compact">
           <figure data-chart-src="assets/charts/predictive_analysis/region_mean_predicted_probability.png" data-chart-title="Probabilidade média por região">
-            <img src="assets/charts/predictive_analysis/region_mean_predicted_probability.png" alt="Probabilidade média por região" />
+            <img src="assets/charts/predictive_analysis/region_mean_predicted_probability.png" alt="Probabilidade média por região" loading="lazy" decoding="async" />
             <figcaption>Probabilidade média por região</figcaption>
           </figure>
           <figure data-chart-src="assets/charts/predictive_analysis/region_f1_score.png" data-chart-title="F1-score por região">
-            <img src="assets/charts/predictive_analysis/region_f1_score.png" alt="F1-score por região" />
+            <img src="assets/charts/predictive_analysis/region_f1_score.png" alt="F1-score por região" loading="lazy" decoding="async" />
             <figcaption>F1-score por região</figcaption>
           </figure>
         </div>
@@ -471,15 +472,15 @@
         <h3>e) Países/top cases</h3>
         <div class="chart-grid compact">
           <figure data-chart-src="assets/charts/predictive_analysis/top_countries_mean_predicted_probability.png" data-chart-title="Top países por probabilidade média">
-            <img src="assets/charts/predictive_analysis/top_countries_mean_predicted_probability.png" alt="Top países por probabilidade média" />
+            <img src="assets/charts/predictive_analysis/top_countries_mean_predicted_probability.png" alt="Top países por probabilidade média" loading="lazy" decoding="async" />
             <figcaption>Top países por probabilidade média</figcaption>
           </figure>
           <figure data-chart-src="assets/charts/predictive_analysis/country_prediction_gap.png" data-chart-title="Gap preditivo por país">
-            <img src="assets/charts/predictive_analysis/country_prediction_gap.png" alt="Gap preditivo por país" />
+            <img src="assets/charts/predictive_analysis/country_prediction_gap.png" alt="Gap preditivo por país" loading="lazy" decoding="async" />
             <figcaption>Gap preditivo por país</figcaption>
           </figure>
           <figure data-chart-src="assets/charts/predictive_analysis/top_cases_predicted_probability.png" data-chart-title="Top casos por probabilidade">
-            <img src="assets/charts/predictive_analysis/top_cases_predicted_probability.png" alt="Top casos por probabilidade prevista" />
+            <img src="assets/charts/predictive_analysis/top_cases_predicted_probability.png" alt="Top casos por probabilidade prevista" loading="lazy" decoding="async" />
             <figcaption>Top casos por probabilidade</figcaption>
           </figure>
         </div>
