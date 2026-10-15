@@ -329,7 +329,8 @@ def run() -> None:
         n_nan   = df_merged[col].isna().sum()
         n_xxx   = (df_merged["sipri_country_existed"] == 0).sum() if col == "milex_constant_usd_m" else 0
         pct     = 100 * n_nan / n_total
-        print(f"    {col:<30} NaN={n_nan:5d} ({pct:5.1f}%)")
+        extra   = f" | {n_xxx} de país inexistente no ano" if n_xxx else ""
+        print(f"    {col:<30} NaN={n_nan:5d} ({pct:5.1f}%){extra}")
 
     # ── 6. Ordenar e finalizar ────────────────────────────────────
     df_merged = df_merged.sort_values(
