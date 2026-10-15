@@ -1,0 +1,7 @@
+# Só regras que apontam erro de verdade (nome indefinido, import ou variável
+# sem uso, sintaxe); estilo fica de fora. Notebooks também: corrigir import
+# dentro de célula reescreveria o JSON do notebook.
+extend-exclude = ["*.ipynb"]
+
+[lint]
+select = ["F", "E9"]
